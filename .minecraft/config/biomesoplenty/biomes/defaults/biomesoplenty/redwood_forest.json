@@ -4,8 +4,8 @@
   "skyColor": -1,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 1.0,
-  "variationAbove": 1.0,
+  "variationBelow": 2.0,
+  "variationAbove": 4.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -86,7 +86,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 5.0,
       "enable": true,
       "withTop": {
         "block": "minecraft:double_plant",
@@ -107,7 +107,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 4.0,
       "enable": true,
       "generators": {}
     },

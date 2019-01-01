@@ -257,15 +257,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotDawnstone</oreDict>
-			<fluidStack>water 100</fluidStack>
-		</input>
-		<output>
-			<itemStack>embers:plate_dawnstone</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotTin</oreDict>
 			<fluidStack>water 100</fluidStack>
 		</input>
