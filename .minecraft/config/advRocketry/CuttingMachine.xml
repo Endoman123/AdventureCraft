@@ -21,6 +21,38 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="true">
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<itemStack>advancedrocketry:itemcircuitplate 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic 4 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<oreDict>bouleSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:wafer 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="80" power ="10">
+		<input>
+			<itemStack>advancedrocketry:alienwood</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:planks 6</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="80" power ="10">
 		<input>
 			<itemStack>minecraft:log</itemStack>
@@ -67,38 +99,6 @@
 		</input>
 		<output>
 			<itemStack>minecraft:planks 6 5</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
-			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
-			<itemStack>advancedrocketry:itemcircuitplate 1 1</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 4 2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
-			<oreDict>bouleSilicon</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:wafer 4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="80" power ="10">
-		<input>
-			<itemStack>advancedrocketry:alienwood</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:planks 6</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

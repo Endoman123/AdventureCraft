@@ -39,6 +39,14 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod 2 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotSteel</oreDict>
 		</input>
 		<output>
@@ -75,14 +83,6 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:productrod 2 1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
-			<oreDict>ingotIron</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productrod 2 1</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
