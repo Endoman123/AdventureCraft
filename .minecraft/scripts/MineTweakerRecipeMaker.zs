@@ -18,8 +18,6 @@
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
-recipes.removeShaped(<extrautils2:quarryproxy>, [[<ore:endstone>, <minecraft:end_rod>, <ore:endstone>], [<ore:endstone>, <minecraft:diamond_pickaxe>, <ore:endstone>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
-recipes.removeShaped(<extrautils2:quarry>, [[<minecraft:end_stone>, <extrautils2:decorativesolid:3>, <minecraft:end_stone>], [<extrautils2:decorativesolid:3>, <ore:magic_snow_globe>, <extrautils2:decorativesolid:3>], [<ore:endstone>, <extrautils2:decorativesolid:3>, <ore:endstone>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -29,6 +27,4 @@ recipes.removeShaped(<extrautils2:quarry>, [[<minecraft:end_stone>, <extrautils2
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<extrautils2:quarryproxy>, [[<avaritia:resource>, <extrautils2:decorativesolid:3>, <avaritia:resource>], [<extrautils2:decorativesolid:3>, <minecraft:diamond_pickaxe>, <extrautils2:decorativesolid:3>], [<avaritia:resource>, <extrautils2:decorativesolid:3>, <avaritia:resource>]]);
-recipes.addShaped(<extrautils2:quarry>, [[<enderio:item_alloy_ingot:8>, <extrautils2:decorativesolid:3>, <enderio:item_alloy_ingot:8>], [<actuallyadditions:block_misc:8>, <ore:ingotCrystalMatrix>, <actuallyadditions:block_misc:8>], [<enderio:item_alloy_ingot:8>, <extrautils2:decorativesolid:3>, <enderio:item_alloy_ingot:8>]]);
 
