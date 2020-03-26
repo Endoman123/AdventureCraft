@@ -9,6 +9,7 @@
 # Ignore all log files
 *.log
 
+.minecraft/.mixin.out
 .minecraft/BotaniaVars.dat
 .minecraft/OpenComputersMod-*-lua52-native.64.dll
 .minecraft/OpenComputersMod-*-lua53-native.64.dll
