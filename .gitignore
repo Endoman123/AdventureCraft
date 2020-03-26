@@ -1,12 +1,17 @@
-.minecraft/BotaniaVars.dat
-.minecraft/mods/LoadingProfile*.jar
+# Ignore profiler and version checker
+.minecraft/mods/LoadingProfiler*.jar
 .minecraft/mods/*VersionChecker*.jar
+.minecraft/config/loadingprofiler.cfg
+.minecraft/config/versionchecker.cfg
+
+# Ignore all log files
+*.log
+
+.minecraft/BotaniaVars.dat
 .minecraft/OpenComputersMod-*-lua52-native.64.dll
 .minecraft/OpenComputersMod-*-lua53-native.64.dll
 .minecraft/astralsorcery
-.minecraft/crafttweaker.log
 .minecraft/crash-reports
-.minecraft/debug.log
 .minecraft/journeymap
 .minecraft/local
 .minecraft/logs
