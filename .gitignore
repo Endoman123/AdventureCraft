@@ -1,3 +1,5 @@
+*.DS_STORE
+
 # Ignore profiler and version checker
 .minecraft/mods/LoadingProfiler*.jar
 .minecraft/mods/*VersionChecker*.jar
