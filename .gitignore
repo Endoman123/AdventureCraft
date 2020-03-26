@@ -1,6 +1,8 @@
 .minecraft/BotaniaVars.dat
-.minecraft/OpenComputersMod-1.7.2.67-lua52-native.64.dll
-.minecraft/OpenComputersMod-1.7.2.67-lua53-native.64.dll
+.minecraft/mods/LoadingProfile*.jar
+.minecraft/mods/*VersionChecker*.jar
+.minecraft/OpenComputersMod-*-lua52-native.64.dll
+.minecraft/OpenComputersMod-*-lua53-native.64.dll
 .minecraft/astralsorcery
 .minecraft/crafttweaker.log
 .minecraft/crash-reports
