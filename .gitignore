@@ -9,6 +9,9 @@
 # Ignore all log files
 *.log
 
+# Ignore natives generation
+.minecraft/natives
+
 .minecraft/.mixin.out
 .minecraft/BotaniaVars.dat
 .minecraft/OpenComputersMod-*-lua52-native.64.dll
