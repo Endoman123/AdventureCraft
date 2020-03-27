@@ -10,7 +10,7 @@
 *.log
 
 # Ignore natives generation
-.minecraft/natives
+natives
 
 .minecraft/.mixin.out
 .minecraft/BotaniaVars.dat
