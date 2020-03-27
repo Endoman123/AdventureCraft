@@ -1,10 +1,14 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
+  "rainfall": 0.5,
   "skyColor": -1,
+  "guiColour": 5209457,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 80.0,
   "variationAbove": 200.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -24,8 +28,10 @@
     "properties": {}
   },
   "fogColor": -1,
+  "temperature": 0.5,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -59,23 +65,7 @@
       "maxHeight": 32,
       "enable": true
     },
-    "overgrown_stone_patches": {
-      "with": {
-        "block": "biomesoplenty:grass",
-        "properties": {
-          "snowy": "false",
-          "variant": "overgrown_stone"
-        }
-      },
-      "amountPerChunk": 24.0,
-      "enable": true,
-      "splotchSize": 16
-    },
-    "grass": {
-      "amountPerChunk": 4.0,
-      "enable": true,
-      "generators": {}
-    },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -96,6 +86,29 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
+    "ruby": {},
+    "tanzanite": {},
+    "overgrown_stone_patches": {
+      "with": {
+        "block": "biomesoplenty:grass",
+        "properties": {
+          "snowy": "false",
+          "variant": "overgrown_stone"
+        }
+      },
+      "amountPerChunk": 24.0,
+      "enable": true,
+      "splotchSize": 16
+    },
+    "grass": {
+      "amountPerChunk": 4.0,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {},
+    "topaz": {},
     "stone_splatter": {
       "with": {
         "block": "minecraft:stone",
@@ -106,7 +119,8 @@
       "generationAttempts": 64,
       "amountPerChunk": 4.0,
       "enable": true
-    }
+    },
+    "sapphire": {}
   },
   "weights": {
     "cold_swamp": 2

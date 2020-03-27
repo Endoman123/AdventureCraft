@@ -1,11 +1,15 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
   "beachBiomeLocation": "minecraft:beaches",
+  "rainfall": 0.7,
   "skyColor": -1,
+  "guiColour": 7187004,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 4.0,
   "variationAbove": 10.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -29,8 +33,10 @@
     }
   },
   "fogColor": -1,
+  "temperature": 0.7,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -106,11 +112,6 @@
       "amountPerChunk": 0.2,
       "enable": true
     },
-    "grass": {
-      "amountPerChunk": 4.0,
-      "enable": true,
-      "generators": {}
-    },
     "amber": {
       "minHeight": 4,
       "with": {
@@ -134,6 +135,22 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
+    "trees": {
+      "amountPerChunk": 15.0,
+      "enable": true,
+      "generators": {}
+    },
+    "ruby": {},
+    "tanzanite": {},
+    "grass": {
+      "amountPerChunk": 4.0,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {},
+    "topaz": {},
     "sprouts": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -154,11 +171,7 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "trees": {
-      "amountPerChunk": 15.0,
-      "enable": true,
-      "generators": {}
-    }
+    "sapphire": {}
   },
   "weights": {
     "warm_temperate": 7

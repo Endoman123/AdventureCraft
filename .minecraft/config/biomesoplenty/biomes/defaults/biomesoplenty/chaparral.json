@@ -1,11 +1,15 @@
 {
+  "enableRain": true,
   "canGenerateRivers": true,
   "beachBiomeLocation": "minecraft:beaches",
+  "rainfall": 0.4,
   "skyColor": -1,
+  "guiColour": 12899957,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 10.0,
   "variationAbove": 20.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -28,8 +32,10 @@
     }
   },
   "fogColor": -1,
+  "temperature": 0.8,
   "canGenerateVillages": true,
   "canSpawnInBiome": true,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -80,6 +86,7 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -91,6 +98,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
     "trees": {
       "amountPerChunk": 7.0,
       "enable": true,
@@ -119,6 +128,8 @@
       "enable": true,
       "splotchSize": 15
     },
+    "ruby": {},
+    "tanzanite": {},
     "sand": {
       "with": {
         "block": "minecraft:sand",
@@ -168,7 +179,9 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.75,
       "enable": true
-    }
+    },
+    "topaz": {},
+    "sapphire": {}
   },
   "weights": {
     "mediteranean": 10

@@ -1,11 +1,15 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
   "beachBiomeLocation": "biomesoplenty:white_beach",
+  "rainfall": 1.0,
   "skyColor": 507391,
+  "guiColour": 2211330,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
   "variationAbove": 40.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -28,8 +32,10 @@
     }
   },
   "fogColor": 11925759,
+  "temperature": 0.95,
   "canGenerateVillages": false,
   "canSpawnInBiome": true,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -40,29 +46,6 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
-    },
-    "bamboo": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:bamboo",
-        "properties": {
-          "age": "0"
-        }
-      },
-      "generationAttempts": 24,
-      "amountPerChunk": 0.2,
-      "maxHeight": 3,
-      "enable": true,
-      "randomDirection": false
-    },
-    "sand": {
-      "with": {
-        "block": "biomesoplenty:white_sand",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 10.0,
       "enable": true
     },
     "leaf_piles": {
@@ -101,11 +84,56 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "amber": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "amethyst": {},
+    "malachite": {},
+    "trees": {
+      "amountPerChunk": 25.0,
+      "enable": true,
+      "generators": {}
+    },
+    "ruby": {},
+    "tanzanite": {},
+    "bamboo": {
+      "minHeight": 1,
+      "with": {
+        "block": "biomesoplenty:bamboo",
+        "properties": {
+          "age": "0"
+        }
+      },
+      "generationAttempts": 24,
+      "amountPerChunk": 0.2,
+      "maxHeight": 3,
+      "enable": true,
+      "randomDirection": false
+    },
+    "sand": {
+      "with": {
+        "block": "biomesoplenty:white_sand",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 10.0,
+      "enable": true
+    },
     "grass": {
       "amountPerChunk": 3.5,
       "enable": true,
       "generators": {}
     },
+    "peridot": {},
     "topaz": {
       "minHeight": 4,
       "with": {
@@ -116,17 +144,6 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
       "enable": true
     },
     "sprouts": {
@@ -140,11 +157,7 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "trees": {
-      "amountPerChunk": 25.0,
-      "enable": true,
-      "generators": {}
-    }
+    "sapphire": {}
   },
   "weights": {}
 }

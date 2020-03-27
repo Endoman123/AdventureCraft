@@ -39,6 +39,22 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "amber": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "amethyst": {},
+    "malachite": {},
+    "ruby": {},
+    "tanzanite": {},
     "rafflesia": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -55,6 +71,7 @@
       "enable": true,
       "generators": {}
     },
+    "peridot": {},
     "topaz": {
       "minHeight": 4,
       "with": {
@@ -67,17 +84,6 @@
       "maxHeight": 32,
       "enable": true
     },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
     "sprouts": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -88,6 +94,7 @@
       "generationAttempts": 32,
       "amountPerChunk": 1.5,
       "enable": true
-    }
+    },
+    "sapphire": {}
   }
 }
