@@ -1,11 +1,15 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
   "beachBiomeLocation": "minecraft:ocean",
+  "rainfall": 0.5,
   "skyColor": -1,
+  "guiColour": 27468,
   "fogDensity": 1.0,
   "hasBiomeEssence": false,
   "variationBelow": 5.0,
   "variationAbove": 5.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -28,8 +32,10 @@
     }
   },
   "fogColor": -1,
+  "temperature": 0.5,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -65,6 +71,7 @@
       "amountPerChunk": 3.0,
       "enable": true
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -76,6 +83,7 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
     "kelp": {
       "minHeight": 2,
       "with": {
@@ -92,6 +100,7 @@
       "enable": true,
       "randomDirection": false
     },
+    "malachite": {},
     "kelp_tall": {
       "minHeight": 6,
       "with": {
@@ -108,6 +117,10 @@
       "enable": true,
       "randomDirection": false
     },
+    "ruby": {},
+    "tanzanite": {},
+    "peridot": {},
+    "topaz": {},
     "sapphire": {
       "minHeight": 4,
       "with": {

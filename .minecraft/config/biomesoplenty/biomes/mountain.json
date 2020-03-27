@@ -1,0 +1,37 @@
+{
+	"generators" :
+	{
+		"amethyst" :
+		{
+			"amountPerChunk" : 0
+		},
+		"ruby" :
+		{
+			"amountPerChunk" : 0
+		},
+		"peridot" :
+		{
+			"amountPerChunk" : 0
+		},
+		"topaz" :
+		{
+			"amountPerChunk" : 0
+		},
+		"tanzanite" :
+		{
+			"amountPerChunk" : 0
+		},
+		"malachite" :
+		{
+			"amountPerChunk" : 0
+		},
+		"sapphire" :
+		{
+			"amountPerChunk" : 0
+		},
+		"amber" :
+		{
+			"amountPerChunk" : 0
+		}
+	}
+}

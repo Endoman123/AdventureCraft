@@ -23,6 +23,9 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "peridot": {},
+    "topaz": {},
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -34,6 +37,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
     "sapphire": {
       "minHeight": 4,
       "with": {
@@ -45,6 +50,8 @@
       "amountPerChunk": 12.0,
       "maxHeight": 32,
       "enable": true
-    }
+    },
+    "ruby": {},
+    "tanzanite": {}
   }
 }

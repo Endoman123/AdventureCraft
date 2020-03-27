@@ -1,13 +1,17 @@
 *.DS_STORE
 
-# Ignore profiler and version checker
+# Ignore debug tools
 .minecraft/mods/LoadingProfiler*.jar
 .minecraft/mods/*VersionChecker*.jar
 .minecraft/config/loadingprofiler.cfg
 .minecraft/config/versionchecker.cfg
+.minecraft/config/World-Stripper*.cfg
 
 # Ignore all log files
 *.log
+
+# Ignore natives generation
+natives
 
 .minecraft/.mixin.out
 .minecraft/BotaniaVars.dat

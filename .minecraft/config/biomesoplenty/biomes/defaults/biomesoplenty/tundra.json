@@ -1,11 +1,15 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
   "beachBiomeLocation": "biomesoplenty:gravel_beach",
+  "rainfall": 0.5,
   "skyColor": -1,
+  "guiColour": 10523734,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
   "variationAbove": 10.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -29,8 +33,10 @@
     }
   },
   "fogColor": -1,
+  "temperature": 0.2,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -41,15 +47,6 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
-    },
-    "gravel": {
-      "with": {
-        "block": "minecraft:gravel",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 12.0,
       "enable": true
     },
     "miners_delight": {
@@ -74,20 +71,6 @@
       "amountPerChunk": 0.3,
       "enable": true
     },
-    "grass": {
-      "amountPerChunk": 1.5,
-      "enable": true,
-      "generators": {}
-    },
-    "small_boulders": {
-      "with": {
-        "block": "minecraft:cobblestone",
-        "properties": {}
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.3,
-      "enable": true
-    },
     "large_boulders": {
       "with": {
         "block": "minecraft:cobblestone",
@@ -99,6 +82,7 @@
       "radiusFalloff": 0.5,
       "innerRadius": 1.0
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -110,27 +94,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "lakes": {
-      "liquid": {
-        "block": "minecraft:water",
-        "properties": {
-          "level": "0"
-        }
-      },
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "frozenLiquid": {
-        "block": "minecraft:ice",
-        "properties": {}
-      },
-      "grassBorderWith": {
-        "block": "biomesoplenty:grass",
-        "properties": {
-          "snowy": "false",
-          "variant": "silty"
-        }
-      }
-    },
+    "amethyst": {},
+    "malachite": {},
     "trees": {
       "amountPerChunk": 4.0,
       "enable": true,
@@ -158,7 +123,55 @@
       "amountPerChunk": 12.0,
       "maxHeight": 32,
       "enable": true
-    }
+    },
+    "ruby": {},
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 12.0,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 1.5,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {},
+    "small_boulders": {
+      "with": {
+        "block": "minecraft:cobblestone",
+        "properties": {}
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.3,
+      "enable": true
+    },
+    "topaz": {},
+    "lakes": {
+      "liquid": {
+        "block": "minecraft:water",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 0.1,
+      "enable": true,
+      "frozenLiquid": {
+        "block": "minecraft:ice",
+        "properties": {}
+      },
+      "grassBorderWith": {
+        "block": "biomesoplenty:grass",
+        "properties": {
+          "snowy": "false",
+          "variant": "silty"
+        }
+      }
+    },
+    "sapphire": {}
   },
   "weights": {
     "tundra": 10

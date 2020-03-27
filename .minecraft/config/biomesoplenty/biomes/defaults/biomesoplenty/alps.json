@@ -1,10 +1,14 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
+  "rainfall": 0.3,
   "skyColor": -1,
+  "guiColour": 13421772,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 12.0,
   "variationAbove": 12.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -22,8 +26,10 @@
     "properties": {}
   },
   "fogColor": -1,
+  "temperature": -0.25,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
+  "enableSnow": true,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -57,6 +63,9 @@
       "maxHeight": 32,
       "enable": true
     },
+    "peridot": {},
+    "topaz": {},
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -67,7 +76,12 @@
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
       "enable": true
-    }
+    },
+    "amethyst": {},
+    "malachite": {},
+    "ruby": {},
+    "tanzanite": {},
+    "sapphire": {}
   },
   "weights": {
     "tundra": 3,
