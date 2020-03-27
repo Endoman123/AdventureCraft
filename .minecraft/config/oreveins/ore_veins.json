@@ -8,24 +8,13 @@
         "block": "minecraft:red_flower",
         "meta": 3
       },
-      "rarity": 3,
+      "rarity": 5,
       "max_depth": 23
     },
-    "rarity": 20,
-    "count": 5
+    "rarity": 130,
+    "count": 4
   },
-  "gold_ore_example": {
-    "type": "cone",
-    "ore": "minecraft:gold_ore",
-    "stone": "minecraft:stone",
-    "rarity": 30,
-    "min_y": 8,
-    "max_y": 50,
-    "density": 360,
-    "vertical_size": 20,
-    "horizontal_size": 10,
-    "inverted": true
-  },
+
   "coal_ore_example": {
     "type": "sphere",
     "ore": [
@@ -41,32 +30,34 @@
     "indicator": {
       "blocks": "minecraft:deadbush",
       "blocks_under": "minecraft:sand",
-      "rarity": 40
+      "rarity": 25
     },
     "stone": "minecraft:stone",
-    "rarity": 60,
+    "rarity": 90,
     "min_y": 32,
     "max_y": 128,
     "density": 80,
     "vertical_size": 15,
     "horizontal_size": 30
   },
+
   "redstone_ore_example": {
     "type": "cluster",
     "ore": "minecraft:redstone_ore",
     "stone": "minecraft:stone",
-    "rarity": 30,
+    "rarity": 450,
     "min_y": 0,
-    "max_y": 40,
+    "max_y": 30,
     "density": 20,
-    "vertical_size": 40,
-    "horizontal_size": 30
+    "vertical_size": 10,
+    "horizontal_size": 20
   },
+
   "emerald_ore_example": {
     "type": "cluster",
     "ore": "minecraft:emerald_ore",
     "stone": "minecraft:stone",
-    "rarity": 10,
+    "rarity": 450,
     "count": 3,
     "min_y": 0,
     "max_y": 40,
@@ -80,6 +71,255 @@
       "extreme_hills_with_trees",
       "mutated_extreme_hills",
       "mutated_extreme_hills_with_trees"
+    ]
+  },
+
+  "diamond_cluster": {
+    "type": "cluster",
+    "ore": "minecraft:diamond_ore",
+    "stone": "minecraft:stone",
+    "rarity": 490,
+    "min_y": 0,
+    "max_y": 10,
+    "density": 60,
+    "vertical_size": 8,
+    "horizontal_size": 8
+  },
+
+  "thermal metals": {
+    "type": "sphere",
+    "ore": [
+      {
+        "ore": "ore:oreCopper",
+        "weight": 9
+      },
+      {
+        "ore": "ore:oreSilver",
+        "weight": 10
+      },
+      {
+        "ore": "ore:oreLead",
+        "weight": 13
+      },
+      {
+        "ore": "ore:oreAluminum",
+        "weight": 12
+      }
+    ],
+    "rarity": 520,
+    "min_y": 3,
+    "max_y": 60,
+    "density": 70,
+    "vertical_size": 30,
+    "horizontal_size": 12
+  },
+
+  "osmium_cluster": {
+    "type": "cluster",
+    "ore": "oreOsmium",
+    "stone": "minecraft:stone",
+    "rarity": 300,
+    "min_y": 8,
+    "max_y": 30,
+    "density": 100,
+    "vertical_size": 10,
+    "horizontal_size": 10
+  },
+
+  "iron_cluster": {
+    "type": "cluster",
+    "ore": "ore:iron_ore",
+    "stone": "minecraft:stone",
+    "rarity": 370,
+    "min_y": 2,
+    "max_y": 40,
+    "density": 100,
+    "vertical_size": 20,
+    "horizontal_size": 20
+  },
+
+  "silver_cluster": {
+    "type": "cluster",
+    "ore": "ore:oreSilver",
+    "stone": "minecraft:stone",
+    "rarity": 360,
+    "min_y": 8,
+    "max_y": 70,
+    "density": 100,
+    "vertical_size": 20,
+    "horizontal_size": 20
+  },
+
+  "aluminum_cluster": {
+    "type": "cluster",
+    "ore": "ore:oreAluminum",
+    "stone": "minecraft:stone",
+    "rarity": 380,
+    "min_y": 8,
+    "max_y": 70,
+    "density": 100,
+    "vertical_size": 20,
+    "horizontal_size": 20
+  },
+
+  "lead_cluster": {
+    "type": "cluster",
+    "ore": "ore:oreLead",
+    "stone": "minecraft:stone",
+    "rarity": 300,
+    "min_y": 8,
+    "max_y": 70,
+    "density": 100,
+    "vertical_size": 20,
+    "horizontal_size": 20
+  },
+
+
+
+  "lapis_cluster": {
+    "type": "sphere",
+    "ore": "minecraft:lapis_ore",
+    "stone": "minecraft:prismarine",
+    "rarity": 280,
+    "count": 1,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 130,
+    "vertical_size": 25,
+    "horizontal_size": 25,
+    "biomes": [
+      "ocean"
+    ]
+  },
+
+  "mana_cluster": {
+    "type": "cluster",
+    "ore": "ore:oreMithril",
+    "stone": "minecraft:stone",
+    "rarity": 280,
+    "min_y": 8,
+    "max_y": 70,
+    "density": 60,
+    "vertical_size": 20,
+    "horizontal_size": 20,
+    "biomes": [
+      "ocean",
+      "magical",
+      "spooky"
+    ]
+  },
+
+
+
+
+
+  "gold_ore_example": {
+    "type": "cone",
+    "ore": "minecraft:gold_ore",
+    "stone": "minecraft:stone",
+    "rarity": 400,
+    "min_y": 8,
+    "max_y": 40,
+    "density": 260,
+    "vertical_size": 20,
+    "horizontal_size": 10,
+    "inverted": true
+  },
+
+  "ae quartz": {
+    "type": "cone",
+    "ore": [
+      {
+        "ore": "oreCertusQuartz",
+        "weight": 30
+      },
+      {
+        "ore": "oreChargedCertusQuartz",
+        "weight": 5
+      }
+    ],
+    "rarity": 250,
+    "min_y": 50,
+    "max_y": 230,
+    "density": 90,
+    "vertical_size": 10,
+    "horizontal_size": 12,
+    "biomes": [
+      "mountain",
+      "extreme_hills",
+      "extreme_hills_with_trees"
+    ],
+    "conditions": [
+      {
+        "type": "touching",
+        "block": "minecraft:stone",
+        "min": 3
+      }
+    ]
+  },
+
+  "many_yellorite": {
+    "type": "cone",
+    "ore": "bigreactors:oreyellorite",
+    "stone": "minecraft:stone",
+    "rarity": 205,
+    "min_y": 1,
+    "max_y": 80,
+    "density": 160,
+    "vertical_size": 30,
+    "horizontal_size": 10,
+    "biome": [
+      "spooky"
+    ]
+  },
+
+  "many_platinum_ore": {
+    "type": "cone",
+    "ore": "ore:orePlatinum",
+    "stone": "minecraft:stone",
+    "rarity": 340,
+    "min_y": 8,
+    "max_y": 40,
+    "density": 260,
+    "vertical_size": 20,
+    "horizontal_size": 10,
+    "inverted": true,
+    "biome": [
+      "dry",
+      "jungle"
+    ]
+  },
+
+  "more_redstone_ore": {
+    "type": "cluster",
+    "ore": "minecraft:redstone_ore",
+    "stone": "minecraft:stone",
+    "rarity": 450,
+    "min_y": 0,
+    "max_y": 20,
+    "density": 100,
+    "vertical_size": 13,
+    "horizontal_size": 40,
+    "biome": [
+      "hot",
+      "jungle",
+      "lush",
+      "spooky"
+    ]
+  },
+
+  "massive diamonds": {
+    "type": "cluster",
+    "ore": "minecraft:diamond_ore",
+    "stone": "minecraft:stone",
+    "rarity": 950,
+    "min_y": 0,
+    "max_y": 30,
+    "density": 80,
+    "vertical_size": 30,
+    "horizontal_size": 30,
+    "biome": [
+      "rare"
     ]
   }
 }
