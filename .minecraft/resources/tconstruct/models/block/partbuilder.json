@@ -1,0 +1,216 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"top": "tconstruct:blocks/chest/partbuilder_top",	
+		"side": "tconstruct:blocks/chest/partbuilder_side",
+		"drawer": "tconstruct:blocks/chest/partbuilder_drawer",
+		"particle": "tconstruct:blocks/chest/partbuilder_top",
+		"leg": "blocks/planks_oak"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [1, 10, 1],
+			"to": [15, 15, 15],
+			"shade": true,
+			"faces": {
+				"north": {"uv": [1, 9, 15, 14], "texture": "#leg"},
+				"east": {"uv": [1, 10, 15, 15], "texture": "#leg"},
+				"south": {"uv": [1, 10, 15, 15], "texture": "#leg"},
+				"west": {"uv": [1, 10, 15, 15], "texture": "#leg"},
+				"up": {"uv": [1, 1, 15, 15],	"texture": "#side"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Top",
+			"from": [0, 15, 0],
+			"to": [16, 16, 16],
+			"shade": true,
+			"faces": {
+				"north": {"uv": [0, 15, 16, 16], "texture": "#top"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#top",	"rotation": 90},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#top"},
+				"west": {	"uv": [15, 0, 16, 16],	"texture": "#top",	"rotation": 90},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Leg - NW",
+			"from": [0.5, 0, 0.5],
+			"to": [2.5, 15, 2.5],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"east": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"south": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"west": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#side"},
+				"down": {"uv": [0, 14, 1, 15],	"texture": "#side"}
+			}
+		},
+		{
+			"name": "Leg - SW",
+			"from": [0.5, 0, 13.5],
+			"to": [2.5, 15, 15.5],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"east": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"south": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"west": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#side"},
+				"down": {	"uv": [0, 14, 1, 15],	"texture": "#side"}
+			}
+		},
+		{
+			"name": "Leg - SE",
+			"from": [13.5, 0, 13.5],
+			"to": [15.5, 15, 15.5],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"east": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"south": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"west": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#side"},
+				"down": {"uv": [0, 14, 1, 15],	"texture": "#side"}
+			}
+		},
+		{
+			"name": "Leg - NE",
+			"from": [13.5, 0, 0.5],
+			"to": [15.5, 15, 2.5],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"east": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"south": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"west": {	"uv": [0, 0, 1, 15],	"texture": "#side"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#side"},
+				"down": {	"uv": [0, 14, 1, 15],	"texture": "#side"}
+			}
+		},
+		{
+			"name": "DrawerPiece - Front - E",
+			"from": [12, 10, 0],
+			"to": [13, 14, 1],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [3, 2, 4, 6],	"texture": "#drawer"},
+				"east": {	"uv": [3, 2, 4, 6],	"texture": "#drawer"},
+				"south": {	"uv": [3, 2, 4, 6],	"texture": "#drawer",	"rotation": 180},
+				"west": {	"uv": [3, 2, 4, 6],	"texture": "#drawer"},
+				"up": {"uv": [3, 2, 4, 3], "texture": "#drawer"},
+				"down": {	"uv": [3, 5, 4, 6],	"texture": "#drawer",	"rotation": 180}
+			}
+		},
+		{
+			"name": "Drawer - Handle",
+			"from": [7.5, 11.5, -0.5],
+			"to": [8.5, 12.5, 0],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [7, 12, 8, 13],	"texture": "#drawer"},
+				"east": {	"uv": [6, 12, 7, 13],	"texture": "#drawer"},
+				"south": {	"uv": [7, 11, 8, 12],	"texture": "#drawer"},
+				"west": {	"uv": [8, 12, 9, 13],	"texture": "#drawer"},
+				"up": {	"uv": [7, 11, 8, 12],	"texture": "#drawer"},
+				"down": {	"uv": [8, 11, 9, 12],	"texture": "#drawer"}
+			}
+		},
+		{
+			"name": "Drawer - Front - Inlay",
+			"from": [4, 11, 0],
+			"to": [12, 13, 1],
+			"shade": true,
+			"faces": {
+				"north": {"uv": [4, 3, 12, 5], "texture": "#drawer"},
+				"east": {"uv": [3, 2, 4, 4], "texture": "#drawer"},
+				"south": {	"uv": [3, 2, 11, 4],	"texture": "#drawer",	"rotation": 180},
+				"west": {"uv": [12, 2, 13, 4], "texture": "#drawer"},
+				"up": {"uv": [3, 2, 11, 3], "texture": "#drawer"},
+				"down": {	"uv": [3, 5, 11, 6],	"texture": "#drawer",	"rotation": 180}
+			}
+		},
+		{
+			"name": "DrawerPiece - Front - W",
+			"from": [3, 10, 0],
+			"to": [4, 14, 1],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [12, 2, 13, 6],	"texture": "#drawer"},
+				"east": {	"uv": [12, 2, 13, 6],	"texture": "#drawer"},
+				"south": {	"uv": [12, 2, 13, 6],	"texture": "#drawer",	"rotation": 180},
+				"west": {	"uv": [12, 2, 13, 6],	"texture": "#drawer"},	
+				"up": {"uv": [12, 2, 13, 3],	"texture": "#drawer"},
+				"down": {	"uv": [12, 5, 13, 6],	"texture": "#drawer",	"rotation": 180}
+			}
+		},
+		{
+			"name": "DrawerPiece - Front - T",
+			"from": [3, 13, 0],
+			"to": [13, 14, 1],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [3, 2, 13, 3],"texture": "#drawer"},
+				"east": {	"uv": [3, 2, 4, 3],	"texture": "#drawer"},
+				"south": {	"uv": [3, 2, 13, 3],	"texture": "#drawer"},
+				"west": {	"uv": [12, 2, 13, 3],	"texture": "#drawer"},
+				"up": {	"uv": [3, 2, 13, 3],	"texture": "#drawer",	"rotation": 180},
+				"down": {	"uv": [3, 2, 13, 3],	"texture": "#drawer"}
+			}
+		},
+		{
+			"name": "DrawerPiece - Front - B",
+			"from": [3, 10, 0],
+			"to": [13, 11, 1],
+			"shade": true,
+			"faces": {
+				"north": {	"uv": [3, 5, 13, 6],	"texture": "#drawer"},
+				"east": {	"uv": [3, 5, 4, 6],	"texture": "#drawer"},
+				"south": {	"uv": [3, 2, 13, 3],	"texture": "#drawer",	"rotation": 180},
+				"west": {	"uv": [12, 5, 13, 6],	"texture": "#drawer"},
+				"up": {"uv": [3, 2, 13, 3], "texture": "#drawer"},
+				"down": {	"uv": [3, 5, 13, 6],	"texture": "#drawer",	"rotation": 180}
+			}
+		},
+		{
+			"name": "Body - Bottom",
+			"from": [1, 9, 1],
+			"to": [15, 10, 15],
+			"shade": true,
+			"faces": {
+				"north": {"uv": [1, 14, 15, 15], "texture": "#leg"},
+				"east": {"uv": [1, 15, 15, 16], "texture": "#side"},
+				"south": {"uv": [1, 15, 15, 16], "texture": "#side"},
+				"west": {"uv": [1, 15, 15, 16], "texture": "#side"},
+				"up": {	"uv": [0, 0, 16, 16],	"texture": "#side"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}
