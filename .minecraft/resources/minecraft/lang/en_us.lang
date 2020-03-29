@@ -21,3 +21,6 @@ tile.clayHardenedStained.magenta.name=Magenta Terracotta
 tile.clayHardenedStained.orange.name=Orange Terracotta
 tile.clayHardenedStained.white.name=White Terracotta
 tile.clayHardened.name=Terracotta
+
+# Renames
+tile.enderChest.name=True Ender Chest
