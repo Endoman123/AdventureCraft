@@ -163,6 +163,18 @@ climaticbiomesjbg:marsh
 climaticbiomesjbg:temperate_river
 climaticbiomesjbg:subtropical_river
 climaticbiomesjbg:tropical_river
+advancedrocketry:moon
+advancedrocketry:alien forest
+advancedrocketry:hotdryrock
+advancedrocketry:space
+advancedrocketry:stormland
+advancedrocketry:crystalchasms
+advancedrocketry:deepswamp
+advancedrocketry:marsh
+advancedrocketry:oceanspires
+advancedrocketry:moondark
+advancedrocketry:volcanic
+advancedrocketry:volcanicbarren
 aroma1997sdimension:miningbiome
 kk:biome_destinyislands
 kk:biome_divetotheheart
