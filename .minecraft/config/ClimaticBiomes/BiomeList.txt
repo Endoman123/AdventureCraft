@@ -162,6 +162,7 @@ climaticbiomesjbg:marsh
 climaticbiomesjbg:temperate_river
 climaticbiomesjbg:subtropical_river
 climaticbiomesjbg:tropical_river
+aroma1997sdimension:miningbiome
 kk:biome_destinyislands
 kk:biome_divetotheheart
 kk:biome_traversetown
