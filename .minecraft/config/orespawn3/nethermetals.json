@@ -1,34 +1,9 @@
 {
 	"version": "2.0",
 	"spawns": {
-        "quartz_ore": {
-			"retrogen": false,
-			"enabled": true,
-			"feature": "default",
-			"replaces": "default",
-			"dimensions": [
-				-1
-			],
-			"biomes": {
-				"excludes": []
-			},
-			"parameters": {
-				"size": 15,
-				"variation": 4,
-				"frequency": 7,
-				"minHeight": 0,
-				"maxHeight": 128
-			},
-			"blocks": [
-				{
-					"name": "minecraft:quartz_ore",
-					"chance": 100
-				}
-			]
-		},
 		"nether_coal_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -53,7 +28,7 @@
 		},
 		"nether_diamond_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -78,7 +53,7 @@
 		},
 		"nether_emerald_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -103,7 +78,7 @@
 		},
 		"nether_gold_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -128,7 +103,7 @@
 		},
 		"nether_iron_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -153,7 +128,7 @@
 		},
 		"nether_lapis_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -178,7 +153,7 @@
 		},
 		"nether_redstone_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -203,7 +178,7 @@
 		},
 		"nether_antimony_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -228,7 +203,7 @@
 		},
 		"nether_bismuth_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -253,7 +228,7 @@
 		},
 		"nether_copper_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -278,7 +253,7 @@
 		},
 		"nether_lead_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -303,7 +278,7 @@
 		},
 		"nether_mercury_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -328,7 +303,7 @@
 		},
 		"nether_nickel_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -353,7 +328,7 @@
 		},
 		"nether_platinum_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -378,7 +353,7 @@
 		},
 		"nether_silver_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -403,7 +378,7 @@
 		},
 		"nether_tin_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -428,7 +403,7 @@
 		},
 		"nether_zinc_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -453,7 +428,7 @@
 		},
 		"nether_aluminum_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -478,7 +453,7 @@
 		},
 		"nether_cadmium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -503,7 +478,7 @@
 		},
 		"nether_chromium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -528,7 +503,7 @@
 		},
 		"nether_iridium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -553,7 +528,7 @@
 		},
 		"nether_magnesium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -578,7 +553,7 @@
 		},
 		"nether_manganese_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -603,7 +578,7 @@
 		},
 		"nether_osmium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -628,7 +603,7 @@
 		},
 		"nether_plutonium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -653,7 +628,7 @@
 		},
 		"nether_rutile_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -678,7 +653,7 @@
 		},
 		"nether_tantalum_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -703,7 +678,7 @@
 		},
 		"nether_titanium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -728,7 +703,7 @@
 		},
 		"nether_tungsten_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -753,7 +728,7 @@
 		},
 		"nether_uranium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -778,7 +753,7 @@
 		},
 		"nether_zirconium_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
