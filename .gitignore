@@ -13,6 +13,9 @@
 # Ignore natives generation
 natives
 
+# No need to track worldSettings
+.minecraft/config/jei/worldSettings*.cfg
+
 .minecraft/.mixin.out
 .minecraft/BotaniaVars.dat
 .minecraft/OpenComputersMod-*-lua52-native.64.dll
