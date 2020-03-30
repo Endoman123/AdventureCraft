@@ -1,11 +1,15 @@
 {
+  "enableRain": true,
   "canGenerateRivers": true,
   "beachBiomeLocation": "minecraft:beaches",
+  "rainfall": 0.3,
   "skyColor": -1,
+  "guiColour": 13165952,
   "fogDensity": 1.0,
   "hasBiomeEssence": false,
   "variationBelow": 4.0,
   "variationAbove": 6.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -29,8 +33,10 @@
     }
   },
   "fogColor": -1,
+  "temperature": 0.8,
   "canGenerateVillages": false,
   "canSpawnInBiome": true,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -54,6 +60,44 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "barley": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "barley"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 45.0,
+      "enable": true
+    },
+    "amber": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "amethyst": {},
+    "malachite": {},
+    "water_reeds": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "reed"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 1.0,
+      "enable": true
+    },
+    "ruby": {},
+    "tanzanite": {},
     "grass": {
       "amountPerChunk": 0.5,
       "enable": true,
@@ -71,39 +115,8 @@
       "maxHeight": 32,
       "enable": true
     },
-    "barley": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "barley"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 45.0,
-      "enable": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "water_reeds": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "reed"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.0,
-      "enable": true
-    }
+    "topaz": {},
+    "sapphire": {}
   },
   "weights": {}
 }
