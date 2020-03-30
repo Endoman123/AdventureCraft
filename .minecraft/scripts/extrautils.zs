@@ -35,6 +35,6 @@ recipes.addShaped(<extrautils2:quarryproxy>,
 recipes.addShaped(<extrautils2:quarry>,
 [
     [endSteel, stoneburnt, endSteel],
-    [<actuallyadditions:block_misc:8>, magicSnowGlobe, <actuallyadditions:block_misc:8>],
+    [<crystalMatrix, magicSnowGlobe, <crystalMatrix],
     [endSteel, stoneburnt, endSteel]
 ]);
