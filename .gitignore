@@ -25,6 +25,7 @@ natives
 .minecraft/journeymap
 .minecraft/local
 .minecraft/logs
+.minecraft/dumps
 .minecraft/minecolonies
 .minecraft/options.txt
 .minecraft/optionsof.txt
@@ -38,3 +39,7 @@ natives
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 .minecraft/woot
+
+# Personal Settings
+instance.cfg
+
