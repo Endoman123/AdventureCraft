@@ -1,11 +1,11 @@
 *.DS_STORE
 
 # Ignore debug tools
-.minecraft/mods/LoadingProfiler*.jar
-.minecraft/mods/*VersionChecker*.jar
+.minecraft/config/World-Stripper*.cfg
 .minecraft/config/loadingprofiler.cfg
 .minecraft/config/versionchecker.cfg
-.minecraft/config/World-Stripper*.cfg
+.minecraft/mods/*VersionChecker*.jar
+.minecraft/mods/LoadingProfiler*.jar
 
 # Ignore all log files
 *.log
@@ -16,16 +16,17 @@ natives
 # No need to track worldSettings
 .minecraft/config/jei/worldSettings*.cfg
 
+# Misc
 .minecraft/.mixin.out
 .minecraft/BotaniaVars.dat
 .minecraft/OpenComputersMod-*-lua52-native.64.dll
 .minecraft/OpenComputersMod-*-lua53-native.64.dll
 .minecraft/astralsorcery
 .minecraft/crash-reports
+.minecraft/dumps
 .minecraft/journeymap
 .minecraft/local
 .minecraft/logs
-.minecraft/dumps
 .minecraft/minecolonies
 .minecraft/options.txt
 .minecraft/optionsof.txt
