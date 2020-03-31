@@ -10,12 +10,13 @@
 # Ignore all log files
 *.log
 
-# Ignore user itmes and generated libraries
+# Ignore user items and generated libraries
 natives
 .minecraft/BotaniaVars.dat
+.minecraft/options.txt
 .minecraft/optionsof.txt
 .minecraft/optionsshaders.txt
-.minecaft/patchouli_data.json
+.minecraft/patchouli_data.json
 .minecraft/textures_*.png
 .minecraft/user*cache.json
 .minecraft/minemenu
@@ -39,6 +40,7 @@ natives
 .minecraft/shaderpacks
 .minecraft/texturepacks
 .minecraft/tv-cache
+.minecraft/woot
 
 # Personal Settings
 instance.cfg
