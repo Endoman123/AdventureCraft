@@ -1,6 +1,6 @@
 // Remove default quarry recipe
 
-val magicSnowGlobe= <extrautils2:snowglobe:1>;
+val magicSnowGlobe = <extrautils2:snowglobe:1>;
 
 val endstone = <minecraft:end_stone>;
 val endrod = <minecraft:end_rod>;
