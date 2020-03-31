@@ -1,0 +1,12 @@
+{
+    "loot-table": "neuroflow:chests/chestloot5",
+    "name": "elusive_bag",
+    "human-name": "Elusive Bag",
+    "texture": "jsonlootbags:bag",
+    "rarity": "Epic",
+    "effect": true,
+    "colors": [
+    "0x000000",
+    "#FF0000"
+    ]
+}
