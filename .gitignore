@@ -10,35 +10,36 @@
 # Ignore all log files
 *.log
 
-# Ignore natives generation
+# Ignore user items and generated libraries
 natives
+.minecraft/BotaniaVars.dat
+.minecraft/options.txt
+.minecraft/optionsof.txt
+.minecraft/optionsshaders.txt
+.minecraft/patchouli_data.json
+.minecraft/textures_*.png
+.minecraft/user*cache.json
+.minecraft/minemenu
 
 # No need to track worldSettings
 .minecraft/config/jei/worldSettings*.cfg
 
-# Misc
+# Ignore generated mod/game directories
 .minecraft/.mixin.out
-.minecraft/BotaniaVars.dat
-.minecraft/OpenComputersMod-*-lua52-native.64.dll
-.minecraft/OpenComputersMod-*-lua53-native.64.dll
 .minecraft/astralsorcery
+.minecraft/patchouli_books
 .minecraft/crash-reports
 .minecraft/dumps
 .minecraft/journeymap
 .minecraft/local
 .minecraft/logs
 .minecraft/minecolonies
-.minecraft/options.txt
-.minecraft/optionsof.txt
-.minecraft/optionsshaders.txt
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/server-resource-packs
 .minecraft/shaderpacks
 .minecraft/texturepacks
 .minecraft/tv-cache
-.minecraft/usercache.json
-.minecraft/usernamecache.json
 .minecraft/woot
 
 # Personal Settings
