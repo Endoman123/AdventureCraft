@@ -14,17 +14,15 @@ import crafttweaker.item.IItemStack;
 val loottable_id = "neuroflow:chests/chestloot1";
 val pool = "main";
 
-// Rarity Values
-// Weight is rarity * 10
-// Higher rarity == more rare/cool/op
-val common_rarity = 10;
-val uncommon_rarity = 20;
-val rare_rarity = 50;
-val superrare_rarity = 100;
-val elusive_rarity = 200;
+// Rarity Values; Higher rarity == more rare/cool/op
+val common_rarity = 20;
+val uncommon_rarity = 40;
+val rare_rarity = 60;
+val superrare_rarity = 80;
+val elusive_rarity = 100;
 
 // Weighting Sytem
-val upper_limit = 150;
+val upper_limit = 101;
 
 // Loot categories; naming is fairly self explanatory
 val common = [
@@ -36,7 +34,7 @@ val uncommon = [
 ] as IItemStack[];
 
 val rare = [
-    <minecraft:sand>
+    <minecraft:log>
 ] as IItemStack[];
 
 val superrare = [
@@ -65,7 +63,7 @@ for i in uncommon {
 }
 
 for i in rare {
-    val bias = rare;
+    val bias = rare_rarity;
     main.addItemEntryHelper(i, ((upper_limit - bias) * 10) , bias, [Functions.setCount(1, 3)], []);
 }
 
@@ -73,9 +71,8 @@ for i in superrare {
     val bias = superrare_rarity;
     main.addItemEntryHelper(i, ((upper_limit - bias) * 10) , bias, [Functions.setCount(1, 3)], []);
 }
+
 for i in elusive {
     val bias = elusive_rarity;
     main.addItemEntryHelper(i, ((upper_limit - bias) * 10) , bias, [Functions.setCount(1, 3)], []);
 }
-
-
