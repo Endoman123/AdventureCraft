@@ -1,5 +1,5 @@
 // TO TEST
-// /setblock ~ ~ ~ minecraft:chest 2 replace {LootTable:"neuroflow:entities/entityloot1"}
+// /setblock ~ ~ ~ minecraft:chest 2 replace {LootTable:"neuroflow:chests/chestloot1"}
 
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;
@@ -11,7 +11,7 @@ import crafttweaker.item.IItemStack;
 // Using neuroflow:chests/chestloot1 for lootbags lootbags
 
 // Loot table/pool ids
-val loottable_id = "neuroflow:entities/entityloot1";
+val loottable_id = "neuroflow:chests/chestloot1";
 val pool = "main";
 
 // Rarity Values; Higher rarity == more rare/cool/op
