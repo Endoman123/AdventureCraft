@@ -651,5 +651,22 @@
     "dimensions": [
         -1
     ]
+  },
+  "resonantend_clarthate": {
+    "type": "cluster",
+    "ore": {
+        "block": "thermalfoundation:ore_fluid",
+        "meta": 4
+    },
+    "stone": "minecraft:end_stone",
+    "rarity": 5,
+    "min_y": 0,
+    "max_y": 128,
+    "density": 50,
+    "vertical_size": 8,
+    "horizontal_size": 8,
+    "dimensions": [
+        1
+    ]
   }
 }
