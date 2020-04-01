@@ -81,8 +81,70 @@ val list = [
     <minecraft:wheat_seeds>,
     <minecraft:book>,
     <minecraft:record_13>,
+    <minecraft:golden_apple>,
+    <minecraft:fish:2>,
+    <minecraft:flint_and_steel>,
+    <minecraft:poisonous_potato>,
+    <minecraft:spider_eye>,
+    <minecraft:rotten_flesh>,
+    <minecraft:compass>,
+    <minecraft:clock>,
+    <minecraft:shears>,
+    <minecraft:lead>,
+    <minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}),
+    <minecraft:potion>.withTag({Potion: "cofhcore:healing3"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:mundane"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"}),
+    <minecraft:splash_potion>.withTag({Potion: "cofhcore:resistance2"}),
+    <minecraft:splash_potion>.withTag({Potion: "cofhcore:healing4"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:water"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:awkward"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:night_vision"}),
+    <minecraft:apple>,
+    <minecraft:bread>,
+    <minecraft:cooked_chicken>,
+    // Harvest Craft
+    <harvestcraft:paperbark_sapling>,
+    <harvestcraft:grapesaladitem>,
+    <harvestcraft:pekingduckitem>,
+    <harvestcraft:jellyfishrawitem>,
+    // Thermal
+    <thermalfoundation:tool.sickle_copper>,
+    // naturescompass
+    <naturescompass:naturescompass>.withTag({}),
+    // spice of life
+    <spiceoflife:lunchbox>,
     // advancedrocketry
     <advancedrocketry:vitrifiedsand>,
+    // Tinkers construct
+    <tconstruct:slimesling>,
+    <tconstruct:slime_boots>,
+    <conarm:travel_goggles>,
+    <tinkersurvival:crude_knife>,
+    <tinkersurvival:crude_hatchet>,
+    // electroblob
+    <ebwizardry:identification_scroll>,
+    <ebwizardry:magic_crystal>,
+    <ebwizardry:firebomb>,
+    <ebwizardry:poison_bomb>,
+    <ebwizardry:smoke_bomb>,
+    <ebwizardry:spark_bomb>,
+    <ebwizardry:scroll:74>,
+    <ebwizardry:scroll:118>,
+    <ebwizardry:scroll:38>,
+    <ebwizardry:scroll:154>,
+    <ebwizardry:scroll:59>,
+    <ebwizardry:scroll:39>,
+    <ebwizardry:scroll:149>,
+    <ebwizardry:scroll:35>,
+    // ender io
+    <enderio:block_simple_furnace>,
+    // Bountiful Baubles
+    <bountifulbaubles:ringiron>,
+    // Scaling Health
+    <scalinghealth:crystalshard>,
     // Forge
     <forge:bucketfilled>.withTag({FluidName: "iron", Amount: 1000})
 ] as IItemStack[];

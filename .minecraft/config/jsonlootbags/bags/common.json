@@ -1,12 +1,12 @@
 {
     "loot-table": "neuroflow:chests/chestloot1",
     "name": "common_bag",
-    "human-name": "Common Bag of h",
+    "human-name": "Common Bag",
     "texture": "jsonlootbags:bag",
     "rarity": "Common",
     "effect": false,
     "colors": [
-    "0x90C3D4",
+    "0xDDFFEE",
     "#DB32DB"
     ]
 }
