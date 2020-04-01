@@ -77,6 +77,10 @@ val list = [
     <kk:sanctuary>,
     // ender io
     <enderio:item_stellar_alloy_sword>,
+    <enderio:item_capacitor_melodic>,
+    <enderio:item_capacitor_stellar>,
+    <enderio:item_capacitor_grainy>,
+    <enderio:item_capacitor_totemic>,
     // Scaling Health
     <scalinghealth:heartcontainer>,
     <scalinghealth:difficultychanger>,

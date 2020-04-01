@@ -8,26 +8,44 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
 
-// Using neuroflow:chests/chestloot1 for lootbags lootbags
-
 // Loot table/pool ids
 val loottable_id = "neuroflow:chests/chestloot4";
 val pool = "main";
 
 val list = [
+    <minecraft:sponge>,
+    <minecraft:diamond_ore>,
+    <minecraft:cake>,
+    <minecraft:diamond_pickaxe>,
     <minecraft:skull:5>,
+    <minecraft:anvil>,
+    <minecraft:cake>,
+    <minecraft:end_stone>,
+    <minecraft:purpur_block>,
+    <minecraft:skull:1>,
+    <minecraft:end_crystal>,
+    <minecraft:gold_block>,
+    <minecraft:diamond>,
+    <minecraft:poisonous_potato>,
     <minecraft:elytra>,
     <minecraft:beacon>,
+    <minecraft:observer>,
+    <minecraft:painting>,
     <minecraft:nether_star>,
     <minecraft:dragon_breath>,
     <minecraft:potion>.withTag({Potion: "cofhcore:haste3+"}),
     <minecraft:emerald_block>,
     <minecraft:diamond_block>,
     <minecraft:lingering_potion>.withTag({Potion: "extrautils2:xu2.doom"}),
+    <minecraft:lingering_potion>.withTag({Potion: "extrautils2:oily"}),
+    <minecraft:splash_potion>.withTag({Potion: "enderio:long_confusion"}),
+    <minecraft:splash_potion>.withTag({Potion: "enderio:strong_floating"}),
+    <minecraft:splash_potion>.withTag({Potion: "cofhcore:swiftness4"}),
     // Avaritia
     <avaritia:cosmic_meatballs>,
     <avaritia:resource:7>,
     // extrautils2
+    <extrautils2:compressedcobblestone:7>,
     <extrautils2:cursedearth>,
     // Flux Networks
     <fluxnetworks:herculeanfluxstorage>,
@@ -36,6 +54,8 @@ val list = [
     // Bountiful Baubles
     <bountifulbaubles:trinketobsidianskull>,
     <bountifulbaubles:trinketmixeddragonscale>,
+    <bountifulbaubles:trinketvitamins>,
+    <bountifulbaubles:ringfreeaction>,
     <bountifulbaubles:trinketankhcharm>,
     <bountifulbaubles:ringflywheeladvanced>,
     <bountifulbaubles:wormholemirror>,

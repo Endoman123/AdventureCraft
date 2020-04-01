@@ -18,6 +18,7 @@ val pool = "main";
 val list = [
     // Vanilla
     <minecraft:dirt>,
+    <minecraft:diamond>,
     <minecraft:stone>,
     <minecraft:stone:1>,
     <minecraft:stone:3>,
@@ -132,6 +133,7 @@ val list = [
     <ebwizardry:smoke_bomb>,
     <ebwizardry:spark_bomb>,
     <ebwizardry:scroll:74>,
+    <ebwizardry:scroll:159>,
     <ebwizardry:scroll:118>,
     <ebwizardry:scroll:38>,
     <ebwizardry:scroll:154>,

@@ -38,7 +38,6 @@ val list = [
     <minecraft:mycelium>,
     <minecraft:nether_brick>,
     <minecraft:quartz_block>,
-    <minecraft:quartz_block>,
     <minecraft:prismarine>,
     <minecraft:prismarine:1>,
     <minecraft:prismarine:2>,
@@ -97,6 +96,7 @@ val list = [
     <ebwizardry:smoke_bomb>,
     <ebwizardry:spark_bomb>,
     <ebwizardry:scroll:106>,
+    <ebwizardry:scroll:159>,
     <ebwizardry:scroll:97>,
     <ebwizardry:scroll:136>,
     <ebwizardry:scroll:103>,
@@ -167,6 +167,8 @@ val list = [
     <aroma1997sdimension:miningmultitool>,
     // Seasons
     <sereneseasons:season_clock>,
+    // Extra util
+    <extrautils2:compressedcobblestone:2>,
     // Forge
     <forge:bucketfilled>.withTag({FluidName: "plutonium", Amount: 1000}),
     <forge:bucketfilled>.withTag({FluidName: "dirt", Amount: 1000}),
