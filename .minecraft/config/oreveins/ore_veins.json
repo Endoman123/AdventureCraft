@@ -468,16 +468,20 @@
         -6
     ]
   },
-  "salt_deposit": {
+  "mineral_deposit": {
     "type": "cone",
     "ore": [
       {
-        "block": "baseminerals:saltpeter_ore",
+        "block": "baseminerals:salt_ore",
         "weight": 3
       },
       {
-        "block": "baseminerals:salt_ore",
+        "block": "baseminerals:saltpeter_ore",
         "weight": 2
+      },
+      {
+        "block": "baseminerals:lithium_ore",
+        "weight": 1
       }
     ],
     "stone": "minecraft:stone",
