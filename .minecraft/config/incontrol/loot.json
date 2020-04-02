@@ -1,1 +1,87 @@
-[]
+[
+    {
+        "hostile": true,
+        "player": true,
+        "random": 0.09,
+        "item": "jsonlootbags:common_bag"
+    },
+    {
+        "hostile": true,
+        "player": true,
+        "random": 0.04,
+        "item": "jsonlootbags:uncommon_bag"
+    },
+    {
+        "hostile": true,
+        "player": true,
+        "random": 0.02,
+        "item": "jsonlootbags:rare_bag"
+    },
+    {
+        "hostile": true,
+        "player": true,
+        "random": 0.01,
+        "item": "jsonlootbags:superrare_bag"
+    },
+    {
+        "hostile": true,
+        "player": true,
+        "random": 0.001,
+        "item": "jsonlootbags:elusive_bag"
+    },
+
+    {
+        "mod": "grimoireofgaia",
+        "hostile": true,
+        "player": true,
+        "random": 0.04,
+        "item": "jsonlootbags:uncommon_bag"
+    },
+    {
+        "mod": "grimoireofgaia",
+        "hostile": true,
+        "player": true,
+        "random": 0.04,
+        "item": "jsonlootbags:rare_bag"
+    },
+    {
+        "mod": "grimoireofgaia",
+        "hostile": true,
+        "player": true,
+        "random": 0.04,
+        "item": "jsonlootbags:superrare_bag"
+    },
+    {
+        "mod": "grimoireofgaia",
+        "hostile": true,
+        "player": true,
+        "random": 0.009,
+        "item": "jsonlootbags:elusive_bag"
+    },
+
+    {
+        "dimension": -1,
+        "player": true,
+        "random": 0.05,
+        "item": "jsonlootbags:uncommon_bag"
+    },
+    {
+        "dimension": 1,
+        "player": true,
+        "random": 0.05,
+        "item": "jsonlootbags:rare_bag"
+    },
+    {
+        "dimension": 1,
+        "player": true,
+        "random": 0.05,
+        "item": "jsonlootbags:superrare_bag"
+    },
+    {
+        "dimension": -11325,
+        "player": true,
+        "random": 0.1,
+        "item": "jsonlootbags:elusive_bag"
+    }
+
+]
