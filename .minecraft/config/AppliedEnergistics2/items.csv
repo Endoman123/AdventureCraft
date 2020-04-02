@@ -183,7 +183,7 @@ minecraft:wooden_slab:4, Acacia Wood Slab
 minecraft:wooden_slab:5, Dark Oak Wood Slab
 minecraft:sandstone_stairs, Sandstone Stairs
 minecraft:emerald_ore, Emerald Ore
-minecraft:ender_chest, True Ender Chest
+minecraft:ender_chest, Ender Chest
 minecraft:tripwire_hook, Tripwire Hook
 minecraft:emerald_block, Block of Emerald
 minecraft:spruce_stairs, Spruce Wood Stairs
@@ -2205,16 +2205,10 @@ microblockcbe:saw_stone, Stone Saw
 microblockcbe:saw_iron, Iron Saw
 microblockcbe:saw_diamond, Diamond Saw
 microblockcbe:stone_rod, Stone Rod
-<<<<<<< HEAD
 jsonlootbags:capacitor_bag, item.jsonlootbagsCapacitor_bag.name
 jsonlootbags:common_bag, item.jsonlootbagsCommon_bag.name
-jsonlootbags:rare_bag, item.jsonlootbagsRare_bag.name
-jsonlootbags:elusive_bag, item.jsonlootbagsElusive_bag.name
-=======
-jsonlootbags:common_bag, item.jsonlootbagsCommon_bag.name
 jsonlootbags:elusive_bag, item.jsonlootbagsElusive_bag.name
 jsonlootbags:rare_bag, item.jsonlootbagsRare_bag.name
->>>>>>> aa4b5b5f9313bfb6fa1320bfc1b99b19ba6442e2
 jsonlootbags:superrare_bag, item.jsonlootbagsSuperrare_bag.name
 jsonlootbags:uncommon_bag, item.jsonlootbagsUncommon_bag.name
 openblocks:ladder, Jaded Ladder
@@ -6460,20 +6454,15 @@ chisel:wool_orange:1, Orange Wool
 chisel:wool_white:0, Wool
 chisel:wool_white:1, Wool
 scalinghealth:crystalore, Heart Crystal Ore
-basemetals:wood_crackhammer, Wooden Crack Hammer
 basemetals:wood_gear, Wooden Gear
-basemetals:stone_crackhammer, Stone Crack Hammer
 basemetals:stone_rod, Stone Rod
 basemetals:stone_gear, Stone Gear
 basemetals:iron_slab, Iron Slab
 basemetals:iron_wall, Iron Wall
-basemetals:iron_lever, Iron Lever
 basemetals:iron_button, Iron Button
 basemetals:iron_stairs, Iron Stairs
 basemetals:iron_fishing_rod, Iron Fishing Rod
 basemetals:iron_shield, Iron Shield
-basemetals:iron_smallpowder, Tiny Pile of Iron Dust
-basemetals:iron_crackhammer, Iron Crack Hammer
 basemetals:iron_gear, Iron Gear
 basemetals:iron_powder, Iron Dust
 basemetals:iron_plate, Iron Plate
@@ -6485,15 +6474,12 @@ basemetals:gold_fishing_rod, Gold Fishing Rod
 basemetals:gold_shield, Gold Shield
 basemetals:gold_shears, Gold Shears
 basemetals:gold_stairs, Gold Stairs
-basemetals:gold_smallpowder, Tiny Pile of Gold Dust
 basemetals:gold_trapdoor, Gold Trapdoor
-basemetals:gold_crackhammer, Golden Crack Hammer
 basemetals:gold_gear, Gold Gear
 basemetals:gold_powder, Gold Dust
 basemetals:gold_bars, Gold Bars
 basemetals:gold_plate, Gold Plate
 basemetals:gold_door, Gold Door
-basemetals:gold_lever, Gold Lever
 basemetals:gold_rod, Gold Rod
 basemetals:gold, Molten Gold
 basemetals:gold_button, Gold Button
@@ -6505,12 +6491,9 @@ basemetals:diamond_wall, Diamond Wall
 basemetals:diamond_shield, Diamond Shield
 basemetals:diamond_shears, Diamond Shears
 basemetals:diamond_pressure_plate, Diamond Pressure Plate
-basemetals:diamond_smallpowder, Tiny Pile of Diamond Dust
-basemetals:diamond_crackhammer, Diamond Crack Hammer
 basemetals:diamond_gear, Diamond Gear
 basemetals:diamond_powder, Diamond Dust
 basemetals:diamond_door, Diamond Door
-basemetals:diamond_lever, Diamond Lever
 basemetals:diamond_rod, Diamond Rod
 basemetals:diamond, Molten Diamond
 basemetals:diamond_trapdoor, Diamond Trapdoor
@@ -6519,18 +6502,13 @@ basemetals:diamond_nugget, Diamond Fragment
 basemetals:coal, Liquifacted Coal
 basemetals:coal_powder, Coal Dust
 basemetals:coal_nugget, Coal Nugget
-basemetals:coal_smallpowder, Tiny Pile of Coal Dust
 basemetals:charcoal_block, Block of Charcoal
-basemetals:charcoal, Liquifacted Charcoal
 basemetals:charcoal_powder, Charcoal Dust
 basemetals:charcoal_nugget, Charcoal Nugget
-basemetals:charcoal_smallpowder, Tiny Pile of Charcoal Dust
 basemetals:emerald_slab, Emerald Slab
 basemetals:emerald_trapdoor, Emerald Trapdoor
 basemetals:emerald_wall, Emerald Wall
-basemetals:emerald_crackhammer, Emerald Crack Hammer
 basemetals:emerald_gear, Emerald Gear
-basemetals:emerald_lever, Emerald Lever
 basemetals:emerald_button, Emerald Button
 basemetals:emerald_bars, Emerald Bars
 basemetals:emerald_powder, Emerald Dust
@@ -6543,11 +6521,9 @@ basemetals:emerald_shield, Emerald Shield
 basemetals:emerald_horse_armor, Emerald Horse Armor
 basemetals:emerald_shears, Emerald Shears
 basemetals:emerald_pressure_plate, Emerald Pressure Plate
-basemetals:emerald_smallpowder, Tiny Pile of Emerald Dust
 basemetals:emerald_nugget, Emerald Fragment
 basemetals:ender, Molten Ender
 basemetals:quartz_bars, Quartz Bars
-basemetals:quartz_crackhammer, Quartz Crack Hammer
 basemetals:quartz_gear, Quartz Gear
 basemetals:quartz_button, Quartz Button
 basemetals:quartz_trapdoor, Quartz Trapdoor
@@ -6555,20 +6531,16 @@ basemetals:quartz_powder, Quartz Dust
 basemetals:quartz_door, Quartz Door
 basemetals:quartz_fishing_rod, Quartz Fishing Rod
 basemetals:quartz_rod, Quartz Rod
-basemetals:quartz_lever, Quartz Lever
 basemetals:quartz, tile.basemetals.quartz.name
 basemetals:quartz_pressure_plate, Quartz Pressure Plate
 basemetals:quartz_shield, Quartz Shield
 basemetals:quartz_horse_armor, Quartz Horse Armor
 basemetals:quartz_shears, Quartz Shears
 basemetals:quartz_wall, Quartz Wall
-basemetals:quartz_smallpowder, Tiny Pile of Quartz Dust
 basemetals:quartz_nugget, Quartz Fragment
 basemetals:obsidian_slab, Obsidian Slab
 basemetals:obsidian_trapdoor, Obsidian Trapdoor
-basemetals:obsidian_crackhammer, Obsidian Crack Hammer
 basemetals:obsidian_gear, Obsidian Gear
-basemetals:obsidian_lever, Obsidian Lever
 basemetals:obsidian_stairs, Obsidian Stairs
 basemetals:obsidian_powder, Obsidian Dust
 basemetals:obsidian_door, Obsidian Door
@@ -6583,13 +6555,10 @@ basemetals:obsidian_pressure_plate, Obsidian Pressure Plate
 basemetals:obsidian_horse_armor, Obsidian Horse Armor
 basemetals:obsidian_wall, Obsidian Wall
 basemetals:obsidian_shears, Obsidian Shears
-basemetals:obsidian_smallpowder, Tiny Pile of Obsidian Dust
 basemetals:obsidian_nugget, Obsidian Fragment
-basemetals:lapis_smallpowder, Tiny Pile of Lapis Dust
 basemetals:prismarine, Molten Prismarine
 basemetals:redstone_ingot, Redstone Ingot
 basemetals:redstone, Molten Redstone
-basemetals:redstone_smallpowder, Tiny Pile of Redstone Dust
 libvulpes:linker, Linker
 libvulpes:battery:0, Small Battery
 libvulpes:battery:1, 2x Small Battery
@@ -7264,172 +7233,6 @@ enderio:item_gas_conduit:1, Pressurized Gas Conduit
 enderio:item_gas_conduit:2, Ender Gas Conduit
 gasconduits:item_gas_filter:0, Gas Filter
 enderio:item_fluid_conduit:0, Stellar Fluid Conduit
-<<<<<<< HEAD
-botania:livingwood0stairs, tile.livingwood0Stairs.name
-botania:livingwood0slab:0, Livingwood Slab
-botania:livingwood0wall, tile.livingwood0Wall.name
-botania:livingwood1stairs, tile.livingwood1Stairs.name
-botania:livingwood1slab:0, Livingwood Plank Slab
-botania:livingrock0stairs, tile.livingrock0Stairs.name
-botania:livingrock0slab:0, Livingrock Slab
-botania:livingrock0wall, tile.livingrock0Wall.name
-botania:livingrock1stairs, tile.livingrock1Stairs.name
-botania:livingrock1slab:0, Livingrock Brick Slab
-botania:dreamwood0stairs, tile.dreamwood0Stairs.name
-botania:dreamwood0slab:0, Dreamwood Slab
-botania:dreamwood0wall, tile.dreamwood0Wall.name
-botania:dreamwood1stairs, tile.dreamwood1Stairs.name
-botania:dreamwood1slab:0, Dreamwood Plank Slab
-botania:quartztypedark:0, Block of Smokey Quartz
-botania:quartztypedark:1, Chiseled Smokey Quartz Block
-botania:quartztypedark:2, Pillar Smokey Quartz Block
-botania:quartzslabdarkhalf:0, Smokey Quartz Slab
-botania:quartzstairsdark, tile.quartzStairsDark.name
-botania:quartztypemana:0, Block of Mana Quartz
-botania:quartztypemana:1, Chiseled Mana Quartz Block
-botania:quartztypemana:2, Pillar Mana Quartz Block
-botania:quartzslabmanahalf:0, Mana Quartz Slab
-botania:quartzstairsmana, tile.quartzStairsMana.name
-botania:quartztypeblaze:0, Block of Blaze Quartz
-botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
-botania:quartztypeblaze:2, Pillar Blaze Quartz Block
-botania:quartzslabblazehalf:0, Blaze Quartz Slab
-botania:quartzstairsblaze, tile.quartzStairsBlaze.name
-botania:quartztypelavender:0, Block of Lavender Quartz
-botania:quartztypelavender:1, Chiseled Lavender Quartz Block
-botania:quartztypelavender:2, Pillar Lavender Quartz Block
-botania:quartzslablavenderhalf:0, Lavender Quartz Slab
-botania:quartzstairslavender, tile.quartzStairsLavender.name
-botania:quartztypered:0, Block of Redquartz
-botania:quartztypered:1, Chiseled Redquartz Block
-botania:quartztypered:2, Pillar Redquartz Block
-botania:quartzslabredhalf:0, Redquartz Slab
-botania:quartzstairsred, tile.quartzStairsRed.name
-botania:quartztypeelf:0, Block of Elven Quartz
-botania:quartztypeelf:1, Chiseled Elven Quartz Block
-botania:quartztypeelf:2, Pillar Elven Quartz Block
-botania:quartzslabelfhalf:0, Elven Quartz Slab
-botania:quartzstairself, tile.quartzStairsElf.name
-botania:quartztypesunny:0, Block of Sunny Quartz
-botania:quartztypesunny:1, Chiseled Sunny Quartz Block
-botania:quartztypesunny:2, Pillar Sunny Quartz Block
-botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
-botania:quartzstairssunny, tile.quartzStairsSunny.name
-botania:biomestonea:0, Metamorphic Forest Stone
-botania:biomestonea:1, Metamorphic Plains Stone
-botania:biomestonea:2, Metamorphic Mountain Stone
-botania:biomestonea:3, Metamorphic Fungal Stone
-botania:biomestonea:4, Metamorphic Swamp Stone
-botania:biomestonea:5, Metamorphic Desert Stone
-botania:biomestonea:6, Metamorphic Taiga Stone
-botania:biomestonea:7, Metamorphic Mesa Stone
-botania:biomestonea:8, Metamorphic Forest Cobblestone
-botania:biomestonea:9, Metamorphic Plains Cobblestone
-botania:biomestonea:10, Metamorphic Mountain Cobblestone
-botania:biomestonea:11, Metamorphic Fungal Cobblestone
-botania:biomestonea:12, Metamorphic Swamp Cobblestone
-botania:biomestonea:13, Metamorphic Desert Cobblestone
-botania:biomestonea:14, Metamorphic Taiga Cobblestone
-botania:biomestonea:15, Metamorphic Mesa Cobblestone
-botania:biomestoneb:0, Metamorphic Forest Stone Bricks
-botania:biomestoneb:1, Metamorphic Plains Stone Bricks
-botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
-botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
-botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
-botania:biomestoneb:5, Metamorphic Desert Stone Bricks
-botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
-botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
-botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
-botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
-botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
-botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
-botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
-botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
-botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
-botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
-botania:pavement:0, White Portuguese Pavement
-botania:pavement:1, Black Portuguese Pavement
-botania:pavement:2, Blue Portuguese Pavement
-botania:pavement:3, Red Portuguese Pavement
-botania:pavement:4, Yellow Portuguese Pavement
-botania:pavement:5, Green Portuguese Pavement
-botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
-botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
-botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
-botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
-botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
-botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
-botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
-botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
-botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
-botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
-botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
-botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
-botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
-botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
-botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
-botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
-botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
-botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
-botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
-botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
-botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
-botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
-botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
-botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
-botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
-botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
-botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
-botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
-botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
-botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
-botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
-botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
-botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
-botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
-botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
-botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
-botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
-botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
-botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
-botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
-botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
-botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
-botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
-botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
-botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
-botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
-botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
-botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
-botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
-botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
-botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
-botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
-botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
-botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
-botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
-botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
-botania:pavement0stairs, tile.pavement0Stairs.name
-botania:pavement0slab:0, White Portuguese Pavement Slab
-botania:pavement1stairs, tile.pavement1Stairs.name
-botania:pavement1slab:0, Black Portuguese Pavement Slab
-botania:pavement2stairs, tile.pavement2Stairs.name
-botania:pavement2slab:0, Blue Portuguese Pavement Slab
-botania:pavement3stairs, tile.pavement3Stairs.name
-botania:pavement3slab:0, Red Portuguese Pavement Slab
-botania:pavement4stairs, tile.pavement4Stairs.name
-botania:pavement4slab:0, Yellow Portuguese Pavement Slab
-botania:pavement5stairs, tile.pavement5Stairs.name
-botania:pavement5slab:0, Green Portuguese Pavement Slab
-botania:shimmerrock0slab:0, Shimmerrock Slab
-botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
-botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
-botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
-botania:managlasspane, tile.manaGlassPane.name
-botania:elfglasspane, tile.elfGlassPane.name
-botania:bifrostpermpane, tile.bifrostPermPane.name
-=======
->>>>>>> aa4b5b5f9313bfb6fa1320bfc1b99b19ba6442e2
 botania:flower:0, Mystical White Flower
 botania:flower:1, Mystical Orange Flower
 botania:flower:2, Mystical Magenta Flower
@@ -8098,8 +7901,6 @@ botania:supercloudpendant, item.superCloudPendant.name
 botania:thirdeye, item.thirdEye.name
 botania:astrolabe, item.astrolabe.name
 botania:goddesscharm, item.goddessCharm.name
-<<<<<<< HEAD
-=======
 botania:livingwood0stairs, tile.livingwood0Stairs.name
 botania:livingwood0slab:0, Livingwood Slab
 botania:livingwood0wall, tile.livingwood0Wall.name
@@ -8263,7 +8064,6 @@ botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
 botania:managlasspane, tile.manaGlassPane.name
 botania:elfglasspane, tile.elfGlassPane.name
 botania:bifrostpermpane, tile.bifrostPermPane.name
->>>>>>> aa4b5b5f9313bfb6fa1320bfc1b99b19ba6442e2
 rpsideas:wide_socket, item.wide_socket.name
 rpsideas:flash_ring, item.flash_ring.name
 rpsideas:trigger_sensor, item.trigger_sensor.name
@@ -8579,85 +8379,44 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-<<<<<<< HEAD
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Laser Medium Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
-tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Armor Plates Pattern
 tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Armor Plates Pattern
+tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Pan Pattern
 tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Polishing Kit Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Battery Cell Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Pipe Piece Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Chestplate Core Pattern
 tconstruct:pattern:0, Hand Guard Pattern
 tconstruct:pattern:0, Scythe Head Pattern
-=======
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Laser Medium Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Axe Head Pattern
 tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Sign Plate Pattern
 tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
->>>>>>> aa4b5b5f9313bfb6fa1320bfc1b99b19ba6442e2
+tconstruct:pattern:0, Armor Trim Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Laser Medium Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -8703,13 +8462,8 @@ tconstruct:shard:0, Alumite Shard
 tconstruct:shard:0, Nickel Shard
 tconstruct:shard:0, Invar Shard
 tconstruct:shard:0, Iridium Shard
-tconstruct:shard:0, Sapphire Shard
-tconstruct:shard:0, Ruby Shard
 tconstruct:shard:0, Peridot Shard
-tconstruct:shard:0, Malachite Shard
-tconstruct:shard:0, Amber Shard
 tconstruct:shard:0, Topaz Shard
-tconstruct:shard:0, Tanzanite Shard
 tconstruct:shard:0, Amethyst Shard
 tconstruct:shard:0, Osmium Shard
 tconstruct:shard:0, Refined Obsidian Shard
@@ -8727,7 +8481,6 @@ tconstruct:shard:0, Infinity Shard
 tconstruct:shard:0, Certus Quartz Shard
 tconstruct:shard:0, Fluix Crystal Shard
 tconstruct:shard:0, Starmetal Shard
-tconstruct:shard:0, Mirion Shard
 tconstruct:shard:0, Livingwood Shard
 tconstruct:shard:0, Manasteel Shard
 tconstruct:shard:0, Elementium Shard
@@ -8778,13 +8531,8 @@ tconstruct:sharpening_kit:0, Alumite Sharpening Kit
 tconstruct:sharpening_kit:0, Nickel Sharpening Kit
 tconstruct:sharpening_kit:0, Invar Sharpening Kit
 tconstruct:sharpening_kit:0, Iridium Sharpening Kit
-tconstruct:sharpening_kit:0, Sapphire Sharpening Kit
-tconstruct:sharpening_kit:0, Ruby Sharpening Kit
 tconstruct:sharpening_kit:0, Peridot Sharpening Kit
-tconstruct:sharpening_kit:0, Malachite Sharpening Kit
-tconstruct:sharpening_kit:0, Amber Sharpening Kit
 tconstruct:sharpening_kit:0, Topaz Sharpening Kit
-tconstruct:sharpening_kit:0, Tanzanite Sharpening Kit
 tconstruct:sharpening_kit:0, Amethyst Sharpening Kit
 tconstruct:sharpening_kit:0, Osmium Sharpening Kit
 tconstruct:sharpening_kit:0, Refined Obsidian Sharpening Kit
@@ -8802,7 +8550,6 @@ tconstruct:sharpening_kit:0, Infinity Sharpening Kit
 tconstruct:sharpening_kit:0, Certus Quartz Sharpening Kit
 tconstruct:sharpening_kit:0, Fluix Crystal Sharpening Kit
 tconstruct:sharpening_kit:0, Starmetal Sharpening Kit
-tconstruct:sharpening_kit:0, Mirion Sharpening Kit
 tconstruct:sharpening_kit:0, Livingwood Sharpening Kit
 tconstruct:sharpening_kit:0, Manasteel Sharpening Kit
 tconstruct:sharpening_kit:0, Elementium Sharpening Kit
@@ -8853,13 +8600,8 @@ tconstruct:pick_head:0, Alumite Pickaxe Head
 tconstruct:pick_head:0, Nickel Pickaxe Head
 tconstruct:pick_head:0, Invar Pickaxe Head
 tconstruct:pick_head:0, Iridium Pickaxe Head
-tconstruct:pick_head:0, Sapphire Pickaxe Head
-tconstruct:pick_head:0, Ruby Pickaxe Head
 tconstruct:pick_head:0, Peridot Pickaxe Head
-tconstruct:pick_head:0, Malachite Pickaxe Head
-tconstruct:pick_head:0, Amber Pickaxe Head
 tconstruct:pick_head:0, Topaz Pickaxe Head
-tconstruct:pick_head:0, Tanzanite Pickaxe Head
 tconstruct:pick_head:0, Amethyst Pickaxe Head
 tconstruct:pick_head:0, Osmium Pickaxe Head
 tconstruct:pick_head:0, Refined Obsidian Pickaxe Head
@@ -8877,7 +8619,6 @@ tconstruct:pick_head:0, Infinity Pickaxe Head
 tconstruct:pick_head:0, Certus Quartz Pickaxe Head
 tconstruct:pick_head:0, Fluix Crystal Pickaxe Head
 tconstruct:pick_head:0, Starmetal Pickaxe Head
-tconstruct:pick_head:0, Mirion Pickaxe Head
 tconstruct:pick_head:0, Livingwood Pickaxe Head
 tconstruct:pick_head:0, Manasteel Pickaxe Head
 tconstruct:pick_head:0, Elementium Pickaxe Head
@@ -8928,13 +8669,8 @@ tconstruct:shovel_head:0, Alumite Shovel Head
 tconstruct:shovel_head:0, Nickel Shovel Head
 tconstruct:shovel_head:0, Invar Shovel Head
 tconstruct:shovel_head:0, Iridium Shovel Head
-tconstruct:shovel_head:0, Sapphire Shovel Head
-tconstruct:shovel_head:0, Ruby Shovel Head
 tconstruct:shovel_head:0, Peridot Shovel Head
-tconstruct:shovel_head:0, Malachite Shovel Head
-tconstruct:shovel_head:0, Amber Shovel Head
 tconstruct:shovel_head:0, Topaz Shovel Head
-tconstruct:shovel_head:0, Tanzanite Shovel Head
 tconstruct:shovel_head:0, Amethyst Shovel Head
 tconstruct:shovel_head:0, Osmium Shovel Head
 tconstruct:shovel_head:0, Refined Obsidian Shovel Head
@@ -8952,7 +8688,6 @@ tconstruct:shovel_head:0, Infinity Shovel Head
 tconstruct:shovel_head:0, Certus Quartz Shovel Head
 tconstruct:shovel_head:0, Fluix Crystal Shovel Head
 tconstruct:shovel_head:0, Starmetal Shovel Head
-tconstruct:shovel_head:0, Mirion Shovel Head
 tconstruct:shovel_head:0, Livingwood Shovel Head
 tconstruct:shovel_head:0, Manasteel Shovel Head
 tconstruct:shovel_head:0, Elementium Shovel Head
@@ -9003,13 +8738,8 @@ tconstruct:axe_head:0, Alumite Axe Head
 tconstruct:axe_head:0, Nickel Axe Head
 tconstruct:axe_head:0, Invar Axe Head
 tconstruct:axe_head:0, Iridium Axe Head
-tconstruct:axe_head:0, Sapphire Axe Head
-tconstruct:axe_head:0, Ruby Axe Head
 tconstruct:axe_head:0, Peridot Axe Head
-tconstruct:axe_head:0, Malachite Axe Head
-tconstruct:axe_head:0, Amber Axe Head
 tconstruct:axe_head:0, Topaz Axe Head
-tconstruct:axe_head:0, Tanzanite Axe Head
 tconstruct:axe_head:0, Amethyst Axe Head
 tconstruct:axe_head:0, Osmium Axe Head
 tconstruct:axe_head:0, Refined Obsidian Axe Head
@@ -9027,7 +8757,6 @@ tconstruct:axe_head:0, Infinity Axe Head
 tconstruct:axe_head:0, Certus Quartz Axe Head
 tconstruct:axe_head:0, Fluix Crystal Axe Head
 tconstruct:axe_head:0, Starmetal Axe Head
-tconstruct:axe_head:0, Mirion Axe Head
 tconstruct:axe_head:0, Livingwood Axe Head
 tconstruct:axe_head:0, Manasteel Axe Head
 tconstruct:axe_head:0, Elementium Axe Head
@@ -9078,13 +8807,8 @@ tconstruct:broad_axe_head:0, Alumite Broad Axe Head
 tconstruct:broad_axe_head:0, Nickel Broad Axe Head
 tconstruct:broad_axe_head:0, Invar Broad Axe Head
 tconstruct:broad_axe_head:0, Iridium Broad Axe Head
-tconstruct:broad_axe_head:0, Sapphire Broad Axe Head
-tconstruct:broad_axe_head:0, Ruby Broad Axe Head
 tconstruct:broad_axe_head:0, Peridot Broad Axe Head
-tconstruct:broad_axe_head:0, Malachite Broad Axe Head
-tconstruct:broad_axe_head:0, Amber Broad Axe Head
 tconstruct:broad_axe_head:0, Topaz Broad Axe Head
-tconstruct:broad_axe_head:0, Tanzanite Broad Axe Head
 tconstruct:broad_axe_head:0, Amethyst Broad Axe Head
 tconstruct:broad_axe_head:0, Osmium Broad Axe Head
 tconstruct:broad_axe_head:0, Refined Obsidian Broad Axe Head
@@ -9102,7 +8826,6 @@ tconstruct:broad_axe_head:0, Infinity Broad Axe Head
 tconstruct:broad_axe_head:0, Certus Quartz Broad Axe Head
 tconstruct:broad_axe_head:0, Fluix Crystal Broad Axe Head
 tconstruct:broad_axe_head:0, Starmetal Broad Axe Head
-tconstruct:broad_axe_head:0, Mirion Broad Axe Head
 tconstruct:broad_axe_head:0, Livingwood Broad Axe Head
 tconstruct:broad_axe_head:0, Manasteel Broad Axe Head
 tconstruct:broad_axe_head:0, Elementium Broad Axe Head
@@ -9153,13 +8876,8 @@ tconstruct:sword_blade:0, Alumite Sword Blade
 tconstruct:sword_blade:0, Nickel Sword Blade
 tconstruct:sword_blade:0, Invar Sword Blade
 tconstruct:sword_blade:0, Iridium Sword Blade
-tconstruct:sword_blade:0, Sapphire Sword Blade
-tconstruct:sword_blade:0, Ruby Sword Blade
 tconstruct:sword_blade:0, Peridot Sword Blade
-tconstruct:sword_blade:0, Malachite Sword Blade
-tconstruct:sword_blade:0, Amber Sword Blade
 tconstruct:sword_blade:0, Topaz Sword Blade
-tconstruct:sword_blade:0, Tanzanite Sword Blade
 tconstruct:sword_blade:0, Amethyst Sword Blade
 tconstruct:sword_blade:0, Osmium Sword Blade
 tconstruct:sword_blade:0, Refined Obsidian Sword Blade
@@ -9177,7 +8895,6 @@ tconstruct:sword_blade:0, Infinity Sword Blade
 tconstruct:sword_blade:0, Certus Quartz Sword Blade
 tconstruct:sword_blade:0, Fluix Crystal Sword Blade
 tconstruct:sword_blade:0, Starmetal Sword Blade
-tconstruct:sword_blade:0, Mirion Sword Blade
 tconstruct:sword_blade:0, Livingwood Sword Blade
 tconstruct:sword_blade:0, Manasteel Sword Blade
 tconstruct:sword_blade:0, Elementium Sword Blade
@@ -9228,13 +8945,8 @@ tconstruct:large_sword_blade:0, Alumite Large Sword Blade
 tconstruct:large_sword_blade:0, Nickel Large Sword Blade
 tconstruct:large_sword_blade:0, Invar Large Sword Blade
 tconstruct:large_sword_blade:0, Iridium Large Sword Blade
-tconstruct:large_sword_blade:0, Sapphire Large Sword Blade
-tconstruct:large_sword_blade:0, Ruby Large Sword Blade
 tconstruct:large_sword_blade:0, Peridot Large Sword Blade
-tconstruct:large_sword_blade:0, Malachite Large Sword Blade
-tconstruct:large_sword_blade:0, Amber Large Sword Blade
 tconstruct:large_sword_blade:0, Topaz Large Sword Blade
-tconstruct:large_sword_blade:0, Tanzanite Large Sword Blade
 tconstruct:large_sword_blade:0, Amethyst Large Sword Blade
 tconstruct:large_sword_blade:0, Osmium Large Sword Blade
 tconstruct:large_sword_blade:0, Refined Obsidian Large Sword Blade
@@ -9252,7 +8964,6 @@ tconstruct:large_sword_blade:0, Infinity Large Sword Blade
 tconstruct:large_sword_blade:0, Certus Quartz Large Sword Blade
 tconstruct:large_sword_blade:0, Fluix Crystal Large Sword Blade
 tconstruct:large_sword_blade:0, Starmetal Large Sword Blade
-tconstruct:large_sword_blade:0, Mirion Large Sword Blade
 tconstruct:large_sword_blade:0, Livingwood Large Sword Blade
 tconstruct:large_sword_blade:0, Manasteel Large Sword Blade
 tconstruct:large_sword_blade:0, Elementium Large Sword Blade
@@ -9303,13 +9014,8 @@ tconstruct:hammer_head:0, Alumite Hammer Head
 tconstruct:hammer_head:0, Nickel Hammer Head
 tconstruct:hammer_head:0, Invar Hammer Head
 tconstruct:hammer_head:0, Iridium Hammer Head
-tconstruct:hammer_head:0, Sapphire Hammer Head
-tconstruct:hammer_head:0, Ruby Hammer Head
 tconstruct:hammer_head:0, Peridot Hammer Head
-tconstruct:hammer_head:0, Malachite Hammer Head
-tconstruct:hammer_head:0, Amber Hammer Head
 tconstruct:hammer_head:0, Topaz Hammer Head
-tconstruct:hammer_head:0, Tanzanite Hammer Head
 tconstruct:hammer_head:0, Amethyst Hammer Head
 tconstruct:hammer_head:0, Osmium Hammer Head
 tconstruct:hammer_head:0, Refined Obsidian Hammer Head
@@ -9327,7 +9033,6 @@ tconstruct:hammer_head:0, Infinity Hammer Head
 tconstruct:hammer_head:0, Certus Quartz Hammer Head
 tconstruct:hammer_head:0, Fluix Crystal Hammer Head
 tconstruct:hammer_head:0, Starmetal Hammer Head
-tconstruct:hammer_head:0, Mirion Hammer Head
 tconstruct:hammer_head:0, Livingwood Hammer Head
 tconstruct:hammer_head:0, Manasteel Hammer Head
 tconstruct:hammer_head:0, Elementium Hammer Head
@@ -9378,13 +9083,8 @@ tconstruct:excavator_head:0, Alumite Excavator Head
 tconstruct:excavator_head:0, Nickel Excavator Head
 tconstruct:excavator_head:0, Invar Excavator Head
 tconstruct:excavator_head:0, Iridium Excavator Head
-tconstruct:excavator_head:0, Sapphire Excavator Head
-tconstruct:excavator_head:0, Ruby Excavator Head
 tconstruct:excavator_head:0, Peridot Excavator Head
-tconstruct:excavator_head:0, Malachite Excavator Head
-tconstruct:excavator_head:0, Amber Excavator Head
 tconstruct:excavator_head:0, Topaz Excavator Head
-tconstruct:excavator_head:0, Tanzanite Excavator Head
 tconstruct:excavator_head:0, Amethyst Excavator Head
 tconstruct:excavator_head:0, Osmium Excavator Head
 tconstruct:excavator_head:0, Refined Obsidian Excavator Head
@@ -9402,7 +9102,6 @@ tconstruct:excavator_head:0, Infinity Excavator Head
 tconstruct:excavator_head:0, Certus Quartz Excavator Head
 tconstruct:excavator_head:0, Fluix Crystal Excavator Head
 tconstruct:excavator_head:0, Starmetal Excavator Head
-tconstruct:excavator_head:0, Mirion Excavator Head
 tconstruct:excavator_head:0, Livingwood Excavator Head
 tconstruct:excavator_head:0, Manasteel Excavator Head
 tconstruct:excavator_head:0, Elementium Excavator Head
@@ -9453,13 +9152,8 @@ tconstruct:kama_head:0, Alumite Kama Head
 tconstruct:kama_head:0, Nickel Kama Head
 tconstruct:kama_head:0, Invar Kama Head
 tconstruct:kama_head:0, Iridium Kama Head
-tconstruct:kama_head:0, Sapphire Kama Head
-tconstruct:kama_head:0, Ruby Kama Head
 tconstruct:kama_head:0, Peridot Kama Head
-tconstruct:kama_head:0, Malachite Kama Head
-tconstruct:kama_head:0, Amber Kama Head
 tconstruct:kama_head:0, Topaz Kama Head
-tconstruct:kama_head:0, Tanzanite Kama Head
 tconstruct:kama_head:0, Amethyst Kama Head
 tconstruct:kama_head:0, Osmium Kama Head
 tconstruct:kama_head:0, Refined Obsidian Kama Head
@@ -9477,7 +9171,6 @@ tconstruct:kama_head:0, Infinity Kama Head
 tconstruct:kama_head:0, Certus Quartz Kama Head
 tconstruct:kama_head:0, Fluix Crystal Kama Head
 tconstruct:kama_head:0, Starmetal Kama Head
-tconstruct:kama_head:0, Mirion Kama Head
 tconstruct:kama_head:0, Livingwood Kama Head
 tconstruct:kama_head:0, Manasteel Kama Head
 tconstruct:kama_head:0, Elementium Kama Head
@@ -9528,13 +9221,8 @@ tconstruct:scythe_head:0, Alumite Scythe Head
 tconstruct:scythe_head:0, Nickel Scythe Head
 tconstruct:scythe_head:0, Invar Scythe Head
 tconstruct:scythe_head:0, Iridium Scythe Head
-tconstruct:scythe_head:0, Sapphire Scythe Head
-tconstruct:scythe_head:0, Ruby Scythe Head
 tconstruct:scythe_head:0, Peridot Scythe Head
-tconstruct:scythe_head:0, Malachite Scythe Head
-tconstruct:scythe_head:0, Amber Scythe Head
 tconstruct:scythe_head:0, Topaz Scythe Head
-tconstruct:scythe_head:0, Tanzanite Scythe Head
 tconstruct:scythe_head:0, Amethyst Scythe Head
 tconstruct:scythe_head:0, Osmium Scythe Head
 tconstruct:scythe_head:0, Refined Obsidian Scythe Head
@@ -9552,7 +9240,6 @@ tconstruct:scythe_head:0, Infinity Scythe Head
 tconstruct:scythe_head:0, Certus Quartz Scythe Head
 tconstruct:scythe_head:0, Fluix Crystal Scythe Head
 tconstruct:scythe_head:0, Starmetal Scythe Head
-tconstruct:scythe_head:0, Mirion Scythe Head
 tconstruct:scythe_head:0, Livingwood Scythe Head
 tconstruct:scythe_head:0, Manasteel Scythe Head
 tconstruct:scythe_head:0, Elementium Scythe Head
@@ -9603,13 +9290,8 @@ tconstruct:pan_head:0, Alumite Pan
 tconstruct:pan_head:0, Nickel Pan
 tconstruct:pan_head:0, Invar Pan
 tconstruct:pan_head:0, Iridium Pan
-tconstruct:pan_head:0, Sapphire Pan
-tconstruct:pan_head:0, Ruby Pan
 tconstruct:pan_head:0, Peridot Pan
-tconstruct:pan_head:0, Malachite Pan
-tconstruct:pan_head:0, Amber Pan
 tconstruct:pan_head:0, Topaz Pan
-tconstruct:pan_head:0, Tanzanite Pan
 tconstruct:pan_head:0, Amethyst Pan
 tconstruct:pan_head:0, Osmium Pan
 tconstruct:pan_head:0, Refined Obsidian Pan
@@ -9627,7 +9309,6 @@ tconstruct:pan_head:0, Infinity Pan
 tconstruct:pan_head:0, Certus Quartz Pan
 tconstruct:pan_head:0, Fluix Crystal Pan
 tconstruct:pan_head:0, Starmetal Pan
-tconstruct:pan_head:0, Mirion Pan
 tconstruct:pan_head:0, Livingwood Pan
 tconstruct:pan_head:0, Manasteel Pan
 tconstruct:pan_head:0, Elementium Pan
@@ -9678,13 +9359,8 @@ tconstruct:sign_head:0, Alumite Sign Plate
 tconstruct:sign_head:0, Nickel Sign Plate
 tconstruct:sign_head:0, Invar Sign Plate
 tconstruct:sign_head:0, Iridium Sign Plate
-tconstruct:sign_head:0, Sapphire Sign Plate
-tconstruct:sign_head:0, Ruby Sign Plate
 tconstruct:sign_head:0, Peridot Sign Plate
-tconstruct:sign_head:0, Malachite Sign Plate
-tconstruct:sign_head:0, Amber Sign Plate
 tconstruct:sign_head:0, Topaz Sign Plate
-tconstruct:sign_head:0, Tanzanite Sign Plate
 tconstruct:sign_head:0, Amethyst Sign Plate
 tconstruct:sign_head:0, Osmium Sign Plate
 tconstruct:sign_head:0, Refined Obsidian Sign Plate
@@ -9702,7 +9378,6 @@ tconstruct:sign_head:0, Infinity Sign Plate
 tconstruct:sign_head:0, Certus Quartz Sign Plate
 tconstruct:sign_head:0, Fluix Crystal Sign Plate
 tconstruct:sign_head:0, Starmetal Sign Plate
-tconstruct:sign_head:0, Mirion Sign Plate
 tconstruct:sign_head:0, Livingwood Sign Plate
 tconstruct:sign_head:0, Manasteel Sign Plate
 tconstruct:sign_head:0, Elementium Sign Plate
@@ -9753,13 +9428,8 @@ tconstruct:tool_rod:0, Alumite Tool Rod
 tconstruct:tool_rod:0, Nickel Tool Rod
 tconstruct:tool_rod:0, Invar Tool Rod
 tconstruct:tool_rod:0, Iridium Tool Rod
-tconstruct:tool_rod:0, Sapphire Tool Rod
-tconstruct:tool_rod:0, Ruby Tool Rod
 tconstruct:tool_rod:0, Peridot Tool Rod
-tconstruct:tool_rod:0, Malachite Tool Rod
-tconstruct:tool_rod:0, Amber Tool Rod
 tconstruct:tool_rod:0, Topaz Tool Rod
-tconstruct:tool_rod:0, Tanzanite Tool Rod
 tconstruct:tool_rod:0, Amethyst Tool Rod
 tconstruct:tool_rod:0, Osmium Tool Rod
 tconstruct:tool_rod:0, Refined Obsidian Tool Rod
@@ -9777,7 +9447,6 @@ tconstruct:tool_rod:0, Infinity Tool Rod
 tconstruct:tool_rod:0, Certus Quartz Tool Rod
 tconstruct:tool_rod:0, Fluix Crystal Tool Rod
 tconstruct:tool_rod:0, Starmetal Tool Rod
-tconstruct:tool_rod:0, Mirion Tool Rod
 tconstruct:tool_rod:0, Livingwood Tool Rod
 tconstruct:tool_rod:0, Manasteel Tool Rod
 tconstruct:tool_rod:0, Elementium Tool Rod
@@ -9828,13 +9497,8 @@ tconstruct:tough_tool_rod:0, Alumite Tough Tool Rod
 tconstruct:tough_tool_rod:0, Nickel Tough Tool Rod
 tconstruct:tough_tool_rod:0, Invar Tough Tool Rod
 tconstruct:tough_tool_rod:0, Iridium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Sapphire Tough Tool Rod
-tconstruct:tough_tool_rod:0, Ruby Tough Tool Rod
 tconstruct:tough_tool_rod:0, Peridot Tough Tool Rod
-tconstruct:tough_tool_rod:0, Malachite Tough Tool Rod
-tconstruct:tough_tool_rod:0, Amber Tough Tool Rod
 tconstruct:tough_tool_rod:0, Topaz Tough Tool Rod
-tconstruct:tough_tool_rod:0, Tanzanite Tough Tool Rod
 tconstruct:tough_tool_rod:0, Amethyst Tough Tool Rod
 tconstruct:tough_tool_rod:0, Osmium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Refined Obsidian Tough Tool Rod
@@ -9852,7 +9516,6 @@ tconstruct:tough_tool_rod:0, Infinity Tough Tool Rod
 tconstruct:tough_tool_rod:0, Certus Quartz Tough Tool Rod
 tconstruct:tough_tool_rod:0, Fluix Crystal Tough Tool Rod
 tconstruct:tough_tool_rod:0, Starmetal Tough Tool Rod
-tconstruct:tough_tool_rod:0, Mirion Tough Tool Rod
 tconstruct:tough_tool_rod:0, Livingwood Tough Tool Rod
 tconstruct:tough_tool_rod:0, Manasteel Tough Tool Rod
 tconstruct:tough_tool_rod:0, Elementium Tough Tool Rod
@@ -9903,13 +9566,8 @@ tconstruct:binding:0, Alumite Binding
 tconstruct:binding:0, Nickel Binding
 tconstruct:binding:0, Invar Binding
 tconstruct:binding:0, Iridium Binding
-tconstruct:binding:0, Sapphire Binding
-tconstruct:binding:0, Ruby Binding
 tconstruct:binding:0, Peridot Binding
-tconstruct:binding:0, Malachite Binding
-tconstruct:binding:0, Amber Binding
 tconstruct:binding:0, Topaz Binding
-tconstruct:binding:0, Tanzanite Binding
 tconstruct:binding:0, Amethyst Binding
 tconstruct:binding:0, Osmium Binding
 tconstruct:binding:0, Refined Obsidian Binding
@@ -9927,7 +9585,6 @@ tconstruct:binding:0, Infinity Binding
 tconstruct:binding:0, Certus Quartz Binding
 tconstruct:binding:0, Fluix Crystal Binding
 tconstruct:binding:0, Starmetal Binding
-tconstruct:binding:0, Mirion Binding
 tconstruct:binding:0, Livingwood Binding
 tconstruct:binding:0, Manasteel Binding
 tconstruct:binding:0, Elementium Binding
@@ -9978,13 +9635,8 @@ tconstruct:tough_binding:0, Alumite Tough Binding
 tconstruct:tough_binding:0, Nickel Tough Binding
 tconstruct:tough_binding:0, Invar Tough Binding
 tconstruct:tough_binding:0, Iridium Tough Binding
-tconstruct:tough_binding:0, Sapphire Tough Binding
-tconstruct:tough_binding:0, Ruby Tough Binding
 tconstruct:tough_binding:0, Peridot Tough Binding
-tconstruct:tough_binding:0, Malachite Tough Binding
-tconstruct:tough_binding:0, Amber Tough Binding
 tconstruct:tough_binding:0, Topaz Tough Binding
-tconstruct:tough_binding:0, Tanzanite Tough Binding
 tconstruct:tough_binding:0, Amethyst Tough Binding
 tconstruct:tough_binding:0, Osmium Tough Binding
 tconstruct:tough_binding:0, Refined Obsidian Tough Binding
@@ -10002,7 +9654,6 @@ tconstruct:tough_binding:0, Infinity Tough Binding
 tconstruct:tough_binding:0, Certus Quartz Tough Binding
 tconstruct:tough_binding:0, Fluix Crystal Tough Binding
 tconstruct:tough_binding:0, Starmetal Tough Binding
-tconstruct:tough_binding:0, Mirion Tough Binding
 tconstruct:tough_binding:0, Livingwood Tough Binding
 tconstruct:tough_binding:0, Manasteel Tough Binding
 tconstruct:tough_binding:0, Elementium Tough Binding
@@ -10053,13 +9704,8 @@ tconstruct:wide_guard:0, Alumite Wide Guard
 tconstruct:wide_guard:0, Nickel Wide Guard
 tconstruct:wide_guard:0, Invar Wide Guard
 tconstruct:wide_guard:0, Iridium Wide Guard
-tconstruct:wide_guard:0, Sapphire Wide Guard
-tconstruct:wide_guard:0, Ruby Wide Guard
 tconstruct:wide_guard:0, Peridot Wide Guard
-tconstruct:wide_guard:0, Malachite Wide Guard
-tconstruct:wide_guard:0, Amber Wide Guard
 tconstruct:wide_guard:0, Topaz Wide Guard
-tconstruct:wide_guard:0, Tanzanite Wide Guard
 tconstruct:wide_guard:0, Amethyst Wide Guard
 tconstruct:wide_guard:0, Osmium Wide Guard
 tconstruct:wide_guard:0, Refined Obsidian Wide Guard
@@ -10077,7 +9723,6 @@ tconstruct:wide_guard:0, Infinity Wide Guard
 tconstruct:wide_guard:0, Certus Quartz Wide Guard
 tconstruct:wide_guard:0, Fluix Crystal Wide Guard
 tconstruct:wide_guard:0, Starmetal Wide Guard
-tconstruct:wide_guard:0, Mirion Wide Guard
 tconstruct:wide_guard:0, Livingwood Wide Guard
 tconstruct:wide_guard:0, Manasteel Wide Guard
 tconstruct:wide_guard:0, Elementium Wide Guard
@@ -10128,13 +9773,8 @@ tconstruct:hand_guard:0, Alumite Hand Guard
 tconstruct:hand_guard:0, Nickel Hand Guard
 tconstruct:hand_guard:0, Invar Hand Guard
 tconstruct:hand_guard:0, Iridium Hand Guard
-tconstruct:hand_guard:0, Sapphire Hand Guard
-tconstruct:hand_guard:0, Ruby Hand Guard
 tconstruct:hand_guard:0, Peridot Hand Guard
-tconstruct:hand_guard:0, Malachite Hand Guard
-tconstruct:hand_guard:0, Amber Hand Guard
 tconstruct:hand_guard:0, Topaz Hand Guard
-tconstruct:hand_guard:0, Tanzanite Hand Guard
 tconstruct:hand_guard:0, Amethyst Hand Guard
 tconstruct:hand_guard:0, Osmium Hand Guard
 tconstruct:hand_guard:0, Refined Obsidian Hand Guard
@@ -10152,7 +9792,6 @@ tconstruct:hand_guard:0, Infinity Hand Guard
 tconstruct:hand_guard:0, Certus Quartz Hand Guard
 tconstruct:hand_guard:0, Fluix Crystal Hand Guard
 tconstruct:hand_guard:0, Starmetal Hand Guard
-tconstruct:hand_guard:0, Mirion Hand Guard
 tconstruct:hand_guard:0, Livingwood Hand Guard
 tconstruct:hand_guard:0, Manasteel Hand Guard
 tconstruct:hand_guard:0, Elementium Hand Guard
@@ -10203,13 +9842,8 @@ tconstruct:cross_guard:0, Alumite Cross Guard
 tconstruct:cross_guard:0, Nickel Cross Guard
 tconstruct:cross_guard:0, Invar Cross Guard
 tconstruct:cross_guard:0, Iridium Cross Guard
-tconstruct:cross_guard:0, Sapphire Cross Guard
-tconstruct:cross_guard:0, Ruby Cross Guard
 tconstruct:cross_guard:0, Peridot Cross Guard
-tconstruct:cross_guard:0, Malachite Cross Guard
-tconstruct:cross_guard:0, Amber Cross Guard
 tconstruct:cross_guard:0, Topaz Cross Guard
-tconstruct:cross_guard:0, Tanzanite Cross Guard
 tconstruct:cross_guard:0, Amethyst Cross Guard
 tconstruct:cross_guard:0, Osmium Cross Guard
 tconstruct:cross_guard:0, Refined Obsidian Cross Guard
@@ -10227,7 +9861,6 @@ tconstruct:cross_guard:0, Infinity Cross Guard
 tconstruct:cross_guard:0, Certus Quartz Cross Guard
 tconstruct:cross_guard:0, Fluix Crystal Cross Guard
 tconstruct:cross_guard:0, Starmetal Cross Guard
-tconstruct:cross_guard:0, Mirion Cross Guard
 tconstruct:cross_guard:0, Livingwood Cross Guard
 tconstruct:cross_guard:0, Manasteel Cross Guard
 tconstruct:cross_guard:0, Elementium Cross Guard
@@ -10278,13 +9911,8 @@ tconstruct:large_plate:0, Alumite Large Plate
 tconstruct:large_plate:0, Nickel Large Plate
 tconstruct:large_plate:0, Invar Large Plate
 tconstruct:large_plate:0, Iridium Large Plate
-tconstruct:large_plate:0, Sapphire Large Plate
-tconstruct:large_plate:0, Ruby Large Plate
 tconstruct:large_plate:0, Peridot Large Plate
-tconstruct:large_plate:0, Malachite Large Plate
-tconstruct:large_plate:0, Amber Large Plate
 tconstruct:large_plate:0, Topaz Large Plate
-tconstruct:large_plate:0, Tanzanite Large Plate
 tconstruct:large_plate:0, Amethyst Large Plate
 tconstruct:large_plate:0, Osmium Large Plate
 tconstruct:large_plate:0, Refined Obsidian Large Plate
@@ -10302,7 +9930,6 @@ tconstruct:large_plate:0, Infinity Large Plate
 tconstruct:large_plate:0, Certus Quartz Large Plate
 tconstruct:large_plate:0, Fluix Crystal Large Plate
 tconstruct:large_plate:0, Starmetal Large Plate
-tconstruct:large_plate:0, Mirion Large Plate
 tconstruct:large_plate:0, Livingwood Large Plate
 tconstruct:large_plate:0, Manasteel Large Plate
 tconstruct:large_plate:0, Elementium Large Plate
@@ -10353,13 +9980,8 @@ tconstruct:knife_blade:0, Alumite Knife Blade
 tconstruct:knife_blade:0, Nickel Knife Blade
 tconstruct:knife_blade:0, Invar Knife Blade
 tconstruct:knife_blade:0, Iridium Knife Blade
-tconstruct:knife_blade:0, Sapphire Knife Blade
-tconstruct:knife_blade:0, Ruby Knife Blade
 tconstruct:knife_blade:0, Peridot Knife Blade
-tconstruct:knife_blade:0, Malachite Knife Blade
-tconstruct:knife_blade:0, Amber Knife Blade
 tconstruct:knife_blade:0, Topaz Knife Blade
-tconstruct:knife_blade:0, Tanzanite Knife Blade
 tconstruct:knife_blade:0, Amethyst Knife Blade
 tconstruct:knife_blade:0, Osmium Knife Blade
 tconstruct:knife_blade:0, Refined Obsidian Knife Blade
@@ -10377,7 +9999,6 @@ tconstruct:knife_blade:0, Infinity Knife Blade
 tconstruct:knife_blade:0, Certus Quartz Knife Blade
 tconstruct:knife_blade:0, Fluix Crystal Knife Blade
 tconstruct:knife_blade:0, Starmetal Knife Blade
-tconstruct:knife_blade:0, Mirion Knife Blade
 tconstruct:knife_blade:0, Livingwood Knife Blade
 tconstruct:knife_blade:0, Manasteel Knife Blade
 tconstruct:knife_blade:0, Elementium Knife Blade
@@ -10426,13 +10047,8 @@ tconstruct:bow_limb:0, Alumite Bowlimb
 tconstruct:bow_limb:0, Nickel Bowlimb
 tconstruct:bow_limb:0, Invar Bowlimb
 tconstruct:bow_limb:0, Iridium Bowlimb
-tconstruct:bow_limb:0, Sapphire Bowlimb
-tconstruct:bow_limb:0, Ruby Bowlimb
 tconstruct:bow_limb:0, Peridot Bowlimb
-tconstruct:bow_limb:0, Malachite Bowlimb
-tconstruct:bow_limb:0, Amber Bowlimb
 tconstruct:bow_limb:0, Topaz Bowlimb
-tconstruct:bow_limb:0, Tanzanite Bowlimb
 tconstruct:bow_limb:0, Amethyst Bowlimb
 tconstruct:bow_limb:0, Osmium Bowlimb
 tconstruct:bow_limb:0, Refined Obsidian Bowlimb
@@ -10450,7 +10066,6 @@ tconstruct:bow_limb:0, Infinity Bowlimb
 tconstruct:bow_limb:0, Certus Quartz Bowlimb
 tconstruct:bow_limb:0, Fluix Crystal Bowlimb
 tconstruct:bow_limb:0, Starmetal Bowlimb
-tconstruct:bow_limb:0, Mirion Bowlimb
 tconstruct:bow_limb:0, Livingwood Bowlimb
 tconstruct:bow_limb:0, Manasteel Bowlimb
 tconstruct:bow_limb:0, Elementium Bowlimb
@@ -10506,13 +10121,8 @@ tconstruct:arrow_head:0, Alumite Arrow Head
 tconstruct:arrow_head:0, Nickel Arrow Head
 tconstruct:arrow_head:0, Invar Arrow Head
 tconstruct:arrow_head:0, Iridium Arrow Head
-tconstruct:arrow_head:0, Sapphire Arrow Head
-tconstruct:arrow_head:0, Ruby Arrow Head
 tconstruct:arrow_head:0, Peridot Arrow Head
-tconstruct:arrow_head:0, Malachite Arrow Head
-tconstruct:arrow_head:0, Amber Arrow Head
 tconstruct:arrow_head:0, Topaz Arrow Head
-tconstruct:arrow_head:0, Tanzanite Arrow Head
 tconstruct:arrow_head:0, Amethyst Arrow Head
 tconstruct:arrow_head:0, Osmium Arrow Head
 tconstruct:arrow_head:0, Refined Obsidian Arrow Head
@@ -10530,7 +10140,6 @@ tconstruct:arrow_head:0, Infinity Arrow Head
 tconstruct:arrow_head:0, Certus Quartz Arrow Head
 tconstruct:arrow_head:0, Fluix Crystal Arrow Head
 tconstruct:arrow_head:0, Starmetal Arrow Head
-tconstruct:arrow_head:0, Mirion Arrow Head
 tconstruct:arrow_head:0, Livingwood Arrow Head
 tconstruct:arrow_head:0, Manasteel Arrow Head
 tconstruct:arrow_head:0, Elementium Arrow Head
@@ -10543,7 +10152,6 @@ tconstruct:arrow_shaft:0, Reeds Arrow Shaft
 tconstruct:arrow_shaft:0, Ice Arrow Shaft
 tconstruct:arrow_shaft:0, Endrod Arrow Shaft
 tconstruct:arrow_shaft:0, TNT Arrow Shaft
-tconstruct:arrow_shaft:0, Amber Arrow Shaft
 tconstruct:arrow_shaft:0, Enderium Arrow Shaft
 tconstruct:arrow_shaft:0, Livingwood Arrow Shaft
 tconstruct:fletching:0, Feather Fletching
@@ -10561,7 +10169,6 @@ tconstruct:bolt_core:0, Reeds-Iron Bolt Core
 tconstruct:bolt_core:0, Ice-Iron Bolt Core
 tconstruct:bolt_core:0, Endrod-Iron Bolt Core
 tconstruct:bolt_core:0, TNT-Iron Bolt Core
-tconstruct:bolt_core:0, Amber-Iron Bolt Core
 tconstruct:bolt_core:0, Enderium-Iron Bolt Core
 tconstruct:bolt_core:0, Livingwood-Iron Bolt Core
 tconstruct:tooltables:0, Crafting Station
@@ -10780,7 +10387,6 @@ tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
-tconstruct:toolforge:0, Tool Forge
 tconstruct:pickaxe, Pickaxe
 tconstruct:shovel, Shovel
 tconstruct:hatchet, Hatchet
@@ -10851,170 +10457,82 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-<<<<<<< HEAD
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Battery Cell Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Laser Medium Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Polishing Kit Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Pipe Piece Cast
-tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Fletching Cast
-tconstruct:cast:0, Armor Plates Cast
 tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Armor Plates Cast
+tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Arrow Shaft Cast
-tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Pan Cast
 tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Polishing Kit Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Chestplate Core Cast
 tconstruct:cast:0, Hand Guard Cast
 tconstruct:cast:0, Scythe Head Cast
-=======
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Laser Medium Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Pipe Piece Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Battery Cell Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Axe Head Cast
 tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Sign Plate Cast
 tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Fletching Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Polishing Kit Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Large Plate Cast
 tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Tough Tool Rod Cast
->>>>>>> aa4b5b5f9313bfb6fa1320bfc1b99b19ba6442e2
+tconstruct:cast:0, Armor Trim Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-<<<<<<< HEAD
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Battery Cell Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Laser Medium Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Pipe Piece Clay Cast
-tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
 tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
 tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Polishing Kit Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Chestplate Core Clay Cast
 tconstruct:clay_cast:0, Hand Guard Clay Cast
 tconstruct:clay_cast:0, Scythe Head Clay Cast
-=======
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Laser Medium Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Pipe Piece Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Battery Cell Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
 tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
 tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
 tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
->>>>>>> aa4b5b5f9313bfb6fa1320bfc1b99b19ba6442e2
+tconstruct:clay_cast:0, Armor Trim Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -13869,10 +13387,6 @@ appliedenergistics2:facade:0, Cable Facade - Sky Stone Small Brick
 appliedenergistics2:facade:0, Cable Facade - Raw Radiant Quartz Block
 appliedenergistics2:facade:0, Cable Facade - Shaped Radiant Quartz Block
 appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Antimony Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Antimony
-appliedenergistics2:facade:0, Cable Facade - Bismuth Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Bismuth
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Lead Ore
@@ -13887,20 +13401,11 @@ appliedenergistics2:facade:0, Cable Facade - Zinc Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Zinc
 appliedenergistics2:facade:0, Cable Facade - Block of Brass
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
-appliedenergistics2:facade:0, Cable Facade - Block of Cupronickel
 appliedenergistics2:facade:0, Cable Facade - Block of Electrum
 appliedenergistics2:facade:0, Cable Facade - Block of Invar
-appliedenergistics2:facade:0, Cable Facade - Block of Pewter
 appliedenergistics2:facade:0, Cable Facade - Block of Steel
-appliedenergistics2:facade:0, Cable Facade - Adamantine Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Adamantine
-appliedenergistics2:facade:0, Cable Facade - Cold-Iron Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Cold-Iron
 appliedenergistics2:facade:0, Cable Facade - Platinum Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Platinum
-appliedenergistics2:facade:0, Cable Facade - Star-Steel Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Star-Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Aquarium
 appliedenergistics2:facade:0, Cable Facade - Block of Mithril
 appliedenergistics2:facade:0, Cable Facade - Mercury Ore
 appliedenergistics2:facade:0, Cable Facade - Blessed Stone
@@ -14255,34 +13760,9 @@ appliedenergistics2:facade:0, Cable Facade - Station of Awakening floor
 appliedenergistics2:facade:0, Cable Facade - Station of Awakening floor
 appliedenergistics2:facade:0, Cable Facade - Aluminum Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
-appliedenergistics2:facade:0, Cable Facade - Beryllium Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Beryllium
-appliedenergistics2:facade:0, Cable Facade - Boron Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Boron
-appliedenergistics2:facade:0, Cable Facade - Chromium Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Chromium
-appliedenergistics2:facade:0, Cable Facade - Magnesium Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Magnesium
-appliedenergistics2:facade:0, Cable Facade - Manganese Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Manganese
 appliedenergistics2:facade:0, Cable Facade - Osmium Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Osmium
-appliedenergistics2:facade:0, Cable Facade - Rutile Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Rutile
-appliedenergistics2:facade:0, Cable Facade - Tantalum Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Tantalum
-appliedenergistics2:facade:0, Cable Facade - Thorium Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Thorium
-appliedenergistics2:facade:0, Cable Facade - Tungsten Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Tungsten
-appliedenergistics2:facade:0, Cable Facade - Zirconium Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Zirconium
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum Brass
-appliedenergistics2:facade:0, Cable Facade - Block of Galvanized Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Nichrome
-appliedenergistics2:facade:0, Cable Facade - Block of Stainless Steel
-appliedenergistics2:facade:0, Cable Facade - Cadmium Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Cadmium
 appliedenergistics2:facade:0, Cable Facade - Iridium Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Iridium
 appliedenergistics2:facade:0, Cable Facade - Plutonium Ore
@@ -14298,8 +13778,6 @@ appliedenergistics2:facade:0, Cable Facade - Nether Coal Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Emerald Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Lapis Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Redstone Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Antimony Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Bismuth Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Lead Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Nickel Ore
@@ -14309,15 +13787,7 @@ appliedenergistics2:facade:0, Cable Facade - Nether Zinc Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Platinum Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Mercury Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Aluminum Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Chromium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Magnesium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Manganese Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Osmium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Rutile Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Tantalum Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Tungsten Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Zirconium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Cadmium Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Iridium Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Plutonium Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Uranium Ore
@@ -14341,12 +13811,6 @@ appliedenergistics2:facade:0, Cable Facade - Stygian Iron Block
 appliedenergistics2:facade:0, Cable Facade - Stygian Iron Ore
 appliedenergistics2:facade:0, Cable Facade - Lithium Ore
 appliedenergistics2:facade:0, Cable Facade - Lithium Block
-appliedenergistics2:facade:0, Cable Facade - Niter Ore
-appliedenergistics2:facade:0, Cable Facade - Niter Block
-appliedenergistics2:facade:0, Cable Facade - Phosphorus Ore
-appliedenergistics2:facade:0, Cable Facade - Phosphorus Block
-appliedenergistics2:facade:0, Cable Facade - Potash Ore
-appliedenergistics2:facade:0, Cable Facade - Potash Block
 appliedenergistics2:facade:0, Cable Facade - Salt Ore
 appliedenergistics2:facade:0, Cable Facade - Salt Block
 appliedenergistics2:facade:0, Cable Facade - Saltpeter Ore
@@ -14725,8 +14189,6 @@ conarm:helmet_core:0, Alumite Helmet Core
 conarm:helmet_core:0, Nickel Helmet Core
 conarm:helmet_core:0, Invar Helmet Core
 conarm:helmet_core:0, Iridium Helmet Core
-conarm:helmet_core:0, Sapphire Helmet Core
-conarm:helmet_core:0, Ruby Helmet Core
 conarm:helmet_core:0, Peridot Helmet Core
 conarm:helmet_core:0, Emerald Helmet Core
 conarm:armor_trim:0, Wooden Armor Trim
@@ -14760,8 +14222,6 @@ conarm:armor_trim:0, Alumite Armor Trim
 conarm:armor_trim:0, Nickel Armor Trim
 conarm:armor_trim:0, Invar Armor Trim
 conarm:armor_trim:0, Iridium Armor Trim
-conarm:armor_trim:0, Sapphire Armor Trim
-conarm:armor_trim:0, Ruby Armor Trim
 conarm:armor_trim:0, Peridot Armor Trim
 conarm:armor_trim:0, Emerald Armor Trim
 conarm:armor_plate:0, Wooden Armor Plates
@@ -14795,8 +14255,6 @@ conarm:armor_plate:0, Alumite Armor Plates
 conarm:armor_plate:0, Nickel Armor Plates
 conarm:armor_plate:0, Invar Armor Plates
 conarm:armor_plate:0, Iridium Armor Plates
-conarm:armor_plate:0, Sapphire Armor Plates
-conarm:armor_plate:0, Ruby Armor Plates
 conarm:armor_plate:0, Peridot Armor Plates
 conarm:armor_plate:0, Emerald Armor Plates
 conarm:chest_core:0, Wooden Chestplate Core
@@ -14830,8 +14288,6 @@ conarm:chest_core:0, Alumite Chestplate Core
 conarm:chest_core:0, Nickel Chestplate Core
 conarm:chest_core:0, Invar Chestplate Core
 conarm:chest_core:0, Iridium Chestplate Core
-conarm:chest_core:0, Sapphire Chestplate Core
-conarm:chest_core:0, Ruby Chestplate Core
 conarm:chest_core:0, Peridot Chestplate Core
 conarm:chest_core:0, Emerald Chestplate Core
 conarm:leggings_core:0, Wooden Leggings Core
@@ -14865,8 +14321,6 @@ conarm:leggings_core:0, Alumite Leggings Core
 conarm:leggings_core:0, Nickel Leggings Core
 conarm:leggings_core:0, Invar Leggings Core
 conarm:leggings_core:0, Iridium Leggings Core
-conarm:leggings_core:0, Sapphire Leggings Core
-conarm:leggings_core:0, Ruby Leggings Core
 conarm:leggings_core:0, Peridot Leggings Core
 conarm:leggings_core:0, Emerald Leggings Core
 conarm:boots_core:0, Wooden Boots Core
@@ -14900,8 +14354,6 @@ conarm:boots_core:0, Alumite Boots Core
 conarm:boots_core:0, Nickel Boots Core
 conarm:boots_core:0, Invar Boots Core
 conarm:boots_core:0, Iridium Boots Core
-conarm:boots_core:0, Sapphire Boots Core
-conarm:boots_core:0, Ruby Boots Core
 conarm:boots_core:0, Peridot Boots Core
 conarm:boots_core:0, Emerald Boots Core
 conarm:helmet, Helmet
@@ -14961,8 +14413,6 @@ conarm:polishing_kit:0, Alumite Polishing Kit
 conarm:polishing_kit:0, Nickel Polishing Kit
 conarm:polishing_kit:0, Invar Polishing Kit
 conarm:polishing_kit:0, Iridium Polishing Kit
-conarm:polishing_kit:0, Sapphire Polishing Kit
-conarm:polishing_kit:0, Ruby Polishing Kit
 conarm:polishing_kit:0, Peridot Polishing Kit
 conarm:polishing_kit:0, Emerald Polishing Kit
 conarm:armorforge:0, Armor Forge
@@ -15018,139 +14468,65 @@ conarm:armorforge:0, Armor Forge
 conarm:armorforge:0, Armor Forge
 conarm:armorforge:0, Armor Forge
 conarm:armorforge:0, Armor Forge
-conarm:armorforge:0, Armor Forge
 conarm:armorstation:0, Armor Station
 basemetals:human_detector, Security Pressure Plate
-basemetals:antimony_slab, Antimony Slab
-basemetals:antimony_trapdoor, Antimony Trapdoor
-basemetals:antimony_plate, Antimony Plate
-basemetals:antimony_clump,  Antimony Clump 
-basemetals:antimony_wall, Antimony Wall
-basemetals:antimony_casing, Antimony Item Casing
-basemetals:antimony_ore, Antimony Ore
-basemetals:antimony_crushed, Crushed Antimony Ore
-basemetals:antimony_fishing_rod, Antimony Fishing Rod
-basemetals:antimony_block, Block of Antimony
-basemetals:antimony_shield, Antimony Shield
-basemetals:antimony_horse_armor, Antimony Horse Armor
-basemetals:antimony_pressure_plate, Antimony Pressure Plate
-basemetals:antimony_shears, Antimony Shears
-basemetals:antimony_smallpowder, Tiny Pile of Antimony Dust
-basemetals:antimony_powder_dirty, Dirty Antimony Dust
-basemetals:antimony_shard,  Antimony Shard 
-basemetals:antimony_crushed_purified, Purified Crushed Antimony Ore
-basemetals:antimony_button, Antimony Button
-basemetals:antimony_crackhammer, Antimony Crack Hammer
-basemetals:antimony_gear, Antimony Gear
-basemetals:antimony_powder, Antimony Dust
-basemetals:antimony_stairs, Antimony Stairs
-basemetals:antimony_door, Antimony Door
-basemetals:antimony_ingot, Antimony Ingot
-basemetals:antimony_rod, Antimony Rod
-basemetals:antimony_crystal,  Antimony Crystal 
-basemetals:antimony, Molten Antimony
-basemetals:antimony_bars, Antimony Bars
-basemetals:antimony_lever, Antimony Lever
-basemetals:antimony_nugget, Antimony Nugget
-basemetals:antimony_dense_plate, Dense Antimony Plate
-basemetals:bismuth_slab, Bismuth Slab
-basemetals:bismuth_pressure_plate, Bismuth Pressure Plate
-basemetals:bismuth_clump,  Bismuth Clump 
-basemetals:bismuth_casing, Bismuth Item Casing
-basemetals:bismuth_crushed, Crushed Bismuth Ore
-basemetals:bismuth_block, Block of Bismuth
-basemetals:bismuth_fishing_rod, Bismuth Fishing Rod
-basemetals:bismuth_shield, Bismuth Shield
-basemetals:bismuth_horse_armor, Bismuth Horse Armor
-basemetals:bismuth_shears, Bismuth Shears
-basemetals:bismuth_smallpowder, Tiny Pile of Bismuth Dust
-basemetals:bismuth_powder_dirty, Dirty Bismuth Dust
-basemetals:bismuth_shard,  Bismuth Shard 
-basemetals:bismuth_crushed_purified, Purified Crushed Bismuth Ore
-basemetals:bismuth_crackhammer, Bismuth Crack Hammer
-basemetals:bismuth_gear, Bismuth Gear
-basemetals:bismuth_wall, Bismuth Wall
-basemetals:bismuth_bars, Bismuth Bars
-basemetals:bismuth_lever, Bismuth Lever
-basemetals:bismuth_plate, Bismuth Plate
-basemetals:bismuth_powder, Bismuth Dust
-basemetals:bismuth_stairs, Bismuth Stairs
-basemetals:bismuth_door, Bismuth Door
-basemetals:bismuth_button, Bismuth Button
-basemetals:bismuth_ore, Bismuth Ore
-basemetals:bismuth_ingot, Bismuth Ingot
-basemetals:bismuth_rod, Bismuth Rod
-basemetals:bismuth_trapdoor, Bismuth Trapdoor
-basemetals:bismuth_crystal,  Bismuth Crystal 
-basemetals:bismuth, Molten Bismuth
-basemetals:bismuth_nugget, Bismuth Nugget
-basemetals:bismuth_dense_plate, Dense Bismuth Plate
 basemetals:copper_wall, Copper Wall
 basemetals:copper_slab, Copper Slab
-basemetals:copper_ore, Copper Ore
-basemetals:copper_block, Block of Copper
-basemetals:copper_fishing_rod, Copper Fishing Rod
-basemetals:copper_stairs, Copper Stairs
-basemetals:copper_shield, Copper Shield
-basemetals:copper_horse_armor, Copper Horse Armor
-basemetals:copper_lever, Copper Lever
-basemetals:copper_shears, Copper Shears
-basemetals:copper_smallpowder, Tiny Pile of Copper Dust
-basemetals:copper_button, Copper Button
-basemetals:copper_crackhammer, Copper Crack Hammer
 basemetals:copper_gear, Copper Gear
+basemetals:copper_ore, Copper Ore
 basemetals:copper_pressure_plate, Copper Pressure Plate
 basemetals:copper_powder, Copper Dust
+basemetals:copper_block, Block of Copper
 basemetals:copper_plate, Copper Plate
 basemetals:copper_door, Copper Door
 basemetals:copper_trapdoor, Copper Trapdoor
+basemetals:copper_fishing_rod, Copper Fishing Rod
 basemetals:copper_ingot, Copper Ingot
 basemetals:copper_rod, Copper Rod
+basemetals:copper_stairs, Copper Stairs
 basemetals:copper, Molten Copper
+basemetals:copper_shield, Copper Shield
 basemetals:copper_bars, Copper Bars
+basemetals:copper_horse_armor, Copper Horse Armor
+basemetals:copper_shears, Copper Shears
 basemetals:copper_nugget, Copper Nugget
+basemetals:copper_button, Copper Button
 basemetals:lead_slab, Lead Slab
-basemetals:lead_trapdoor, Lead Trapdoor
-basemetals:lead_block, Block of Lead
-basemetals:lead_lever, Lead Lever
-basemetals:lead_button, Lead Button
-basemetals:lead_fishing_rod, Lead Fishing Rod
-basemetals:lead_bars, Lead Bars
-basemetals:lead_shield, Lead Shield
-basemetals:lead_horse_armor, Lead Horse Armor
-basemetals:lead_shears, Lead Shears
-basemetals:lead_smallpowder, Tiny Pile of Lead Dust
 basemetals:lead_ore, Lead Ore  
-basemetals:lead_crackhammer, Lead Crack Hammer
 basemetals:lead_plate, Lead Plate
 basemetals:lead_gear, Lead Gear
+basemetals:lead_trapdoor, Lead Trapdoor
+basemetals:lead_block, Block of Lead
 basemetals:lead_powder, Lead Dust
 basemetals:lead_pressure_plate, Lead Pressure Plate
 basemetals:lead_door, Lead Door
+basemetals:lead_button, Lead Button
 basemetals:lead_wall, Lead Wall
+basemetals:lead_fishing_rod, Lead Fishing Rod
 basemetals:lead_ingot, Lead Ingot
 basemetals:lead_rod, Lead Rod
 basemetals:lead_stairs, Lead Stairs
 basemetals:lead, Molten Lead
+basemetals:lead_bars, Lead Bars
+basemetals:lead_shield, Lead Shield
+basemetals:lead_horse_armor, Lead Horse Armor
+basemetals:lead_shears, Lead Shears
 basemetals:lead_nugget, Lead Nugget
 basemetals:nickel_stairs, Nickel Stairs
 basemetals:nickel_slab, Nickel Slab
 basemetals:nickel_ore, Nickel Ore
 basemetals:nickel_trapdoor, Nickel Trapdoor
 basemetals:nickel_clump,  Nickel Clump 
-basemetals:nickel_lever, Nickel Lever
 basemetals:nickel_casing, Nickel Item Casing
 basemetals:nickel_crushed, Crushed Nickel Ore
 basemetals:nickel_fishing_rod, Nickel Fishing Rod
 basemetals:nickel_shield, Nickel Shield
 basemetals:nickel_horse_armor, Nickel Horse Armor
 basemetals:nickel_shears, Nickel Shears
-basemetals:nickel_smallpowder, Tiny Pile of Nickel Dust
 basemetals:nickel_powder_dirty, Dirty Nickel Dust
 basemetals:nickel_shard,  Nickel Shard 
 basemetals:nickel_crushed_purified, Purified Crushed Nickel Ore
 basemetals:nickel_bars, Nickel Bars
-basemetals:nickel_crackhammer, Nickel Crack Hammer
 basemetals:nickel_gear, Nickel Gear
 basemetals:nickel_wall, Nickel Wall
 basemetals:nickel_powder, Nickel Dust
@@ -15167,58 +14543,51 @@ basemetals:nickel_nugget, Nickel Nugget
 basemetals:nickel_dense_plate, Dense Nickel Plate
 basemetals:silver_slab, Silver Slab
 basemetals:silver_pressure_plate, Silver Pressure Plate
-basemetals:silver_trapdoor, Silver Trapdoor
-basemetals:silver_fishing_rod, Silver Fishing Rod
-basemetals:silver_shield, Silver Shield
-basemetals:silver_horse_armor, Silver Horse Armor
-basemetals:silver_shears, Silver Shears
-basemetals:silver_ore, Silver Ore
-basemetals:silver_smallpowder, Tiny Pile of Silver Dust
 basemetals:silver_stairs, Silver Stairs
-basemetals:silver_crackhammer, Silver Crack Hammer
+basemetals:silver_trapdoor, Silver Trapdoor
 basemetals:silver_gear, Silver Gear
-basemetals:silver_lever, Silver Lever
 basemetals:silver_plate, Silver Plate
 basemetals:silver_powder, Silver Dust
 basemetals:silver_door, Silver Door
 basemetals:silver_block, Block of Silver
 basemetals:silver_button, Silver Button
 basemetals:silver_wall, Silver Wall
+basemetals:silver_fishing_rod, Silver Fishing Rod
 basemetals:silver_ingot, Silver Ingot
 basemetals:silver_rod, Silver Rod
 basemetals:silver, Molten Silver
+basemetals:silver_shield, Silver Shield
 basemetals:silver_bars, Silver Bars
+basemetals:silver_horse_armor, Silver Horse Armor
+basemetals:silver_shears, Silver Shears
+basemetals:silver_ore, Silver Ore
 basemetals:silver_nugget, Silver Nugget
 basemetals:tin_slab, Tin Slab
 basemetals:tin_plate, Tin Plate
 basemetals:tin_wall, Tin Wall
+basemetals:tin_gear, Tin Gear
 basemetals:tin_block, Block of Tin
 basemetals:tin_stairs, Tin Stairs
+basemetals:tin_powder, Tin Dust
+basemetals:tin_pressure_plate, Tin Pressure Plate
 basemetals:tin_button, Tin Button
+basemetals:tin_door, Tin Door
 basemetals:tin_fishing_rod, Tin Fishing Rod
+basemetals:tin_ingot, Tin Ingot
+basemetals:tin_rod, Tin Rod
+basemetals:tin, Molten Tin
 basemetals:tin_bars, Tin Bars
 basemetals:tin_shield, Tin Shield
 basemetals:tin_ore, Tin Ore
 basemetals:tin_horse_armor, Tin Horse Armor
 basemetals:tin_shears, Tin Shears
 basemetals:tin_trapdoor, Tin Trapdoor
-basemetals:tin_smallpowder, Tiny Pile of Tin Dust
-basemetals:tin_crackhammer, Tin Crack Hammer
-basemetals:tin_gear, Tin Gear
-basemetals:tin_lever, Tin Lever
-basemetals:tin_powder, Tin Dust
-basemetals:tin_pressure_plate, Tin Pressure Plate
-basemetals:tin_door, Tin Door
-basemetals:tin_ingot, Tin Ingot
-basemetals:tin_rod, Tin Rod
-basemetals:tin, Molten Tin
 basemetals:tin_nugget, Tin Nugget
 basemetals:zinc_slab, Zinc Slab
 basemetals:zinc_clump,  Zinc Clump 
 basemetals:zinc_bars, Zinc Bars
 basemetals:zinc_casing, Zinc Item Casing
 basemetals:zinc_crushed, Crushed Zinc Ore
-basemetals:zinc_lever, Zinc Lever
 basemetals:zinc_trapdoor, Zinc Trapdoor
 basemetals:zinc_fishing_rod, Zinc Fishing Rod
 basemetals:zinc_stairs, Zinc Stairs
@@ -15226,11 +14595,9 @@ basemetals:zinc_plate, Zinc Plate
 basemetals:zinc_shield, Zinc Shield
 basemetals:zinc_horse_armor, Zinc Horse Armor
 basemetals:zinc_shears, Zinc Shears
-basemetals:zinc_smallpowder, Tiny Pile of Zinc Dust
 basemetals:zinc_powder_dirty, Dirty Zinc Dust
 basemetals:zinc_shard,  Zinc Shard 
 basemetals:zinc_crushed_purified, Purified Crushed Zinc Ore
-basemetals:zinc_crackhammer, Zinc Crack Hammer
 basemetals:zinc_gear, Zinc Gear
 basemetals:zinc_block, Block of Zinc
 basemetals:zinc_powder, Zinc Dust
@@ -15248,242 +14615,113 @@ basemetals:zinc_dense_plate, Dense Zinc Plate
 basemetals:brass_pressure_plate, Brass Pressure Plate
 basemetals:brass_slab, Brass Slab
 basemetals:brass_wall, Brass Wall
+basemetals:brass_bars, Brass Bars
 basemetals:brass_blend, Brass Blend
 basemetals:brass_plate, Brass Plate
-basemetals:brass_stairs, Brass Stairs
-basemetals:brass_button, Brass Button
-basemetals:brass_fishing_rod, Brass Fishing Rod
-basemetals:brass_shield, Brass Shield
-basemetals:brass_horse_armor, Brass Horse Armor
-basemetals:brass_shears, Brass Shears
-basemetals:brass_smallpowder, Tiny Pile of Brass Dust
-basemetals:brass_bars, Brass Bars
-basemetals:brass_crackhammer, Brass Crack Hammer
 basemetals:brass_gear, Brass Gear
+basemetals:brass_stairs, Brass Stairs
 basemetals:brass_powder, Brass Dust
 basemetals:brass_trapdoor, Brass Trapdoor
+basemetals:brass_button, Brass Button
 basemetals:brass_door, Brass Door
+basemetals:brass_fishing_rod, Brass Fishing Rod
 basemetals:brass_ingot, Brass Ingot
 basemetals:brass_rod, Brass Rod
 basemetals:brass, Molten Brass
 basemetals:brass_smallblend, Tiny Pile of Brass Blend
-basemetals:brass_lever, Brass Lever
+basemetals:brass_shield, Brass Shield
+basemetals:brass_horse_armor, Brass Horse Armor
+basemetals:brass_shears, Brass Shears
 basemetals:brass_nugget, Brass Nugget
 basemetals:brass_block, Block of Brass
 basemetals:bronze_slab, Bronze Slab
 basemetals:bronze_blend, Bronze Blend
-basemetals:bronze_lever, Bronze Lever
-basemetals:bronze_plate, Bronze Plate
-basemetals:bronze_fishing_rod, Bronze Fishing Rod
-basemetals:bronze_button, Bronze Button
-basemetals:bronze_shield, Bronze Shield
-basemetals:bronze_stairs, Bronze Stairs
-basemetals:bronze_horse_armor, Bronze Horse Armor
-basemetals:bronze_shears, Bronze Shears
-basemetals:bronze_smallpowder, Tiny Pile of Bronze Dust
-basemetals:bronze_crackhammer, Bronze Crack Hammer
 basemetals:bronze_gear, Bronze Gear
 basemetals:bronze_block, Block of Bronze
 basemetals:bronze_powder, Bronze Dust
 basemetals:bronze_wall, Bronze Wall
 basemetals:bronze_bars, Bronze Bars
 basemetals:bronze_door, Bronze Door
+basemetals:bronze_plate, Bronze Plate
+basemetals:bronze_fishing_rod, Bronze Fishing Rod
 basemetals:bronze_trapdoor, Bronze Trapdoor
+basemetals:bronze_button, Bronze Button
 basemetals:bronze_ingot, Bronze Ingot
 basemetals:bronze_rod, Bronze Rod
 basemetals:bronze_pressure_plate, Bronze Pressure Plate
 basemetals:bronze, Molten Bronze
 basemetals:bronze_smallblend, Tiny Pile of Bronze Blend
+basemetals:bronze_shield, Bronze Shield
+basemetals:bronze_stairs, Bronze Stairs
+basemetals:bronze_horse_armor, Bronze Horse Armor
+basemetals:bronze_shears, Bronze Shears
 basemetals:bronze_nugget, Bronze Nugget
-basemetals:cupronickel_slab, Cupronickel Slab
-basemetals:cupronickel_wall, Cupronickel Wall
-basemetals:cupronickel_blend, Cupronickel Blend
-basemetals:cupronickel_pressure_plate, Cupronickel Pressure Plate
-basemetals:cupronickel_stairs, Cupronickel Stairs
-basemetals:cupronickel_fishing_rod, Cupronickel Fishing Rod
-basemetals:cupronickel_shield, Cupronickel Shield
-basemetals:cupronickel_horse_armor, Cupronickel Horse Armor
-basemetals:cupronickel_trapdoor, Cupronickel Trapdoor
-basemetals:cupronickel_shears, Cupronickel Shears
-basemetals:cupronickel_smallpowder, Tiny Pile of Cupronickel Dust
-basemetals:cupronickel_crackhammer, Cupronickel Crack Hammer
-basemetals:cupronickel_gear, Cupronickel Gear
-basemetals:cupronickel_lever, Cupronickel Lever
-basemetals:cupronickel_button, Cupronickel Button
-basemetals:cupronickel_powder, Cupronickel Dust
-basemetals:cupronickel_block, Block of Cupronickel
-basemetals:cupronickel_bars, Cupronickel Bars
-basemetals:cupronickel_door, Cupronickel Door
-basemetals:cupronickel_ingot, Cupronickel Ingot
-basemetals:cupronickel_rod, Cupronickel Rod
-basemetals:cupronickel, Molten Cupronickel
-basemetals:cupronickel_smallblend, Tiny Pile of Cupronickel Blend
-basemetals:cupronickel_plate, Cupronickel Plate
-basemetals:cupronickel_nugget, Cupronickel Nugget
 basemetals:electrum_slab, Electrum Slab
 basemetals:electrum_blend, Electrum Blend
-basemetals:electrum_bars, Electrum Bars
-basemetals:electrum_fishing_rod, Electrum Fishing Rod
-basemetals:electrum_stairs, Electrum Stairs
-basemetals:electrum_shield, Electrum Shield
-basemetals:electrum_horse_armor, Electrum Horse Armor
-basemetals:electrum_shears, Electrum Shears
-basemetals:electrum_smallpowder, Tiny Pile of Electrum Dust
-basemetals:electrum_crackhammer, Electrum Crack Hammer
 basemetals:electrum_plate, Electrum Plate
 basemetals:electrum_gear, Electrum Gear
 basemetals:electrum_powder, Electrum Dust
 basemetals:electrum_block, Block of Electrum
+basemetals:electrum_bars, Electrum Bars
 basemetals:electrum_door, Electrum Door
+basemetals:electrum_fishing_rod, Electrum Fishing Rod
 basemetals:electrum_ingot, Electrum Ingot
 basemetals:electrum_rod, Electrum Rod
 basemetals:electrum_trapdoor, Electrum Trapdoor
 basemetals:electrum, Molten Electrum
 basemetals:electrum_smallblend, Tiny Pile of Electrum Blend
-basemetals:electrum_lever, Electrum Lever
+basemetals:electrum_stairs, Electrum Stairs
+basemetals:electrum_shield, Electrum Shield
+basemetals:electrum_horse_armor, Electrum Horse Armor
+basemetals:electrum_shears, Electrum Shears
 basemetals:electrum_wall, Electrum Wall
 basemetals:electrum_button, Electrum Button
 basemetals:electrum_nugget, Electrum Nugget
 basemetals:electrum_pressure_plate, Electrum Pressure Plate
 basemetals:invar_slab, Invar Slab
 basemetals:invar_blend, Invar Blend
+basemetals:invar_wall, Invar Wall
+basemetals:invar_gear, Invar Gear
 basemetals:invar_block, Block of Invar
 basemetals:invar_plate, Invar Plate
 basemetals:invar_pressure_plate, Invar Pressure Plate
-basemetals:invar_fishing_rod, Invar Fishing Rod
-basemetals:invar_bars, Invar Bars
-basemetals:invar_shield, Invar Shield
-basemetals:invar_horse_armor, Invar Horse Armor
-basemetals:invar_shears, Invar Shears
-basemetals:invar_smallpowder, Tiny Pile of Invar Dust
-basemetals:invar_trapdoor, Invar Trapdoor
-basemetals:invar_wall, Invar Wall
-basemetals:invar_crackhammer, Invar Crack Hammer
-basemetals:invar_gear, Invar Gear
 basemetals:invar_powder, Invar Dust
 basemetals:invar_door, Invar Door
-basemetals:invar_lever, Invar Lever
+basemetals:invar_fishing_rod, Invar Fishing Rod
+basemetals:invar_bars, Invar Bars
 basemetals:invar_ingot, Invar Ingot
 basemetals:invar_rod, Invar Rod
 basemetals:invar, Molten Invar
 basemetals:invar_smallblend, Tiny Pile of Invar Blend
+basemetals:invar_shield, Invar Shield
+basemetals:invar_horse_armor, Invar Horse Armor
+basemetals:invar_shears, Invar Shears
 basemetals:invar_stairs, Invar Stairs
 basemetals:invar_button, Invar Button
 basemetals:invar_nugget, Invar Nugget
-basemetals:pewter_wall, Pewter Wall
-basemetals:pewter_slab, Pewter Slab
-basemetals:pewter_blend, Pewter Blend
-basemetals:pewter_trapdoor, Pewter Trapdoor
-basemetals:pewter_button, Pewter Button
-basemetals:pewter_lever, Pewter Lever
-basemetals:pewter_fishing_rod, Pewter Fishing Rod
-basemetals:pewter_plate, Pewter Plate
-basemetals:pewter_shield, Pewter Shield
-basemetals:pewter_block, Block of Pewter
-basemetals:pewter_horse_armor, Pewter Horse Armor
-basemetals:pewter_shears, Pewter Shears
-basemetals:pewter_smallpowder, Tiny Pile of Pewter Dust
-basemetals:pewter_crackhammer, Pewter Crack Hammer
-basemetals:pewter_bars, Pewter Bars
-basemetals:pewter_gear, Pewter Gear
-basemetals:pewter_powder, Pewter Dust
-basemetals:pewter_door, Pewter Door
-basemetals:pewter_pressure_plate, Pewter Pressure Plate
-basemetals:pewter_ingot, Pewter Ingot
-basemetals:pewter_rod, Pewter Rod
-basemetals:pewter, Molten Pewter
-basemetals:pewter_smallblend, Tiny Pile of Pewter Blend
-basemetals:pewter_stairs, Pewter Stairs
-basemetals:pewter_nugget, Pewter Nugget
+basemetals:invar_trapdoor, Invar Trapdoor
 basemetals:steel_slab, Steel Slab
 basemetals:steel_blend, Steel Blend
-basemetals:steel_fishing_rod, Steel Fishing Rod
-basemetals:steel_trapdoor, Steel Trapdoor
-basemetals:steel_bars, Steel Bars
-basemetals:steel_shield, Steel Shield
-basemetals:steel_horse_armor, Steel Horse Armor
-basemetals:steel_button, Steel Button
-basemetals:steel_shears, Steel Shears
-basemetals:steel_block, Block of Steel
-basemetals:steel_smallpowder, Tiny Pile of Steel Dust
-basemetals:steel_crackhammer, Steel Crack Hammer
 basemetals:steel_gear, Steel Gear
 basemetals:steel_powder, Steel Dust
 basemetals:steel_door, Steel Door
+basemetals:steel_fishing_rod, Steel Fishing Rod
 basemetals:steel_plate, Steel Plate
 basemetals:steel_ingot, Steel Ingot
 basemetals:steel_rod, Steel Rod
-basemetals:steel_lever, Steel Lever
+basemetals:steel_trapdoor, Steel Trapdoor
 basemetals:steel, Molten Steel
 basemetals:steel_stairs, Steel Stairs
 basemetals:steel_smallblend, Tiny Pile of Steel Blend
+basemetals:steel_bars, Steel Bars
 basemetals:steel_pressure_plate, Steel Pressure Plate
+basemetals:steel_shield, Steel Shield
+basemetals:steel_horse_armor, Steel Horse Armor
+basemetals:steel_button, Steel Button
 basemetals:steel_wall, Steel Wall
+basemetals:steel_shears, Steel Shears
+basemetals:steel_block, Block of Steel
 basemetals:steel_nugget, Steel Nugget
-basemetals:adamantine_slab, Adamantine Slab
-basemetals:adamantine_block, Block of Adamantine
-basemetals:adamantine_clump,  Adamantine Clump 
-basemetals:adamantine_casing, Adamantine Item Casing
-basemetals:adamantine_crushed, Crushed Adamantine Ore
-basemetals:adamantine_bars, Adamantine Bars
-basemetals:adamantine_fishing_rod, Adamantine Fishing Rod
-basemetals:adamantine_shield, Adamantine Shield
-basemetals:adamantine_horse_armor, Adamantine Horse Armor
-basemetals:adamantine_stairs, Adamantine Stairs
-basemetals:adamantine_shears, Adamantine Shears
-basemetals:adamantine_smallpowder, Tiny Pile of Adamantine Dust
-basemetals:adamantine_powder_dirty, Dirty Adamantine Dust
-basemetals:adamantine_shard,  Adamantine Shard 
-basemetals:adamantine_ore, Adamantine Ore
-basemetals:adamantine_crushed_purified, Purified Crushed Adamantine Ore
-basemetals:adamantine_crackhammer, Adamantine Crack Hammer
-basemetals:adamantine_wall, Adamantine Wall
-basemetals:adamantine_gear, Adamantine Gear
-basemetals:adamantine_powder, Adamantine Dust
-basemetals:adamantine_lever, Adamantine Lever
-basemetals:adamantine_pressure_plate, Adamantine Pressure Plate
-basemetals:adamantine_door, Adamantine Door
-basemetals:adamantine_ingot, Adamantine Ingot
-basemetals:adamantine_rod, Adamantine Rod
-basemetals:adamantine_crystal, Adamantine Crystal 
-basemetals:adamantine, Molten Adamantine
-basemetals:adamantine_trapdoor, Adamantine Trapdoor
-basemetals:adamantine_plate, Adamantine Plate
-basemetals:adamantine_button, Adamantine Button
-basemetals:adamantine_nugget, Adamantine Nugget
-basemetals:adamantine_dense_plate, Dense Adamantine Plate
-basemetals:coldiron_slab, Cold-Iron Slab
-basemetals:coldiron_pressure_plate, Cold-Iron Pressure Plate
-basemetals:coldiron_clump,  Cold-Iron Clump 
-basemetals:coldiron_trapdoor, Cold-Iron Trapdoor
-basemetals:coldiron_casing, Cold-Iron Item Casing
-basemetals:coldiron_crushed, Crushed Cold-Iron Ore
-basemetals:coldiron_plate, Cold-Iron Plate
-basemetals:coldiron_fishing_rod, Cold-Iron Fishing Rod
-basemetals:coldiron_block, Block of Cold-Iron
-basemetals:coldiron_lever, Cold-Iron Lever
-basemetals:coldiron_shield, Cold-Iron Shield
-basemetals:coldiron_wall, Cold-Iron Wall
-basemetals:coldiron_horse_armor, Cold-Iron Horse Armor
-basemetals:coldiron_shears, Cold-Iron Shears
-basemetals:coldiron_stairs, Cold-Iron Stairs
-basemetals:coldiron_smallpowder, Tiny Pile of Cold-Iron Dust
-basemetals:coldiron_powder_dirty, Dirty Cold-Iron Dust
-basemetals:coldiron_shard,  Cold-Iron Shard 
-basemetals:coldiron_crushed_purified, Purified Crushed Cold-Iron Ore
-basemetals:coldiron_crackhammer, Cold-Iron Crack Hammer
-basemetals:coldiron_gear, Cold-Iron Gear
-basemetals:coldiron_powder, Cold-Iron Dust
-basemetals:coldiron_door, Cold-Iron Door
-basemetals:coldiron_bars, Cold-Iron Bars
-basemetals:coldiron_ingot, Cold-Iron Ingot
-basemetals:coldiron_rod, Cold-Iron Rod
-basemetals:coldiron_crystal,  Cold-Iron Crystal 
-basemetals:coldiron, Molten Cold-Iron
-basemetals:coldiron_ore, Cold-Iron Ore
-basemetals:coldiron_button, Cold-Iron Button
-basemetals:coldiron_nugget, Cold-Iron Nugget
-basemetals:coldiron_dense_plate, Dense Cold-Iron Plate
 basemetals:platinum_slab, Platinum Slab
 basemetals:platinum_pressure_plate, Platinum Pressure Plate
 basemetals:platinum_clump,  Platinum Clump 
@@ -15495,16 +14733,13 @@ basemetals:platinum_fishing_rod, Platinum Fishing Rod
 basemetals:platinum_shield, Platinum Shield
 basemetals:platinum_horse_armor, Platinum Horse Armor
 basemetals:platinum_shears, Platinum Shears
-basemetals:platinum_smallpowder, Tiny Pile of Platinum Dust
 basemetals:platinum_powder_dirty, Dirty Platinum Dust
 basemetals:platinum_shard,  Platinum Shard 
 basemetals:platinum_wall, Platinum Wall
 basemetals:platinum_crushed_purified, Purified Crushed Platinum Ore
 basemetals:platinum_block, Block of Platinum
-basemetals:platinum_crackhammer, Platinum Crack Hammer
 basemetals:platinum_gear, Platinum Gear
 basemetals:platinum_powder, Platinum Dust
-basemetals:platinum_lever, Platinum Lever
 basemetals:platinum_door, Platinum Door
 basemetals:platinum_button, Platinum Button
 basemetals:platinum_trapdoor, Platinum Trapdoor
@@ -15516,94 +14751,32 @@ basemetals:platinum, Molten Platinum
 basemetals:platinum_ore, Platinum Ore
 basemetals:platinum_nugget, Platinum Nugget
 basemetals:platinum_dense_plate, Dense Platinum Plate
-basemetals:starsteel_slab, Star-Steel Slab
-basemetals:starsteel_plate, Star-Steel Plate
-basemetals:starsteel_clump,  Star-Steel Clump 
-basemetals:starsteel_bars, Star-Steel Bars
-basemetals:starsteel_casing, Star-Steel Item Casing
-basemetals:starsteel_pressure_plate, Star-Steel Pressure Plate
-basemetals:starsteel_crushed, Crushed Star-Steel Ore
-basemetals:starsteel_stairs, Star-Steel Stairs
-basemetals:starsteel_fishing_rod, Star-Steel Fishing Rod
-basemetals:starsteel_button, Star-Steel Button
-basemetals:starsteel_wall, Star-Steel Wall
-basemetals:starsteel_shield, Star-Steel Shield
-basemetals:starsteel_horse_armor, Star-Steel Horse Armor
-basemetals:starsteel_shears, Star-Steel Shears
-basemetals:starsteel_smallpowder, Tiny Pile of Star-Steel Dust
-basemetals:starsteel_powder_dirty, Dirty Star-Steel Dust
-basemetals:starsteel_shard,  Star-Steel Shard 
-basemetals:starsteel_crushed_purified, Purified Crushed Star-Steel Ore
-basemetals:starsteel_crackhammer, Star-Steel Crack Hammer
-basemetals:starsteel_gear, Star-Steel Gear
-basemetals:starsteel_trapdoor, Star-Steel Trapdoor
-basemetals:starsteel_ore, Star-Steel Ore  
-basemetals:starsteel_block, Block of Star-Steel
-basemetals:starsteel_powder, Star-Steel Dust
-basemetals:starsteel_door, Star-Steel Door
-basemetals:starsteel_ingot, Star-Steel Ingot
-basemetals:starsteel_rod, Star-Steel Rod
-basemetals:starsteel_crystal,  Star-Steel Crystal 
-basemetals:starsteel, Molten Star-Steel
-basemetals:starsteel_lever, Star-Steel Lever
-basemetals:starsteel_nugget, Star-Steel Nugget
-basemetals:starsteel_dense_plate, Dense Star-Steel Plate
-basemetals:aquarium_slab, Aquarium Slab
-basemetals:aquarium_stairs, Aquarium Stairs
-basemetals:aquarium_blend, Aquarium Blend
-basemetals:aquarium_plate, Aquarium Plate
-basemetals:aquarium_wall, Aquarium Wall
-basemetals:aquarium_bars, Aquarium Bars
-basemetals:aquarium_button, Aquarium Button
-basemetals:aquarium_fishing_rod, Aquarium Fishing Rod
-basemetals:aquarium_pressure_plate, Aquarium Pressure Plate
-basemetals:aquarium_shield, Aquarium Shield
-basemetals:aquarium_horse_armor, Aquarium Horse Armor
-basemetals:aquarium_lever, Aquarium Lever
-basemetals:aquarium_shears, Aquarium Shears
-basemetals:aquarium_smallpowder, Tiny Pile of Aquarium Dust
-basemetals:aquarium_crackhammer, Aquarium Crack Hammer
-basemetals:aquarium_gear, Aquarium Gear
-basemetals:aquarium_powder, Aquarium Dust
-basemetals:aquarium_door, Aquarium Door
-basemetals:aquarium_block, Block of Aquarium
-basemetals:aquarium_ingot, Aquarium Ingot
-basemetals:aquarium_rod, Aquarium Rod
-basemetals:aquarium, Molten Aquarium
-basemetals:aquarium_smallblend, Tiny Pile of Aquarium Blend
-basemetals:aquarium_trapdoor, Aquarium Trapdoor
-basemetals:aquarium_nugget, Aquarium Nugget
-basemetals:mithril_slab, Mithril Slab
-basemetals:mithril_lever, Mithril Lever
-basemetals:mithril_blend, Mithril Blend
-basemetals:mithril_pressure_plate, Mithril Pressure Plate
-basemetals:mithril_plate, Mithril Plate
-basemetals:mithril_fishing_rod, Mithril Fishing Rod
-basemetals:mithril_block, Block of Mithril
-basemetals:mithril_shield, Mithril Shield
-basemetals:mithril_horse_armor, Mithril Horse Armor
-basemetals:mithril_shears, Mithril Shears
-basemetals:mithril_smallpowder, Tiny Pile of Mithril Dust
 basemetals:mithril_trapdoor, Mithril Trapdoor
-basemetals:mithril_crackhammer, Mithril Crack Hammer
+basemetals:mithril_slab, Mithril Slab
+basemetals:mithril_blend, Mithril Blend
 basemetals:mithril_gear, Mithril Gear
 basemetals:mithril_button, Mithril Button
 basemetals:mithril_stairs, Mithril Stairs
+basemetals:mithril_pressure_plate, Mithril Pressure Plate
 basemetals:mithril_powder, Mithril Dust
+basemetals:mithril_plate, Mithril Plate
 basemetals:mithril_door, Mithril Door
+basemetals:mithril_fishing_rod, Mithril Fishing Rod
 basemetals:mithril_ingot, Mithril Ingot
 basemetals:mithril_rod, Mithril Rod
 basemetals:mithril_bars, Mithril Bars
+basemetals:mithril_block, Block of Mithril
 basemetals:mithril, Molten Mithril
 basemetals:mithril_smallblend, Tiny Pile of Mithril Blend
+basemetals:mithril_shield, Mithril Shield
+basemetals:mithril_horse_armor, Mithril Horse Armor
+basemetals:mithril_shears, Mithril Shears
 basemetals:mithril_wall, Mithril Wall
 basemetals:mithril_nugget, Mithril Nugget
 basemetals:mercury_ingot, Liquid Mercury
-basemetals:mercury, Liquid Mercury
 basemetals:mercury_powder, Mercury Ore Dust
 basemetals:mercury_ore, Mercury Ore
 basemetals:mercury_nugget, Small Blob of Liquid Mercury
-basemetals:mercury_smallpowder, Tiny Pile of Mercury Dust
 dynamictrees:dendropotion:0, Biochar Base Potion
 dynamictrees:dendropotion:1, Potion of Depletion
 dynamictrees:dendropotion:2, Potion of Defoliance
@@ -17204,38 +16377,6 @@ mekanism:gastank:0, Creative Gas Tank
 mekanism:gastank:0, Creative Gas Tank
 mekanism:gastank:0, Creative Gas Tank
 mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
 mekanism:cardboardbox, Cardboard Box
 mekanism:glowpanel:0, §8Black Glow Panel
 mekanism:glowpanel:1, §cRed Glow Panel
@@ -18278,46 +17419,6 @@ kk:simpleandcleanplanitbremix, Music Disc
 kk:sinistersundown, Music Disc
 kk:the13thanthology, Music Disc
 kk:recipe, Synthesis Recipe
-<<<<<<< HEAD
-kk:normalblox, Normal Blox
-kk:hardblox, Hard Blox
-kk:metalblox, Metal Blox
-kk:dangerblox, Danger Blox
-kk:bounceblox, Bounce Blox
-kk:blastblox, Blast Blox
-kk:prizeblox, Prize Blox
-kk:rareprizeblox, Rare Prize Blox
-kk:ghostblox, Ghost Blox
-kk:blazingore, Blazing Ore
-kk:blazingoren, Blazing Ore
-kk:brightore, Bright Ore
-kk:darkore, Dark Ore
-kk:darkoree, Dark Ore
-kk:darkoren, Dark Ore
-kk:denseore, Dense Ore
-kk:energyore, Energy Ore
-kk:energyoren, Energy Ore
-kk:frostore, Frost Ore
-kk:lightningore, Lightning Ore
-kk:lucidore, Lucid Ore
-kk:powerore, Power Ore
-kk:poweroree, Power Ore
-kk:remembranceore, Remembrance Ore
-kk:serenityore, Serenity Ore
-kk:tranquilore, Tranquil Ore
-kk:stormyore, Stormy Ore
-kk:twilightore, Twilight Ore
-kk:twilightoren, Twilight Ore
-kk:synthesistable, Synthesis Table
-kk:kkchest, Chest
-kk:savepoint, Save Point
-kk:magnetblox, Magnet Blox
-kk:pedestal, Pedestal
-kk:stationofawakening, Station of Awakening floor
-kk:stationofawakeningdoor, Station of Awakening Door
-kk:orgportal, Organization Portal
-=======
->>>>>>> aa4b5b5f9313bfb6fa1320bfc1b99b19ba6442e2
 mekanismgenerators:solarpanel, Solar Panel
 mekanismgenerators:hohlraum, Hohlraum
 mekanismgenerators:turbineblade, Turbine Blade
@@ -18347,18 +17448,15 @@ modernmetals:aluminum_clump, Aluminum Clump
 modernmetals:aluminum_casing, Aluminum Item Casing
 modernmetals:aluminum_crushed, Crushed Aluminum Ore
 modernmetals:aluminum_fishing_rod, Aluminum Fishing Rod
-modernmetals:aluminum_lever, Aluminum Lever
 modernmetals:aluminum_ore, Aluminum Ore
 modernmetals:aluminum_shield, Aluminum Shield
 modernmetals:aluminum_horse_armor, Aluminum Horse Armor
 modernmetals:aluminum_shears, Aluminum Shears
 modernmetals:aluminum_trapdoor, Aluminum Trapdoor
-modernmetals:aluminum_smallpowder, Tiny Pile of Aluminum Dust
 modernmetals:aluminum_powder_dirty, Dirty Aluminum Dust
 modernmetals:aluminum_shard, Aluminum Shard
 modernmetals:aluminum_block, Block of Aluminum
 modernmetals:aluminum_crushed_purified, Purified Crushed Aluminum Ore
-modernmetals:aluminum_crackhammer, Aluminum Crack Hammer
 modernmetals:aluminum_gear, Aluminum Gear
 modernmetals:aluminum_powder, Aluminum Dust
 modernmetals:aluminum_door, Aluminum Door
@@ -18372,182 +17470,19 @@ modernmetals:aluminum_stairs, Aluminum Stairs
 modernmetals:aluminum_bars, Aluminum Bars
 modernmetals:aluminum_nugget, Aluminum Nugget
 modernmetals:aluminum_dense_plate, Dense Aluminum Plate
-modernmetals:beryllium_ore, Beryllium Ore
-modernmetals:beryllium_slab, Beryllium Slab
-modernmetals:beryllium_wall, Beryllium Wall
-modernmetals:beryllium_clump, Beryllium Clump
-modernmetals:beryllium_casing, Beryllium Item Casing
-modernmetals:beryllium_crushed, Crushed Beryllium Ore
-modernmetals:beryllium_fishing_rod, Beryllium Fishing Rod
-modernmetals:beryllium_shield, Beryllium Shield
-modernmetals:beryllium_trapdoor, Beryllium Trapdoor
-modernmetals:beryllium_horse_armor, Beryllium Horse Armor
-modernmetals:beryllium_shears, Beryllium Shears
-modernmetals:beryllium_smallpowder, Tiny Pile of Beryllium Dust
-modernmetals:beryllium_powder_dirty, Dirty Beryllium Dust
-modernmetals:beryllium_shard, Beryllium Shard
-modernmetals:beryllium_crushed_purified, Purified Crushed Beryllium Ore
-modernmetals:beryllium_bars, Beryllium Bars
-modernmetals:beryllium_crackhammer, Beryllium Crack Hammer
-modernmetals:beryllium_gear, Beryllium Gear
-modernmetals:beryllium_stairs, Beryllium Stairs
-modernmetals:beryllium_powder, Beryllium Dust
-modernmetals:beryllium_pressure_plate, Beryllium Pressure Plate
-modernmetals:beryllium_door, Beryllium Door
-modernmetals:beryllium_block, Block of Beryllium
-modernmetals:beryllium_lever, Beryllium Lever
-modernmetals:beryllium_ingot, Beryllium Ingot
-modernmetals:beryllium_rod, Beryllium Rod
-modernmetals:beryllium_crystal, Beryllium Crystal
-modernmetals:beryllium, Molten Beryllium
-modernmetals:beryllium_button, Beryllium Button
-modernmetals:beryllium_plate, Beryllium Plate
-modernmetals:beryllium_nugget, Beryllium Nugget
-modernmetals:beryllium_dense_plate, Dense Beryllium Plate
-modernmetals:boron_slab, Boron Slab
-modernmetals:boron_trapdoor, Boron Trapdoor
-modernmetals:boron_clump, Boron Clump
-modernmetals:boron_casing, Boron Item Casing
-modernmetals:boron_block, Block of Boron
-modernmetals:boron_crushed, Crushed Boron Ore
-modernmetals:boron_button, Boron Button
-modernmetals:boron_fishing_rod, Boron Fishing Rod
-modernmetals:boron_shield, Boron Shield
-modernmetals:boron_horse_armor, Boron Horse Armor
-modernmetals:boron_shears, Boron Shears
-modernmetals:boron_smallpowder, Tiny Pile of Boron Dust
-modernmetals:boron_powder_dirty, Dirty Boron Dust
-modernmetals:boron_shard, Boron Shard
-modernmetals:boron_crushed_purified, Purified Crushed Boron Ore
-modernmetals:boron_stairs, Boron Stairs
-modernmetals:boron_crackhammer, Boron Crack Hammer
-modernmetals:boron_gear, Boron Gear
-modernmetals:boron_ore, Boron Ore
-modernmetals:boron_wall, Boron Wall
-modernmetals:boron_powder, Boron Dust
-modernmetals:boron_bars, Boron Bars
-modernmetals:boron_door, Boron Door
-modernmetals:boron_plate, Boron Plate
-modernmetals:boron_pressure_plate, Boron Pressure Plate
-modernmetals:boron_ingot, Boron Ingot
-modernmetals:boron_rod, Boron Rod
-modernmetals:boron_lever, Boron Lever
-modernmetals:boron_crystal, Boron Crystal
-modernmetals:boron, Molten Boron
-modernmetals:boron_nugget, Boron Nugget
-modernmetals:boron_dense_plate, Dense Boron Plate
-modernmetals:chromium_slab, Chromium Slab
-modernmetals:chromium_bars, Chromium Bars
-modernmetals:chromium_stairs, Chromium Stairs
-modernmetals:chromium_clump, Chromium Clump
-modernmetals:chromium_wall, Chromium Wall
-modernmetals:chromium_casing, Chromium Item Casing
-modernmetals:chromium_crushed, Crushed Chromium Ore
-modernmetals:chromium_fishing_rod, Chromium Fishing Rod
-modernmetals:chromium_shield, Chromium Shield
-modernmetals:chromium_horse_armor, Chromium Horse Armor
-modernmetals:chromium_ore, Chromium Ore
-modernmetals:chromium_shears, Chromium Shears
-modernmetals:chromium_smallpowder, Tiny Pile of Chromium Dust
-modernmetals:chromium_powder_dirty, Dirty Chromium Dust
-modernmetals:chromium_shard, Chromium Shard
-modernmetals:chromium_crushed_purified, Purified Crushed Chromium Ore
-modernmetals:chromium_lever, Chromium Lever
-modernmetals:chromium_pressure_plate, Chromium Pressure Plate
-modernmetals:chromium_crackhammer, Chromium Crack Hammer
-modernmetals:chromium_trapdoor, Chromium Trapdoor
-modernmetals:chromium_gear, Chromium Gear
-modernmetals:chromium_powder, Chromium Dust
-modernmetals:chromium_door, Chromium Door
-modernmetals:chromium_ingot, Chromium Ingot
-modernmetals:chromium_rod, Chromium Rod
-modernmetals:chromium_crystal, Chromium Crystal
-modernmetals:chromium, Molten Chromium
-modernmetals:chromium_block, Block of Chromium
-modernmetals:chromium_plate, Chromium Plate
-modernmetals:chromium_button, Chromium Button
-modernmetals:chromium_nugget, Chromium Nugget
-modernmetals:chromium_dense_plate, Dense Chromium Plate
-modernmetals:magnesium_bars, Magnesium Bars
-modernmetals:magnesium_slab, Magnesium Slab
-modernmetals:magnesium_pressure_plate, Magnesium Pressure Plate
-modernmetals:magnesium_button, Magnesium Button
-modernmetals:magnesium_clump, Magnesium Clump
-modernmetals:magnesium_trapdoor, Magnesium Trapdoor
-modernmetals:magnesium_plate, Magnesium Plate
-modernmetals:magnesium_casing, Magnesium Item Casing
-modernmetals:magnesium_crushed, Crushed Magnesium Ore
-modernmetals:magnesium_stairs, Magnesium Stairs
-modernmetals:magnesium_fishing_rod, Magnesium Fishing Rod
-modernmetals:magnesium_wall, Magnesium Wall
-modernmetals:magnesium_shield, Magnesium Shield
-modernmetals:magnesium_horse_armor, Magnesium Horse Armor
-modernmetals:magnesium_shears, Magnesium Shears
-modernmetals:magnesium_smallpowder, Tiny Pile of Magnesium Dust
-modernmetals:magnesium_powder_dirty, Dirty Magnesium Dust
-modernmetals:magnesium_shard, Magnesium Shard
-modernmetals:magnesium_crushed_purified, Purified Crushed Magnesium Ore
-modernmetals:magnesium_crackhammer, Magnesium Crack Hammer
-modernmetals:magnesium_gear, Magnesium Gear
-modernmetals:magnesium_powder, Magnesium Dust
-modernmetals:magnesium_block, Block of Magnesium
-modernmetals:magnesium_door, Magnesium Door
-modernmetals:magnesium_ore, Magnesium Ore
-modernmetals:magnesium_ingot, Magnesium Ingot
-modernmetals:magnesium_rod, Magnesium Rod
-modernmetals:magnesium_crystal, Magnesium Crystal
-modernmetals:magnesium, Molten Magnesium
-modernmetals:magnesium_lever, Magnesium Lever
-modernmetals:magnesium_nugget, Magnesium Nugget
-modernmetals:magnesium_dense_plate, Dense Magnesium Plate
-modernmetals:manganese_slab, Manganese Slab
-modernmetals:manganese_bars, Manganese Bars
-modernmetals:manganese_block, Block of Manganese
-modernmetals:manganese_clump, Manganese Clump
-modernmetals:manganese_casing, Manganese Item Casing
-modernmetals:manganese_crushed, Crushed Manganese Ore
-modernmetals:manganese_fishing_rod, Manganese Fishing Rod
-modernmetals:manganese_button, Manganese Button
-modernmetals:manganese_plate, Manganese Plate
-modernmetals:manganese_wall, Manganese Wall
-modernmetals:manganese_shield, Manganese Shield
-modernmetals:manganese_horse_armor, Manganese Horse Armor
-modernmetals:manganese_shears, Manganese Shears
-modernmetals:manganese_smallpowder, Tiny Pile of Manganese Dust
-modernmetals:manganese_powder_dirty, Dirty Manganese Dust
-modernmetals:manganese_lever, Manganese Lever
-modernmetals:manganese_shard, Manganese Shard
-modernmetals:manganese_stairs, Manganese Stairs
-modernmetals:manganese_crushed_purified, Purified Crushed Manganese Ore
-modernmetals:manganese_pressure_plate, Manganese Pressure Plate
-modernmetals:manganese_crackhammer, Manganese Crack Hammer
-modernmetals:manganese_gear, Manganese Gear
-modernmetals:manganese_powder, Manganese Dust
-modernmetals:manganese_ore, Manganese Ore
-modernmetals:manganese_door, Manganese Door
-modernmetals:manganese_ingot, Manganese Ingot
-modernmetals:manganese_rod, Manganese Rod
-modernmetals:manganese_crystal, Manganese Crystal
-modernmetals:manganese, Molten Manganese
-modernmetals:manganese_nugget, Manganese Nugget
-modernmetals:manganese_trapdoor, Manganese Trapdoor
-modernmetals:manganese_dense_plate, Dense Manganese Plate
 modernmetals:osmium_slab, Osmium Slab
 modernmetals:osmium_casing, Osmium Item Casing
 modernmetals:osmium_crushed, Crushed Osmium Ore
 modernmetals:osmium_block, Block of Osmium
-modernmetals:osmium_lever, Osmium Lever
 modernmetals:osmium_fishing_rod, Osmium Fishing Rod
 modernmetals:osmium_wall, Osmium Wall
 modernmetals:osmium_shield, Osmium Shield
 modernmetals:osmium_horse_armor, Osmium Horse Armor
 modernmetals:osmium_shears, Osmium Shears
 modernmetals:osmium_button, Osmium Button
-modernmetals:osmium_smallpowder, Tiny Pile of Osmium Dust
 modernmetals:osmium_stairs, Osmium Stairs
 modernmetals:osmium_crushed_purified, Purified Crushed Osmium Ore
 modernmetals:osmium_plate, Osmium Plate
-modernmetals:osmium_crackhammer, Osmium Crack Hammer
 modernmetals:osmium_ore, Osmium Ore
 modernmetals:osmium_gear, Osmium Gear
 modernmetals:osmium_bars, Osmium Bars
@@ -18560,306 +17495,30 @@ modernmetals:osmium_trapdoor, Osmium Trapdoor
 modernmetals:osmium_pressure_plate, Osmium Pressure Plate
 modernmetals:osmium_nugget, Osmium Nugget
 modernmetals:osmium_dense_plate, Dense Osmium Plate
-modernmetals:rutile_stairs, Rutile Stairs
-modernmetals:rutile_slab, Rutile Slab
-modernmetals:rutile_plate, Rutile Plate
-modernmetals:rutile_clump, Rutile Clump
-modernmetals:rutile_casing, Rutile Item Casing
-modernmetals:rutile_crushed, Crushed Rutile Ore
-modernmetals:rutile_fishing_rod, Rutile Fishing Rod
-modernmetals:rutile_bars, Rutile Bars
-modernmetals:rutile_ore, Rutile Ore
-modernmetals:rutile_shield, Rutile Shield
-modernmetals:rutile_horse_armor, Rutile Horse Armor
-modernmetals:rutile_shears, Rutile Shears
-modernmetals:rutile_smallpowder, Tiny Pile of Rutile Dust
-modernmetals:rutile_powder_dirty, Dirty Rutile Dust
-modernmetals:rutile_lever, Rutile Lever
-modernmetals:rutile_shard, Rutile Shard
-modernmetals:rutile_crushed_purified, Purified Crushed Rutile Ore
-modernmetals:rutile_trapdoor, Rutile Trapdoor
-modernmetals:rutile_crackhammer, Rutile Crack Hammer
-modernmetals:rutile_gear, Rutile Gear
-modernmetals:rutile_pressure_plate, Rutile Pressure Plate
-modernmetals:rutile_powder, Rutile Dust
-modernmetals:rutile_door, Rutile Door
-modernmetals:rutile_block, Block of Rutile
-modernmetals:rutile_ingot, Rutile Ingot
-modernmetals:rutile_rod, Rutile Rod
-modernmetals:rutile_crystal, Rutile Crystal
-modernmetals:rutile, Molten Rutile
-modernmetals:rutile_nugget, Rutile Nugget
-modernmetals:rutile_button, Rutile Button
-modernmetals:rutile_wall, Rutile Wall
-modernmetals:rutile_dense_plate, Dense Rutile Plate
-modernmetals:tantalum_slab, Tantalum Slab
-modernmetals:tantalum_clump, Tantalum Clump
-modernmetals:tantalum_casing, Tantalum Item Casing
-modernmetals:tantalum_crushed, Crushed Tantalum Ore
-modernmetals:tantalum_fishing_rod, Tantalum Fishing Rod
-modernmetals:tantalum_button, Tantalum Button
-modernmetals:tantalum_ore, Tantalum Ore
-modernmetals:tantalum_stairs, Tantalum Stairs
-modernmetals:tantalum_shield, Tantalum Shield
-modernmetals:tantalum_horse_armor, Tantalum Horse Armor
-modernmetals:tantalum_shears, Tantalum Shears
-modernmetals:tantalum_smallpowder, Tiny Pile of Tantalum Dust
-modernmetals:tantalum_powder_dirty, Dirty Tantalum Dust
-modernmetals:tantalum_shard, Tantalum Shard
-modernmetals:tantalum_crushed_purified, Purified Crushed Tantalum Ore
-modernmetals:tantalum_plate, Tantalum Plate
-modernmetals:tantalum_bars, Tantalum Bars
-modernmetals:tantalum_lever, Tantalum Lever
-modernmetals:tantalum_crackhammer, Tantalum Crack Hammer
-modernmetals:tantalum_gear, Tantalum Gear
-modernmetals:tantalum_powder, Tantalum Dust
-modernmetals:tantalum_block, Block of Tantalum
-modernmetals:tantalum_door, Tantalum Door
-modernmetals:tantalum_wall, Tantalum Wall
-modernmetals:tantalum_pressure_plate, Tantalum Pressure Plate
-modernmetals:tantalum_trapdoor, Tantalum Trapdoor
-modernmetals:tantalum_ingot, Tantalum Ingot
-modernmetals:tantalum_rod, Tantalum Rod
-modernmetals:tantalum_crystal, Tantalum Crystal
-modernmetals:tantalum, Molten Tantalum
-modernmetals:tantalum_nugget, Tantalum Nugget
-modernmetals:tantalum_dense_plate, Dense Tantalum Plate
-modernmetals:thorium_slab, Thorium Slab
-modernmetals:thorium_lever, Thorium Lever
-modernmetals:thorium_clump, Thorium Clump
-modernmetals:thorium_ore, Thorium Ore
-modernmetals:thorium_casing, Thorium Item Casing
-modernmetals:thorium_crushed, Crushed Thorium Ore
-modernmetals:thorium_block, Block of Thorium
-modernmetals:thorium_fishing_rod, Thorium Fishing Rod
-modernmetals:thorium_trapdoor, Thorium Trapdoor
-modernmetals:thorium_pressure_plate, Thorium Pressure Plate
-modernmetals:thorium_shield, Thorium Shield
-modernmetals:thorium_horse_armor, Thorium Horse Armor
-modernmetals:thorium_shears, Thorium Shears
-modernmetals:thorium_wall, Thorium Wall
-modernmetals:thorium_smallpowder, Tiny Pile of Thorium Dust
-modernmetals:thorium_powder_dirty, Dirty Thorium Dust
-modernmetals:thorium_shard, Thorium Shard
-modernmetals:thorium_crushed_purified, Purified Crushed Thorium Ore
-modernmetals:thorium_crackhammer, Thorium Crack Hammer
-modernmetals:thorium_stairs, Thorium Stairs
-modernmetals:thorium_gear, Thorium Gear
-modernmetals:thorium_button, Thorium Button
-modernmetals:thorium_powder, Thorium Dust
-modernmetals:thorium_plate, Thorium Plate
-modernmetals:thorium_bars, Thorium Bars
-modernmetals:thorium_door, Thorium Door
-modernmetals:thorium_ingot, Thorium Ingot
-modernmetals:thorium_rod, Thorium Rod
-modernmetals:thorium_crystal, Thorium Crystal
-modernmetals:thorium, Molten Thorium
-modernmetals:thorium_nugget, Thorium Nugget
-modernmetals:thorium_dense_plate, Dense Thorium Plate
-modernmetals:tungsten_slab, Tungsten Slab
-modernmetals:tungsten_clump, Tungsten Clump
-modernmetals:tungsten_bars, Tungsten Bars
-modernmetals:tungsten_casing, Tungsten Item Casing
-modernmetals:tungsten_crushed, Crushed Tungsten Ore
-modernmetals:tungsten_fishing_rod, Tungsten Fishing Rod
-modernmetals:tungsten_shield, Tungsten Shield
-modernmetals:tungsten_horse_armor, Tungsten Horse Armor
-modernmetals:tungsten_shears, Tungsten Shears
-modernmetals:tungsten_smallpowder, Tiny Pile of Tungsten Dust
-modernmetals:tungsten_powder_dirty, Dirty Tungsten Dust
-modernmetals:tungsten_plate, Tungsten Plate
-modernmetals:tungsten_shard, Tungsten Shard
-modernmetals:tungsten_crushed_purified, Purified Crushed Tungsten Ore
-modernmetals:tungsten_crackhammer, Tungsten Crack Hammer
-modernmetals:tungsten_gear, Tungsten Gear
-modernmetals:tungsten_lever, Tungsten Lever
-modernmetals:tungsten_ore, Tungsten Ore
-modernmetals:tungsten_powder, Tungsten Dust
-modernmetals:tungsten_block, Block of Tungsten
-modernmetals:tungsten_pressure_plate, Tungsten Pressure Plate
-modernmetals:tungsten_door, Tungsten Door
-modernmetals:tungsten_ingot, Tungsten Ingot
-modernmetals:tungsten_rod, Tungsten Rod
-modernmetals:tungsten_crystal, Tungsten Crystal
-modernmetals:tungsten_stairs, Tungsten Stairs
-modernmetals:tungsten, Molten Tungsten
-modernmetals:tungsten_trapdoor, Tungsten Trapdoor
-modernmetals:tungsten_wall, Tungsten Wall
-modernmetals:tungsten_button, Tungsten Button
-modernmetals:tungsten_nugget, Tungsten Nugget
-modernmetals:tungsten_dense_plate, Dense Tungsten Plate
-modernmetals:zirconium_trapdoor, Zirconium Trapdoor
-modernmetals:zirconium_wall, Zirconium Wall
-modernmetals:zirconium_slab, Zirconium Slab
-modernmetals:zirconium_bars, Zirconium Bars
-modernmetals:zirconium_clump, Zirconium Clump
-modernmetals:zirconium_casing, Zirconium Item Casing
-modernmetals:zirconium_pressure_plate, Zirconium Pressure Plate
-modernmetals:zirconium_crushed, Crushed Zirconium Ore
-modernmetals:zirconium_stairs, Zirconium Stairs
-modernmetals:zirconium_fishing_rod, Zirconium Fishing Rod
-modernmetals:zirconium_lever, Zirconium Lever
-modernmetals:zirconium_plate, Zirconium Plate
-modernmetals:zirconium_shield, Zirconium Shield
-modernmetals:zirconium_horse_armor, Zirconium Horse Armor
-modernmetals:zirconium_shears, Zirconium Shears
-modernmetals:zirconium_smallpowder, Tiny Pile of Zirconium Dust
-modernmetals:zirconium_powder_dirty, Dirty Zirconium Dust
-modernmetals:zirconium_shard, Zirconium Shard
-modernmetals:zirconium_crushed_purified, Purified Crushed Zirconium Ore
-modernmetals:zirconium_crackhammer, Zirconium Crack Hammer
-modernmetals:zirconium_button, Zirconium Button
-modernmetals:zirconium_gear, Zirconium Gear
-modernmetals:zirconium_powder, Zirconium Dust
-modernmetals:zirconium_door, Zirconium Door
-modernmetals:zirconium_ore, Zirconium Ore
-modernmetals:zirconium_ingot, Zirconium Ingot
-modernmetals:zirconium_rod, Zirconium Rod
-modernmetals:zirconium_crystal, Zirconium Crystal
-modernmetals:zirconium, Molten Zirconium
-modernmetals:zirconium_block, Block of Zirconium
-modernmetals:zirconium_nugget, Zirconium Nugget
-modernmetals:zirconium_dense_plate, Dense Zirconium Plate
+modernmetals:aluminumbrass_plate, Aluminum Brass Plate
 modernmetals:aluminumbrass_slab, Aluminum Brass Slab
 modernmetals:aluminumbrass_blend, Aluminum Brass Blend
-modernmetals:aluminumbrass_block, Block of Aluminum Brass
-modernmetals:aluminumbrass_casing, Aluminum Brass Item Casing
-modernmetals:aluminumbrass_wall, Aluminum Brass Wall
-modernmetals:aluminumbrass_fishing_rod, Aluminum Brass Fishing Rod
-modernmetals:aluminumbrass_shield, Aluminum Brass Shield
-modernmetals:aluminumbrass_horse_armor, Aluminum Brass Horse Armor
-modernmetals:aluminumbrass_shears, Aluminum Brass Shears
-modernmetals:aluminumbrass_lever, Aluminum Brass Lever
-modernmetals:aluminumbrass_smallpowder, Tiny Pile of Aluminum Brass Dust
-modernmetals:aluminumbrass_stairs, Aluminum Brass Stairs
-modernmetals:aluminumbrass_plate, Aluminum Brass Plate
-modernmetals:aluminumbrass_crackhammer, Aluminum Brass Crack Hammer
 modernmetals:aluminumbrass_gear, Aluminum Brass Gear
 modernmetals:aluminumbrass_button, Aluminum Brass Button
 modernmetals:aluminumbrass_powder, Aluminum Brass Dust
+modernmetals:aluminumbrass_block, Block of Aluminum Brass
+modernmetals:aluminumbrass_casing, Aluminum Brass Item Casing
+modernmetals:aluminumbrass_wall, Aluminum Brass Wall
 modernmetals:aluminumbrass_door, Aluminum Brass Door
 modernmetals:aluminumbrass_pressure_plate, Aluminum Brass Pressure Plate
+modernmetals:aluminumbrass_fishing_rod, Aluminum Brass Fishing Rod
 modernmetals:aluminumbrass_trapdoor, Aluminum Brass Trapdoor
 modernmetals:aluminumbrass_ingot, Aluminum Brass Ingot
 modernmetals:aluminumbrass_rod, Aluminum Brass Rod
 modernmetals:aluminumbrass, Molten Aluminum Brass
 modernmetals:aluminumbrass_smallblend, Tiny Pile of Aluminum Brass Blend
 modernmetals:aluminumbrass_bars, Aluminum Brass Bars
+modernmetals:aluminumbrass_shield, Aluminum Brass Shield
+modernmetals:aluminumbrass_horse_armor, Aluminum Brass Horse Armor
+modernmetals:aluminumbrass_shears, Aluminum Brass Shears
 modernmetals:aluminumbrass_nugget, Aluminum Brass Nugget
+modernmetals:aluminumbrass_stairs, Aluminum Brass Stairs
 modernmetals:aluminumbrass_dense_plate, Dense Aluminum Brass Plate
-modernmetals:galvanizedsteel_slab, Galvanized Steel Slab
-modernmetals:galvanizedsteel_blend, Galvanized Steel Blend
-modernmetals:galvanizedsteel_trapdoor, Galvanized Steel Trapdoor
-modernmetals:galvanizedsteel_casing, Galvanized Steel Item Casing
-modernmetals:galvanizedsteel_plate, Galvanized Steel Plate
-modernmetals:galvanizedsteel_fishing_rod, Galvanized Steel Fishing Rod
-modernmetals:galvanizedsteel_lever, Galvanized Steel Lever
-modernmetals:galvanizedsteel_stairs, Galvanized Steel Stairs
-modernmetals:galvanizedsteel_wall, Galvanized Steel Wall
-modernmetals:galvanizedsteel_shield, Galvanized Steel Shield
-modernmetals:galvanizedsteel_horse_armor, Galvanized Steel Horse Armor
-modernmetals:galvanizedsteel_shears, Galvanized Steel Shears
-modernmetals:galvanizedsteel_smallpowder, Tiny Pile of Galvanized Steel Dust
-modernmetals:galvanizedsteel_crackhammer, Galvanized Steel Crack Hammer
-modernmetals:galvanizedsteel_gear, Galvanized Steel Gear
-modernmetals:galvanizedsteel_button, Galvanized Steel Button
-modernmetals:galvanizedsteel_powder, Galvanized Steel Dust
-modernmetals:galvanizedsteel_door, Galvanized Steel Door
-modernmetals:galvanizedsteel_bars, Galvanized Steel Bars
-modernmetals:galvanizedsteel_ingot, Galvanized Steel Ingot
-modernmetals:galvanizedsteel_rod, Galvanized Steel Rod
-modernmetals:galvanizedsteel, Molten Galvanized Steel
-modernmetals:galvanizedsteel_smallblend, Tiny Pile of Galvanized Steel Blend
-modernmetals:galvanizedsteel_block, Block of Galvanized Steel
-modernmetals:galvanizedsteel_pressure_plate, Galvanized Steel Pressure Plate
-modernmetals:galvanizedsteel_nugget, Galvanized Steel Nugget
-modernmetals:galvanizedsteel_dense_plate, Dense Galvanized Steel Plate
-modernmetals:nichrome_slab, Nichrome Slab
-modernmetals:nichrome_blend, Nichrome Blend
-modernmetals:nichrome_wall, Nichrome Wall
-modernmetals:nichrome_lever, Nichrome Lever
-modernmetals:nichrome_casing, item.modernmetals.nichrome_casing.name
-modernmetals:nichrome_block, Block of Nichrome
-modernmetals:nichrome_trapdoor, Nichrome Trapdoor
-modernmetals:nichrome_fishing_rod, Nichrome Fishing Rod
-modernmetals:nichrome_shield, Nichrome Shield
-modernmetals:nichrome_horse_armor, Nichrome Horse Armor
-modernmetals:nichrome_shears, Nichrome Shears
-modernmetals:nichrome_smallpowder, Tiny Pile of Nichrome Dust
-modernmetals:nichrome_bars, Nichrome Bars
-modernmetals:nichrome_pressure_plate, Nichrome Pressure Plate
-modernmetals:nichrome_crackhammer, Nichrome Crack Hammer
-modernmetals:nichrome_gear, Nichrome Gear
-modernmetals:nichrome_powder, Nichrome Dust
-modernmetals:nichrome_stairs, Nichrome Stairs
-modernmetals:nichrome_door, Nichrome Door
-modernmetals:nichrome_button, Nichrome Button
-modernmetals:nichrome_plate, Nichrome Plate
-modernmetals:nichrome_ingot, Nichrome Ingot
-modernmetals:nichrome_rod, Nichrome Rod
-modernmetals:nichrome, Molten Nichrome
-modernmetals:nichrome_smallblend, Tiny Pile of Nichrome Blend
-modernmetals:nichrome_nugget, Nichrome Nugget
-modernmetals:nichrome_dense_plate, Dense Nichrome Plate
-modernmetals:stainlesssteel_slab, Stainless Steel Slab
-modernmetals:stainlesssteel_blend, Stainless Steel Blend
-modernmetals:stainlesssteel_bars, Stainless Steel Bars
-modernmetals:stainlesssteel_pressure_plate, Stainless Steel Pressure Plate
-modernmetals:stainlesssteel_casing, Stainless Steel Item Casing
-modernmetals:stainlesssteel_plate, Stainless Steel Plate
-modernmetals:stainlesssteel_fishing_rod, Stainless Steel Fishing Rod
-modernmetals:stainlesssteel_shield, Stainless Steel Shield
-modernmetals:stainlesssteel_horse_armor, Stainless Steel Horse Armor
-modernmetals:stainlesssteel_trapdoor, Stainless Steel Trapdoor
-modernmetals:stainlesssteel_shears, Stainless Steel Shears
-modernmetals:stainlesssteel_smallpowder, Tiny Pile of Stainless Steel Dust
-modernmetals:stainlesssteel_lever, Stainless Steel Lever
-modernmetals:stainlesssteel_crackhammer, Stainless Steel Crack Hammer
-modernmetals:stainlesssteel_gear, Stainless Steel Gear
-modernmetals:stainlesssteel_block, Block of Stainless Steel
-modernmetals:stainlesssteel_powder, Stainless Steel Dust
-modernmetals:stainlesssteel_wall, Stainless Steel Wall
-modernmetals:stainlesssteel_door, Stainless Steel Door
-modernmetals:stainlesssteel_ingot, Stainless Steel Ingot
-modernmetals:stainlesssteel_rod, Stainless Steel Rod
-modernmetals:stainlesssteel, Molten Stainless Steel
-modernmetals:stainlesssteel_smallblend, Tiny Pile of Stainless Steel Blend
-modernmetals:stainlesssteel_stairs, Stainless Steel Stairs
-modernmetals:stainlesssteel_button, Stainless Steel Button
-modernmetals:stainlesssteel_nugget, Stainless Steel Nugget
-modernmetals:stainlesssteel_dense_plate, Dense Stainless Steel Plate
-modernmetals:cadmium_slab, Cadmium Slab
-modernmetals:cadmium_button, Cadmium Button
-modernmetals:cadmium_plate, Cadmium Plate
-modernmetals:cadmium_lever, Cadmium Lever
-modernmetals:cadmium_clump, Cadmium Clump
-modernmetals:cadmium_casing, Cadmium Item Casing
-modernmetals:cadmium_crushed, Crushed Cadmium Ore
-modernmetals:cadmium_ore, Cadmium Ore
-modernmetals:cadmium_bars, Cadmium Bars
-modernmetals:cadmium_fishing_rod, Cadmium Fishing Rod
-modernmetals:cadmium_shield, Cadmium Shield
-modernmetals:cadmium_horse_armor, Cadmium Horse Armor
-modernmetals:cadmium_shears, Cadmium Shears
-modernmetals:cadmium_smallpowder, Tiny Pile of Cadmium Dust
-modernmetals:cadmium_powder_dirty, Dirty Cadmium Dust
-modernmetals:cadmium_shard, Cadmium Shard
-modernmetals:cadmium_trapdoor, Cadmium Trapdoor
-modernmetals:cadmium_crushed_purified, Purified Crushed Cadmium Ore
-modernmetals:cadmium_block, Block of Cadmium
-modernmetals:cadmium_crackhammer, Cadmium Crack Hammer
-modernmetals:cadmium_gear, Cadmium Gear
-modernmetals:cadmium_powder, Cadmium Dust
-modernmetals:cadmium_pressure_plate, Cadmium Pressure Plate
-modernmetals:cadmium_door, Cadmium Door
-modernmetals:cadmium_stairs, Cadmium Stairs
-modernmetals:cadmium_ingot, Cadmium Ingot
-modernmetals:cadmium_rod, Cadmium Rod
-modernmetals:cadmium_crystal, Cadmium Crystal
-modernmetals:cadmium, Molten Cadmium
-modernmetals:cadmium_wall, Cadmium Wall
-modernmetals:cadmium_nugget, Cadmium Nugget
-modernmetals:cadmium_dense_plate, Dense Cadmium Plate
 modernmetals:iridium_trapdoor, Iridium Trapdoor
 modernmetals:iridium_slab, Iridium Slab
 modernmetals:iridium_ore, Iridium Ore
@@ -18872,15 +17531,12 @@ modernmetals:iridium_shield, Iridium Shield
 modernmetals:iridium_horse_armor, Iridium Horse Armor
 modernmetals:iridium_shears, Iridium Shears
 modernmetals:iridium_button, Iridium Button
-modernmetals:iridium_smallpowder, Tiny Pile of Iridium Dust
 modernmetals:iridium_powder_dirty, Dirty Iridium Dust
 modernmetals:iridium_shard, Iridium Shard
 modernmetals:iridium_bars, Iridium Bars
 modernmetals:iridium_crushed_purified, Purified Crushed Iridium Ore
 modernmetals:iridium_stairs, Iridium Stairs
-modernmetals:iridium_crackhammer, Iridium Crack Hammer
 modernmetals:iridium_gear, Iridium Gear
-modernmetals:iridium_lever, Iridium Lever
 modernmetals:iridium_powder, Iridium Dust
 modernmetals:iridium_pressure_plate, Iridium Pressure Plate
 modernmetals:iridium_wall, Iridium Wall
@@ -18903,11 +17559,9 @@ modernmetals:plutonium_fishing_rod, Plutonium Fishing Rod
 modernmetals:plutonium_shield, Plutonium Shield
 modernmetals:plutonium_horse_armor, Plutonium Horse Armor
 modernmetals:plutonium_shears, Plutonium Shears
-modernmetals:plutonium_smallpowder, Tiny Pile of Plutonium Dust
 modernmetals:plutonium_powder_dirty, Dirty Plutonium Dust
 modernmetals:plutonium_shard, Plutonium Shard
 modernmetals:plutonium_crushed_purified, Purified Crushed Plutonium Ore
-modernmetals:plutonium_crackhammer, Plutonium Crack Hammer
 modernmetals:plutonium_gear, Plutonium Gear
 modernmetals:plutonium_button, Plutonium Button
 modernmetals:plutonium_bars, Plutonium Bars
@@ -18920,7 +17574,6 @@ modernmetals:plutonium_ingot, Plutonium Ingot
 modernmetals:plutonium_rod, Plutonium Rod
 modernmetals:plutonium_crystal, Plutonium Crystal
 modernmetals:plutonium, Molten Plutonium
-modernmetals:plutonium_lever, Plutonium Lever
 modernmetals:plutonium_stairs, Plutonium Stairs
 modernmetals:plutonium_nugget, Plutonium Nugget
 modernmetals:plutonium_dense_plate, Dense Plutonium Plate
@@ -18933,12 +17586,10 @@ modernmetals:uranium_pressure_plate, Uranium Pressure Plate
 modernmetals:uranium_shield, Uranium Shield
 modernmetals:uranium_horse_armor, Uranium Horse Armor
 modernmetals:uranium_shears, Uranium Shears
-modernmetals:uranium_smallpowder, Tiny Pile of Uranium Dust
 modernmetals:uranium_powder_dirty, Dirty Uranium Dust
 modernmetals:uranium_wall, Uranium Wall
 modernmetals:uranium_shard, Uranium Shard
 modernmetals:uranium_trapdoor, Uranium Trapdoor
-modernmetals:uranium_crackhammer, Uranium Crack Hammer
 modernmetals:uranium_gear, Uranium Gear
 modernmetals:uranium_bars, Uranium Bars
 modernmetals:uranium_powder, Uranium Dust
@@ -18949,7 +17600,6 @@ modernmetals:uranium_ingot, Uranium Ingot
 modernmetals:uranium_rod, Uranium Rod
 modernmetals:uranium_crystal, Uranium Crystal
 modernmetals:uranium, Molten Uranium
-modernmetals:uranium_lever, Uranium Lever
 modernmetals:uranium_stairs, Uranium Stairs
 modernmetals:uranium_plate, Uranium Plate
 modernmetals:uranium_nugget, Uranium Nugget
@@ -18960,7 +17610,6 @@ modernmetals:titanium_block, Block of Titanium
 modernmetals:titanium_clump, Titanium Clump
 modernmetals:titanium_ore, Titanium Ore
 modernmetals:titanium_casing, Titanium Item Casing
-modernmetals:titanium_lever, Titanium Lever
 modernmetals:titanium_crushed, Crushed Titanium Ore
 modernmetals:titanium_fishing_rod, Titanium Fishing Rod
 modernmetals:titanium_shield, Titanium Shield
@@ -18968,13 +17617,11 @@ modernmetals:titanium_horse_armor, Titanium Horse Armor
 modernmetals:titanium_button, Titanium Button
 modernmetals:titanium_shears, Titanium Shears
 modernmetals:titanium_plate, Titanium Plate
-modernmetals:titanium_smallpowder, Tiny Pile of Titanium Dust
 modernmetals:titanium_powder_dirty, Dirty Titanium Dust
 modernmetals:titanium_bars, Titanium Bars
 modernmetals:titanium_shard, Titanium Shard
 modernmetals:titanium_pressure_plate, Titanium Pressure Plate
 modernmetals:titanium_crushed_purified, Purified Crushed Titanium Ore
-modernmetals:titanium_crackhammer, Titanium Crack Hammer
 modernmetals:titanium_gear, Titanium Gear
 modernmetals:titanium_powder, Titanium Dust
 modernmetals:titanium_stairs, Titanium Stairs
@@ -18996,8 +17643,6 @@ nethermetals:nether_coal_ore, Nether Coal Ore
 nethermetals:nether_emerald_ore, Nether Emerald Ore
 nethermetals:nether_lapis_ore, Nether Lapis Ore
 nethermetals:nether_redstone_ore, Nether Redstone Ore
-nethermetals:nether_antimony_ore, Nether Antimony Ore
-nethermetals:nether_bismuth_ore, Nether Bismuth Ore
 nethermetals:nether_copper_ore, Nether Copper Ore
 nethermetals:nether_lead_ore, Nether Lead Ore
 nethermetals:nether_nickel_ore, Nether Nickel Ore
@@ -19007,119 +17652,18 @@ nethermetals:nether_zinc_ore, Nether Zinc Ore
 nethermetals:nether_platinum_ore, Nether Platinum Ore
 nethermetals:nether_mercury_ore, Nether Mercury Ore
 nethermetals:nether_aluminum_ore, Nether Aluminum Ore
-nethermetals:nether_chromium_ore, Nether Chromium Ore
-nethermetals:nether_magnesium_ore, Nether Magnesium Ore
-nethermetals:nether_manganese_ore, Nether Manganese Ore
 nethermetals:nether_osmium_ore, Nether Osmium Ore
-nethermetals:nether_rutile_ore, Nether Rutile Ore
-nethermetals:nether_tantalum_ore, Nether Tantalum Ore
-nethermetals:nether_tungsten_ore, Nether Tungsten Ore
-nethermetals:nether_zirconium_ore, Nether Zirconium Ore
-nethermetals:nether_cadmium_ore, Nether Cadmium Ore
 nethermetals:nether_iridium_ore, Nether Iridium Ore
 nethermetals:nether_plutonium_ore, Nether Plutonium Ore
 nethermetals:nether_uranium_ore, Nether Uranium Ore
 nethermetals:nether_titanium_ore, Nether Titanium Ore
+plustic:pipe_piece:0, Stone Pipe Piece
+plustic:laser_medium:0, Stone Laser Medium
+plustic:battery_cell:0, Stone Battery Cell
+plustic:katana, Katana
 plustic:mirionnugget, Mirion Nugget
 plustic:mirioningot, Mirion Ingot
 plustic:mirionblock, Mirion Block
-plustic:pipe_piece:0, Electrical Pipe Piece
-plustic:pipe_piece:0, Energetic Pipe Piece
-plustic:pipe_piece:0, Vibrant Pipe Piece
-plustic:pipe_piece:0, Red Pipe Piece
-plustic:pipe_piece:0, Conductive Pipe Piece
-plustic:pipe_piece:0, Pulsating Pipe Piece
-plustic:pipe_piece:0, Dark Pipe Piece
-plustic:pipe_piece:0, Souled Pipe Piece
-plustic:pipe_piece:0, Pipe Piece of the End
-plustic:pipe_piece:0, Fake-Iron Pipe Piece
-plustic:pipe_piece:0, Wooden Pipe Piece
-plustic:pipe_piece:0, Stone Pipe Piece
-plustic:pipe_piece:0, Flint Pipe Piece
-plustic:pipe_piece:0, Cactus Pipe Piece
-plustic:pipe_piece:0, Bone Pipe Piece
-plustic:pipe_piece:0, Obsidian Pipe Piece
-plustic:pipe_piece:0, Prismarine Pipe Piece
-plustic:pipe_piece:0, End Pipe Piece
-plustic:pipe_piece:0, Paper Pipe Piece
-plustic:pipe_piece:0, Sponge Pipe Piece
-plustic:pipe_piece:0, Firewood Pipe Piece
-plustic:pipe_piece:0, Iron Pipe Piece
-plustic:pipe_piece:0, Pig Iron Pipe Piece
-plustic:pipe_piece:0, Knightslime Pipe Piece
-plustic:pipe_piece:0, Slime Pipe Piece
-plustic:pipe_piece:0, Slime Pipe Piece
-plustic:pipe_piece:0, Magma Slime Pipe Piece
-plustic:pipe_piece:0, Netherrack Pipe Piece
-plustic:pipe_piece:0, Cobalt Pipe Piece
-plustic:pipe_piece:0, Ardite Pipe Piece
-plustic:pipe_piece:0, Manyullyn Pipe Piece
-plustic:pipe_piece:0, Copper Pipe Piece
-plustic:pipe_piece:0, Bronze Pipe Piece
-plustic:pipe_piece:0, Lead Pipe Piece
-plustic:pipe_piece:0, Silver Pipe Piece
-plustic:pipe_piece:0, Electrum Pipe Piece
-plustic:pipe_piece:0, Steel Pipe Piece
-plustic:pipe_piece:0, Magical Wooden Pipe Piece
-plustic:pipe_piece:0, Evil Infused Pipe Piece
-plustic:pipe_piece:0, Enchanted Pipe Piece
-plustic:pipe_piece:0, Demonic Pipe Piece
-plustic:pipe_piece:0, Alumite Pipe Piece
-plustic:pipe_piece:0, Nickel Pipe Piece
-plustic:pipe_piece:0, Invar Pipe Piece
-plustic:pipe_piece:0, Iridium Pipe Piece
-plustic:pipe_piece:0, Sapphire Pipe Piece
-plustic:pipe_piece:0, Ruby Pipe Piece
-plustic:pipe_piece:0, Peridot Pipe Piece
-plustic:pipe_piece:0, Malachite Pipe Piece
-plustic:pipe_piece:0, Amber Pipe Piece
-plustic:pipe_piece:0, Topaz Pipe Piece
-plustic:pipe_piece:0, Tanzanite Pipe Piece
-plustic:pipe_piece:0, Amethyst Pipe Piece
-plustic:pipe_piece:0, Osmium Pipe Piece
-plustic:pipe_piece:0, Refined Obsidian Pipe Piece
-plustic:pipe_piece:0, Refined Glowstone Pipe Piece
-plustic:pipe_piece:0, Osgloglas Pipe Piece
-plustic:pipe_piece:0, Osmiridium Pipe Piece
-plustic:pipe_piece:0, Titanium Pipe Piece
-plustic:pipe_piece:0, Lumium Pipe Piece
-plustic:pipe_piece:0, Signalum Pipe Piece
-plustic:pipe_piece:0, Platinum Pipe Piece
-plustic:pipe_piece:0, Enderium Pipe Piece
-plustic:pipe_piece:0, Psimetal Pipe Piece
-plustic:pipe_piece:0, Psigem Pipe Piece
-plustic:pipe_piece:0, Infinity Pipe Piece
-plustic:pipe_piece:0, Certus Quartz Pipe Piece
-plustic:pipe_piece:0, Fluix Crystal Pipe Piece
-plustic:pipe_piece:0, Starmetal Pipe Piece
-plustic:pipe_piece:0, Mirion Pipe Piece
-plustic:pipe_piece:0, Livingwood Pipe Piece
-plustic:pipe_piece:0, Manasteel Pipe Piece
-plustic:pipe_piece:0, Elementium Pipe Piece
-plustic:pipe_piece:0, Terrasteel Pipe Piece
-plustic:pipe_piece:0, Emerald Pipe Piece
-plustic:laser_medium:0, Stone Laser Medium
-plustic:laser_medium:0, Prismarine Laser Medium
-plustic:laser_medium:0, Blazerod Laser Medium
-plustic:laser_medium:0, Endrod Laser Medium
-plustic:laser_medium:0, Refined Obsidian Laser Medium
-plustic:laser_medium:0, Refined Glowstone Laser Medium
-plustic:laser_medium:0, Psigem Laser Medium
-plustic:laser_medium:0, Infinity Laser Medium
-plustic:laser_medium:0, Certus Quartz Laser Medium
-plustic:laser_medium:0, Fluix Crystal Laser Medium
-plustic:laser_medium:0, Starmetal Laser Medium
-plustic:battery_cell:0, Stone Battery Cell
-plustic:battery_cell:0, Manyullyn Battery Cell
-plustic:battery_cell:0, Copper Battery Cell
-plustic:battery_cell:0, Silver Battery Cell
-plustic:battery_cell:0, Blazerod Battery Cell
-plustic:battery_cell:0, Endrod Battery Cell
-plustic:battery_cell:0, Nickel Battery Cell
-plustic:battery_cell:0, Osmium Battery Cell
-plustic:battery_cell:0, Fluix Crystal Battery Cell
-plustic:laser_gun, Laser Gun
-plustic:katana, Katana
 rftools:smartwrench, Smart Wrench
 rftools:rftools_manual, RFTools Manual
 rftools:rftools_shape_manual, RFTools Shape Manual
@@ -19420,39 +17964,22 @@ baseminerals:lithium_block, Lithium Block
 baseminerals:lithium_ingot, Lithium Ingot
 baseminerals:lithium, Molten Silicon
 baseminerals:lithium_powder, Powdered Lithium
-baseminerals:lithium_smallpowder, Small Pile of Powdered Lithium
 baseminerals:lithium_nugget, Lithium Nugget
 baseminerals:lithium_ore, Lithium Ore
-baseminerals:niter_block, Niter Block
-baseminerals:niter_ore, Niter Ore
-baseminerals:niter_powder, Powdered Niter
-baseminerals:niter_smallpowder, Small Pile of Powdered Niter
-baseminerals:phosphorus_powder, Powdered Phosphorus
-baseminerals:phosphorus_ore, Phosphorus Ore
-baseminerals:phosphorus_block, Phosphorus Block
-baseminerals:phosphorus_smallpowder, Small Pile of Powdered Phosphorus
-baseminerals:potash_ore, Potash Ore
-baseminerals:potash_block, Potash Block
-baseminerals:potash_powder, Powdered Potash
-baseminerals:potash_smallpowder, Small Pile of Powdered Potash
 baseminerals:salt_block, Salt Block
 baseminerals:salt_powder, Powdered Salt
-baseminerals:salt_smallpowder, Small Pile of Powdered Salt
 baseminerals:salt_ore, Salt Ore
 baseminerals:saltpeter_block, Saltpeter Block
 baseminerals:saltpeter_powder, Powdered Saltpeter
 baseminerals:saltpeter_ore, Saltpeter Ore
-baseminerals:saltpeter_smallpowder, Small Pile of Powdered Saltpeter
 baseminerals:sulfur_block, Sulfur Block
 baseminerals:sulfur_ore, Sulfur Ore
 baseminerals:sulfur_powder, Powdered Sulfur
-baseminerals:sulfur_smallpowder, Small Pile of Powdered Sulfur
 baseminerals:silicon_blend, Silicon Blend
 baseminerals:silicon_ingot, Silicon Ingot
 baseminerals:silicon_smallblend, Small Pile of Silicon Blend
 baseminerals:silicon_powder, Powdered Silicon
 baseminerals:silicon_block, Silicon Block
-baseminerals:silicon_smallpowder, Small Pile of Powdered Silicon
 baseminerals:silicon_nugget, Silicon Nugget
 aroma1997sdimension:portalframe, Portal Frame
 aroma1997sdimension:miningmultitool, Mining Multitool
