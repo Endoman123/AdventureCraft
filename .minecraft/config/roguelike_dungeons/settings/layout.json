@@ -1,0 +1,8 @@
+{
+	"name" : "dungeon1:layout",
+	"num_rooms" : [8, 10, 10, 15, 25],
+	"layouts" : [
+		{"level" : [0, 1], "type" : "classic"},
+		{"level" : [2, 3, 4], "type" : "mst"}
+	]
+}

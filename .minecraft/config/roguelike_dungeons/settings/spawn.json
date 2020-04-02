@@ -1,0 +1,26 @@
+{
+	"name" : "dungeon:spawners",
+	"spawners" : [
+		{
+			"type" : "SKELETON",
+            "weight" : 1,
+			"potentials" : [
+				{
+                    "name" : "grimoireofgaia:siren"
+                }
+			],
+			"level" : [0, 1, 2, 3, 4]
+		},
+        {
+			"type" : "ZOMBIE",
+            "weight" : 1,
+			"potentials" : [
+				{
+                    "name" : "grimoireofgaia:siren"
+                }
+			],
+			"level" : [0, 1, 2, 3, 4]
+		}
+
+	]
+}
