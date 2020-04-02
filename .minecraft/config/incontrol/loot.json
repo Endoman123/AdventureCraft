@@ -60,24 +60,28 @@
     },
 
     {
+        "hostile": true,
         "dimension": -1,
         "player": true,
         "random": 0.05,
         "item": "jsonlootbags:uncommon_bag"
     },
     {
+        "hostile": true,
         "dimension": 1,
         "player": true,
         "random": 0.05,
         "item": "jsonlootbags:rare_bag"
     },
     {
+        "hostile": true,
         "dimension": 1,
         "player": true,
         "random": 0.05,
         "item": "jsonlootbags:superrare_bag"
     },
     {
+        "hostile": true,
         "dimension": -11325,
         "player": true,
         "random": 0.1,
