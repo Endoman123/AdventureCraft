@@ -1,6 +1,6 @@
 {
-	"name" : "dung1:loot_tables",
+	"name" : "dung2:loot_tables",
 	"loot_tables" : [
-		{"level" : [0, 1, 2, 3, 4], "table" : "neuroflow:chests/chestloot6"}
+		{"level" : [0, 1, 2, 3, 4], "table" : "neuroflow:chests/chestloot7"}
 	]
 }

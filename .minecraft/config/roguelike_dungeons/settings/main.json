@@ -1,12 +1,12 @@
 {
 	"name" : "dungeon1:main",
-    "exclusive" : true,
-    "override" : true,
+    "override" : ["LOOTRULES"],
     "criteria" : {},
 	"inherit" : [
-		"dung1:loot_tables",
-		"dung2:loot_tables",
 		"dungeon:spawners",
-        "dungeon1:layout"
-	]
+        "dungeon1:layout",
+        "dung1:loot_tables",
+        "dung2:loot_tables"
+	],
+    "weight" : 100000
 }

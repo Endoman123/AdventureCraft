@@ -1,60 +1,60 @@
 [
     {
         "hostile": true,
-        "player": true,
-        "random": 0.09,
+        "realplayer": true,
+        "random": 0.06,
         "item": "jsonlootbags:common_bag"
     },
     {
         "hostile": true,
-        "player": true,
-        "random": 0.04,
+        "realplayer": true,
+        "random": 0.02,
         "item": "jsonlootbags:uncommon_bag"
     },
     {
         "hostile": true,
-        "player": true,
-        "random": 0.02,
+        "realplayer": true,
+        "random": 0.008,
         "item": "jsonlootbags:rare_bag"
     },
     {
         "hostile": true,
-        "player": true,
-        "random": 0.01,
+        "realplayer": true,
+        "random": 0.005,
         "item": "jsonlootbags:superrare_bag"
     },
     {
         "hostile": true,
-        "player": true,
-        "random": 0.001,
+        "realplayer": true,
+        "random": 0.0001,
         "item": "jsonlootbags:elusive_bag"
     },
 
     {
         "mod": "grimoireofgaia",
         "hostile": true,
-        "player": true,
-        "random": 0.04,
+        "realplayer": true,
+        "random": 0.03,
         "item": "jsonlootbags:uncommon_bag"
     },
     {
         "mod": "grimoireofgaia",
         "hostile": true,
-        "player": true,
-        "random": 0.04,
+        "realplayer": true,
+        "random": 0.03,
         "item": "jsonlootbags:rare_bag"
     },
     {
         "mod": "grimoireofgaia",
         "hostile": true,
-        "player": true,
-        "random": 0.04,
+        "realplayer": true,
+        "random": 0.02,
         "item": "jsonlootbags:superrare_bag"
     },
     {
         "mod": "grimoireofgaia",
         "hostile": true,
-        "player": true,
+        "realplayer": true,
         "random": 0.009,
         "item": "jsonlootbags:elusive_bag"
     },
@@ -62,29 +62,29 @@
     {
         "hostile": true,
         "dimension": -1,
-        "player": true,
-        "random": 0.05,
+        "realplayer": true,
+        "random": 0.04,
         "item": "jsonlootbags:uncommon_bag"
     },
     {
         "hostile": true,
         "dimension": 1,
-        "player": true,
+        "realplayer": true,
         "random": 0.05,
         "item": "jsonlootbags:rare_bag"
     },
     {
         "hostile": true,
         "dimension": 1,
-        "player": true,
-        "random": 0.05,
+        "realplayer": true,
+        "random": 0.04,
         "item": "jsonlootbags:superrare_bag"
     },
     {
         "hostile": true,
         "dimension": -11325,
-        "player": true,
-        "random": 0.1,
+        "realplayer": true,
+        "random": 0.08,
         "item": "jsonlootbags:elusive_bag"
     }
 
