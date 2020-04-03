@@ -1,0 +1,11 @@
+{
+    "loot-table": "jsonlootbags:gacha/b",
+    "name": "gacha_b",
+    "human-name": "B Tier Gacha Capsule",
+    "texture": "adventurecraft:capsule",
+    "rarity": "Uncommon",
+    "effect": false,
+    "colors": [
+        "#009c00"
+    ]
+}

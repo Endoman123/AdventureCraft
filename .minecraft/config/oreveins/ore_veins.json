@@ -32,8 +32,8 @@
     "vertical_size": 4,
     "horizontal_size": 6,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "curve_uncommon": {
@@ -69,8 +69,8 @@
     "vertical_size": 4,
     "horizontal_size": 6,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "curve_rare": {
@@ -98,8 +98,8 @@
     "vertical_size": 4,
     "horizontal_size": 6,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "cluster_common": {
@@ -134,8 +134,8 @@
     "vertical_size": 10,
     "horizontal_size": 10,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "cluster_uncommon": {
@@ -170,8 +170,8 @@
     "vertical_size": 10,
     "horizontal_size": 10,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "cluster_rare": {
@@ -198,8 +198,8 @@
     "vertical_size": 8,
     "horizontal_size": 8,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "carbondeposit_common": {
@@ -213,8 +213,8 @@
     "vertical_size": 20,
     "horizontal_size": 20,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "carbondeposit_uncommon": {
@@ -237,8 +237,8 @@
     "vertical_size": 8,
     "horizontal_size": 12,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "carbondeposit_rare": {
@@ -261,8 +261,8 @@
     "vertical_size": 6,
     "horizontal_size": 12,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "crystaldeposit_common": {
@@ -299,8 +299,8 @@
     "vertical_size": 10,
     "horizontal_size": 10,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "crystaldeposit_rare": {
@@ -339,8 +339,8 @@
     "vertical_size": 10,
     "horizontal_size": 10,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "redstone_deposit": {
@@ -364,8 +364,8 @@
     "vertical_size": 4,
     "horizontal_size": 6,
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "radioactive_deposit": {
@@ -444,8 +444,8 @@
       ]
     },
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "sulfur_deposit": {
@@ -464,8 +464,8 @@
       "aroma1997sdimension:miningbiome"
     ],
     "dimensions": [
-        0,
-        -6
+      0,
+      -6
     ]
   },
   "mineral_deposit": {
@@ -504,39 +504,39 @@
     "vertical_size": 6,
     "horizontal_size": 4,
     "dimensions": [
-        -1
+      -1
     ]
   },
   "nethergem_pool": {
     "type": "cone",
     "inverted": true,
     "ore": [
-        {
-            "block": "nethermetals:nether_lapis_ore",
-            "weight": 50
-        },
-        {
-            "block": "nethermetals:nether_redstone_ore",
-            "weight": 50
-        },
-        {
-            "block": "thermalfoundation:ore_fluid",
-            "meta": 3,
-            "weight": 1
-        },
-        {
-            "block": "nethermetals:nether_diamond_ore",
-            "weight": 5
-        },
-        {
-            "block": "nethermetals:nether_emerald_ore",
-            "weight": 1
-        },
-        {
-            "block": "rftools:dimensional_shard_ore",
-            "meta": 1,
-            "weight": 1
-        }
+      {
+        "block": "nethermetals:nether_lapis_ore",
+        "weight": 50
+      },
+      {
+        "block": "nethermetals:nether_redstone_ore",
+        "weight": 50
+      },
+      {
+        "block": "thermalfoundation:ore_fluid",
+        "meta": 3,
+        "weight": 1
+      },
+      {
+        "block": "nethermetals:nether_diamond_ore",
+        "weight": 5
+      },
+      {
+        "block": "nethermetals:nether_emerald_ore",
+        "weight": 1
+      },
+      {
+        "block": "rftools:dimensional_shard_ore",
+        "meta": 1,
+        "weight": 1
+      }
     ],
     "stone": "minecraft:netherrack",
     "rarity": 5,
@@ -546,7 +546,7 @@
     "vertical_size": 6,
     "horizontal_size": 4,
     "dimensions": [
-        -1
+      -1
     ]
   },
   "nethercluster_common": {
@@ -581,7 +581,7 @@
     "vertical_size": 10,
     "horizontal_size": 10,
     "dimensions": [
-        -1
+      -1
     ]
   },
   "nethercluster_uncommon": {
@@ -616,7 +616,7 @@
     "vertical_size": 10,
     "horizontal_size": 10,
     "dimensions": [
-        -1
+      -1
     ]
   },
   "nethercluster_rare": {
@@ -653,14 +653,14 @@
     "vertical_size": 8,
     "horizontal_size": 8,
     "dimensions": [
-        -1
+      -1
     ]
   },
   "resonantend_clarthate": {
     "type": "cluster",
     "ore": {
-        "block": "thermalfoundation:ore_fluid",
-        "meta": 4
+      "block": "thermalfoundation:ore_fluid",
+      "meta": 4
     },
     "stone": "minecraft:end_stone",
     "rarity": 5,
@@ -670,7 +670,104 @@
     "vertical_size": 8,
     "horizontal_size": 8,
     "dimensions": [
-        1
+      1
+    ]
+  },
+  "deepdarkcluster_common": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 20
+      },
+      {
+        "block": "basemetals:copper_ore",
+        "weight": 15
+      },
+      {
+        "block": "modernmetals:aluminum_ore",
+        "weight": 10
+      },
+      {
+        "block": "basemetals:lead_ore",
+        "weight": 10
+      },
+      {
+        "block": "basemetals:tin_ore",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 200,
+    "vertical_size": 20,
+    "horizontal_size": 20,
+    "dimensions": [
+      -11325
+    ]
+  },
+  "deepdarkcluster_uncommon": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "basemetals:nickel_ore",
+        "weight": 15
+      },
+      {
+        "block": "modernmetals:osmium_ore",
+        "weight": 15
+      },
+      {
+        "block": "basemetals:silver_ore",
+        "weight": 10
+      },
+      {
+        "block": "basemetals:zinc_ore",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:gold_ore",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 15,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 200,
+    "vertical_size": 20,
+    "horizontal_size": 20,
+    "dimensions": [
+      -11325
+    ]
+  },
+  "deepdarkcluster_rare": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "basemetals:titanium_ore",
+        "weight": 15
+      },
+      {
+        "block": "modernmetals:iridium_ore",
+        "weight": 15
+      },
+      {
+        "block": "basemetals:platinum_ore",
+        "weight": 10
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 20,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 150,
+    "vertical_size": 16,
+    "horizontal_size": 16,
+    "dimensions": [
+      -11325
     ]
   }
 }

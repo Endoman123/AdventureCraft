@@ -1,0 +1,11 @@
+{
+    "loot-table": "jsonlootbags:gacha/sss",
+    "name": "gacha_sss",
+    "human-name": "SSS Tier Gacha Capsule",
+    "texture": "adventurecraft:capsule",
+    "rarity": "Epic",
+    "effect": true,
+    "colors": [
+        "#ffcc00"
+    ]
+}

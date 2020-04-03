@@ -2,11 +2,10 @@
     "loot-table": "neuroflow:chests/chestloot4",
     "name": "superrare_bag",
     "human-name": "Super Rare Bag",
-    "texture": "jsonlootbags:bag",
+    "texture": "adventurecraft:bag",
     "rarity": "Epic",
     "effect": true,
     "colors": [
-    "0xBF00FF",
-    "#00AF00"
+        "0xBF00FF"
     ]
 }

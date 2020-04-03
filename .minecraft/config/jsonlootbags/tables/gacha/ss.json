@@ -1,0 +1,93 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "incorporeal:lokiw_slab",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:gold_baphomet_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:gold_herne_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:gold_leonard_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:gold_lilith_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:elder_guardian\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:enderman\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:skeleton_horse\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:vindicator\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:doll_maid",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:deco_mandragora_pot",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:doll_nine_tails",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
