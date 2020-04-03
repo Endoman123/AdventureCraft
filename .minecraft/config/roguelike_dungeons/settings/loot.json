@@ -1,7 +1,6 @@
 {
 	"name" : "builtin:loot",
 	"inherit" : [
-		"dung1:loot_tables",
-		"dung2:loot_tables"
+		"dung1:loot_tables"
 	]
 }
