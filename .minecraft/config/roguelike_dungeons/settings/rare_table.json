@@ -1,0 +1,6 @@
+{
+	"name" : "rare:loot_tables",
+	"loot_tables" : [
+		{"level" : [3, 4], "table" : "neuroflow:chests/chestloot8"}
+	]
+}

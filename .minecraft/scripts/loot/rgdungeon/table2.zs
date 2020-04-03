@@ -5,6 +5,8 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
 
+// NOT USED RN
+
 // A Rougue like dungeon lootpool
 var table = LootTables.getTable("neuroflow:chests/chestloot7");
 var additional = table.addPool("dungeon1", 1, 5, 0, 4);

@@ -6,7 +6,7 @@
 		"dungeon:spawners",
         "dungeon1:layout",
         "dung1:loot_tables",
-        "dung2:loot_tables"
+        "rare:loot_tables"
 	],
     "weight" : 100000
 }

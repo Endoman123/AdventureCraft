@@ -3,7 +3,7 @@
 	"spawners" : [
         {
 			"type" : "ZOMBIE",
-            "weight" : 12,
+            "weight" : 40,
 			"potentials" : [
 				{
                     "name" : "minecraft:zombie"
@@ -13,7 +13,7 @@
 		},
         {
 			"type" : "SKELETON",
-            "weight" : 12,
+            "weight" : 40,
 			"potentials" : [
 				{
                     "name" : "minecraft:skeleton"
@@ -22,8 +22,8 @@
 			"level" : [0, 1, 2, 3, 4]
 		},
         {
-			"type" : "ZOMBIE",
-            "weight" : 12,
+			"type" : "SPIDER",
+            "weight" : 40,
 			"potentials" : [
 				{
                     "name" : "minecraft:spider"
@@ -65,7 +65,7 @@
 		},
         {
 			"type" : "SKELETON",
-            "weight" : 6,
+            "weight" : 15,
 			"potentials" : [
 				{
                     "name" : "grimoireofgaia:goblin_feral"
@@ -117,23 +117,13 @@
 		},
         {
 			"type" : "SPIDER",
-            "weight" : 3,
+            "weight" : 1,
 			"potentials" : [
 				{
                     "name" : "grimoireofgaia:arachne"
                 }
 			],
-			"level" : [0, 1, 2, 3, 4]
-		},
-        {
-			"type" : "SPIDER",
-            "weight" : 3,
-			"potentials" : [
-				{
-                    "name" : "grimoireofgaia:gryphon"
-                }
-			],
-			"level" : [0, 1, 2, 3, 4]
+			"level" : [3, 4]
 		},
         {
 			"type" : "SKELETON",
@@ -193,9 +183,7 @@
                     "name" : "grimoireofgaia:selkie",
                     "name" : "grimoireofgaia:goblin_feral",
                     "name" : "grimoireofgaia:sludge_girl",
-                    "name" : "grimoireofgaia:gryphon",
                     "name" : "grimoireofgaia:deathword",
-                    "name" : "grimoireofgaia:banshee",
                     "name" : "grimoireofgaia:yeti"
                 }
 			],
@@ -203,7 +191,7 @@
 		},
         {
 			"type" : "ZOMBIE",
-            "weight" : 6,
+            "weight" : 1,
 			"potentials" : [
 				{
                     "name" : "grimoireofgaia:sharko"
@@ -213,7 +201,7 @@
 		},
         {
 			"type" : "ZOMBIE",
-            "weight" : 6,
+            "weight" : 1,
 			"potentials" : [
 				{
                     "name" : "grimoireofgaia:gelatinous_slime"
@@ -223,7 +211,7 @@
 		},
         {
 			"type" : "ZOMBIE",
-            "weight" : 6,
+            "weight" : 1,
 			"potentials" : [
 				{
                     "name" : "grimoireofgaia:cobblestone_golem"
@@ -252,16 +240,6 @@
 			"level" : [3, 4]
 		},
         {
-			"type" : "SKELETON",
-            "weight" : 6,
-			"potentials" : [
-				{
-                    "name" : "grimoireofgaia:banshee"
-                }
-			],
-			"level" : [3, 4]
-		},
-        {
 			"type" : "SPIDER",
             "weight" : 6,
 			"potentials" : [
@@ -269,11 +247,11 @@
                     "name" : "grimoireofgaia:wither_cow"
                 }
 			],
-			"level" : [3, 4]
+			"level" : [2, 3, 4]
 		},
         {
 			"type" : "ZOMBIE",
-            "weight" : 6,
+            "weight" : 1,
 			"potentials" : [
 				{
                     "name" : "grimoireofgaia:ender_dragon_girl"
@@ -301,11 +279,9 @@
 			],
 			"level" : [4]
 		},
-
-
         {
 			"type" : "ZOMBIE",
-            "weight" : 6,
+            "weight" : 1,
 			"potentials" : [
 				{
                     "name" : "grimoireofgaia:bone_knight"
