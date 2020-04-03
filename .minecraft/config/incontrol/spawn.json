@@ -6,9 +6,12 @@
     "result": "allow",
     "healthmultiply": 0.6,
     "angry": true
-  }
-  {
-    "maxcount": "15,grimoireofgaia:deathword",
+  },
+{
+    "maxcount": {
+		  "amount": 10,
+		  "perplayer": true
+	},
     "mob": "grimoireofgaia:deathword",
     "result": "deny"
   }
