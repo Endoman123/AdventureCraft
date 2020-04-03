@@ -2,11 +2,10 @@
     "loot-table": "jsonlootbags:bags/capacitor",
     "name": "capacitor_bag",
     "human-name": "Capacitor Bag",
-    "texture": "jsonlootbags:bag",
+    "texture": "adventurecraft:bag",
     "rarity": "Uncommon",
     "effect": false,
     "colors": [
-    "0x10C3B4",
-    "#DB3800"
+        "0x10C3B4"
     ]
 }

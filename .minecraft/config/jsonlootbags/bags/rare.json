@@ -2,11 +2,10 @@
     "loot-table": "neuroflow:chests/chestloot3",
     "name": "rare_bag",
     "human-name": "Rare Bag",
-    "texture": "jsonlootbags:bag",
+    "texture": "adventurecraft:bag",
     "rarity": "Rare",
     "effect": true,
     "colors": [
-    "0x0032DB",
-    "#DFFFFF"
+        "0x0032DB"
     ]
 }

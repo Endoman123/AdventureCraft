@@ -1,0 +1,153 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "incorporeal:lokiw_wall",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:stone_baphomet_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:stone_herne_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:stone_leonard_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:stone_lilith_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:creeper\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:donkey\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:horse\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:ocelot\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:skeleton\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:spider\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:villager\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:wolf\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:zombie\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:bust_gorgon",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:bust_sphinx",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:bust_valkyrie",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:bust_vampire",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }

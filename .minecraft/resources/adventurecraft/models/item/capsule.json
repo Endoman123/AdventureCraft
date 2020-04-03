@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "adventurecraft:items/capsule_base",
+        "layer1": "adventurecraft:items/capsule_head"
+    }
+}

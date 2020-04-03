@@ -1,0 +1,148 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "incorporeal:lokiw_fence_gate",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:nether_brick_baphomet_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:nether_brick_herne_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:nether_brick_leonard_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "bewitchment:nether_brick_lilith_statue",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:blaze\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:ghast\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:guardian\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:llama\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:magma_cube\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:polar_bear\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:stray\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:witch\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "openblocks:trophy",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{entity_id: \"minecraft:zombie_villager\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:doll_creeper_girl",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:doll_dryad",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "grimoireofgaia:doll_ender_girl",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
