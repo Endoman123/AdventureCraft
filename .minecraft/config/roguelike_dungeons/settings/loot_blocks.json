@@ -1,0 +1,8 @@
+{
+	"name": "loot:tables",
+	"overrides": ["LOOTRULES"],
+	"loot_tables" : [
+		{"level": [0, 1, 2, 3], "table": "neuroflow:chests/chestloot6"},
+		{"level": 4, "table": "neuroflow:chests/chestloot8"}
+	]
+}
