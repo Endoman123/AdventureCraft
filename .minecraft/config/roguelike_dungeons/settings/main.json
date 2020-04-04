@@ -1,9 +1,0 @@
-{
-	"name": "dungeons:all",
-	"criteria": {},
-	"inherit": [
-		"layout:all",
-		"loot:all",
-		"spawners:all"
-	]
-}

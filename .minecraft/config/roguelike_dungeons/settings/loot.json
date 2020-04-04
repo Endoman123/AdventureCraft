@@ -1,7 +1,0 @@
-{
-	"name": "loot:all",
-	"inherit": [
-		"loot:tables",
-		"loot:reward"
-	]
-}

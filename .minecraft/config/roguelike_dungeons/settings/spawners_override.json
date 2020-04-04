@@ -1,5 +1,5 @@
 {
-	"name" : "dungeon:spawners",
+	"name" : "spawners:default",
 	"spawners" : [
         {
 			"type" : "ZOMBIE",

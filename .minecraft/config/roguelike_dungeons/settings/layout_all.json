@@ -1,5 +1,6 @@
 {
-	"name" : "layout:all",
+	"name" : "layout:default",
+	"overrides": ["ROOMS"],
 	"num_rooms" : [8, 12, 14, 18, 25],
 	"rooms": [
 		{"level": [0, 1, 2, 3], "type": "random", "name" : "BRICK", "weight": 10},
