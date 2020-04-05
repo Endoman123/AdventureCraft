@@ -19,6 +19,7 @@ val list = [
     <minecraft:skull:5>,
     <minecraft:beacon>,
     <minecraft:elytra>,
+    <minecraft:elytra>.withTag({ench: [{lvl: 3 as short, id: 34}, {lvl: 1 as short, id: 70}], RepairCost: 3}),
     <minecraft:dragon_breath>,
     <minecraft:purple_shulker_box>,
     <minecraft:nether_star>,
@@ -38,6 +39,7 @@ val list = [
     <tconstruct:fancy_frame:4>,
     // Mekanism
     <mekanism:machineblock:8>,
+    <redstonearsenal:tool.bow_flux>.withTag({ench: [{lvl: 3 as short, id: 21}, {lvl: 3 as short, id: 57}, {lvl: 4 as short, id: 58}, {lvl: 1 as short, id: 51}], RepairCost: 15, Energy: 320000}),
     <mekanism:controlcircuit:3>,
     <mekanism:electricbow>.withTag({mekData: {energyStored: 120000.0}}),
     <mekanismgenerators:generator:5>,

@@ -46,6 +46,7 @@ additional.addItemEntry(<minecraft:compass>, 20);
 
 // Astral
 additional.addItemEntry(<astralsorcery:itemcraftingcomponent>, 90);
+additional.addItemEntry(<astralsorcery:itemgrapplewand>, 2);
 
 // Baubles
 additional.addItemEntry(<bountifulbaubles:trinketmagiclenses>, 2);
@@ -72,6 +73,8 @@ additional.addItemEntry(<scalinghealth:heartcontainer>, 4);
 additional.addItemEntry(<extrautils2:boomerang>, 2);
 additional.addItemEntry(<extrautils2:magicapple>, 10);
 additional.addItemEntry(<extrautils2:ingredients:5>, 8);
+additional.addItemEntry(<extrautils2:ingredients:12>, 10);
+additional.addItemEntry(<extrautils2:ingredients:11>, 10);
 additional.addItemEntry(<extrautils2:suncrystal>, 8);
 
 // harvestcraft
@@ -114,6 +117,11 @@ additional.addItemEntry(<basemetals:gold_shield>, 10);
 
 // Tinkers
 additional.addItemEntry(<tconstruct:slimesling:4>, 5);
+additional.addItemEntry(<tconstruct:materials:18>, 20);
+additional.addItemEntry(<tconstruct:materials:13>, 20);
+additional.addItemEntry(<tconstruct:materials:12>, 20);
+additional.addItemEntry(<tconstruct:materials:15>, 20);
+additional.addItemEntry(<tconstruct:materials:14>, 25);
 
 
 

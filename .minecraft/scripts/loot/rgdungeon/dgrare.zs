@@ -93,9 +93,16 @@ additional.addItemEntry(<basemetals:gold_shield>, 10);
 
 // Tinkers
 additional.addItemEntry(<tconstruct:slimesling:4>, 5);
+additional.addItemEntry(<tconstruct:materials:16>, 9);
+additional.addItemEntry(<tconstruct:materials:17>, 12);
+additional.addItemEntry(<tconstruct:ingots:3>, 3);
+additional.addItemEntry(<tconstruct:ingots>, 2);
+additional.addItemEntry(<tconstruct:ingots:1>, 2);
+additional.addItemEntry(<tconstruct:ingots:3>, 1);
+additional.addItemEntry(<plustic:mirioningot>, 1);
 
 // Enchanted Books
-additional.addItemEntryHelper(<minecraft:enchanted_book>, 80, 1, [Functions.enchantRandomly([
+additional.addItemEntryHelper(<minecraft:enchanted_book>, 90, 1, [Functions.enchantRandomly([
     "advancedrocketry:spacebreathing",          //  - Airtight Seal
     "astralsorcery:enchantment.as.nightvision", //  - Night Vision
     "astralsorcery:enchantment.as.smelting",    //  - Scorching Heat

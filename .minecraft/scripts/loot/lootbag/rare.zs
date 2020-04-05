@@ -66,6 +66,10 @@ val list = [
     <minecraft:lingering_potion>.withTag({Potion: "cofhcore:luck4"}),
     <minecraft:cauldron>,
     <minecraft:magma_cream>,
+    // Astral Sorcery
+    <astralsorcery:itemgrapplewand>,
+    // Botania
+    <botania:openbucket>,
     // Bountiful Baubles
     <bountifulbaubles:shieldobsidian>.withTag({HideFlags: 2}),
     <bountifulbaubles:trinketmagiclenses>,
@@ -131,6 +135,7 @@ val list = [
     <chococraft:ability_fruit:3>,
     // extrautils2
     <extrautils2:angelblock>,
+    <extrautils2:ingredients:12>,
     // Flux Networks
     <fluxnetworks:fluxstorage>,
     // Redstone FLux
