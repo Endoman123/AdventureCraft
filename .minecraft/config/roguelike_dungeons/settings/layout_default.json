@@ -1,0 +1,8 @@
+{
+	"name" : "layout:default",
+	"num_rooms" : [12, 12, 14, 18, 25],
+	"layouts" : [
+		{"level" : [0, 1], "type" : "classic"},
+		{"level" : [2, 3, 4], "type" : "mst"}
+	]
+}

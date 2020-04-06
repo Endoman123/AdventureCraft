@@ -1,0 +1,30 @@
+{
+	"name" : "spawners:default",
+	"spawners" : [
+		{
+			"type": "ZOMBIE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 50,
+			"potentials": [
+				{ "name": "minecraft:zombie", "equip": true, "weight": 1 }
+			]
+		},
+		{
+			"type": "SKELETON",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 50,
+			"potentials": [
+				{ "name": "minecraft:stray", "weight": 1 }
+			]
+		},
+		{
+			"type": "CREEPER",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 50,
+			"potentials": [
+				{ "name": "minecraft:creeper", "weight": 99 },
+				{ "name": "minecraft:creeper", "nbt": "{powered:1}", "weight": 1 }
+			]
+		}
+	]
+}

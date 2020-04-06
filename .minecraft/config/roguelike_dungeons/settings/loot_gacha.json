@@ -1,0 +1,19 @@
+{
+	"name": "loot:gacha",
+	"loot_rules": [
+        {
+            "type": "REWARD",
+            "level": 4, 
+            "quantity": 1, 
+            "each": false,
+            "loot": [
+                {"data" : {"name" : "jsonlootbags:gacha_c"}, "weight" : 32},
+                {"data" : {"name" : "jsonlootbags:gacha_b"}, "weight" : 16},
+                {"data" : {"name" : "jsonlootbags:gacha_a"}, "weight" : 8},
+                {"data" : {"name" : "jsonlootbags:gacha_s"}, "weight" : 4},
+                {"data" : {"name" : "jsonlootbags:gacha_ss"}, "weight" : 2},
+                {"data" : {"name" : "jsonlootbags:gacha_sss"}, "weight" : 1}
+            ]
+        }
+    ]
+}

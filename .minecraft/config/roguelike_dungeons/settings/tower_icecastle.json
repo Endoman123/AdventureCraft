@@ -1,0 +1,9 @@
+{
+    "name": "tower:icecastle",
+    "tower": {
+        "type": "PYRAMID",
+        "theme": {
+            "base": "ICE"
+        }
+    }   
+}

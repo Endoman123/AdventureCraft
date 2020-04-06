@@ -1,0 +1,19 @@
+{
+	"name": "dungeon:icecastle",
+	"criteria": {
+		"biomeTypes":[
+			"cold",
+			"snowy"
+		],
+		"weight": 2
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:icecastle",
+		"theme:bunker",
+		"layout:default",
+		"rooms:default",
+		"loot:ice",
+		"spawners:ice"
+	]
+}

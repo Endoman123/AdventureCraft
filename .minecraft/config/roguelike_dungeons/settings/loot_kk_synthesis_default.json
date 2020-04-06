@@ -1,0 +1,61 @@
+{
+    "name": "loot:kk_synthesis_default",
+	"loot_rules": [
+        {
+            "level": 0, 
+            "quantity": 12, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidshard\", rank: \"sm.rank.c\"}"}, "weight" : 8 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.denseshard\", rank: \"sm.rank.c\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energyshard\", rank: \"sm.rank.c\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.powershard\", rank: \"sm.rank.c\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 1, 
+            "quantity": 12, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidstone\", rank: \"sm.rank.b\"}"}, "weight" : 8 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.densestone\", rank: \"sm.rank.b\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energystone\", rank: \"sm.rank.b\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.powerstone\", rank: \"sm.rank.b\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 2, 
+            "quantity": 12, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidgem\", rank: \"sm.rank.a\"}"}, "weight" : 8 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.densegem\", rank: \"sm.rank.a\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energygem\", rank: \"sm.rank.a\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.powergem\", rank: \"sm.rank.a\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 3, 
+            "quantity": 12, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 8 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.densecrystal\", rank: \"sm.rank.s\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energycrystal\", rank: \"sm.rank.s\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.powercrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "type": "REWARD",
+            "level": 4, 
+            "quantity": 1, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.manifestillusion\", rank: \"sm.rank.a\"}"}, "weight" : 8 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.orichalcum\", rank: \"sm.rank.a\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lostillusion\", rank: \"sm.rank.s\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.orichalcum+\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+            ]
+        }
+    ]
+}

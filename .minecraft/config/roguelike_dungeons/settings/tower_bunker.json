@@ -1,0 +1,9 @@
+{
+    "name": "tower:bunker",
+    "tower": {
+        "type": "BUNKER",
+        "theme": {
+            "base": "SEWER"
+        }
+    }   
+}

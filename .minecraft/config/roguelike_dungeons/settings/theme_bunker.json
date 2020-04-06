@@ -1,0 +1,13 @@
+{
+    "name": "theme:bunker",
+    "themes": [
+        {
+            "base": "SEWER",
+            "level": [0, 1, 2, 3]  
+        },
+        {
+            "base": "NETHER",
+            "level": 4  
+        }
+    ]
+}

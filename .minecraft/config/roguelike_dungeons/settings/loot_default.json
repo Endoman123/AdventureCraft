@@ -1,21 +1,10 @@
 {
-	"name": "loot:default",
-	"overrides": ["LOOTRULES"],
-	"loot_tables" : [
-		{"level": [0, 1, 2, 3], "table": "neuroflow:chests/chestloot6"},
-		{"level": 4, "table": "neuroflow:chests/chestloot8"}
-	],
-	"loot_rules": [
-        {
-            "type": "REWARD",
-            "level": 4, 
-            "quantity": 1, 
-            "each": false,
-            "loot": [
-                {"data" : {"name" : "jsonlootbags:gacha_s"}, "weight" : 1},
-                {"data" : {"name" : "jsonlootbags:gacha_ss"}, "weight" : 1},
-                {"data" : {"name" : "jsonlootbags:gacha_sss"}, "weight" : 1}
-            ]
-        }
+    "name": "loot:default",
+    "inherit": [
+        "loot:enderio_default",
+        "loot:gacha",
+        "loot:kk_synthesis_default",
+        "loot:kk_recipes",
+        "loot:tables"
     ]
 }

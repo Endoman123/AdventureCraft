@@ -5,29 +5,36 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
 
-
 // A Rougue like dungeon lootpool
-var table = LootTables.getTable("neuroflow:chests/chestloot6");
-// Clean up default main pool
+var table = LootTables.getTable("neuroflow:chests/chestloot13");
 var mainPool = table.getPool("main");
+var additional = table.addPool("dungeon1", 1, 5, 0, 5);
+
+// Remove kingdom keys loot
+table.removePool("kk_loot_rare_materials");
+mainPool.removeEntry("kk:recipe");
+mainPool.removeEntry("kk:recipes_empty");
+
+// Clean up default main pool
 mainPool.removeEntry("minecraft:apple");
-mainPool.removeEntry("minecraft:coal"); mainPool.removeEntry("minecraft:gold_nugget"); mainPool.removeEntry("minecraft:rotten_flesh");
+mainPool.removeEntry("minecraft:coal"); 
+mainPool.removeEntry("minecraft:gold_nugget"); 
+mainPool.removeEntry("minecraft:rotten_flesh");
 mainPool.removeEntry("minecraft:emerald");
 mainPool.removeEntry("minecraft:wheat");
 mainPool.removeEntry("minecraft:stone_axe");
 mainPool.addEmptyEntry(10, 0);
-mainPool.setRolls(0, 4);
-mainPool.setBonusRolls(0, 10);
-var additional = table.addPool("dungeon1", 1, 20, 0, 5);
+mainPool.setRolls(1, 5);
+mainPool.setBonusRolls(0, 5);
 
 // Additions go here
 
 // Bags
-additional.addItemEntry(<jsonlootbags:common_bag>, 30);
-additional.addItemEntry(<jsonlootbags:uncommon_bag>, 50);
-additional.addItemEntry(<jsonlootbags:rare_bag>, 25);
-additional.addItemEntry(<jsonlootbags:superrare_bag>, 10);
-additional.addItemEntry(<jsonlootbags:elusive_bag>, 5);
+// additional.addItemEntry(<jsonlootbags:common_bag>, 30);
+// additional.addItemEntry(<jsonlootbags:uncommon_bag>, 50);
+// additional.addItemEntry(<jsonlootbags:rare_bag>, 25);
+// additional.addItemEntry(<jsonlootbags:superrare_bag>, 10);
+// additional.addItemEntry(<jsonlootbags:elusive_bag>, 5);
 
 // Vanilla
 additional.addItemEntry(<minecraft:diamond>, 50);

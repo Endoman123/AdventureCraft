@@ -1,0 +1,22 @@
+{
+	"name": "dungeon:bunker",
+	"criteria": {
+		"biomeTypes":[
+			"cold",
+			"snowy"
+		],
+		"weight": 3
+	},
+	"filters": [
+		{ "level": [0, 1, 2], "name": "Cobweb" }
+	],
+	"exclusive": true,
+	"inherit": [
+		"tower:bunker",
+		"theme:bunker",
+		"layout:default",
+		"rooms:default",
+		"loot:ice",
+		"spawners:ice"
+	]
+}
