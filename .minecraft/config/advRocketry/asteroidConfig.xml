@@ -4,6 +4,58 @@
 		<ore itemStack="minecraft:gold_ore" chance="10" />
 		<ore itemStack="minecraft:redstone_ore" chance="10" />
 	</asteroid>
+	<asteroid name="Big Asteroid" distance="30" mass="600" massVariability="0.5" minLevel="0" probability="1" richness="0.5" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_ore" chance="15" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+	</asteroid>
+    <asteroid name="Enormous Asteroid" distance="30" mass="900" massVariability="0.5" minLevel="0" probability="1" richness="0.5" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_ore" chance="15" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+	</asteroid>
+    <asteroid name="Zinc Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.3">
+		<ore itemStack="basemetals:zinc_ore" chance="55" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+	</asteroid>
+    <asteroid name="Osmium Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.3">
+		<ore itemStack="modernmetals:osmium_ore" chance="55" />
+		<ore itemStack="modernmetals:silver_ore" chance="10" />
+	</asteroid>
+    <asteroid name="Precious Asteroid" distance="20" mass="200" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.3">
+		<ore itemStack="minecraft:gold_ore" chance="55" />
+		<ore itemStack="minecraft:diamond_ore" chance="5" />
+		<ore itemStack="minecraft:coal_ore" chance="10" />
+	</asteroid>
+
+    <asteroid name="Crystalline Asteroid" distance="40" mass="180" massVariability="0.5" minLevel="0" probability="10" richness="0.6" richnessVariability="0.3">
+		<ore itemStack="appliedenergistics2:quartz_ore" chance="55" />
+		<ore itemStack="appliedenergistics2:charged_quartz_ore" chance="10" />
+	</asteroid>
+    <asteroid name="Carbon Asteroid" distance="45" mass="400" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.49">
+		<ore itemStack="minecraft:coal_ore" chance="55" />
+		<ore itemStack="minecraft:diamond_ore" chance="20" />
+	</asteroid>
+    <asteroid name="Carbon Asteroid" distance="65" mass="200" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.49">
+		<ore itemStack="minecraft:coal_ore" chance="15" />
+		<ore itemStack="minecraft:diamond_ore" chance="50" />
+	</asteroid>
+    <asteroid name="Metallic Asteroid" distance="35" mass="500" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.3">
+		<ore itemStack="basemetals:titanium_ore" chance="10" />
+		<ore itemStack="basemetals:platinum_ore" chance="10" />
+		<ore itemStack="basemetals:iridium_ore" chance="10" />
+	</asteroid>
+    <asteroid name="Mixed Asteroid" distance="15" mass="300" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.2">
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="basemetals:copper_ore" chance="10" />
+		<ore itemStack="modernmetals:lead_ore" chance="10" />
+		<ore itemStack="modernmetals:tin_ore" chance="10" />
+	</asteroid>
+    <asteroid name="Mineral Asteroid" distance="35" mass="200" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.2">
+		<ore itemStack="baseminerals:salt_ore" chance="10" />
+		<ore itemStack="baseminerals:saltpeter_ore" chance="10" />
+		<ore itemStack="baseminerals:lithium_ore" chance="10" />
+	</asteroid>
 	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="libvulpes:ore0 10" chance="5" />

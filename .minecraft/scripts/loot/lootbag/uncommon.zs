@@ -89,6 +89,7 @@ val list = [
     <enderio:block_dark_steel_anvil:2>,
     // electroblob
     <ebwizardry:magic_crystal>,
+    <ebwizardry:scroll:132>,
     <ebwizardry:ring_earth_biome>,
     <ebwizardry:amulet_arcane_defence>,
     <ebwizardry:firebomb>,
@@ -169,6 +170,8 @@ val list = [
     <sereneseasons:season_clock>,
     // Extra util
     <extrautils2:compressedcobblestone:2>,
+    <extrautils2:ingredients:11>,
+    <extrautils2:ingredients:12>,
     // Forge
     <forge:bucketfilled>.withTag({FluidName: "plutonium", Amount: 1000}),
     <forge:bucketfilled>.withTag({FluidName: "dirt", Amount: 1000}),

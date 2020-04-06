@@ -106,6 +106,11 @@ val list = [
     <minecraft:apple>,
     <minecraft:bread>,
     <minecraft:cooked_chicken>,
+    // Astral Sorcery
+    <astralsorcery:itemusabledust:1>,
+    // extrautils2
+    <extrautils2:trashcan>,
+    <extrautils2:minichest>,
     // Harvest Craft
     <harvestcraft:paperbark_sapling>,
     <harvestcraft:grapesaladitem>,
@@ -120,6 +125,7 @@ val list = [
     // advancedrocketry
     <advancedrocketry:vitrifiedsand>,
     // Tinkers construct
+    <tconstruct:seared:3>,
     <tconstruct:slimesling>,
     <tconstruct:slime_boots>,
     <conarm:travel_goggles>,
@@ -141,6 +147,11 @@ val list = [
     <ebwizardry:scroll:39>,
     <ebwizardry:scroll:149>,
     <ebwizardry:scroll:35>,
+    <ebwizardry:scroll:37>,
+    <ebwizardry:scroll:19>,
+    <ebwizardry:scroll:115>,
+    <ebwizardry:scroll:92>,
+    <ebwizardry:scroll:45>,
     // ender io
     <enderio:block_simple_furnace>,
     // Bountiful Baubles
