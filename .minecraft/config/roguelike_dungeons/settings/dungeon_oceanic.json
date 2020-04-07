@@ -3,8 +3,7 @@
 	"criteria": {
 		"biomeTypes":[
 			"beach",
-			"wet",
-			"swamp"
+			"wet"
 		],
 		"weight": 2
 	},

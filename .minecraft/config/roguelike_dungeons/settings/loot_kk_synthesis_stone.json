@@ -1,0 +1,41 @@
+{
+	"name": "loot:kk_synthesis_stone",
+	"loot_rules": [
+        {
+            "level": 0, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.denseshard\", rank: \"sm.rank.c\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.tranquilshard\", rank: \"sm.rank.c\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 1, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.densestone\", rank: \"sm.rank.b\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.tranquilstone\", rank: \"sm.rank.b\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 2, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.densegem\", rank: \"sm.rank.a\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.tranquilgem\", rank: \"sm.rank.a\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 3, 
+            "quantity": 12, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.densecrystal\", rank: \"sm.rank.s\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.tranquilcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+            ]
+        }
+    ]
+}
