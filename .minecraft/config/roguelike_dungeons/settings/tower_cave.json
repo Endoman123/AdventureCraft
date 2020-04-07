@@ -1,0 +1,9 @@
+{
+    "name": "tower:cave",
+    "tower": {
+        "type": "RUIN",
+        "theme": {
+            "base": "TEMPLE"
+        }
+    }
+}

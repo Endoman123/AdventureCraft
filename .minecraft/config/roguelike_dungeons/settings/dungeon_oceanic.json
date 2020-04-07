@@ -1,0 +1,21 @@
+{
+	"name": "dungeon:oceanic",
+	"criteria": {
+		"biomeTypes":[
+			"beach",
+			"wet",
+			"swamp"
+		],
+		"weight": 2
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:oceanic",
+		"theme:oceanic",
+		"layout:default",
+		"rooms:default",
+		"segments:default",
+		"loot:oceanic",
+		"spawners:oceanic"
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"name" : "spawners:oceanic",
+	"inherits": [
+		"spawners:default"
+	],
+	"spawners" : [
+		{
+			"type": "SKELETON",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 100,
+			"potentials": [
+				{ "name": "minecraft:skeleton", "weight": 50 },
+				{ "name": "grimoireofgaia:siren", "weight": 5 },
+				{ "name": "grimoireofgaia:chest", "weight": 1 }
+			]
+		},
+    	{
+			"type": "SKELETON",
+			"level" : [4],
+			"weight": 6,
+			"potentials": [
+				{ "name": "minecraft:skeleton", "weight": 50 },
+				{ "name": "grimoireofgaia:sharko", "weight": 1 },
+				{ "name": "grimoireofgaia:bone_knight", "weight": 1 }
+			]
+		},
+        {
+			"type": "BLAZE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 50,
+			"potentials": [
+				{ "name": "thermalfoundation:blizz", "weight": 1 },
+				{ "name": "thermalfoundation:blitz", "weight": 1 }
+			]
+		}
+	]
+}

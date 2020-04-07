@@ -1,0 +1,7 @@
+{
+    "name": "loot:oceanic",
+    "inherit": [
+        "loot:default",
+        "loot:kk_synthesis_ice"
+    ]
+}

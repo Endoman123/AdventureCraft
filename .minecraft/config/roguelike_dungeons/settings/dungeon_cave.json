@@ -1,0 +1,20 @@
+{
+	"name": "dungeon:cave",
+	"criteria": {
+		"biomeTypes":[
+			"ocean",
+			"water"
+		],
+		"weight": 2
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:oceanic",
+		"theme:oceanic",
+		"layout:maze",
+		"rooms:default",
+		"segments:default",
+		"loot:oceanic",
+		"spawners:oceanic"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"name" : "layout:maze",
+	"num_rooms" : [6, 12, 18, 24, 30],
+	"scatter" : [10, 16, 20, 22, 23],
+	"layouts" : [
+		{"level" : [0, 1, 2, 3, 4], "type" : "mst"}
+	]
+}

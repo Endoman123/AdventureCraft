@@ -1,0 +1,30 @@
+{
+    "name": "rooms:nature",
+    "rooms": [
+        {"level": [0, 1, 2, 3], "type": "random", "name" : "BRICK", "weight": 1},
+        {"level": [0, 1, 2, 3], "type": "random", "name" : "CORNER", "weight": 1},
+
+        {"level" : [0, 1, 2, 3], "type" : "single", "name" : "REWARD", "count": 1},
+        {"level" : [0, 1, 2, 3], "type" : "random", "name" : "SPIDER", "count": 1},
+
+        {"level" : 1, "type" : "random", "name" : "PIT"},
+        {"level" : 1, "type" : "secret", "name" : "REWARD", "count": 1},
+
+        {"level" : 2, "type" : "single", "name" : "CREEPER"},
+        {"level" : 2, "type" : "random", "name" : "PIT", "weight" : 3},
+        {"level" : 2, "type" : "random", "name" : "CRYPT", "weight" : 2},
+        {"level" : 2, "type" : "secret", "name" : "REWARD", "count": 1},
+        {"level" : [2, 3], "type" : "single", "name" : "OSSUARY"},
+        {"level" : 3, "type" : "random", "name" : "SPIDER", "weight" : 4},
+        {"level" : 3, "type" : "random", "name" : "CREEPER", "weight" : 1},
+        {"level" : 3, "type" : "secret", "name" : "REWARD", "count": 1},
+        {"level" : 3, "type" : "random", "name" : "DARKHALL"},
+
+        {"level" : 4, "type" : "single", "name" : "REWARD"},
+        {"level" : 4, "type" : "single", "name" : "OBSIDIAN"},
+        {"level" : 4, "type" : "single", "name" : "DARKHALL"},
+        {"level" : 4, "type" : "random", "name" : "PIT", "weight" : 3},
+        {"level" : 4, "type" : "random", "name" : "SPIDER", "weight" : 1},
+        {"level" : 4, "type" : "random", "name" : "BLAZE", "weight" : 1}
+    ]
+}

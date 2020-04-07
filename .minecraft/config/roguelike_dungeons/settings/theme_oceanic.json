@@ -1,0 +1,27 @@
+{
+    "name": "theme:oceanic",
+    "themes": [
+        {
+            "base": "TEMPLE",
+            "level": [0, 1, 2, 3, 4],
+            "primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine"}, "weight" : 15},
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine", "meta" : 1}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine", "meta" : 2}, "weight" : 1}
+					]
+				},
+                "floor" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine"}, "weight" : 15},
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine", "meta" : 1}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine", "meta" : 2}, "weight" : 1}
+					]
+				}
+			}
+        }
+    ]
+}
