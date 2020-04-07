@@ -1,9 +1,9 @@
 {
-    "name": "tower:icecastle",
+    "name": "tower:oceanic",
     "tower": {
-        "type": "PYRAMID",
+        "type": "RUIN",
         "theme": {
-            "base": "ICE"
+            "base": "TEMPLE"
         }
-    }   
+    }
 }
