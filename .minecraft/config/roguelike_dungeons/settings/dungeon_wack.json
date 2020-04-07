@@ -1,0 +1,24 @@
+{
+	"name": "dungeon:wack",
+	"criteria": {
+		"biomeTypes":[
+			"mushroom",
+			"magic",
+			"plains",
+			"cold",
+			"wasteland",
+			"mountain"
+		],
+		"weight": 1
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:wack",
+		"theme:wack",
+		"layout:maze",
+		"rooms:default",
+		"segments:default",
+		"loot:wack",
+		"spawners:wack"
+	]
+}

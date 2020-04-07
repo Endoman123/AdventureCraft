@@ -1,0 +1,93 @@
+{
+    "name": "theme:wack",
+    "themes": [
+        {
+            "base": "RAINBOW",
+            "level": [0, 1],
+            "primary" : {
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:futura", "meta": 2}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "basemetals:diamond_stairs"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:futura", "meta" : 3}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "glowstone", "meta" : 12}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "basemetals:diamond_stairs"}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:futura", "meta" : 2}}
+					]
+				}
+            }
+        },
+        {
+            "base": "ETHO",
+            "level": 1
+        },
+        {
+            "base": "CRYPT",
+            "level": 2
+        },
+        {
+            "base": "RAINBOW",
+            "level": 3
+        },
+        {
+            "base": "CRYPT",
+            "level": 4,
+            "primary" : {
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:futura", "meta": 2}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "basemetals:diamond_stairs"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:futura", "meta" : 3}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "glowstone", "meta" : 12}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "basemetals:diamond_stairs"}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:futura", "meta" : 2}}
+					]
+				}
+            }
+        }
+    ]
+}
