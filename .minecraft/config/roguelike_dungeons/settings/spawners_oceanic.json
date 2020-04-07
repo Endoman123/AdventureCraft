@@ -15,11 +15,11 @@
 			]
 		},
     	{
-			"type": "SKELETON",
+			"type": "ZOMBIE",
 			"level" : [4],
 			"weight": 6,
 			"potentials": [
-				{ "name": "minecraft:skeleton", "weight": 50 },
+				{ "name": "minecraft:zombie", "weight": 50 },
 				{ "name": "grimoireofgaia:sharko", "weight": 1 },
 				{ "name": "grimoireofgaia:bone_knight", "weight": 1 }
 			]

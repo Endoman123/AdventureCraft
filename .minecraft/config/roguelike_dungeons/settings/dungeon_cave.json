@@ -2,19 +2,32 @@
 	"name": "dungeon:cave",
 	"criteria": {
 		"biomeTypes":[
-			"ocean",
-			"water"
+			"dead",
+			"beach",
+			"forest",
+			"hills",
+			"jungle",
+			"lush",
+			"magical",
+			"mesa",
+			"mountain",
+			"plains",
+			"savanna",
+			"sparse",
+			"spooky",
+			"swamp",
+			"wasteland"
 		],
 		"weight": 2
 	},
 	"exclusive": true,
 	"inherit": [
-		"tower:oceanic",
-		"theme:oceanic",
+		"tower:cave",
+		"theme:cave",
 		"layout:maze",
-		"rooms:default",
+		"rooms:nature",
 		"segments:default",
-		"loot:oceanic",
-		"spawners:oceanic"
+		"loot:cave",
+		"spawners:cave"
 	]
 }

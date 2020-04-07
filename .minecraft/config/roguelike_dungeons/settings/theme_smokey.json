@@ -9,7 +9,7 @@
 					"type" : "WEIGHTED",
 					"data" : [
 						{"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:ash_block", "meta": 0}, "weight" : 6},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 0}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 0}, "weight" : 3},
 						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 2}, "weight" : 1}
 					]
 				},
@@ -17,7 +17,7 @@
 					"type" : "WEIGHTED",
 					"data" : [
 						{"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:ash_block", "meta": 0}, "weight" : 6},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 0}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 0}, "weight" : 3},
 						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 2}, "weight" : 1}
 					]
 				}
