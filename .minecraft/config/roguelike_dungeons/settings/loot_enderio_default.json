@@ -1,6 +1,0 @@
-{
-    "name": "loot:enderio_default",
-    "loot_tables": [
-        { "level": 4, "type": "REWARD", "table": "jsonlootbags:loot/capacitor" }
-    ]
-}
