@@ -32,6 +32,15 @@
 				{ "name": "grimoireofgaia:deathword", "weight": 1 },
 				{ "name": "minecraft:blaze", "weight": 5 }
 			]
+		},
+		{
+			"type": "CAVESPIDER",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 50,
+			"potentials": [
+				{ "name": "minecraft:cavespider", "weight": 99 },
+				{ "name": "grimoireofgaia:arachne", "weight": 1 }
+			]
 		}
 	]
 }
