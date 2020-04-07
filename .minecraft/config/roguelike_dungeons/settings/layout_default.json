@@ -1,6 +1,7 @@
 {
 	"name" : "layout:default",
-	"num_rooms" : [12, 12, 14, 18, 25],
+	"num_rooms" : [10, 12, 14, 18, 25],
+	"scatter" : [20, 20, 20, 20, 10],
 	"layouts" : [
 		{"level" : [0, 1], "type" : "classic"},
 		{"level" : [2, 3, 4], "type" : "mst"}
