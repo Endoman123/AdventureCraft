@@ -10,12 +10,9 @@
 			"weight": 100,
 			"potentials": [
 				{ "name": "minecraft:skeleton", "weight": 30 },
-				{ "name": "grimoireofgaia:goblin_feral", "weight": 20 },
 				{ "name": "grimoireofgaia:deathword", "weight": 20 },
 				{ "name": "grimoireofgaia:bone_knight", "weight": 2 },
-				{ "name": "grimoireofgaia:siren", "weight": 5 },
-				{ "name": "grimoireofgaia:orc", "weight": 5 },
-				{ "name": "grimoireofgaia:chest", "weight": 3 }
+				{ "name": "grimoireofgaia:siren", "weight": 5 }
 			]
 		},
     	{
@@ -24,14 +21,9 @@
 			"weight": 100,
 			"potentials": [
 				{ "name": "minecraft:zombie", "weight": 45 },
-				{ "name": "minecraft:wither_skeleton", "weight": 80 },
-				{ "name": "grimoireofgaia:deathword", "weight": 10 },
 				{ "name": "grimoireofgaia:ender_eye", "weight": 40 },
-				{ "name": "grimoireofgaia:sharko", "weight": 5 },
-				{ "name": "ebwizardry:evil_wizard", "weight": 8 },
+				{ "name": "ebwizardry:evil_wizard", "weight": 15 },
 				{ "name": "grimoireofgaia:bone_knight", "weight": 5 },
-				{ "name": "thermalfoundation:blizz", "weight": 10 },
-				{ "name": "grimoireofgaia:chest", "weight": 10 }
 			]
 		},
         {
@@ -39,13 +31,12 @@
 			"level" : [4],
 			"weight": 100,
 			"potentials": [
-				{ "name": "minecraft:wither_skeleton", "weight": 30 },
-				{ "name": "minecraft:skeleton", "weight": 30 },
-				{ "name": "grimoireofgaia:sharko", "weight": 9 },
-				{ "name": "grimoireofgaia:ender_eye", "weight": 10 },
+				{ "name": "minecraft:wither_skeleton", "weight": 40 },
+				{ "name": "minecraft:skeleton", "weight": 40 },
+				{ "name": "ebwizardry:evil_wizard", "weight": 15 },
+				{ "name": "grimoireofgaia:ender_eye", "weight": 20 },
 				{ "name": "grimoireofgaia:chest", "weight": 10 },
-                { "name": "grimoireofgaia:bone_knight", "weight": 2 },
-				{ "name": "thermalfoundation:blitz", "weight": 1 }
+				{ "name": "thermalfoundation:blitz", "weight": 10 }
 			]
 		}
 	]
