@@ -1,0 +1,52 @@
+{
+	"name" : "spawners:wack",
+	"inherits": [
+		"spawners:default"
+	],
+	"spawners" : [
+		{
+			"type": "SKELETON",
+			"level" : [0, 1],
+			"weight": 100,
+			"potentials": [
+				{ "name": "minecraft:skeleton", "weight": 30 },
+				{ "name": "grimoireofgaia:goblin_feral", "weight": 20 },
+				{ "name": "grimoireofgaia:deathword", "weight": 20 },
+				{ "name": "grimoireofgaia:bone_knight", "weight": 2 },
+				{ "name": "grimoireofgaia:siren", "weight": 5 },
+				{ "name": "grimoireofgaia:orc", "weight": 5 },
+				{ "name": "grimoireofgaia:chest", "weight": 3 }
+			]
+		},
+    	{
+			"type": "SKELETON",
+			"level" : [2, 3],
+			"weight": 100,
+			"potentials": [
+				{ "name": "minecraft:zombie", "weight": 45 },
+				{ "name": "minecraft:wither_skeleton", "weight": 80 },
+				{ "name": "grimoireofgaia:deathword", "weight": 10 },
+				{ "name": "grimoireofgaia:ender_eye", "weight": 40 },
+				{ "name": "grimoireofgaia:sharko", "weight": 5 },
+				{ "name": "ebwizardry:evil_wizard", "weight": 8 },
+				{ "name": "grimoireofgaia:bone_knight", "weight": 5 },
+				{ "name": "thermalfoundation:blizz", "weight": 10 },
+				{ "name": "grimoireofgaia:chest", "weight": 10 }
+			]
+		},
+        {
+			"type": "SKELETON",
+			"level" : [4],
+			"weight": 100,
+			"potentials": [
+				{ "name": "minecraft:wither_skeleton", "weight": 30 },
+				{ "name": "minecraft:skeleton", "weight": 30 },
+				{ "name": "grimoireofgaia:sharko", "weight": 9 },
+				{ "name": "grimoireofgaia:ender_eye", "weight": 10 },
+				{ "name": "grimoireofgaia:chest", "weight": 10 },
+                { "name": "grimoireofgaia:bone_knight", "weight": 2 },
+				{ "name": "thermalfoundation:blitz", "weight": 1 }
+			]
+		}
+	]
+}
