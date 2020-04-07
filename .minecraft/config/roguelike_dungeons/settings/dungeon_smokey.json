@@ -1,0 +1,21 @@
+{
+	"name": "dungeon:smokey",
+	"criteria": {
+		"biomeTypes":[
+			"hot",
+			"jungle",
+            "mountain"
+		],
+		"weight": 2
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:smokey",
+		"theme:smokey",
+		"layout:maze",
+		"rooms:nature",
+		"segments:default",
+		"loot:smokey",
+		"spawners:smokey"
+	]
+}

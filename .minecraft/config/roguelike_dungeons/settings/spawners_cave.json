@@ -1,0 +1,37 @@
+{
+	"name" : "spawners:cave",
+	"inherits": [
+		"spawners:default"
+	],
+	"spawners" : [
+		{
+			"type": "SKELETON",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 100,
+			"potentials": [
+				{ "name": "minecraft:skeleton", "weight": 50 },
+				{ "name": "thermalfoundation:basalz", "weight": 5 },
+				{ "name": "grimoireofgaia:chest", "weight": 1 }
+			]
+		},
+    	{
+			"type": "ZOMBIE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 6,
+			"potentials": [
+				{ "name": "minecraft:zombie", "weight": 50 },
+				{ "name": "grimoireofgaia:orc", "weight": 1 },
+				{ "name": "grimoireofgaia:goblin_feral", "weight": 5 }
+			]
+		},
+        {
+			"type": "BLAZE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 50,
+			"potentials": [
+				{ "name": "grimoireofgaia:deathword", "weight": 1 },
+				{ "name": "minecraft:blaze", "weight": 5 }
+			]
+		}
+	]
+}
