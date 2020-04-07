@@ -1,0 +1,37 @@
+{
+	"name": "loot:kk_synthesis_fire",
+	"loot_rules": [
+        {
+            "level": 0, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingshard\", rank: \"sm.rank.c\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 1, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingstone\", rank: \"sm.rank.b\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 2, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazinggem\", rank: \"sm.rank.a\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 3, 
+            "quantity": 12, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+            ]
+        }
+    ]
+}
