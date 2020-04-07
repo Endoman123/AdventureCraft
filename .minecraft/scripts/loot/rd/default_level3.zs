@@ -8,7 +8,8 @@ import crafttweaker.item.IItemStack;
 // A Rougue like dungeon lootpool
 var table = LootTables.getTable("neuroflow:chests/chestloot13");
 var mainPool = table.getPool("main");
-var additional = table.addPool("dungeon1", 1, 5, 0, 5);
+var dungeonLoot = table.addPool("loot_dungeon", 1, 5, 0, 5);
+var kkMaterials = table.addPool("kk_materials", 0, 3, 0, 0);
 
 // Remove kingdom keys loot
 table.removePool("kk_loot_rare_materials");
@@ -29,104 +30,103 @@ mainPool.setBonusRolls(0, 5);
 
 // Additions go here
 
-// Bags
-// additional.addItemEntry(<jsonlootbags:common_bag>, 30);
-// additional.addItemEntry(<jsonlootbags:uncommon_bag>, 50);
-// additional.addItemEntry(<jsonlootbags:rare_bag>, 25);
-// additional.addItemEntry(<jsonlootbags:superrare_bag>, 10);
-// additional.addItemEntry(<jsonlootbags:elusive_bag>, 5);
+// Kingdom Keys Synthesis Material
+kkMaterials.addItemEntryHelper(<kk:synthesismaterial>, 1, 1, [
+    Functions.setNBT({"material": "sm.lucidcrystal", "rank": "sm.rank.s"}),
+    Functions.setCount(1, 5)
+], [], "kk_lucidcrystal");
 
 // Vanilla
-additional.addItemEntry(<minecraft:diamond>, 50);
-additional.addItemEntry(<minecraft:emerald_block>, 3);
-additional.addItemEntry(<minecraft:golden_apple:1>, 3);
-additional.addItemEntry(<minecraft:gold_ingot>, 200);
-additional.addItemEntry(<minecraft:iron_ingot>, 150);
-additional.addItemEntry(<minecraft:apple>, 35);
-additional.addItemEntry(<minecraft:book>, 145);
-additional.addItemEntry(<minecraft:mossy_cobblestone>, 35);
-additional.addItemEntry(<minecraft:cooked_chicken>, 35);
-additional.addItemEntry(<minecraft:bread>, 105);
-additional.addItemEntry(<minecraft:poisonous_potato>, 130);
-additional.addItemEntry(<minecraft:clock>, 2);
-additional.addItemEntry(<minecraft:compass>, 20);
+dungeonLoot.addItemEntry(<minecraft:diamond>, 50);
+dungeonLoot.addItemEntry(<minecraft:emerald_block>, 3);
+dungeonLoot.addItemEntry(<minecraft:golden_apple:1>, 3);
+dungeonLoot.addItemEntry(<minecraft:gold_ingot>, 200);
+dungeonLoot.addItemEntry(<minecraft:iron_ingot>, 150);
+dungeonLoot.addItemEntry(<minecraft:apple>, 35);
+dungeonLoot.addItemEntry(<minecraft:book>, 145);
+dungeonLoot.addItemEntry(<minecraft:mossy_cobblestone>, 35);
+dungeonLoot.addItemEntry(<minecraft:cooked_chicken>, 35);
+dungeonLoot.addItemEntry(<minecraft:bread>, 105);
+dungeonLoot.addItemEntry(<minecraft:poisonous_potato>, 130);
+dungeonLoot.addItemEntry(<minecraft:clock>, 2);
+dungeonLoot.addItemEntry(<minecraft:compass>, 20);
 
 // Astral
-additional.addItemEntry(<astralsorcery:itemcraftingcomponent>, 90);
+dungeonLoot.addItemEntry(<astralsorcery:itemcraftingcomponent>, 90);
 
 // Baubles
-additional.addItemEntry(<bountifulbaubles:trinketmagiclenses>, 2);
-additional.addItemEntry(<bountifulbaubles:ringoverclocking>, 2);
-additional.addItemEntry(<bountifulbaubles:trinketshulkerheart>, 2);
-additional.addItemEntry(<bountifulbaubles:trinketbezoar>, 2);
-additional.addItemEntry(<bountifulbaubles:trinketblackdragonscale>, 2);
-additional.addItemEntry(<bountifulbaubles:trinketankhcharm>, 2);
-additional.addItemEntry(<bountifulbaubles:shieldankh>.withTag({HideFlags: 2}), 2);
-additional.addItemEntry(<bountifulbaubles:ringflywheeladvanced>, 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:trinketmagiclenses>, 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:ringoverclocking>, 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:trinketshulkerheart>, 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:trinketbezoar>, 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:trinketblackdragonscale>, 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:trinketankhcharm>, 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:shieldankh>.withTag({HideFlags: 2}), 2);
+dungeonLoot.addItemEntry(<bountifulbaubles:ringflywheeladvanced>, 2);
 
 
 // Potion
-additional.addItemEntry(<minecraft:potion>.withTag({Potion: "cofhcore:healing3"}), 20);
-additional.addItemEntry(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), 20);
-additional.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}), 20);
-additional.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), 20);
+dungeonLoot.addItemEntry(<minecraft:potion>.withTag({Potion: "cofhcore:healing3"}), 20);
+dungeonLoot.addItemEntry(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), 20);
+dungeonLoot.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}), 20);
+dungeonLoot.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), 20);
 
 // Scaling Health
-additional.addItemEntry(<scalinghealth:crystalshard>, 200);
-additional.addItemEntry(<scalinghealth:heartcontainer>, 4);
+dungeonLoot.addItemEntry(<scalinghealth:crystalshard>, 200);
+dungeonLoot.addItemEntry(<scalinghealth:heartcontainer>, 4);
 
 // Extra utils
-additional.addItemEntry(<extrautils2:boomerang>, 2);
-additional.addItemEntry(<extrautils2:magicapple>, 10);
-additional.addItemEntry(<extrautils2:ingredients:5>, 8);
-additional.addItemEntry(<extrautils2:suncrystal>, 8);
+dungeonLoot.addItemEntry(<extrautils2:boomerang>, 2);
+dungeonLoot.addItemEntry(<extrautils2:magicapple>, 10);
+dungeonLoot.addItemEntry(<extrautils2:ingredients:5>, 8);
+dungeonLoot.addItemEntry(<extrautils2:suncrystal>, 8);
 
 // harvestcraft
-additional.addItemEntry(<harvestcraft:toastedwesternitem>, 90);
-additional.addItemEntry(<harvestcraft:plumjellysandwichitem>, 90);
-additional.addItemEntry(<harvestcraft:orangejellysandwichitem>, 90);
-additional.addItemEntry(<harvestcraft:cranberryjellysandwichitem>, 90);
+dungeonLoot.addItemEntry(<harvestcraft:toastedwesternitem>, 90);
+dungeonLoot.addItemEntry(<harvestcraft:plumjellysandwichitem>, 90);
+dungeonLoot.addItemEntry(<harvestcraft:orangejellysandwichitem>, 90);
+dungeonLoot.addItemEntry(<harvestcraft:cranberryjellysandwichitem>, 90);
 
 // electroblob
-additional.addItemEntry(<ebwizardry:scroll:74>, 20);
-additional.addItemEntry(<ebwizardry:identification_scroll>, 50);
-additional.addItemEntry(<ebwizardry:ring_mind_control>, 2);
-additional.addItemEntry(<ebwizardry:ring_earth_biome>, 2);
-additional.addItemEntry(<ebwizardry:amulet_arcane_defence>, 2);
-additional.addItemEntry(<ebwizardry:amulet_potential>, 2);
-additional.addItemEntry(<ebwizardry:amulet_banishing>, 2);
-additional.addItemEntry(<ebwizardry:amulet_ice_protection>, 2);
-additional.addItemEntry(<ebwizardry:amulet_ice_protection>, 2);
-additional.addItemEntry(<ebwizardry:arcane_tome:2>, 10);
-additional.addItemEntry(<ebwizardry:arcane_tome:3>, 8);
-additional.addItemEntry(<ebwizardry:firebomb>, 10);
-additional.addItemEntry(<ebwizardry:poison_bomb>, 10);
-additional.addItemEntry(<ebwizardry:smoke_bomb>, 10);
-additional.addItemEntry(<ebwizardry:spark_bomb>, 10);
+dungeonLoot.addItemEntry(<ebwizardry:scroll:74>, 20);
+dungeonLoot.addItemEntry(<ebwizardry:identification_scroll>, 50);
+dungeonLoot.addItemEntry(<ebwizardry:ring_mind_control>, 2);
+dungeonLoot.addItemEntry(<ebwizardry:ring_earth_biome>, 2);
+dungeonLoot.addItemEntry(<ebwizardry:amulet_arcane_defence>, 2);
+dungeonLoot.addItemEntry(<ebwizardry:amulet_potential>, 2);
+dungeonLoot.addItemEntry(<ebwizardry:amulet_banishing>, 2);
+dungeonLoot.addItemEntry(<ebwizardry:amulet_ice_protection>, 2);
+dungeonLoot.addItemEntry(<ebwizardry:amulet_ice_protection>, 2);
+dungeonLoot.addItemEntry(<ebwizardry:arcane_tome:2>, 10);
+dungeonLoot.addItemEntry(<ebwizardry:arcane_tome:3>, 8);
+dungeonLoot.addItemEntry(<ebwizardry:firebomb>, 10);
+dungeonLoot.addItemEntry(<ebwizardry:poison_bomb>, 10);
+dungeonLoot.addItemEntry(<ebwizardry:smoke_bomb>, 10);
+dungeonLoot.addItemEntry(<ebwizardry:spark_bomb>, 10);
 
 // Chococraft
-additional.addItemEntry(<chococraft:ability_fruit>, 3);
-additional.addItemEntry(<chococraft:ability_fruit:1>, 3);
-additional.addItemEntry(<chococraft:chocobo_spawn_egg>, 3);
-additional.addItemEntry(<chococraft:ability_fruit:2>, 3);
-additional.addItemEntry(<chococraft:ability_fruit:3>, 3);
+dungeonLoot.addItemEntry(<chococraft:ability_fruit>, 3);
+dungeonLoot.addItemEntry(<chococraft:ability_fruit:1>, 3);
+dungeonLoot.addItemEntry(<chococraft:chocobo_spawn_egg>, 3);
+dungeonLoot.addItemEntry(<chococraft:ability_fruit:2>, 3);
+dungeonLoot.addItemEntry(<chococraft:ability_fruit:3>, 3);
 
 
 
 // Base Metals
-additional.addItemEntry(<basemetals:emerald_shears>, 20);
-additional.addItemEntry(<basemetals:diamond_shears>, 20);
-additional.addItemEntry(<basemetals:emerald_horse_armor>, 10);
-additional.addItemEntry(<basemetals:gold_shield>, 10);
+dungeonLoot.addItemEntry(<basemetals:emerald_shears>, 20);
+dungeonLoot.addItemEntry(<basemetals:diamond_shears>, 20);
+dungeonLoot.addItemEntry(<basemetals:emerald_horse_armor>, 10);
+dungeonLoot.addItemEntry(<basemetals:gold_shield>, 10);
 
 // Tinkers
-additional.addItemEntry(<tconstruct:slimesling:4>, 5);
+dungeonLoot.addItemEntry(<tconstruct:slimesling:4>, 5);
 
 
 
 // Enchanted Books
 
-additional.addItemEntryHelper(<minecraft:enchanted_book>, 80, 1, [Functions.enchantRandomly([
+dungeonLoot.addItemEntryHelper(<minecraft:enchanted_book>, 80, 1, [Functions.enchantRandomly([
     "advancedrocketry:spacebreathing",          //  - Airtight Seal
     "astralsorcery:enchantment.as.nightvision", //  - Night Vision
     "astralsorcery:enchantment.as.smelting",    //  - Scorching Heat
