@@ -1,0 +1,7 @@
+{
+    "name": "loot:lab",
+    "inherit": [
+        "loot:default",
+        "loot:kk_synthesis_ocean"
+    ]
+}
