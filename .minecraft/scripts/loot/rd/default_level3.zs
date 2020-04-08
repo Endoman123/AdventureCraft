@@ -9,7 +9,7 @@ import crafttweaker.item.IItemStack;
 var table = LootTables.getTable("neuroflow:chests/chestloot13");
 var mainPool = table.getPool("main");
 var dungeonLoot = table.addPool("loot_dungeon", 1, 5, 0, 5);
-var kkMaterials = table.addPool("kk_materials", 0, 3, 0, 0);
+var kkMaterials = table.addPool("kk_materials", 0, 1, 0, 1);
 
 // Remove kingdom keys loot
 table.removePool("kk_loot_rare_materials");

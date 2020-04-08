@@ -13,6 +13,6 @@
             "loot": [
                 { "data" : {"name" : "minecraft:air"}, "weight" : 99 }
             ]
-        },
+        }
     ]
 }
