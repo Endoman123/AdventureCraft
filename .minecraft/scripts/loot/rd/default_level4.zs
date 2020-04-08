@@ -48,7 +48,6 @@ additional.addItemEntry(<minecraft:bread>, 105);
 additional.addItemEntry(<minecraft:clock>, 2);
 additional.addItemEntry(<minecraft:compass>, 20);
 
-
 // Baubles
 additional.addItemEntry(<bountifulbaubles:shieldobsidian>.withTag({HideFlags: 2}), 8);
 additional.addItemEntry(<bountifulbaubles:trinketmagiclenses>, 8);
