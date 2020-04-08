@@ -1,0 +1,35 @@
+{
+	"name" : "spawners:lab",
+	"inherits": [
+		"spawners:default"
+	],
+	"spawners" : [
+		{
+			"type": "ZOMBIE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 100,
+			"potentials": [
+				{ "name": "minecraft:zombie", "weight": 50 },
+				{ "name": "thermalfoundation:basalz", "weight": 5 }
+			]
+		},
+    	{
+			"type": "ZOMBIE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 20,
+			"potentials": [
+				{ "name": "minecraft:zombie", "weight": 50, "equip": true },
+				{ "name": "thermalfoundation:basalz", "weight": 5 },
+				{ "name": "thermalfoundation:blizz", "weight": 5 }
+			]
+		},
+        {
+			"type": "BLAZE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 50,
+			"potentials": [
+				{ "name": "minecraft:blaze", "weight": 5 }
+			]
+		}
+	]
+}

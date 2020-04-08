@@ -1,0 +1,48 @@
+{
+    "name": "tower:lab",
+    "tower": {
+        "type": "BUNKER",
+        "theme": {
+            "base": "CRYPT",
+            "primary" : {
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 15}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:seared_stairs_paver"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 13}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 13}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 13}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 13}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta" : 6}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 14}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 12}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 12}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:seared_stairs_paver"}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 12}}
+					]
+				}
+            }
+        }
+    }
+}

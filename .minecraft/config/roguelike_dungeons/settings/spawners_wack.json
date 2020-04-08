@@ -21,6 +21,7 @@
 			"weight": 100,
 			"potentials": [
 				{ "name": "minecraft:zombie", "weight": 45 },
+				{ "name": "grimoireofgaia:wither_cow", "weight": 40 },
 				{ "name": "grimoireofgaia:ender_eye", "weight": 40 },
 				{ "name": "ebwizardry:evil_wizard", "weight": 15 },
 				{ "name": "grimoireofgaia:bone_knight", "weight": 5 }
@@ -32,11 +33,9 @@
 			"weight": 100,
 			"potentials": [
 				{ "name": "minecraft:wither_skeleton", "weight": 40 },
-				{ "name": "minecraft:skeleton", "weight": 40 },
 				{ "name": "ebwizardry:evil_wizard", "weight": 15 },
-				{ "name": "grimoireofgaia:ender_eye", "weight": 20 },
-				{ "name": "grimoireofgaia:chest", "weight": 10 },
-				{ "name": "thermalfoundation:blitz", "weight": 10 }
+				{ "name": "grimoireofgaia:ender_eye", "weight": 40 },
+				{ "name": "grimoireofgaia:beholder", "weight": 10 }
 			]
 		}
 	]

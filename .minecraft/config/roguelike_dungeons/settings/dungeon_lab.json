@@ -1,0 +1,23 @@
+{
+	"name": "dungeon:lab",
+	"criteria": {
+		"biomeTypes":[
+			"cold",
+			"snowy",
+			"wasteland",
+			"mountain",
+			"hills"
+		],
+		"weight": 3
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:lab",
+		"theme:lab",
+		"layout:default",
+		"rooms:default",
+		"segments:default",
+		"loot:lab",
+		"spawners:lab"
+	]
+}
