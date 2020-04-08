@@ -2,6 +2,7 @@
 	"name": "loot:kk_synthesis_ocean",
 	"loot_rules": [
         {
+            "type": "ORE",
             "level": 0, 
             "quantity": 3, 
             "each": false,
@@ -12,6 +13,7 @@
             ]
         },
         {
+            "type": "ORE",
             "level": 1, 
             "quantity": 3, 
             "each": false,
@@ -22,6 +24,7 @@
             ]
         },
         {
+            "type": "ORE",
             "level": 2, 
             "quantity": 3, 
             "each": false,
@@ -32,8 +35,9 @@
             ]
         },
         {
+            "type": "ORE",
             "level": 3, 
-            "quantity": 12, 
+            "quantity": 3, 
             "each": false,
             "loot": [
                 { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lightningcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 4 },

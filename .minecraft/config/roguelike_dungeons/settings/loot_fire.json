@@ -1,5 +1,5 @@
 {
-    "name": "loot:smokey",
+    "name": "loot:fire",
     "inherit": [
         "loot:default",
         "loot:kk_synthesis_fire"

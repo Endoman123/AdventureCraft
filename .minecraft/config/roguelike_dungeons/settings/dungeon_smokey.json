@@ -15,7 +15,7 @@
 		"layout:maze",
 		"rooms:nature",
 		"segments:default",
-		"loot:smokey",
+		"loot:fire",
 		"spawners:smokey"
 	]
 }

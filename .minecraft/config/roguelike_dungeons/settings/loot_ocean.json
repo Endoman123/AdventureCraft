@@ -1,5 +1,5 @@
 {
-    "name": "loot:oceanic",
+    "name": "loot:ocean",
     "inherit": [
         "loot:default",
         "loot:kk_synthesis_ocean"

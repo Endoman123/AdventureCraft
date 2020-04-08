@@ -3,5 +3,16 @@
     "inherit": [
         "loot:default",
         "loot:kk_synthesis_ice"
+    ],
+    "loot_rules": [
+        {
+            "type": "TOOLS",
+            "level": 0, 
+            "quantity": 1, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight" : 99 }
+            ]
+        },
     ]
 }

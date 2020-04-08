@@ -14,7 +14,7 @@
 		"layout:default",
 		"rooms:default",
 		"segments:default",
-		"loot:oceanic",
+		"loot:ocean",
 		"spawners:oceanic"
 	]
 }
