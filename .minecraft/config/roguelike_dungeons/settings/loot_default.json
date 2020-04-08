@@ -1,14 +1,9 @@
 {
     "name": "loot:default",
-    "loot_tables": [
-        { "table": "neuroflow:chests/chestloot10", "level": 0 },
-        { "table": "neuroflow:chests/chestloot11", "level": 1 },
-        { "table": "neuroflow:chests/chestloot12", "level": 2 },
-        { "table": "neuroflow:chests/chestloot13", "level": 3 },
-        { "table": "neuroflow:chests/chestloot14", "level": 4 },
-        { "table": "neuroflow:chests/chestloot15", "level": [0, 1, 2, 3, 4]}
-    ],
     "loot_rules": [
+
+
+
         {
             "type": "REWARD",
             "level": 4, 
