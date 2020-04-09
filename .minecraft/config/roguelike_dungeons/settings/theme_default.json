@@ -1,0 +1,49 @@
+{
+    "name": "theme:default",
+    "themes": [
+        {
+            "base": "CRYPT",
+            "level": [0, 1, 2, 3, 4],
+            "primary" : {
+                "floor" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 0}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 1}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 2}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stone", "meta": 0}, "weight": 1}
+					]
+				},
+                "wall" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 0}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 1}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 2}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stone", "meta": 0}, "weight": 1}
+					]
+				}
+			},
+            "secondary" : {
+                "floor" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 0}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 1}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 2}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stone", "meta": 0}, "weight": 1}
+					]
+				},
+                "wall" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 0}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 1}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta": 2}, "weight": 5},
+						{"type" : "METABLOCK", "data" : {"name" : "stone", "meta": 0}, "weight": 1}
+					]
+				}
+			}
+        }
+    ]
+}

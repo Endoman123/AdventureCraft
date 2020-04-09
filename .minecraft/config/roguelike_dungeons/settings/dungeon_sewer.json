@@ -1,0 +1,22 @@
+{
+	"name": "dungeon:sewer",
+	"criteria": {
+		"biomeTypes":[
+			"cold",
+			"hot",
+			"plains",
+			"hills"
+		],
+		"weight": 3
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:rogue",
+		"theme:default",
+		"layout:default",
+		"rooms:sewer",
+		"segments:sewer",
+		"loot:sewer",
+		"spawners:default"
+	]
+}

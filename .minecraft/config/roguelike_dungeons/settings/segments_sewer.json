@@ -1,0 +1,12 @@
+{
+    "name": "segments:sewer",
+    "segments": [
+        {"level": [0, 1, 2, 3, 4], "type" : "CHEST", "weight" : 1},
+        {"level": [1, 2, 3, 4], "type" : "SPAWNER", "weight" : 7},
+        {"level": [0, 1, 2, 3, 4], "type" : "SEWER", "weight" : 5},
+        {"level": [0, 1, 2, 3], "type" : "SEWERARCH", "weight" : 3},
+        {"level": [0, 1, 2, 3], "type" : "SEWERDOOR", "weight" : 3},
+        {"level": [1, 2, 3, 4], "type" : "SEWERDRAIN", "weight" : 3},
+        {"level": [0, 1, 2, 3, 4], "type" : "DOOR", "weight" : 5}
+    ]
+}

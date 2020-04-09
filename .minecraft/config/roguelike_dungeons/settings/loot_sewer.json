@@ -1,0 +1,9 @@
+{
+    "name": "loot:sewer",
+    "inherit": [
+        "loot:default",
+        "loot:food",
+        "loot:mineral",
+        "loot:tool"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "tower:rogue",
+    "tower": {
+        "type": "ROGUE",
+        "theme": {
+            "base": "CRYPT"
+        }
+    }
+}
