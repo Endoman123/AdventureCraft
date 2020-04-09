@@ -7,7 +7,8 @@
         {"level": [0, 1, 2, 3], "type": "random", "name" : "PRISON", "weight": 2},
         {"level": [0, 1, 2, 3], "type": "random", "name" : "DARKHALL", "weight": 2},
         {"level": [0, 1, 2, 3], "type": "random", "name" : "OSSUARY", "weight": 2},
-        {"level" : [0, 1, 2, 3, 4], "type" : "secret", "name" : "STORAGE", "count" : 4},
+        {"level" : [0, 1, 2, 3, 4], "type" : "secret", "name" : "STORAGE", "count" : 5},
+        {"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "NETHERFORT", "weight" : 2},
 
         {"level" : 0, "type" : "secret", "name" : "REWARD", "count": 1},
 

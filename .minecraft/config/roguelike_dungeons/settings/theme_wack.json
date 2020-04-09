@@ -81,6 +81,7 @@
 			},
             "secondary" : {
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "basemetals:diamond_stairs"}},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:concrete_black1", "meta": 14}},
                 "walls" : {
 					"type" : "LAYERS",
 					"data" : [

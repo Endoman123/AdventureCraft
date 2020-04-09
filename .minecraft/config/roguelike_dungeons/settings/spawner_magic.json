@@ -1,0 +1,28 @@
+{
+	"name" : "spawners:magic",
+	"inherits": [
+		"spawners:default"
+	],
+	"spawners" : [
+		{
+			"type": "SKELETON",
+			"level" : [0, 1, 2, 3],
+			"weight": 300,
+			"potentials": [
+				{ "name": "minecraft:skeleton", "weight": 50 },
+				{ "name": "ebwizardry:evil_wizard", "weight": 55 },
+				{ "name": "grimoireofgaia:deathword", "weight": 50 }
+			]
+		},
+    	{
+			"type": "SKELETON",
+			"level" : [4],
+			"weight": 300,
+			"potentials": [
+				{ "name": "ebwizardry:evil_wizard", "weight": 55 },
+				{ "name": "grimoireofgaia:deathword", "weight": 50 },
+				{ "name": "grimoireofgaia:beholder", "weight": 5 }
+			]
+		}
+	]
+}

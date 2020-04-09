@@ -13,6 +13,7 @@
 						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 2}, "weight" : 1}
 					]
 				},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta": 0}},
                 "floor" : {
 					"type" : "WEIGHTED",
 					"data" : [

@@ -1,0 +1,119 @@
+{
+    "name": "theme:magicsewer",
+    "themes": [
+        {
+            "base": "CRYPT",
+            "level": [0, 1, 2, 3],
+            "primary" : {
+                "pillar" : {
+                    "type" : "LAYERS", "data" : [
+					    {"name" : "chisel:prismarine2", "meta": 5}
+                    ]
+                },
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "bewitchment:scorned_brick_stairs"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 2}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 2}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 12}, "weight" : 1}
+                    ]
+                },
+                "liquid" : {
+                    "type" : "LAYERS",
+                    "data": [
+                        {"type": "METABLOCK", "data" : {"name" : "biomesoplenty:hot_spring_water"}}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "bewitchment:scorned_brick_stairs"}},
+                "pillar" : {
+                    "type" : "LAYERS", "data" : [
+					    {"name" : "chisel:prismarine2", "meta": 5}
+                    ]
+                },
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}}
+					]
+				}
+            }
+        },
+        {
+            "base": "CRYPT",
+            "level": 4,
+            "primary" : {
+                "pillar" : {
+                    "type" : "LAYERS", "data" : [
+					    {"name" : "chisel:prismarine2", "meta": 5}
+                    ]
+                },
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "bewitchment:scorned_brick_stairs"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 2}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 2}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 12}, "weight" : 1}
+                    ]
+                },
+                "liquid" : {
+                    "type" : "LAYERS",
+                    "data": [
+                        {"type": "METABLOCK", "data" : {"name" : "biomesoplenty:hot_spring_water"}}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "bewitchment:scorned_brick_stairs"}},
+                "pillar" : {
+                    "type" : "LAYERS", "data" : [
+					    {"name" : "chisel:redstone1", "meta": 10}
+                    ]
+                },
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}}
+					]
+				}
+            }
+        }
+    ]
+}

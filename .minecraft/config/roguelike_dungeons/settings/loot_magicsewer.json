@@ -1,0 +1,10 @@
+{
+    "name": "loot:magicsewer",
+    "inherit": [
+        "loot:default",
+        "loot:magic",
+        "loot:mineral",
+        "loot:tool",
+        "loot:bauble"
+    ]
+}

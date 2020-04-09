@@ -79,6 +79,7 @@
 			},
             "secondary" : {
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:seared_stairs_paver"}},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 13}},
                 "walls" : {
 					"type" : "LAYERS",
 					"data" : [

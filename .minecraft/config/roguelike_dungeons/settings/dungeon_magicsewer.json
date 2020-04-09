@@ -1,0 +1,24 @@
+{
+	"name": "dungeon:magicsewer",
+	"criteria": {
+		"biomeTypes":[
+			"magical",
+			"cold",
+			"plains",
+			"spooky",
+			"dead",
+			"hills"
+		],
+		"weight": 2
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:rogue",
+		"theme:magicsewer",
+		"layout:default",
+		"rooms:sewer",
+		"segments:sewer",
+		"loot:magicsewer",
+		"spawners:magic"
+	]
+}
