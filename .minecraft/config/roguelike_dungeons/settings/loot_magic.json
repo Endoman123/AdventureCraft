@@ -3,8 +3,8 @@
 "loot_rules": [
     {
         "level": [0, 1, 2, 3, 4],
-        "quantity": 2,
-        "each": true,
+        "quantity": 4,
+        "each": false,
         "loot": [
             { "data" : {"name" : "minecraft:mossy_cobblestone"}, "weight": 35},
             { "data" : {"name" : "minecraft:book"}, "weight": 145},

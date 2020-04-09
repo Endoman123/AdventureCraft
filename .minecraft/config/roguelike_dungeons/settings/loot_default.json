@@ -3,8 +3,8 @@
     "loot_rules": [
         {
             "level": [0, 1, 2, 3, 4],
-            "quantity": 5,
-            "each": true,
+            "quantity": 10,
+            "each": false,
             "loot": [
                 { "data" : {"name" : "minecraft:gold_ingot"}, "weight": 200},
                 { "data" : {"name" : "ebwizardry:spark_bomb"}, "weight": 10},

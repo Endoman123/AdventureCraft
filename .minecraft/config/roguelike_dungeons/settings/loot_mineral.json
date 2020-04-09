@@ -3,8 +3,8 @@
 "loot_rules": [
     {
         "level": [0, 1, 2, 3, 4],
-        "quantity": 3,
-        "each": true,
+        "quantity": 6,
+        "each": false,
         "loot": [
             { "data" : {"name" : "tconstruct:materials", "meta": 17}, "weight": 12},
             { "data" : {"name" : "tconstruct:materials", "meta": 16}, "weight": 9},
