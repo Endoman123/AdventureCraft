@@ -2,6 +2,9 @@
     "name": "loot:lab",
     "inherit": [
         "loot:default",
+        "loot:mineral",
+        "loot:tool",
+        "loot:food",
         "loot:kk_synthesis_ocean"
     ]
 }

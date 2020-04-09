@@ -2,6 +2,10 @@
     "name": "loot:ocean",
     "inherit": [
         "loot:default",
+        "loot:food",
+        "loot:magic",
+        "loot:mineral",
+        "loot:bauble",
         "loot:kk_synthesis_ocean"
     ]
 }

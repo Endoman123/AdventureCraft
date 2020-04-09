@@ -1,0 +1,38 @@
+{
+"name": "loot:bauble",
+"loot_rules": [
+    {
+        "level": [0, 1, 2, 3, 4],
+        "quantity": 1,
+        "each": true,
+        "loot": [
+            { "data" : {"name" : "ebwizardry:ring_mind_control"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:ring_earth_biome"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_potential"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_ice_protection"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_banishing"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_arcane_defence"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:trinketshulkerheart"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:trinketmagiclenses"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:trinketblackdragonscale"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:trinketbezoar"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:trinketankhcharm"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:shieldankh"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:ringoverclocking"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:ringflywheeladvanced"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:ring_mind_control"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:ring_earth_biome"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_potential"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_ice_protection"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_banishing"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_arcane_defence"}, "weight": 2},
+            { "data" : {"name" : "bountifulbaubles:trinketshulkerheart"}, "weight": 8},
+            { "data" : {"name" : "bountifulbaubles:trinketmagiclenses"}, "weight": 8},
+            { "data" : {"name" : "bountifulbaubles:trinketbezoar"}, "weight": 8},
+            { "data" : {"name" : "bountifulbaubles:ringflywheeladvanced"}, "weight": 8},
+            { "data" : {"name" : "bountifulbaubles:shieldobsidian"}, "weight": 8},
+            { "data" : {"name" : "bountifulbaubles:trinketankhcharm"}, "weight": 8}
+        ]
+    }
+]
+}

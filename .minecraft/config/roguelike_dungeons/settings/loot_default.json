@@ -1,18 +1,41 @@
 {
     "name": "loot:default",
-    "loot_tables": [
-        { "table": "neuroflow:chests/chestloot10", "level": 0 },
-        { "table": "neuroflow:chests/chestloot11", "level": 1 },
-        { "table": "neuroflow:chests/chestloot12", "level": 2 },
-        { "table": "neuroflow:chests/chestloot13", "level": 3 },
-        { "table": "neuroflow:chests/chestloot14", "level": 4 },
-        { "table": "neuroflow:chests/chestloot15", "level": [0, 1, 2, 3, 4]}
-    ],
     "loot_rules": [
         {
+            "level": [0, 1, 2, 3, 4],
+            "quantity": 5,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:gold_ingot"}, "weight": 200},
+                { "data" : {"name" : "ebwizardry:spark_bomb"}, "weight": 10},
+                { "data" : {"name" : "ebwizardry:smoke_bomb"}, "weight" : 10},
+                { "data" : {"name" : "ebwizardry:poison_bomb"}, "weight" : 10},
+                { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
+                { "data" : {"name" : "ebwizardry:firebomb"}, "weight" : 10},
+                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 30},
+                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 200},
+                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 8},
+                { "data" : {"name" : "extrautils2:ingredients", "meta": 12}, "weight": 10},
+                { "data" : {"name" : "extrautils2:ingredients", "meta": 11}, "weight": 10},
+                { "data" : {"name" : "extrautils2:suncrystal"}, "weight": 8},
+                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 8},
+                { "data" : {"name" : "chococraft:chocobo_spawn_egg"}, "weight": 3},
+                { "data" : {"name" : "chococraft:ability_fruit"}, "weight": 3},
+                { "data" : {"name" : "chococraft:ability_fruit", "meta": 3}, "weight": 3},
+                { "data" : {"name" : "chococraft:ability_fruit", "meta": 2}, "weight": 3},
+                { "data" : {"name" : "chococraft:ability_fruit", "meta": 1}, "weight": 3},
+                { "data" : {"name" : "tconstruct:slimesling", "meta": 4}, "weight": 5},
+                { "data" : {"name" : "minecraft:golden_apple", "meta": 1}, "weight": 6},
+                { "data" : {"name" : "minecraft:compass"}, "weight": 20},
+                { "data" : {"name" : "minecraft:clock"}, "weight": 2},
+                { "data" : {"name" : "extrautils2:magicapple"}, "weight": 10},
+                { "data" : {"name" : "extrautils2:boomerang"}, "weight": 2}
+            ]
+        },
+        {
             "type": "REWARD",
-            "level": 4, 
-            "quantity": 1, 
+            "level": 4,
+            "quantity": 1,
             "each": false,
             "loot": [
                 { "data" : {"name" : "jsonlootbags:gacha_c"}, "weight" : 32 },
@@ -25,8 +48,8 @@
         },
         {
             "type": "REWARD",
-            "level": 4, 
-            "quantity": 1, 
+            "level": 4,
+            "quantity": 1,
             "each": false,
             "loot": [
                 { "data" : {"name" : "kk:recipe"}, "weight" : 1 }
@@ -34,8 +57,8 @@
         },
         {
             "type": "REWARD",
-            "level": 4, 
-            "quantity": 1, 
+            "level": 4,
+            "quantity": 1,
             "each": false,
             "loot": [
                 { "data" : {"name" : "kk:synthesismaterial", "nbt": "{material: \"sm.manifestillusion\", rank: \"sm.rank.a\"}"}, "weight" : 2 },
