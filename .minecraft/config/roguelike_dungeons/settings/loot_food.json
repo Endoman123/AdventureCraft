@@ -1,0 +1,19 @@
+{
+"name": "loot:food",
+"loot_rules": [
+    {
+        "level": [0, 1, 2, 3, 4],
+        "quantity": 5,
+        "each": true,
+        "loot": [
+            { "data" : {"name" : "minecraft:apple"}, "weight": 35},
+            { "data" : {"name" : "minecraft:cooked_chicken"}, "weight": 35},
+            { "data" : {"name" : "minecraft:bread"}, "weight": 105},
+            { "data" : {"name" : "harvestcraft:toastedwesternitem"}, "weight": 90},
+            { "data" : {"name" : "harvestcraft:plumjellysandwichitem"}, "weight": 90},
+            { "data" : {"name" : "harvestcraft:orangejellysandwichitem"}, "weight": 90},
+            { "data" : {"name" : "harvestcraft:cranberryjellysandwichitem"}, "weight": 90}
+        ]
+    }
+]
+}

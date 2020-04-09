@@ -1,0 +1,23 @@
+{
+"name": "loot:mineral",
+"loot_rules": [
+    {
+        "level": [0, 1, 2, 3, 4],
+        "quantity": 3,
+        "each": true,
+        "loot": [
+            { "data" : {"name" : "tconstruct:materials", "meta": 17}, "weight": 12},
+            { "data" : {"name" : "tconstruct:materials", "meta": 16}, "weight": 9},
+            { "data" : {"name" : "tconstruct:ingots"}, "weight": 2},
+            { "data" : {"name" : "tconstruct:ingots", "meta": 3}, "weight": 3},
+            { "data" : {"name" : "tconstruct:ingots", "meta": 3}, "weight": 1},
+            { "data" : {"name" : "tconstruct:ingots", "meta": 1}, "weight": 2},
+            { "data" : {"name" : "plustic:mirioningot"}, "weight": 1},
+            { "data" : {"name" : "minecraft:iron_ingot"}, "weight": 150},
+            { "data" : {"name" : "minecraft:gold_ingot"}, "weight": 200},
+            { "data" : {"name" : "minecraft:emerald_block"}, "weight": 1},
+            { "data" : {"name" : "minecraft:diamond"}, "weight": 100}
+        ]
+    }
+]
+}
