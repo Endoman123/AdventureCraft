@@ -10,6 +10,16 @@
 		"weight": 3
 	},
 	"exclusive": true,
+	"filters": [
+		{
+			"level": [0, 1, 2, 3, 4],
+			"name": "Vine"
+		},
+		{
+			"level": [0, 1, 2, 3, 4],
+			"name": "Mud"
+		}
+	],
 	"inherit": [
 		"tower:rogue",
 		"theme:default",

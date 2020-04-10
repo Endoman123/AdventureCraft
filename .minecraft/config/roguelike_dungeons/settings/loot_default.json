@@ -12,7 +12,6 @@
                 { "data" : {"name" : "ebwizardry:poison_bomb"}, "weight" : 10},
                 { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
                 { "data" : {"name" : "ebwizardry:firebomb"}, "weight" : 10},
-                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 30},
                 { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 200},
                 { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 8},
                 { "data" : {"name" : "extrautils2:ingredients", "meta": 12}, "weight": 10},
@@ -30,6 +29,16 @@
                 { "data" : {"name" : "minecraft:clock"}, "weight": 2},
                 { "data" : {"name" : "extrautils2:magicapple"}, "weight": 10},
                 { "data" : {"name" : "extrautils2:boomerang"}, "weight": 2}
+            ]
+        },
+        {
+            "type": "REWARD",
+            "level": 4,
+            "quantity": 1,
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight" : 1 },
+                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 1}
             ]
         },
         {

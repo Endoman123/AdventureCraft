@@ -2,7 +2,7 @@
     "name": "theme:bunker",
     "themes": [
         {
-            "base": "CRYPT",
+            "base": "SEWER",
             "level": [0, 1, 2, 3],
             "primary" : {
                 "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 5}},
@@ -48,7 +48,7 @@
             "level": 4,
             "primary" : {
                 "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 7}},
-                "stair" : {"type" : "METABLOCK", "data" : {"name" : "basemetals:brass_stairs"}},
+                "stair" : {"type" : "METABLOCK", "data" : {"name" : "appliedenergistics2:smooth_sky_stone_stairs"}},
 				"walls" : {
 					"type" : "WEIGHTED",
 					"data" : [

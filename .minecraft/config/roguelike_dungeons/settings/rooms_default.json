@@ -5,13 +5,9 @@
         {"level": [0, 1, 2, 3], "type": "random", "name" : "CORNER", "weight": 1},
 
         {"level" : 0, "type" : "secret", "name" : "REWARD", "count": 1},
-
         {"level" : 1, "type" : "secret", "name" : "REWARD", "count": 1},
-
         {"level" : 2, "type" : "secret", "name" : "REWARD", "count": 1},
-
         {"level" : 3, "type" : "secret", "name" : "REWARD", "count": 1},
-
         {"level" : 4, "type" : "single", "name" : "REWARD"}
     ]
 }
