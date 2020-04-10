@@ -4,6 +4,7 @@
         "loot:default",
         "loot:food",
         "loot:mineral",
-        "loot:tool"
+        "loot:tool",
+        "loot:kk_synthesis_stone"
     ]
 }

@@ -7,6 +7,10 @@
         "loot:food",
         "loot:tool",
         "loot:bauble",
-        "loot:kk_synthesis_ice"
+        "loot:kk_synthesis_fire",
+        "loot:kk_synthesis_ice",
+        "loot:kk_synthesis_magic",
+        "loot:kk_synthesis_ocean",
+        "loot:kk_synthesis_stone"
     ]
 }

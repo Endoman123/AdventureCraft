@@ -2,39 +2,43 @@
 	"name": "loot:kk_synthesis_fire",
 	"loot_rules": [
         {
-            "type": "ORE",
             "level": 0, 
             "quantity": 3, 
             "each": false,
             "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingshard\", rank: \"sm.rank.c\"}"}, "weight" : 1 }
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingshard\", rank: \"sm.rank.c\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.brightshard\", rank: \"sm.rank.c\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energyshard\", rank: \"sm.rank.c\"}"}, "weight" : 1 }
             ]
         },
         {
-            "type": "ORE",
             "level": 1, 
             "quantity": 3, 
             "each": false,
             "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingstone\", rank: \"sm.rank.b\"}"}, "weight" : 1 }
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingstone\", rank: \"sm.rank.b\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.brightstone\", rank: \"sm.rank.b\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energystone\", rank: \"sm.rank.b\"}"}, "weight" : 1 }
             ]
         },
         {
-            "type": "ORE",
             "level": 2, 
             "quantity": 3, 
             "each": false,
             "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazinggem\", rank: \"sm.rank.a\"}"}, "weight" : 1 }
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazinggem\", rank: \"sm.rank.a\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.brightgem\", rank: \"sm.rank.a\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energygem\", rank: \"sm.rank.a\"}"}, "weight" : 1 }
             ]
         },
         {
-            "type": "ORE",
             "level": 3, 
             "quantity": 3, 
             "each": false,
             "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.blazingcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.brightcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.energycrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
             ]
         }
     ]

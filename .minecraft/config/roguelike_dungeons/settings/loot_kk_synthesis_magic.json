@@ -1,0 +1,45 @@
+{
+	"name": "loot:kk_synthesis_magic",
+	"loot_rules": [
+        {
+            "level": 0, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.mythrilshard\", rank: \"sm.rank.c\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.serenityshard\", rank: \"sm.rank.c\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.darkshard\", rank: \"sm.rank.c\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 1, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.mythrilstone\", rank: \"sm.rank.b\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.serenitystone\", rank: \"sm.rank.b\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.darkstone\", rank: \"sm.rank.b\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 2, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.mythrilgem\", rank: \"sm.rank.a\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.serenitygem\", rank: \"sm.rank.a\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.darkgem\", rank: \"sm.rank.a\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "level": 3, 
+            "quantity": 3, 
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.mythrilcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 4 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.serenitycrystal\", rank: \"sm.rank.s\"}"}, "weight" : 2 },
+                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.darkcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+            ]
+        }
+    ]
+}
