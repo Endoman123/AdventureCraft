@@ -5,6 +5,7 @@
             "base": "CRYPT",
             "level": [0, 1, 2, 3],
             "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
                 "pillar" : {
                     "type" : "LAYERS", "data" : [
 					    {"name" : "chisel:prismarine2", "meta": 5}
@@ -100,6 +101,7 @@
                 }
 			},
             "secondary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "bewitchment:scorned_brick_stairs"}},
                 "pillar" : {
                     "type" : "LAYERS", "data" : [

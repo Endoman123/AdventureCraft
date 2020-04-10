@@ -1,0 +1,96 @@
+{
+    "name": "theme:jungle",
+    "themes": [
+        {
+            "base": "MOSSY",
+            "level": [0, 1, 2, 3],
+            "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 13}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta": 0}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 0}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone", "meta": 4}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 0}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 14}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta" : 0}},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 13}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone", "meta": 4}}
+					]
+				}
+            }
+        },
+
+        {
+            "base": "CRYPT",
+            "level": 4,
+            "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 13}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta": 0}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 0}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone", "meta": 4}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 0}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 14}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta" : 0}},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 13}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone", "meta": 4}}
+					]
+				}
+            }
+        }
+    ]
+}

@@ -5,6 +5,7 @@
             "base": "SEWER",
             "level": [0, 1, 2, 3],
             "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
                 "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:factory", "meta": 5}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:seared_stairs_paver"}},
 				"walls" : {

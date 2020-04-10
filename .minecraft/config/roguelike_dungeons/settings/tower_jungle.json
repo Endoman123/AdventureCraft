@@ -1,0 +1,48 @@
+{
+    "name": "tower:jungle",
+    "tower": {
+        "type": "JUNGLE",
+        "theme": {
+            "base": "HOUSE",
+            "primary" : {
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 13}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta": 0}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 0}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 14}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 0}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 6}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 14}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta" : 0}},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta": 13}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:netherbrick", "meta": 7}}
+					]
+				}
+            }
+        }
+    }
+}

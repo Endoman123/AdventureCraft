@@ -1,0 +1,15 @@
+{
+    "name": "segments:danger",
+    "segments": [
+        {"level": [0, 1, 2, 3], "type" : "CHEST", "weight" : 3},
+        {"level": [1, 2, 3, 4], "type" : "SPAWNER", "weight" : 8},
+        {"level": [0, 1, 2, 3, 4], "type" : "SEWER", "weight" : 1},
+        {"level": [0, 1, 2, 3, 4], "type" : "JUNGLE", "weight" : 8},
+        {"level": [0, 1, 2, 3, 4], "type" : "LAMP", "weight" : 4},
+        {"level": [0, 1, 2, 3, 4], "type" : "DOOR", "weight" : 8},
+        {"level": [0, 1, 2, 3, 4], "type" : "BOOKS", "weight" : 8},
+        {"level": [0, 1, 2, 3, 4], "type" : "CELL", "weight" : 8},
+
+        {"level": 4, "type" : "CHEST", "weight" : 15}
+    ]
+}

@@ -5,6 +5,7 @@
             "base": "OAK",
             "level": [0, 1, 2, 3],
             "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
                 "pillar" : {"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:log_0", "meta": 4}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta": 0}},
 				"walls" : {

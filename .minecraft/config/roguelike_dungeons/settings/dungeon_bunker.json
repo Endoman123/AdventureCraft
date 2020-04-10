@@ -16,7 +16,7 @@
 		"theme:bunker",
 		"layout:default",
 		"rooms:default",
-		"segments:default",
+		"segments:tech",
 		"loot:ice",
 		"spawners:ice"
 	]
