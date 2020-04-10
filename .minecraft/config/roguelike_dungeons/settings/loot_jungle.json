@@ -1,0 +1,11 @@
+{
+    "name": "loot:jungle",
+    "inherit": [
+        "loot:default",
+        "loot:mineral",
+        "loot:food",
+        "loot:tool",
+        "loot:bauble",
+        "loot:kk_synthesis_ice"
+    ]
+}

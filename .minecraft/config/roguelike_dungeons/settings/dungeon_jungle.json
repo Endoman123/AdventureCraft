@@ -1,0 +1,21 @@
+{
+	"name": "dungeon:jungle",
+	"criteria": {
+		"biomeTypes":[
+			"forest",
+			"jungle",
+			"lush"
+		],
+		"weight": 2
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:jungle",
+		"theme:jungle",
+		"layout:default",
+		"rooms:mystery",
+		"segments:danger",
+		"loot:jungle",
+		"spawners:jungle"
+	]
+}

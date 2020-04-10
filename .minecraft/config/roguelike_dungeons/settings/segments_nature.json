@@ -1,0 +1,10 @@
+{
+    "name": "segments:nature",
+    "segments": [
+        {"level": [0, 1, 2, 3, 4], "type" : "CHEST", "weight" : 5},
+        {"level": [1, 2, 3, 4], "type" : "SPAWNER", "weight" : 8},
+        {"level": [0, 1, 2, 3, 4], "type" : "JUNGLE", "weight" : 8},
+        {"level": [0, 1, 2, 3, 4], "type" : "CAVE", "weight" : 4},
+        {"level": [0, 1, 2, 3, 4], "type" : "WALL", "weight" : 8}
+    ]
+}

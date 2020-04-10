@@ -5,6 +5,7 @@
             "base": "TEMPLE",
             "level": [0, 1, 2, 3, 4],
             "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
 				"walls" : {
 					"type" : "WEIGHTED",
 					"data" : [

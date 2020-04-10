@@ -37,6 +37,19 @@
 				{ "name": "grimoireofgaia:ender_eye", "weight": 40 },
 				{ "name": "grimoireofgaia:beholder", "weight": 10 }
 			]
+		},
+    	{
+			"type": "BLAZE",
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 100,
+			"potentials": [
+				{ "name": "thermalfoundation:basalz", "weight": 50 },
+				{ "name": "thermalfoundation:blitz", "weight": 50 },
+				{ "name": "thermalfoundation:blizz", "weight": 50 },
+				{ "name": "ebwizardry:ice_wraith", "weight": 100 },
+				{ "name": "ebwizardry:lightning_wraith", "weight": 50 },
+				{ "name": "minecraft:blaze", "weight": 30 }
+			]
 		}
 	]
 }

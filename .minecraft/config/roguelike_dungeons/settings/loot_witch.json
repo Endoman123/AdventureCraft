@@ -1,0 +1,9 @@
+{
+    "name": "loot:witch",
+    "inherit": [
+        "loot:default",
+        "loot:magic",
+        "loot:food",
+        "loot:bauble"
+    ]
+}

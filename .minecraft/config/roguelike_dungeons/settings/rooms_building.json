@@ -1,0 +1,28 @@
+{
+    "name": "rooms:building",
+    "inherit": [
+        "rooms:default"
+    ],
+    "rooms": [
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "BRICK", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "CAKE", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "CAKE", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "CORNER", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "CREEPER", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "CRYPT", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "DARKHALL", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "ENCHANT", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "ENDER", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "ENIKO", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "FIREWORK", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "LAB", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "LIBRARY", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "MESS", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "MUSIC", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "OBSIDIAN", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "PRISON", "weight": 2},
+        {"level": [0, 1, 2, 3, 4], "type": "random", "name" : "SLIME", "weight": 2},
+
+        {"level" : [0, 1, 2, 3, 4], "type" : "secret", "name" : "STORAGE", "count" : 5}
+    ]
+}
