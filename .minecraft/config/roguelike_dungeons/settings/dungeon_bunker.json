@@ -18,6 +18,7 @@
 		"rooms:default",
 		"segments:default",
 		"loot:ice",
+		"loot:weapons_bunker",
 		"spawners:ice"
 	]
 }

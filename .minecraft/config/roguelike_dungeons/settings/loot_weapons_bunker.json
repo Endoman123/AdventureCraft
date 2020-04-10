@@ -1,16 +1,15 @@
 {
-    "name": "loot:weapons_lab",
+    "name": "loot:weapons_bunker",
     "loot_rules": [
         {
             "level": [0, 1, 2, 3],
-            "quantity": 2,
+            "quantity": 1,
             "each": false,
             "type": "REWARD",
             "loot": [
-                { "data" : {"name" : "plustic:katana", "nbt": "{StatsOriginal: {AttackSpeedMultiplier: 1.0, MiningSpeed: 7.0, FreeModifiers: 3, Durability: 837, HarvestLevel: 3, Attack: 6.6}, PlusTiC_Counter: 5.97491, display: {NoRename: true, Name: \"PROJECT-YI\"}, Stats: {AttackSpeedMultiplier: 1.0, MiningSpeed: 7.0, FreeModifiers: 0, Durability: 42069, HarvestLevel: 3, Attack: 999}, Special: {Categories: [\"tool\", \"weapon\"]}, TinkerData: {Materials: [\"psimetal\", \"fluixcrystal_plustic\", \"psigem\", \"osmiridium\"], Modifiers: [\"infitool\"]}, Modifiers: [{identifier: \"psicological\", color: -9593089, level: 1}, {identifier: \"global\", color: -9593089, level: 1}, {identifier: \"portly\", color: -2009268071, level: 1}, {identifier: \"devilsstrength\", color: -43521, level: 1}], Traits: [\"psicological\", \"global\", \"portly\", \"devilsstrength\"]}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:cleaver", "nbt": "{StatsOriginal: {AttackSpeedMultiplier: 1.0, MiningSpeed: 7.0, FreeModifiers: 3, Durability: 837, HarvestLevel: 3, Attack: 6.6}, display: {NoRename: true, Name: \"PROJECT-FIORA\"}, Stats: {AttackSpeedMultiplier: 5.0, MiningSpeed: 7.0, FreeModifiers: 0, Durability: 42069, HarvestLevel: 3, Attack: 100}, Special: {Categories: [\"tool\", \"weapon\"]}, TinkerData: {Materials: [\"steel\", \"osmiridium\", \"osmiridium\"], Modifiers: [\"infitool\"]}, Modifiers: [{identifier: \"psicological\", color: -9593089, level: 1}, {identifier: \"global\", color: -9593089, level: 1}, {identifier: \"portly\", color: -2009268071, level: 1}, {identifier: \"devilsstrength\", color: -43521, level: 1}], Traits: [\"psicological\", \"global\", \"portly\", \"devilsstrength\"]}"}, "weight": 1}
+                { "data" : {"name" : "tconstruct:cleaver", "nbt": "{StatsOriginal: {AttackSpeedMultiplier: 1.0, MiningSpeed: 6.5, FreeModifiers: 3, Durability: 1514, HarvestLevel: 3, Attack: 10.799999}, display: {NoRename: true, Name: \"Cloud Buster\"}, Stats: {AttackSpeedMultiplier: 0.5, MiningSpeed: 7.8, FreeModifiers: 0, Durability: 42069, HarvestLevel: 3, Attack: 100}, Special: {Categories: [\"weapon\", \"tool\"]}, TinkerData: {Materials: [\"psimetal\", \"steel\", \"titanium\", \"titanium\"], Modifiers: [\"beheading_cleaver\", \"infitool\"]}, Modifiers: [{identifier: \"psicological\", color: -9593089, level: 1}, {identifier: \"global\", color: -9593089, level: 1}, {identifier: \"sharp\", color: -5789785, level: 1}, {identifier: \"anticorrosion\", color: -1, level: 1}, {identifier: \"light\", color: -1, level: 1}, {identifier: \"beheading_cleaver\", color: 1070923, level: 2}], Traits: [\"psicological\", \"global\", \"sharp\", \"anticorrosion\", \"light\", \"Cloud's Favorite\"]}"}, "weight": 1}
             ]
         }
     ]
-    }
+}
     
