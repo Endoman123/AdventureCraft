@@ -1,0 +1,28 @@
+{
+	"name": "dungeon:magic",
+	"criteria": {
+		"biomeTypes":[
+			"dead",
+			"forest",
+			"jungle",
+			"lush",
+			"magical",
+			"mountain",
+			"plains",
+			"spooky",
+			"swamp",
+			"wasteland"
+		],
+		"weight": 2
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:magic",
+		"theme:magic",
+		"layout:default",
+		"rooms:building",
+		"segments:default",
+		"loot:witch",
+		"spawners:magic"
+	]
+}

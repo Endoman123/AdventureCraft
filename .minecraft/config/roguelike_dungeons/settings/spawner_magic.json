@@ -9,8 +9,9 @@
 			"level" : [0, 1, 2, 3],
 			"weight": 300,
 			"potentials": [
-				{ "name": "minecraft:skeleton", "weight": 50 },
-				{ "name": "ebwizardry:evil_wizard", "weight": 55 },
+				{ "name": "minecraft:skeleton", "weight": 60 },
+				{ "name": "ebwizardry:evil_wizard", "weight": 75 },
+				{ "name": "minecraft:witch", "weight": 75 },
 				{ "name": "grimoireofgaia:deathword", "weight": 50 }
 			]
 		},
@@ -20,6 +21,7 @@
 			"weight": 300,
 			"potentials": [
 				{ "name": "ebwizardry:evil_wizard", "weight": 55 },
+				{ "name": "minecraft:witch", "weight": 75 },
 				{ "name": "grimoireofgaia:deathword", "weight": 50 },
 				{ "name": "grimoireofgaia:beholder", "weight": 5 }
 			]

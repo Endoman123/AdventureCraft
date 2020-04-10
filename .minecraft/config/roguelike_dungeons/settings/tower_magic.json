@@ -1,0 +1,46 @@
+{
+    "name": "tower:magic",
+    "tower": {
+        "type": "WITCH",
+        "theme": {
+            "base": "HOUSE",
+            "primary" : {
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:log_0", "meta": 4}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta": 0}},
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:planks_0", "meta": 0}, "weight":2},
+						{"type" : "METABLOCK", "data" : {"name" : "planks", "meta": 0}, "weight":8}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone2", "meta": 3}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone2", "meta": 3}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone2", "meta": 3}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone2", "meta": 3}},
+						{"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:planks_0", "meta": 0}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 8}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta" : 0}},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone2", "meta": 3}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone2", "meta": 3}}
+					]
+				}
+            }
+        }
+    }
+}
