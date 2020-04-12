@@ -71,20 +71,20 @@
 				"walls" : {
 					"type" : "LAYERS",
 					"data" : [
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 2}}
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 2}}
 					]
 				},
                 "floor" : {
 					"type" : "LAYERS",
 					"data" : [
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 2}}
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 2}}
 					]
 				},
                 "lightblock" : {
@@ -111,7 +111,7 @@
                 "walls" : {
 					"type" : "LAYERS",
 					"data" : [
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:bloodmagic", "meta" : 1}}
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt", "meta" : 1}}
 					]
 				}
             }

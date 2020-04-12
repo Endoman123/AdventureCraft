@@ -6,7 +6,7 @@
 			"jungle",
             "mountain"
 		],
-		"weight": 2
+		"weight": 8
 	},
 	"exclusive": true,
 	"inherit": [

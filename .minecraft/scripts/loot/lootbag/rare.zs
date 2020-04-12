@@ -1,6 +1,6 @@
 // TO TEST
 // /setblock ~ ~ ~ minecraft:chest 2 replace {LootTable:"neuroflow:chests/chestloot1"}
-
+import crafttweaker.data.IData;
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
@@ -197,3 +197,16 @@ main.clearEntries();
 for i in list {
     main.addItemEntryHelper(i, 10, 10, [Functions.setCount(1, 1)], []);
 }
+
+//
+main.addItemEntryJson(<ebwizardry:spell_book>, 10, 10, [
+   {
+    "count":
+    {
+    "min": 1.0,
+    "max": 1.0
+    },
+    "function": "ebwizardry:random_spell"
+   }
+], []);
+
