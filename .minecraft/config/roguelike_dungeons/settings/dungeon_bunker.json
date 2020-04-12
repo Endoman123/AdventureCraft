@@ -5,7 +5,7 @@
 			"cold",
 			"snowy"
 		],
-		"weight": 3
+		"weight": 8
 	},
 	"filters": [
 		{ "level": [0, 1, 2], "name": "Cobweb" }
@@ -17,7 +17,9 @@
 		"layout:default",
 		"rooms:default",
 		"segments:tech",
-		"loot:ice",
+		"loot:default",
+		"loot:tech",
+		"loot:food",
 		"loot:weapons_bunker",
 		"spawners:ice"
 	]

@@ -18,7 +18,7 @@
 			"swamp",
 			"wasteland"
 		],
-		"weight": 2
+		"weight": 10
 	},
 	"exclusive": true,
 	"inherit": [

@@ -2,17 +2,23 @@
 "name": "loot:food",
 "loot_rules": [
     {
-        "level": [0, 1, 2, 3, 4],
-        "quantity": 10,
+        "level": [0, 1, 2],
+        "quantity": 50,
         "each": false,
         "loot": [
-            { "data" : {"name" : "minecraft:apple"}, "weight": 35},
-            { "data" : {"name" : "minecraft:cooked_chicken"}, "weight": 35},
-            { "data" : {"name" : "minecraft:bread"}, "weight": 105},
-            { "data" : {"name" : "harvestcraft:toastedwesternitem"}, "weight": 90},
-            { "data" : {"name" : "harvestcraft:plumjellysandwichitem"}, "weight": 90},
-            { "data" : {"name" : "harvestcraft:orangejellysandwichitem"}, "weight": 90},
-            { "data" : {"name" : "harvestcraft:cranberryjellysandwichitem"}, "weight": 90}
+            { "data" : {"name" : "harvestcraft:creamcookieitem"}, "weight": 600},
+            { "data" : {"name" : "harvestcraft:bananaitem"}, "weight": 600},
+
+            { "data" : {"name" : "minecraft:apple"}, "weight": 200},
+            { "data" : {"name" : "minecraft:bread"}, "weight": 200},
+            { "data" : {"name" : "harvestcraft:toastedwesternitem"}, "weight": 200},
+            { "data" : {"name" : "harvestcraft:plumjellysandwichitem"}, "weight": 200},
+            { "data" : {"name" : "harvestcraft:orangejellysandwichitem"}, "weight": 200},
+            { "data" : {"name" : "harvestcraft:cranberryjellysandwichitem"}, "weight": 200},
+
+            { "data" : {"name" : "harvestcraft:pumpkincheesecakeitem"}, "weight": 200},
+            { "data" : {"name" : "minecraft:cooked_chicken"}, "weight": 200},
+            { "data" : {"name" : "harvestcraft:gummybearsitem"}, "weight": 200}
         ]
     }
 ]

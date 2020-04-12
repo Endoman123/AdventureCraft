@@ -5,23 +5,63 @@
 	],
 	"loot_rules": [
 		{
-			"level": [0, 1, 2, 3, 4],
-			"quantity": 4,
+			"level": [0, 1, 2],
+			"quantity": 40,
 			"each": false,
 			"loot": [
-				{ "data" : {"name" : "minecraft:mossy_cobblestone"}, "weight": 35},
-				{ "data" : {"name" : "minecraft:book"}, "weight": 145},
-				{ "data" : {"name" : "ebwizardry:scroll", "meta": 74}, "weight": 20},
-				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 3}, "weight": 8},
-				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 2}, "weight": 10},
-				{ "data" : {"name" : "astralsorcery:itemcraftingcomponent"}, "weight": 90},
-				{ "data" : {"name" : "ebwizardry:scroll", "meta": 74}, "weight": 20},
-				{ "data" : {"name" : "ebwizardry:identification_scroll"}, "weight": 50},
+				{ "data" : {"name" : "minecraft:book"}, "weight": 200},
+				{ "data" : {"name" : "botania:manaresource"}, "weight": 200},
+				{ "data" : {"name" : "minecraft:prismarine_shard"}, "weight": 200},
+				{ "data" : {"name" : "ebwizardry:magic_crystal"}, "weight": 200},
+				{ "data" : {"name" : "ebwizardry:scroll", "meta": 74}, "weight": 200},
+				{ "data" : {"name" : "astralsorcery:itemcraftingcomponent"}, "weight": 200},
+				{ "data" : {"name" : "ebwizardry:identification_scroll"}, "weight": 200},
+				{ "data" : {"name" : "astralsorcery:itemusabledust", "meta": 1}, "weight": 200},
+				{ "data" : {"name" : "astralsorcery:itemusabledust", "meta": 0}, "weight": 200},
+
+				{ "data" : {"name" : "ebwizardry:grand_crystal"}, "weight": 20},
+				{ "data" : {"name" : "minecraft:ender_pearl"}, "weight": 20},
+				{ "data" : {"name" : "minecraft:ender_eye"}, "weight": 20},
+				{ "data" : {"name" : "psi:material", "meta" : 1}, "weight": 20},
+				{ "data" : {"name" : "extrautils2:decorativesolidwood", "meta" : 1}, "weight": 20},
+				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 3}, "weight": 20},
+				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 2}, "weight": 20},
+
+				{ "data" : {"name" : "ebwizardry:magic_wand"}, "weight": 2},
+				{ "data" : {"name" : "minecraft:golden_apple"}, "weight": 2},
+				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 3}, "weight": 2},
+				{ "data" : {"name" : "astralsorcery:blockworldilluminator"}, "weight": 2},
+				{ "data" : {"name" : "astralsorcery:itemgrapplewand"}, "weight": 2}
+			]
+		},
+		{
+			"level": [3, 4],
+			"quantity": 40,
+			"each": false,
+			"loot": [
+				{ "data" : {"name" : "minecraft:book"}, "weight": 200},
+				{ "data" : {"name" : "botania:manaresource"}, "weight": 200},
+				{ "data" : {"name" : "minecraft:prismarine_shard"}, "weight": 200},
+				{ "data" : {"name" : "ebwizardry:magic_crystal"}, "weight": 200},
+				{ "data" : {"name" : "ebwizardry:scroll", "meta": 74}, "weight": 200},
+				{ "data" : {"name" : "astralsorcery:itemcraftingcomponent"}, "weight": 200},
+				{ "data" : {"name" : "ebwizardry:identification_scroll"}, "weight": 200},
+				{ "data" : {"name" : "astralsorcery:itemusabledust", "meta": 1}, "weight": 200},
+				{ "data" : {"name" : "astralsorcery:itemusabledust", "meta": 0}, "weight": 200},
+
+				{ "data" : {"name" : "ebwizardry:grand_crystal"}, "weight": 40},
+				{ "data" : {"name" : "minecraft:ender_pearl"}, "weight": 40},
+				{ "data" : {"name" : "minecraft:ender_eye"}, "weight": 40},
+				{ "data" : {"name" : "psi:material", "meta" : 1}, "weight": 40},
+				{ "data" : {"name" : "extrautils2:decorativesolidwood", "meta" : 1}, "weight": 40},
+				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 3}, "weight": 40},
+				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 2}, "weight": 40},
+
+				{ "data" : {"name" : "ebwizardry:magic_wand"}, "weight": 10},
+				{ "data" : {"name" : "minecraft:golden_apple"}, "weight": 100},
 				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 3}, "weight": 10},
-				{ "data" : {"name" : "astralsorcery:blockworldilluminator"}, "weight": 50},
-				{ "data" : {"name" : "astralsorcery:itemgrapplewand"}, "weight": 1},
-				{ "data" : {"name" : "astralsorcery:itemusabledust", "meta": 1}, "weight": 10},
-				{ "data" : {"name" : "astralsorcery:itemusabledust", "meta": 0}, "weight": 10}
+				{ "data" : {"name" : "astralsorcery:blockworldilluminator"}, "weight": 10},
+				{ "data" : {"name" : "astralsorcery:itemgrapplewand"}, "weight": 10}
 			]
 		},
 		{

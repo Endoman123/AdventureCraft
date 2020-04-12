@@ -8,7 +8,7 @@
 			"mountain",
 			"hills"
 		],
-		"weight": 3
+		"weight": 8
 	},
 	"exclusive": true,
 	"inherit": [

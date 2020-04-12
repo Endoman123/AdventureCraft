@@ -13,7 +13,7 @@
 			"swamp",
 			"wasteland"
 		],
-		"weight": 2
+		"weight": 8
 	},
 	"exclusive": true,
 	"inherit": [
@@ -21,7 +21,7 @@
 		"theme:magic",
 		"layout:default",
 		"rooms:building",
-		"segments:default",
+		"segments:nofire",
 		"loot:witch",
 		"spawners:magic"
 	]

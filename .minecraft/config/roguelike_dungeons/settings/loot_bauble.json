@@ -3,8 +3,8 @@
 "loot_rules": [
     {
         "level": [0, 1, 2, 3, 4],
-        "quantity": 1,
-        "each": true,
+        "quantity": 6,
+        "each": false,
         "loot": [
             { "data" : {"name" : "ebwizardry:ring_mind_control"}, "weight": 2},
             { "data" : {"name" : "ebwizardry:ring_earth_biome"}, "weight": 2},

@@ -4,6 +4,7 @@
         "loot:default",
         "loot:mineral",
         "loot:magic",
+        "loot:tech",
         "loot:food",
         "loot:tool",
         "loot:bauble",

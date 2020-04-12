@@ -3,7 +3,7 @@
     "themes": [
         {
             "base": "OAK",
-            "level": [0, 1, 2, 3],
+            "level": [0, 1, 2],
             "primary" : {
                 "door" : {"name": "basemetals:obsidian_door"},
                 "pillar" : {"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:log_0", "meta": 4}},
@@ -46,15 +46,14 @@
 
         {
             "base": "CRYPT",
-            "level": 4,
+            "level":[3, 4],
             "primary" : {
                 "pillar" : {"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:log_3", "meta": 7}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tconstruct:brownstone_stairs_brick_cracked", "meta": 0}},
 				"walls" : {
-					"type" : "WEIGHTED",
+					"type" : "LAYERS",
 					"data" : [
-						{"type" : "METABLOCK", "data" : {"name" : "biomesoplenty:planks_0", "meta": 15}, "weight":2},
-						{"type" : "METABLOCK", "data" : {"name" : "planks", "meta": 0}, "weight":8}
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone2", "meta": 3}}
 					]
 				},
                 "floor" : {
