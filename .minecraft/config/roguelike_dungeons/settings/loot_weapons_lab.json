@@ -2,8 +2,8 @@
     "name": "loot:weapons_lab",
     "loot_rules": [
         {
-            "level": [0, 1, 2, 3],
-            "quantity": 2,
+            "level": [0, 1, 2, 3, 4],
+            "quantity": 1,
             "each": false,
             "type": "REWARD",
             "loot": [
@@ -12,5 +12,5 @@
             ]
         }
     ]
-    }
+}
     
