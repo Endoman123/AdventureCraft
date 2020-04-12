@@ -8,7 +8,7 @@ import crafttweaker.item.IItemStack;
 // A Rougue like dungeon lootpool
 var table = LootTables.getTable("neuroflow:chests/chestloot10");
 var mainPool = table.getPool("main");
-var dungeonPool = table.addPool("loot_dungeon", 1, 5, 0, 5);
+var dungeonPool = table.addPool("loot_dungeon", 5, 10, 0, 5);
 var kkMaterials = table.addPool("kk_materials", 0, 1, 0, 1);
 
 // Remove kingdom keys loot
@@ -25,7 +25,7 @@ mainPool.removeEntry("minecraft:emerald");
 mainPool.removeEntry("minecraft:wheat");
 mainPool.removeEntry("minecraft:stone_axe");
 mainPool.addEmptyEntry(10, 0);
-mainPool.setRolls(1, 5);
+mainPool.setRolls(5, 10);
 mainPool.setBonusRolls(0, 5);
 
 // Additions go here
@@ -65,16 +65,11 @@ dungeonPool.addItemEntry(<bountifulbaubles:trinketankhcharm>, 2);
 dungeonPool.addItemEntry(<bountifulbaubles:shieldankh>.withTag({HideFlags: 2}), 2);
 dungeonPool.addItemEntry(<bountifulbaubles:ringflywheeladvanced>, 2);
 
-
 // Potion
 dungeonPool.addItemEntry(<minecraft:potion>.withTag({Potion: "cofhcore:healing3"}), 20);
 dungeonPool.addItemEntry(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), 20);
 dungeonPool.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}), 20);
 dungeonPool.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), 20);
-
-// Scaling Health
-dungeonPool.addItemEntry(<scalinghealth:crystalshard>, 200);
-dungeonPool.addItemEntry(<scalinghealth:heartcontainer>, 4);
 
 // Extra utils
 dungeonPool.addItemEntry(<extrautils2:boomerang>, 2);
@@ -114,11 +109,7 @@ dungeonPool.addItemEntry(<chococraft:chocobo_spawn_egg>, 3);
 dungeonPool.addItemEntry(<chococraft:ability_fruit:2>, 3);
 dungeonPool.addItemEntry(<chococraft:ability_fruit:3>, 3);
 
-
-
 // Base Metals
-dungeonPool.addItemEntry(<basemetals:emerald_shears>, 20);
-dungeonPool.addItemEntry(<basemetals:diamond_shears>, 20);
 dungeonPool.addItemEntry(<basemetals:emerald_horse_armor>, 10);
 dungeonPool.addItemEntry(<basemetals:gold_shield>, 10);
 

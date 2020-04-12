@@ -12,7 +12,6 @@
                 { "data" : {"name" : "ebwizardry:poison_bomb"}, "weight" : 10},
                 { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
                 { "data" : {"name" : "ebwizardry:firebomb"}, "weight" : 10},
-                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 200},
                 { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 8},
                 { "data" : {"name" : "extrautils2:ingredients", "meta": 12}, "weight": 10},
                 { "data" : {"name" : "extrautils2:ingredients", "meta": 11}, "weight": 10},
@@ -61,6 +60,16 @@
             "each": false,
             "loot": [
                 { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+            ]
+        },
+        {
+            "type": "REWARD",
+            "level": [0, 1, 2, 3],
+            "quantity": 4,
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight" : 1 },
+                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 1}
             ]
         },
         {

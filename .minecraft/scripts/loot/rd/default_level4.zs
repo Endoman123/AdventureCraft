@@ -10,7 +10,7 @@ import crafttweaker.item.IItemStack;
 // A Rougue like dungeon lootpool
 var table = LootTables.getTable("neuroflow:chests/chestloot14");
 var mainPool = table.getPool("main");
-var additional = table.addPool("dungeon1", 1, 5, 0, 5);
+var additional = table.addPool("dungeon1", 5, 10, 0, 5);
 
 // Remove kingdom keys loot
 table.removePool("kk_loot_rare_materials");
@@ -65,10 +65,6 @@ additional.addItemEntry(<astralsorcery:blockworldilluminator>, 50);
 additional.addItemEntry(<minecraft:potion>.withTag({Potion: "cofhcore:healing3"}), 50);
 additional.addItemEntry(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), 20);
 additional.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}), 20);
-
-// Scaling Health
-additional.addItemEntry(<scalinghealth:crystalshard>, 200);
-additional.addItemEntry(<scalinghealth:heartcontainer>, 30);
 
 // Extra utils
 additional.addItemEntry(<extrautils2:boomerang>, 2);

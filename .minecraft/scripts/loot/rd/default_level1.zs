@@ -8,7 +8,7 @@ import crafttweaker.item.IItemStack;
 // A Rougue like dungeon lootpool
 var table = LootTables.getTable("neuroflow:chests/chestloot11");
 var mainPool = table.getPool("main");
-var dungeonPool = table.addPool("loot_dungeon", 1, 5, 0, 5);
+var dungeonPool = table.addPool("loot_dungeon", 5, 10, 0, 5);
 var kkMaterials = table.addPool("kk_materials", 0, 1, 0, 1);
 
 // Remove kingdom keys loot
@@ -71,10 +71,6 @@ dungeonPool.addItemEntry(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.do
 dungeonPool.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}), 20);
 dungeonPool.addItemEntry(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), 20);
 
-// Scaling Health
-dungeonPool.addItemEntry(<scalinghealth:crystalshard>, 200);
-dungeonPool.addItemEntry(<scalinghealth:heartcontainer>, 4);
-
 // Extra utils
 dungeonPool.addItemEntry(<extrautils2:boomerang>, 2);
 dungeonPool.addItemEntry(<extrautils2:magicapple>, 10);
@@ -111,18 +107,12 @@ dungeonPool.addItemEntry(<chococraft:chocobo_spawn_egg>, 3);
 dungeonPool.addItemEntry(<chococraft:ability_fruit:2>, 3);
 dungeonPool.addItemEntry(<chococraft:ability_fruit:3>, 3);
 
-
-
 // Base Metals
-dungeonPool.addItemEntry(<basemetals:emerald_shears>, 20);
-dungeonPool.addItemEntry(<basemetals:diamond_shears>, 20);
 dungeonPool.addItemEntry(<basemetals:emerald_horse_armor>, 10);
 dungeonPool.addItemEntry(<basemetals:gold_shield>, 10);
 
 // Tinkers
 dungeonPool.addItemEntry(<tconstruct:slimesling:4>, 5);
-
-
 
 // Enchanted Books
 
