@@ -20,7 +20,7 @@
 	</asteroid>
     <asteroid name="Osmium Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.3">
 		<ore itemStack="modernmetals:osmium_ore" chance="55" />
-		<ore itemStack="modernmetals:silver_ore" chance="10" />
+		<ore itemStack="basemetals:silver_ore" chance="10" />
 	</asteroid>
     <asteroid name="Precious Asteroid" distance="20" mass="200" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.3">
 		<ore itemStack="minecraft:gold_ore" chance="55" />
@@ -41,15 +41,15 @@
 		<ore itemStack="minecraft:diamond_ore" chance="50" />
 	</asteroid>
     <asteroid name="Metallic Asteroid" distance="35" mass="500" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.3">
-		<ore itemStack="basemetals:titanium_ore" chance="10" />
+		<ore itemStack="modernmetals:titanium_ore" chance="10" />
 		<ore itemStack="basemetals:platinum_ore" chance="10" />
-		<ore itemStack="basemetals:iridium_ore" chance="10" />
+		<ore itemStack="modernmetals:iridium_ore" chance="10" />
 	</asteroid>
     <asteroid name="Mixed Asteroid" distance="15" mass="300" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.2">
 		<ore itemStack="minecraft:iron_ore" chance="10" />
 		<ore itemStack="basemetals:copper_ore" chance="10" />
-		<ore itemStack="modernmetals:lead_ore" chance="10" />
-		<ore itemStack="modernmetals:tin_ore" chance="10" />
+		<ore itemStack="basemetals:lead_ore" chance="10" />
+		<ore itemStack="basemetals:tin_ore" chance="10" />
 	</asteroid>
     <asteroid name="Mineral Asteroid" distance="35" mass="200" massVariability="0.8" minLevel="0" probability="10" richness="0.5" richnessVariability="0.2">
 		<ore itemStack="baseminerals:salt_ore" chance="10" />
