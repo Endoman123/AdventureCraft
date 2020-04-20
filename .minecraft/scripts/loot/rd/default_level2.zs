@@ -139,7 +139,7 @@ dungeonLoot.addItemEntryHelper(<minecraft:enchanted_book>, 80, 1, [Functions.enc
     "enderio:soulbound",                        //  - Soulbound
     "enderio:witherarrow",                      //  - Withering
     "enderio:witherweapon",                     //  - Decay
-    "extrautils2:xu",                           //  - Zoomerang I
+    "extrautils2:xu.zoomerang",                 //  - Zoomerang I
     "extrautils2:xu.bladerang",                 //  - Bladerang I
     "extrautils2:xu.boomereaperang",            //  - Boomereaperang
     "extrautils2:xu.burnerang",                 //  - Burnerang
@@ -148,7 +148,7 @@ dungeonLoot.addItemEntryHelper(<minecraft:enchanted_book>, 80, 1, [Functions.enc
     "minecraft:bane_of_arthropods",             //  - Bane of Arthropods I
     "minecraft:binding_curse",                  //  - Curse of Binding
     "minecraft:blast_protection",               //  - Blast Protection I
-    "minecraft:depth_strider.zoomerang",        //  - Depth Strider I
+    "minecraft:depth_strider",                  //  - Depth Strider I
     "minecraft:efficiency",                     //  - Efficiency I
     "minecraft:feather_falling",                //  - Feather Falling I
     "minecraft:fire_aspect",                    //  - Fire Aspect I
