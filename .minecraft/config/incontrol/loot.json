@@ -2,31 +2,31 @@
     {
         "hostile": true,
         "realplayer": true,
-        "random": 0.06,
+        "random": 0.006,
         "item": "jsonlootbags:common_bag"
     },
     {
         "hostile": true,
         "realplayer": true,
-        "random": 0.02,
+        "random": 0.002,
         "item": "jsonlootbags:uncommon_bag"
     },
     {
         "hostile": true,
         "realplayer": true,
-        "random": 0.008,
+        "random": 0.0008,
         "item": "jsonlootbags:rare_bag"
     },
     {
         "hostile": true,
         "realplayer": true,
-        "random": 0.005,
+        "random": 0.0005,
         "item": "jsonlootbags:superrare_bag"
     },
     {
         "hostile": true,
         "realplayer": true,
-        "random": 0.0001,
+        "random": 0.00001,
         "item": "jsonlootbags:elusive_bag"
     },
 
@@ -34,28 +34,28 @@
         "mod": "grimoireofgaia",
         "hostile": true,
         "realplayer": true,
-        "random": 0.03,
+        "random": 0.003,
         "item": "jsonlootbags:uncommon_bag"
     },
     {
         "mod": "grimoireofgaia",
         "hostile": true,
         "realplayer": true,
-        "random": 0.03,
+        "random": 0.003,
         "item": "jsonlootbags:rare_bag"
     },
     {
         "mod": "grimoireofgaia",
         "hostile": true,
         "realplayer": true,
-        "random": 0.02,
+        "random": 0.002,
         "item": "jsonlootbags:superrare_bag"
     },
     {
         "mod": "grimoireofgaia",
         "hostile": true,
         "realplayer": true,
-        "random": 0.009,
+        "random": 0.0009,
         "item": "jsonlootbags:elusive_bag"
     },
 
@@ -63,28 +63,28 @@
         "hostile": true,
         "dimension": -1,
         "realplayer": true,
-        "random": 0.04,
+        "random": 0.004,
         "item": "jsonlootbags:uncommon_bag"
     },
     {
         "hostile": true,
         "dimension": 1,
         "realplayer": true,
-        "random": 0.05,
+        "random": 0.005,
         "item": "jsonlootbags:rare_bag"
     },
     {
         "hostile": true,
         "dimension": 1,
         "realplayer": true,
-        "random": 0.04,
+        "random": 0.004,
         "item": "jsonlootbags:superrare_bag"
     },
     {
         "hostile": true,
         "dimension": -11325,
         "realplayer": true,
-        "random": 0.08,
+        "random": 0.008,
         "item": "jsonlootbags:elusive_bag"
     }
 ]
