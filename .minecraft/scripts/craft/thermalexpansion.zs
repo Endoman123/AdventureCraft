@@ -1,62 +1,27 @@
 import mods.thermalexpansion.InductionSmelter;
 
 // Harder alloy recipe for Aluminum Brass
-val dustAluminum = <ore:dustAluminum>;
-val ingotAluminum = <ore:ingotAluminum>;
-val dustBrass = <ore:dustBrass>;
-val ingotBrass = <ore:ingotBrass>;
-val dustCopper = <ore:dustCopper>;
-val ingotCopper = <ore:ingotCopper>;
+val dustAluminum = <modernmetals:aluminum_dust>;
+val ingotAluminum = <modernmetals:aluminum_ingot>;
+val dustBrass = <basemetals:brass_dust>;
+val ingotBrass = <basemetals:brass_ingot>;
+val dustCopper = <basemetals:copper_dust>;
+val ingotCopper = <basemetals:copper_ingot>;
 val alubrass = <tconstruct:ingots:5>;
 
-for itemA in dustAluminum.items {
-    for itemB in dustCopper.items {
-        mods.thermalexpansion.InductionSmelter.removeRecipe(itemA, itemB);
-    }
-}
-
-for itemA in ingotAluminum.items {
-    for itemB in dustCopper.items {
-        mods.thermalexpansion.InductionSmelter.removeRecipe(itemA, itemB);
-    }
-}
-
-for itemA in ingotAluminum.items {
-    for itemB in ingotCopper.items {
-        mods.thermalexpansion.InductionSmelter.removeRecipe(itemA, itemB);
-    }
-}
-
-for itemA in dustAluminum.items {
-    for itemB in ingotCopper.items {
-        mods.thermalexpansion.InductionSmelter.removeRecipe(itemA, itemB);
-    }
-}
+InductionSmelter.removeRecipe(dustAluminum, dustCopper);
+InductionSmelter.removeRecipe(ingotAluminum, dustCopper);
+InductionSmelter.removeRecipe(ingotAluminum, ingotCopper);
+InductionSmelter.removeRecipe(dustAluminum, ingotCopper);
 
 // 2400 rf
-for itemA in dustAluminum.items {
-    for itemB in dustBrass.items {
-        mods.thermalexpansion.InductionSmelter.addRecipe(alubrass * 3, itemA, itemB * 2, 2400);
-    }
-}
+InductionSmelter.addRecipe(alubrass * 3, dustAluminum, dustBrass * 2, 2400);
 
 // 2800 rf
-for itemA in ingotAluminum.items {
-    for itemB in dustBrass.items {
-        mods.thermalexpansion.InductionSmelter.addRecipe(alubrass * 3, itemA, itemB * 2, 2800);
-    }
-}
+InductionSmelter.addRecipe(alubrass * 3, ingotAluminum, dustBrass * 2, 2800);
 
 // 3600 rf
-for itemA in ingotAluminum.items {
-    for itemB in ingotBrass.items {
-        mods.thermalexpansion.InductionSmelter.addRecipe(alubrass * 3, itemA, itemB * 2, 3600);
-    }
-}
+InductionSmelter.addRecipe(alubrass * 3, ingotAluminum, ingotBrass * 2, 3600);
 
 // 3200 rf
-for itemA in dustAluminum.items {
-    for itemB in ingotBrass.items {
-        mods.thermalexpansion.InductionSmelter.addRecipe(alubrass * 3, itemA, itemB * 2, 3200);
-    }
-}
+InductionSmelter.addRecipe(alubrass * 3, dustAluminum, ingotBrass * 2, 3200);
