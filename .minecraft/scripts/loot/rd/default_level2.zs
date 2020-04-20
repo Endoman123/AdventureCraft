@@ -11,11 +11,6 @@ var mainPool = table.getPool("main");
 var dungeonLoot = table.addPool("loot_dungeon", 5, 10, 0, 5);
 var kkMaterials = table.addPool("kk_materials", 0, 1, 0, 1);
 
-// Remove kingdom keys loot
-table.removePool("kk_loot_rare_materials");
-mainPool.removeEntry("kk:recipe");
-mainPool.removeEntry("kk:recipes_empty");
-
 // Clean up default main pool
 mainPool.removeEntry("minecraft:apple");
 mainPool.removeEntry("minecraft:coal"); 

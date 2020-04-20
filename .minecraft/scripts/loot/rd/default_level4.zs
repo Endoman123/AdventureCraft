@@ -12,11 +12,6 @@ var table = LootTables.getTable("neuroflow:chests/chestloot14");
 var mainPool = table.getPool("main");
 var additional = table.addPool("dungeon1", 5, 10, 0, 5);
 
-// Remove kingdom keys loot
-table.removePool("kk_loot_rare_materials");
-mainPool.removeEntry("kk:recipe");
-mainPool.removeEntry("kk:recipes_empty");
-
 // Clean up default main pool
 mainPool.removeEntry("minecraft:apple");
 mainPool.removeEntry("minecraft:coal");

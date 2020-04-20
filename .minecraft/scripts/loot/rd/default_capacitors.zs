@@ -14,8 +14,6 @@ main.clearEntries();
 main.setRolls(0, 1);
 main.setBonusRolls(0, 1);
 
-table.removePool("kk_loot_rare_materials");
-
 // Capacitor Reward Pool
 main.addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [
     Functions.parse({"function": "enderio:set_capacitor"}),
