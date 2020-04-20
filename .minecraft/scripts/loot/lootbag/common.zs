@@ -129,8 +129,6 @@ val list = [
     <tconstruct:slimesling>,
     <tconstruct:slime_boots>,
     <conarm:travel_goggles>,
-    <tinkersurvival:crude_knife>,
-    <tinkersurvival:crude_hatchet>,
     // electroblob
     <ebwizardry:identification_scroll>,
     <ebwizardry:magic_crystal>,
