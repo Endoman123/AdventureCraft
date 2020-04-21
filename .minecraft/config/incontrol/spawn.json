@@ -22,6 +22,134 @@
     "result": "deny"
   },
   {
+    "dimension": 0,
+    "maxlight": 7,
+    "mob": "kk:shadow",
+    "maxcount": {
+      "amount": 5,
+      "perchunk": true,
+      "perplayer": true,
+      "mob": "kk:shadow"
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "kk:shadow",
+    "maxcount": {
+      "amount": 5,
+      "perchunk": true,
+      "perplayer": true,
+      "mob": "kk:shadow"
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "maxlight": 7,
+    "mob": "kk:gigashadow",
+    "maxcount": {
+      "amount": 2,
+      "perchunk": true,
+      "perplayer": true,
+      "mob": "kk:gigashadowshadow"
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "kk:gigashadow",
+    "maxcount": {
+      "amount": 2,
+      "perchunk": true,
+      "perplayer": true,
+      "mob": "kk:gigashadowshadow"
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "maxlight": 7,
+    "mob": [
+      "kk:rednocturne",
+      "kk:crimsonjazz",
+      "kk:yellowopera",
+      "kk:emeraldblues",
+      "kk:bluerhapsody",
+      "kk:silverrock"
+    ],
+    "maxcount": {
+      "amount": 3,
+      "perchunk": true,
+      "perplayer": true,
+      "mob": [
+        "kk:rednocturne",
+        "kk:crimsonjazz",
+        "kk:yellowopera",
+        "kk:emeraldblues",
+        "kk:bluerhapsody",
+        "kk:silverrock"
+      ]
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": [
+      "kk:rednocturne",
+      "kk:crimsonjazz",
+      "kk:yellowopera",
+      "kk:emeraldblues",
+      "kk:bluerhapsody",
+      "kk:silverrock"
+    ],
+    "maxcount": {
+      "amount": 3,
+      "perchunk": true,
+      "perplayer": true,
+      "mob": [
+        "kk:rednocturne",
+        "kk:crimsonjazz",
+        "kk:yellowopera",
+        "kk:emeraldblues",
+        "kk:bluerhapsody",
+        "kk:silverrock"
+      ]
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      0,
+      -1
+    ],
+    "mob": "kk:greenrhapsody",
+    "mincount": {
+      "amount": 5,
+      "mod": "kk"
+    },
+    "random": 0.1,
+    "result": "allow"
+  },
+  {
+    "mob": "kk:greenrhapsody",
+    "mincount": {
+      "amount": 2,
+      "mob": "kk:greenrhapsody"
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "kk:moogle",
+    "maxcount": {
+      "amount": 2,
+      "perchunk": true,
+      "mob": "kk:moogle"
+    },
+    "incity": true,
+    "result": "allow"
+  },
+  {
     "maxlight": 7,
     "mod": "grimoireofgaia",
     "spawner": true,
