@@ -1,1 +1,25 @@
-[]
+[
+    {
+        "dimension": 0,
+        "mod": "kk",
+        "hostile": true,
+        "maxlight": 7
+    },
+    {
+        "dimension": -1,
+        "mod": "kk",
+        "hostile": true
+    },
+    {
+        "dimension": 0,
+        "mobs": [
+            {
+                "mob": "kk:moogle",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ],
+        "incity": true
+    }
+]
