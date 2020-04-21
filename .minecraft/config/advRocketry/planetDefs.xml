@@ -113,7 +113,7 @@
             <fogColor>0.0,0.0,0.0</fogColor>
             <skyColor>0.0,0.0,0.0</skyColor>
             <gravitationalMultiplier>150</gravitationalMultiplier>
-            <orbitalDistance>60</orbitalDistance>
+            <orbitalDistance>500</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>50000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
@@ -123,6 +123,21 @@
             <generateGeodes>true</generateGeodes>
             <biomeIds>advancedrocketry:oceanspires</biomeIds>
             <oceanBlock>tconstruct:glass</oceanBlock>
+        </planet>
+        <planet customIcon="iceword" name="Titan">
+            <orbitalDistance>180</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+        <planet customIcon="moon" name="Oedipus">
+            <orbitalDistance>290</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+        <planet customIcon="gasgiantred" name="Tzetzes">
+            <orbitalDistance>360</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
         </planet>
     </star>
 </galaxy>
