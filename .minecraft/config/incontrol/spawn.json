@@ -3,10 +3,9 @@
     "mod": "minecraft",
     "mincount": {
       "amount": 50,
+      "mod": "minecraft",
       "hostile": true,
-      "perplayer": true,
-      "perchunk": true,
-      "mod": "minecraft"
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -14,139 +13,165 @@
     "mod": "grimoireofgaia",
     "mincount": {
       "amount": 50,
+      "mod": "grimoireofgaia",
       "hostile": true,
-      "perplayer": true,
-      "perchunk": true,
-      "mod": "grimoireofgaia"
+      "perchunk": true
     },
     "result": "deny"
   },
   {
-    "dimension": 0,
-    "maxlight": 7,
-    "mob": "kk:shadow",
-    "maxcount": {
-      "amount": 5,
-      "perchunk": true,
-      "perplayer": true,
-      "mob": "kk:shadow"
-    },
-    "result": "allow"
-  },
-  {
-    "dimension": -1,
-    "mob": "kk:shadow",
-    "maxcount": {
-      "amount": 5,
-      "perchunk": true,
-      "perplayer": true,
-      "mob": "kk:shadow"
-    },
-    "result": "allow"
-  },
-  {
-    "dimension": 0,
-    "maxlight": 7,
-    "mob": "kk:gigashadow",
-    "maxcount": {
-      "amount": 2,
-      "perchunk": true,
-      "perplayer": true,
-      "mob": "kk:gigashadowshadow"
-    },
-    "result": "allow"
-  },
-  {
-    "dimension": -1,
-    "mob": "kk:gigashadow",
-    "maxcount": {
-      "amount": 2,
-      "perchunk": true,
-      "perplayer": true,
-      "mob": "kk:gigashadowshadow"
-    },
-    "result": "allow"
-  },
-  {
-    "dimension": 0,
-    "maxlight": 7,
-    "mob": [
-      "kk:rednocturne",
-      "kk:crimsonjazz",
-      "kk:yellowopera",
-      "kk:emeraldblues",
-      "kk:bluerhapsody",
-      "kk:silverrock"
+    "dimension": [
+      1,
+      0,
+      -1
     ],
-    "maxcount": {
-      "amount": 3,
-      "perchunk": true,
-      "perplayer": true,
-      "mob": [
-        "kk:rednocturne",
-        "kk:crimsonjazz",
-        "kk:yellowopera",
-        "kk:emeraldblues",
-        "kk:bluerhapsody",
-        "kk:silverrock"
-      ]
-    },
-    "result": "allow"
+    "mod": "kk",
+    "result": "deny"
   },
   {
-    "dimension": -1,
-    "mob": [
-      "kk:rednocturne",
-      "kk:crimsonjazz",
-      "kk:yellowopera",
-      "kk:emeraldblues",
-      "kk:bluerhapsody",
-      "kk:silverrock"
+    "dimension": [
+      1,
+      0,
+      -1
     ],
-    "maxcount": {
-      "amount": 3,
-      "perchunk": true,
-      "perplayer": true,
-      "mob": [
-        "kk:rednocturne",
-        "kk:crimsonjazz",
-        "kk:yellowopera",
-        "kk:emeraldblues",
-        "kk:bluerhapsody",
-        "kk:silverrock"
-      ]
-    },
+    "mob": "kk:moogle",
+    "incity": true,
+    "maxcount": 2,
     "result": "allow"
   },
   {
     "dimension": [
+      1,
       0,
       -1
     ],
-    "mob": "kk:greenrhapsody",
-    "mincount": {
-      "amount": 5,
-      "mod": "kk"
-    },
-    "random": 0.1,
+    "mob": "kk:shadow",
+    "maxlight": 7,
+    "maxcount": 5,
     "result": "allow"
   },
   {
-    "mob": "kk:greenrhapsody",
-    "mincount": {
-      "amount": 2,
-      "mob": "kk:greenrhapsody"
-    },
-    "result": "deny"
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:gigashadow",
+    "maxlight": 7,
+    "maxcount": 2,
+    "result": "allow"
   },
   {
-    "mob": "kk:moogle",
-    "maxcount": {
-      "amount": 2,
-      "perchunk": true,
-      "mob": "kk:moogle"
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:rednocturne",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "warm",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:crimsonjazz",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "warm",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:yellowopera",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "warm",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:emeraldblues",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "medium",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:bluerhapsody",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "cold",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:emeraldblues",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "medium",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:silverrock",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "cold",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:silverrock",
+    "maxlight": 7,
+    "maxcount": 3,
+    "tempcategory": "medium",
+    "result": "allow"
+  },
+  {
+    "dimension": [
+      1,
+      0,
+      -1
+    ],
+    "mob": "kk:greenrequiem",
+    "maxlight": 7,
+    "mincount": {
+      "amount": 10,
+      "mod": "kk",
+      "hostile": true
     },
-    "incity": true,
+    "maxcount": 3,
+    "random": 0.1,
     "result": "allow"
   },
   {
