@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<galaxy>
+    <!--- The main galaxy with the overworld -->
+    <star blackHole="false" name="Sol" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
+        <planet DIMID="0" dimMapping="" name="Earth">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <planet DIMID="6" name="Moon">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>150</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>128000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <generateVolcanos>false</generateVolcanos>
+                <generateStructures>false</generateStructures>
+                <generateGeodes>false</generateGeodes>
+                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+                <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+            </planet>
+        </planet>
+        <planet DIMID="7" name="Terra" customIcon="earthlike">
+            <isKnown>false</isKnown>
+            <fogColor>0.5,0.7,1.0</fogColor>
+            <skyColor>0.0,1.0,0.8</skyColor>
+            <hasRings>true</hasRings>
+            <gravitationalMultiplier>60</gravitationalMultiplier>
+            <orbitalDistance>130</orbitalDistance>
+            <orbitalPhi>20</orbitalPhi>
+            <rotationalPeriod>18000</rotationalPeriod>
+            <atmosphereDensity>76</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <generateVolcanos>true</generateVolcanos>
+            <generateStructures>true</generateStructures>
+            <generateGeodes>true</generateGeodes>
+            <craterFrequencyMultiplier>0.5</craterFrequencyMultiplier>
+            <oceanBlock>biomesoplenty:hot_spring_water</oceanBlock>
+            <planet DIMID="8" name="Lune">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,0.3,0.2</fogColor>
+                <skyColor>1.0,0.6,0.7</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>20</orbitalDistance>
+                <oceanBlock>biomesoplenty:poison</oceanBlock>
+                <biomeIds>
+                        minecraft:jungle,
+                        biomesoplenty:rainforest,
+                        climaticbiomesjbg:hot_mountain_trees,
+                        minecraft:mutated_mesa_rock,
+                        biomesoplenty:tropical_rainforest
+                </biomeIds>
+                <orbitalPhi>70</orbitalPhi>
+                <rotationalPeriod>300000</rotationalPeriod>
+                <atmosphereDensity>50</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <generateVolcanos>true</generateVolcanos>
+                <generateStructures>true</generateStructures>
+                <generateGeodes>true</generateGeodes>
+                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+            </planet>
+        </planet>
+        <planet customIcon="gasgiantred" name="Janus">
+            <orbitalDistance>60</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+        <planet customIcon="gasgiantred" name="Hera">
+            <orbitalDistance>140</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+        <planet customIcon="gasgiantred" name="Nemesis">
+            <orbitalDistance>180</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+    </star>
+
+    <!-- Secondary System with Dark hole -->
+    <star blackHole="true" name="S5 0014+81" numGasGiants="0" numPlanets="0" size="2.0" temp="100" x="0" y="0">
+        <planet DIMID="9" customIcon="marslike" name="Hypnos">
+            <isKnown>false</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>1.0,0.0,0.0</fogColor>
+            <skyColor>1.0,0.7,0.9</skyColor>
+            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <orbitalDistance>30</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>10000</rotationalPeriod>
+            <atmosphereDensity>250</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>true</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>true</generateGeodes>
+            <biomeIds>advancedrocketry:hotdryrock</biomeIds>
+        </planet>
+        <planet DIMID="10" customIcon="gasgiantblue" name="Dionysus">
+            <isKnown>false</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>0.0,0.0,0.0</fogColor>
+            <skyColor>0.0,0.0,0.0</skyColor>
+            <gravitationalMultiplier>150</gravitationalMultiplier>
+            <orbitalDistance>500</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>50000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>true</generateGeodes>
+            <biomeIds>advancedrocketry:oceanspires</biomeIds>
+            <oceanBlock>tconstruct:glass</oceanBlock>
+        </planet>
+        <planet customIcon="iceword" name="Titan">
+            <orbitalDistance>180</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+        <planet customIcon="moon" name="Oedipus">
+            <orbitalDistance>290</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+        <planet customIcon="gasgiantred" name="Tzetzes">
+            <orbitalDistance>360</orbitalDistance>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+        </planet>
+    </star>
+</galaxy>
+
