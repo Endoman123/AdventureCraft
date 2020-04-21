@@ -2,9 +2,9 @@
     "name": "loot:ice",
     "inherit": [
         "loot:default",
-        "loot:food",
-        "loot:bauble",
-        "loot:mineral",
+        "loot:default_food",
+        "loot:default_baubles",
+        "loot:default_ore",
         "loot:kk_synthesis_ice"
     ]
 }

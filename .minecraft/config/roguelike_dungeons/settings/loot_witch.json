@@ -3,7 +3,7 @@
     "inherit": [
         "loot:default",
         "loot:magic",
-        "loot:food",
-        "loot:bauble"
+        "loot:default_food",
+        "loot:default_baubles"
     ]
 }

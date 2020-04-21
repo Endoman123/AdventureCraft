@@ -7,7 +7,6 @@
             "each": false,
             "type": "REWARD",
             "loot": [
-                { "data": { "name": "minecraft:air" }, "weight": 2},
                 { "data" : {"name" : "tconstruct:cleaver", "nbt": "{StatsOriginal: {AttackSpeedMultiplier: 1.0, MiningSpeed: 6.5, FreeModifiers: 3, Durability: 1514, HarvestLevel: 3, Attack: 10.799999}, Unbreakable: true, display: {NoRename: true, Name: \"Cloud Buster\"}, Stats: {AttackSpeedMultiplier: 0.5, MiningSpeed: 7.8, FreeModifiers: 0, Durability: 42069, HarvestLevel: 3, Attack: 100}, Special: {Categories: [\"weapon\", \"tool\"]}, TinkerData: {Materials: [\"psimetal\", \"steel\", \"titanium\", \"titanium\"], Modifiers: []}, Modifiers: [{identifier: \"light\", color: -1, level: 5}, {identifier: \"beheading_cleaver\", color: 1070923, level: 5}], Traits: [\"light\", \"beheading_cleaver\"]}"}, "weight": 1}
             ]
         }

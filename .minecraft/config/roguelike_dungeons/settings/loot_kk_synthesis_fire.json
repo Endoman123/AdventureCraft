@@ -1,5 +1,6 @@
 {
-	"name": "loot:kk_synthesis_fire",
+    "name": "loot:kk_synthesis_fire",
+    "type": "ORE",
 	"loot_rules": [
         {
             "level": 0, 

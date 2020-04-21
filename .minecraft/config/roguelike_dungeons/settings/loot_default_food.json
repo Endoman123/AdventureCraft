@@ -1,9 +1,9 @@
 {
-"name": "loot:food",
+"name": "loot:default_food",
 "loot_rules": [
     {
         "level": [0, 1, 2],
-        "quantity": 50,
+        "quantity": 20,
         "each": false,
         "loot": [
             { "data" : {"name" : "harvestcraft:creamcookieitem"}, "weight": 600},

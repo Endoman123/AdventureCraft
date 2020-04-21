@@ -2,10 +2,9 @@
     "name": "loot:jungle",
     "inherit": [
         "loot:default",
-        "loot:mineral",
-        "loot:food",
-        "loot:tool",
-        "loot:bauble",
+        "loot:default_ore",
+        "loot:default_food",
+        "loot:default_baubles",
         "loot:kk_synthesis_magic"
     ]
 }

@@ -2,9 +2,9 @@
     "name": "loot:fire",
     "inherit": [
         "loot:default",
-        "loot:mineral",
-        "loot:bauble",
-        "loot:food",
+        "loot:default_ore",
+        "loot:default_baubles",
+        "loot:default_food",
         "loot:kk_synthesis_fire"
     ]
 }
