@@ -1,178 +1,57 @@
 [
   {
-    "mod": "minecraft",
+    "hostile": true,
+    "spawner": false,
     "mincount": {
-      "amount": 50,
-      "mod": "minecraft",
-      "hostile": true,
-      "perchunk": true
+      "amount": 200,
+      "perchunk": true,
+      "hostile": true
     },
     "result": "deny"
   },
   {
-    "mod": "grimoireofgaia",
-    "mincount": {
-      "amount": 50,
-      "mod": "grimoireofgaia",
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mod": "kk",
-    "result": "deny"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:moogle",
-    "incity": true,
-    "maxcount": 2,
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
     "mob": "kk:shadow",
-    "maxlight": 7,
-    "maxcount": 5,
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:gigashadow",
-    "maxlight": 7,
-    "maxcount": 2,
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:rednocturne",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "warm",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:crimsonjazz",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "warm",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:yellowopera",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "warm",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:emeraldblues",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "medium",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:bluerhapsody",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "cold",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:emeraldblues",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "medium",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:silverrock",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "cold",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:silverrock",
-    "maxlight": 7,
-    "maxcount": 3,
-    "tempcategory": "medium",
-    "result": "allow"
-  },
-  {
-    "dimension": [
-      1,
-      0,
-      -1
-    ],
-    "mob": "kk:greenrequiem",
-    "maxlight": 7,
     "mincount": {
-      "amount": 10,
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "kk:gigashadow",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": ["kk:rednocturne", "kk:crimsonjazz", "kk:yellowopera", "kk:emeraldblues", "kk:bluerhapsody", "kk:silverrock"],
+    "mincount": {
+      "amount": 3,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "kk:greenrequiem",
+    "mincount": 1,
+    "maxcount": {
+      "amount": 1,
       "mod": "kk",
       "hostile": true
     },
-    "maxcount": 3,
-    "random": 0.1,
+    "result": "deny"
+  },
+  {
+    "mob": "kk:moogle",
+    "incity": true,
     "result": "allow"
+  },
+  {
+    "mob": "kk:moogle",
+    "mincount": 1,
+    "result": "deny"
   },
   {
     "maxlight": 7,
@@ -183,11 +62,11 @@
     "angry": true
   },
   {
+    "mob": "grimoireofgaia:deathword",
     "maxcount": {
       "amount": 10,
       "perplayer": true
     },
-    "mob": "grimoireofgaia:deathword",
     "result": "deny"
   }
 ]
