@@ -36,7 +36,6 @@
             { "data" : {"name" : "plustic:mirioningot"}, "weight": 20},
             { "data" : {"name" : "simplyjetpacks:metaitemmods", "meta" : 3}, "weight": 10},
             { "data" : {"name" : "extrautils2:ingredients", "meta" : 17}, "weight": 20},
-            { "data" : {"name" : "tconstruct:ingots"}, "weight": 20},
             { "data" : {"name" : "enderio:item_material", "meta" : 72}, "weight": 20},
             { "data" : {"name" : "enderio:item_alloy_ingot", "meta" : 5, "meta" : 72}, "weight": 20}
         ]
