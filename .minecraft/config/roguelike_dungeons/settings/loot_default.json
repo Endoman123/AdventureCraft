@@ -155,18 +155,9 @@
             "quantity": 4,
             "each": false,
             "loot": [
-                { "data" : {"name" : "minecraft:air"}, "weight" : 1 },
-                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 1}
-            ]
-        },
-        {
-            "type": "REWARD",
-            "level": 4,
-            "quantity": 1,
-            "each": false,
-            "loot": [
-                { "data" : {"name" : "minecraft:air"}, "weight" : 1 },
-                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 1}
+                { "data" : {"name" : "minecraft:air"}, "weight" : 20 },
+                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 20 },
+                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 1 }
             ]
         },
         {
