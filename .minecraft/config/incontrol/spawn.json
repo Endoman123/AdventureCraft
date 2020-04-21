@@ -1,5 +1,27 @@
 [
   {
+    "mod": "minecraft",
+    "mincount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true,
+      "perchunk": true,
+      "mod": "minecraft"
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "grimoireofgaia",
+    "mincount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true,
+      "perchunk": true,
+      "mod": "grimoireofgaia"
+    },
+    "result": "deny"
+  },
+  {
     "maxlight": 7,
     "mod": "grimoireofgaia",
     "spawner": true,
@@ -7,11 +29,11 @@
     "healthmultiply": 0.6,
     "angry": true
   },
-{
+  {
     "maxcount": {
-		  "amount": 10,
-		  "perplayer": true
-	},
+      "amount": 10,
+      "perplayer": true
+    },
     "mob": "grimoireofgaia:deathword",
     "result": "deny"
   }
