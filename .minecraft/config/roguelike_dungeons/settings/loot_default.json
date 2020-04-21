@@ -52,7 +52,6 @@
             "loot": [
                 { "data" : {"name" : "minecraft:gold_ingot"}, "weight": 200},
                 { "data" : {"name" : "minecraft:firework_charge"}, "weight": 200},
-                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 200},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 0}, "weight": 200},
                 { "data" : {"name" : "minecraft:gunpowder"}, "weight": 200},
                 { "data" : {"name" : "minecraft:feather"}, "weight": 200},
