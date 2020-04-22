@@ -1,5 +1,5 @@
 {
-  "curve_common": {
+  "metalvein_common": {
     "type": "curve",
     "ore": [
       {
@@ -36,7 +36,7 @@
       -6
     ]
   },
-  "curve_uncommon": {
+  "metalvein_uncommon": {
     "type": "curve",
     "ore": [
       {
@@ -73,7 +73,7 @@
       -6
     ]
   },
-  "curve_rare": {
+  "metalvein_rare": {
     "type": "curve",
     "ore": [
       {
@@ -102,7 +102,7 @@
       -6
     ]
   },
-  "cluster_common": {
+  "metalcluster_common": {
     "type": "cluster",
     "ore": [
       {
@@ -138,7 +138,7 @@
       -6
     ]
   },
-  "cluster_uncommon": {
+  "metalcluster_uncommon": {
     "type": "cluster",
     "ore": [
       {
@@ -174,7 +174,7 @@
       -6
     ]
   },
-  "cluster_rare": {
+  "metalcluster_rare": {
     "type": "cluster",
     "ore": [
       {
@@ -271,7 +271,11 @@
     "ore": [
       {
         "block": "minecraft:lapis_ore",
-        "weight": 20
+        "weight": 50
+      },
+      {
+        "block": "appliedenergistics2:quartz_ore",
+        "weight": 5
       },
       {
         "block": "appliedenergistics2:charged_quartz_ore",
@@ -383,7 +387,7 @@
     ]
   },
   "redstone_deposit": {
-    "type": "sphere",
+    "type": "cluster",
     "ore": [
       {
         "block": "minecraft:redstone_ore",
@@ -400,9 +404,9 @@
     "count": 2,
     "min_y": 0,
     "max_y": 30,
-    "density": 50,
-    "vertical_size": 4,
-    "horizontal_size": 6,
+    "density": 60,
+    "vertical_size": 6,
+    "horizontal_size": 8,
     "dimensions": [
       0,
       -6
@@ -787,7 +791,7 @@
     "type": "cluster",
     "ore": [
       {
-        "block": "basemetals:titanium_ore",
+        "block": "modernmetals:titanium_ore",
         "weight": 15
       },
       {
