@@ -43,23 +43,22 @@
             <rotationalPeriod>18000</rotationalPeriod>
             <atmosphereDensity>76</atmosphereDensity>
             <generateCraters>true</generateCraters>
-            <generateVolcanos>true</generateVolcanos>
             <generateStructures>true</generateStructures>
             <generateGeodes>true</generateGeodes>
-            <craterFrequencyMultiplier>0.5</craterFrequencyMultiplier>
+            <craterFrequencyMultiplier>0.3</craterFrequencyMultiplier>
             <oceanBlock>biomesoplenty:hot_spring_water</oceanBlock>
             <planet DIMID="8" name="Lune">
                 <isKnown>false</isKnown>
                 <fogColor>1.0,0.3,0.2</fogColor>
                 <skyColor>1.0,0.6,0.7</skyColor>
-                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <gravitationalMultiplier>12</gravitationalMultiplier>
                 <orbitalDistance>20</orbitalDistance>
                 <oceanBlock>biomesoplenty:poison</oceanBlock>
                 <biomeIds>
-                        minecraft:jungle,
-                        biomesoplenty:rainforest,
-                        climaticbiomesjbg:hot_mountain_trees,
-                        minecraft:mutated_mesa_rock,
+                        minecraft:jungle
+                        biomesoplenty:rainforest
+                        climaticbiomesjbg:hot_mountain_trees
+                        minecraft:mutated_mesa_rock
                         biomesoplenty:tropical_rainforest
                 </biomeIds>
                 <orbitalPhi>70</orbitalPhi>
@@ -76,26 +75,40 @@
             <orbitalDistance>60</orbitalDistance>
             <GasGiant>true</GasGiant>
             <gas>hydrogen</gas>
+            <gas>oxygen</gas>
+            <gas>sulfurdioxide</gas>
+            <gas>sulfurdioxide</gas>
+            <gas>sulfuricacid</gas>
+            <gas>hydrogenchloride</gas>
+            <gas>ethene</gas>
+
         </planet>
         <planet customIcon="gasgiantred" name="Hera">
             <orbitalDistance>140</orbitalDistance>
             <GasGiant>true</GasGiant>
-            <gas>hydrogen</gas>
+            <gas>zinc</gas>
+            <gas>lead</gas>
+            <gas>silver</gas>
+            <gas>nickel</gas>
+            <gas>plutonium</gas>
         </planet>
         <planet customIcon="gasgiantred" name="Nemesis">
             <orbitalDistance>180</orbitalDistance>
             <GasGiant>true</GasGiant>
-            <gas>hydrogen</gas>
+            <gas>iridium</gas>
+            <gas>plutonium</gas>
+            <gas>fusionfuel</gas>
+            <gas>tritium</gas>
         </planet>
     </star>
 
     <!-- Secondary System with Dark hole -->
-    <star blackHole="true" name="S5 0014+81" numGasGiants="0" numPlanets="0" size="2.0" temp="100" x="0" y="0">
+    <star blackHole="true" name="S5 0014+81" numGasGiants="0" numPlanets="0" size="2.0" temp="100" x="300" y="500">
         <planet DIMID="9" customIcon="marslike" name="Hypnos">
             <isKnown>false</isKnown>
             <hasRings>true</hasRings>
-            <fogColor>1.0,0.0,0.0</fogColor>
-            <skyColor>1.0,0.7,0.9</skyColor>
+            <fogColor>0.0,0.0,0.0</fogColor>
+            <skyColor>0.5,0.0,0.0</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
             <orbitalDistance>30</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
@@ -112,7 +125,7 @@
             <hasRings>true</hasRings>
             <fogColor>0.0,0.0,0.0</fogColor>
             <skyColor>0.0,0.0,0.0</skyColor>
-            <gravitationalMultiplier>150</gravitationalMultiplier>
+            <gravitationalMultiplier>13</gravitationalMultiplier>
             <orbitalDistance>500</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>50000</rotationalPeriod>
@@ -122,22 +135,34 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>true</generateGeodes>
             <biomeIds>advancedrocketry:oceanspires</biomeIds>
-            <oceanBlock>tconstruct:glass</oceanBlock>
+            <oceanBlock>fluid:glass</oceanBlock>
         </planet>
-        <planet customIcon="iceword" name="Titan">
+        <planet customIcon="iceworld" name="Titan">
             <orbitalDistance>180</orbitalDistance>
             <GasGiant>true</GasGiant>
             <gas>hydrogen</gas>
+            <gas>oxygen</gas>
+            <gas>sodium</gas>
+            <gas>deuterium</gas>
         </planet>
         <planet customIcon="moon" name="Oedipus">
             <orbitalDistance>290</orbitalDistance>
             <GasGiant>true</GasGiant>
-            <gas>hydrogen</gas>
+            <gas>cleanTin</gas>
+            <gas>cleanCopper</gas>
+            <gas>cleanOsmium</gas>
+            <gas>cleanGold</gas>
+            <gas>brine</gas>
         </planet>
         <planet customIcon="gasgiantred" name="Tzetzes">
             <orbitalDistance>360</orbitalDistance>
             <GasGiant>true</GasGiant>
-            <gas>hydrogen</gas>
+            <gas>cleanGold</gas>
+            <gas>cleanOsmium</gas>
+            <gas>cleanPlatinum</gas>
+            <gas>cleannickel</gas>
+            <gas>cleanuranium</gas>
+            <gas>sulfurdioxide</gas>
         </planet>
     </star>
 </galaxy>

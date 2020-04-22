@@ -769,5 +769,324 @@
     "dimensions": [
       -11325
     ]
+  },
+
+
+  "terra_curve_1": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 60
+      },
+      {
+        "block": "modernmetals:aluminum_ore",
+        "weight": 10
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "count": 4,
+    "min_y": 10,
+    "max_y": 64,
+    "density": 98,
+    "vertical_size": 80,
+    "horizontal_size": 8,
+    "dimensions": [
+      7
+    ]
+  },
+  "terra_curve_2": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "minecraft:redstone_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 4,
+    "count": 2,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 130,
+    "vertical_size": 19,
+    "horizontal_size": 16,
+    "dimensions": [
+        7
+    ]
+  },
+  "terra_curve_3": {
+    "type": "curve",
+    "ore": [
+      {
+          "block": "basemetals:lead_ore",
+        "weight": 15
+      },
+      {
+        "block": "modernmetals:iridium_ore",
+        "weight": 15
+      },
+      {
+        "block": "basemetals:zinc_ore",
+        "weight": 105
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "count": 2,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 75,
+    "vertical_size": 10,
+    "horizontal_size": 6,
+    "dimensions": [
+        7
+    ]
+  },
+  "terra_curve_4": {
+    "type": "curve",
+    "ore": [
+      {
+          "block": "basemetals:lead_ore",
+        "weight": 15
+      },
+      {
+        "block": "modernmetals:iridium_ore",
+        "weight": 15
+      },
+      {
+        "block": "basemetals:zinc_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "count": 4,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 85,
+    "vertical_size": 40,
+    "horizontal_size": 6,
+    "dimensions": [
+        7
+    ]
+  },
+
+
+  "lune_curve_1": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "minecraft:coal_ore",
+        "weight": 80
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 10
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "count": 2,
+    "min_y": 0,
+    "max_y": 64,
+    "density": 88,
+    "vertical_size": 90,
+    "horizontal_size": 15,
+    "dimensions": [
+      8
+    ]
+  },
+  "lune_curve_2": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "modernmetals:osmium_ore",
+        "weight": 15
+      },
+      {
+        "block": "basemetals:platinum_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 5,
+    "count": 3,
+    "min_y": 0,
+    "max_y": 64,
+    "density": 75,
+    "vertical_size": 30,
+    "horizontal_size": 6,
+    "dimensions": [
+        8
+    ]
+  },
+  "lune_curve_3": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "rftools:dimensional_shard_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 3,
+    "count": 2,
+    "min_y": 0,
+    "max_y": 64,
+    "density": 35,
+    "vertical_size": 40,
+    "horizontal_size": 6,
+    "dimensions": [
+        8
+    ]
+  },
+  "lune_curve_4": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "minecraft:emerald_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "count": 3,
+    "min_y": 0,
+    "max_y": 30,
+    "density": 305,
+    "vertical_size": 20,
+    "horizontal_size": 6,
+    "dimensions": [
+        8
+    ]
+  },
+
+  "hypnos_curve_1": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "minecraft:coal_ore",
+        "weight": 30
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 60
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "count": 3,
+    "min_y": 0,
+    "max_y": 64,
+    "density": 108,
+    "vertical_size": 30,
+    "horizontal_size": 16,
+    "dimensions": [
+      9
+    ]
+  },
+  "hypnos_curve_2": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "basemetals:platinum_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 30,
+    "count": 2,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 65,
+    "vertical_size": 30,
+    "horizontal_size": 16,
+    "dimensions": [
+        9
+    ]
+  },
+  "hypnos_curve_3": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "basemetals:silver_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 20,
+    "count": 2,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 35,
+    "vertical_size": 40,
+    "horizontal_size": 6,
+    "dimensions": [
+        9
+    ]
+  },
+
+
+  "dionysus_curve_1": {
+    "type": "cone",
+    "ore": [
+      {
+        "block": "appliedenergistics2:charged_quartz_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 10,
+    "count": 1,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 45,
+    "vertical_size": 30,
+    "horizontal_size": 16,
+    "dimensions": [
+        10
+    ]
+  },
+  "dionysus_curve_2": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "minecraft:gold_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 15,
+    "count": 3,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 65,
+    "vertical_size": 50,
+    "horizontal_size": 10,
+    "dimensions": [
+        10
+    ]
+  },
+  "dionysus_curve_3": {
+    "type": "sphere",
+    "ore": [
+      {
+        "block": "modernmetals:iridium_ore",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 6,
+    "count": 3,
+    "min_y": 0,
+    "max_y": 60,
+    "density": 85,
+    "vertical_size": 16,
+    "horizontal_size": 16,
+    "dimensions": [
+        10
+    ]
   }
 }
