@@ -274,18 +274,6 @@
         "weight": 20
       },
       {
-        "block": "bewitchment:garnet_ore",
-        "weight": 15
-      },
-      {
-        "block": "bewitchment:opal_ore",
-        "weight": 15
-      },
-      {
-        "block": "appliedenergistics2:quartz_ore",
-        "weight": 10
-      },
-      {
         "block": "appliedenergistics2:charged_quartz_ore",
         "weight": 1
       }
@@ -383,10 +371,10 @@
     ],
     "stone": "minecraft:stone",
     "rarity": 3,
-    "count": 1,
+    "count": 50,
     "min_y": 0,
     "max_y": 6,
-    "density": 3,
+    "density": 10,
     "vertical_size": 2,
     "horizontal_size": 2,
     "dimensions": [
