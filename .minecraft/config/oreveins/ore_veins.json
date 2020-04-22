@@ -77,7 +77,7 @@
     "type": "curve",
     "ore": [
       {
-        "block": "basemetals:titanium_ore",
+        "block": "modernmetals:titanium_ore",
         "weight": 15
       },
       {
@@ -127,7 +127,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 20,
     "min_y": 10,
     "max_y": 64,
     "density": 100,
@@ -178,7 +178,7 @@
     "type": "cluster",
     "ore": [
       {
-        "block": "basemetals:titanium_ore",
+        "block": "modernmetals:titanium_ore",
         "weight": 15
       },
       {
@@ -254,7 +254,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 80,
+    "rarity": 100,
     "min_y": 0,
     "max_y": 16,
     "density": 10,
@@ -357,7 +357,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 10,
     "min_y": 0,
     "max_y": 30,
     "density": 50,
@@ -381,7 +381,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 10,
     "min_y": 0,
     "max_y": 40,
     "density": 50,
@@ -450,7 +450,7 @@
   },
   "sulfur_deposit": {
     "type": "cone",
-    "ore": "baseminerals:sulfer_ore",
+    "ore": "baseminerals:sulfur_ore",
     "stone": "minecraft:stone",
     "rarity": 3,
     "min_y": 30,
