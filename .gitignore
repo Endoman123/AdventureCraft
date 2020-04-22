@@ -1,11 +1,7 @@
 *.DS_STORE
 
 # Ignore debug tools
-.minecraft/config/World-Stripper*.cfg
-.minecraft/config/loadingprofiler.cfg
-.minecraft/config/versionchecker.cfg
-.minecraft/mods/*VersionChecker*.jar
-.minecraft/mods/LoadingProfiler*.jar
+.minecraft/mods/Caliper*.jar
 
 # Ignore all log files
 *.log
