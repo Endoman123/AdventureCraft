@@ -19,7 +19,7 @@
 		"segments:tech",
 		"loot:default",
 		"loot:tech",
-		"loot:food",
+		"loot:default_food",
 		"loot:weapons_bunker",
 		"spawners:ice"
 	]

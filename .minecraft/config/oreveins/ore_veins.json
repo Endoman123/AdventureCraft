@@ -1,5 +1,5 @@
 {
-  "curve_common": {
+  "metalvein_common": {
     "type": "curve",
     "ore": [
       {
@@ -27,7 +27,7 @@
     "rarity": 5,
     "count": 2,
     "min_y": 10,
-    "max_y": 64,
+    "max_y": 70,
     "density": 20,
     "vertical_size": 4,
     "horizontal_size": 6,
@@ -36,7 +36,7 @@
       -6
     ]
   },
-  "curve_uncommon": {
+  "metalvein_uncommon": {
     "type": "curve",
     "ore": [
       {
@@ -64,7 +64,7 @@
     "rarity": 8,
     "count": 2,
     "min_y": 0,
-    "max_y": 60,
+    "max_y": 40,
     "density": 20,
     "vertical_size": 4,
     "horizontal_size": 6,
@@ -73,11 +73,11 @@
       -6
     ]
   },
-  "curve_rare": {
+  "metalvein_rare": {
     "type": "curve",
     "ore": [
       {
-        "block": "basemetals:titanium_ore",
+        "block": "modernmetals:titanium_ore",
         "weight": 15
       },
       {
@@ -93,7 +93,7 @@
     "rarity": 16,
     "count": 2,
     "min_y": 0,
-    "max_y": 60,
+    "max_y": 30,
     "density": 15,
     "vertical_size": 4,
     "horizontal_size": 6,
@@ -102,7 +102,7 @@
       -6
     ]
   },
-  "cluster_common": {
+  "metalcluster_common": {
     "type": "cluster",
     "ore": [
       {
@@ -127,9 +127,9 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 20,
     "min_y": 10,
-    "max_y": 64,
+    "max_y": 70,
     "density": 100,
     "vertical_size": 10,
     "horizontal_size": 10,
@@ -138,7 +138,7 @@
       -6
     ]
   },
-  "cluster_uncommon": {
+  "metalcluster_uncommon": {
     "type": "cluster",
     "ore": [
       {
@@ -165,7 +165,7 @@
     "stone": "minecraft:stone",
     "rarity": 60,
     "min_y": 0,
-    "max_y": 60,
+    "max_y": 40,
     "density": 100,
     "vertical_size": 10,
     "horizontal_size": 10,
@@ -174,11 +174,11 @@
       -6
     ]
   },
-  "cluster_rare": {
+  "metalcluster_rare": {
     "type": "cluster",
     "ore": [
       {
-        "block": "basemetals:titanium_ore",
+        "block": "modernmetals:titanium_ore",
         "weight": 15
       },
       {
@@ -193,7 +193,7 @@
     "stone": "minecraft:stone",
     "rarity": 80,
     "min_y": 0,
-    "max_y": 60,
+    "max_y": 30,
     "density": 50,
     "vertical_size": 8,
     "horizontal_size": 8,
@@ -208,7 +208,7 @@
     "stone": "minecraft:stone",
     "rarity": 10,
     "min_y": 30,
-    "max_y": 70,
+    "max_y": 80,
     "density": 80,
     "vertical_size": 20,
     "horizontal_size": 20,
@@ -254,9 +254,9 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 80,
+    "rarity": 200,
     "min_y": 0,
-    "max_y": 16,
+    "max_y": 10,
     "density": 10,
     "vertical_size": 6,
     "horizontal_size": 12,
@@ -271,19 +271,11 @@
     "ore": [
       {
         "block": "minecraft:lapis_ore",
-        "weight": 20
-      },
-      {
-        "block": "bewitchment:garnet_ore",
-        "weight": 15
-      },
-      {
-        "block": "bewitchment:opal_ore",
-        "weight": 15
+        "weight": 50
       },
       {
         "block": "appliedenergistics2:quartz_ore",
-        "weight": 10
+        "weight": 5
       },
       {
         "block": "appliedenergistics2:charged_quartz_ore",
@@ -292,7 +284,35 @@
     ],
     "stone": "minecraft:stone",
     "rarity": 10,
-    "count": 2,
+    "min_y": 0,
+    "max_y": 40,
+    "density": 20,
+    "vertical_size": 10,
+    "horizontal_size": 10,
+    "dimensions": [
+      0,
+      -6
+    ]
+  },
+  "crystaldeposit_uncommon": {
+    "type": "cone",
+    "inverted": false,
+    "ore": [
+      {
+        "block": "bewitchment:garnet_ore",
+        "weight": 8
+      },
+      {
+        "block": "bewitchment:opal_ore",
+        "weight": 4
+      },
+      {
+        "block": "bewitchment:amethyst_ore",
+        "weight": 2
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 40,
     "min_y": 0,
     "max_y": 40,
     "density": 20,
@@ -309,29 +329,25 @@
     "ore": [
       {
         "block": "minecraft:emerald_ore",
-        "weight": 20
+        "weight": 100
       },
       {
         "block": "rftools:dimensional_shard_ore",
         "meta": 0,
-        "weight": 5
+        "weight": 1
       },
       {
         "block": "astralsorcery:blockcustomore",
         "meta": 0,
-        "weight": 5
-      },
-      {
-        "block": "bewitchment:amethyst_ore",
-        "weight": 5
+        "weight": 1
       },
       {
         "block": "ebwizardry:crystal_ore",
-        "weight": 1
+        "weight": 5
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 60,
+    "rarity": 100,
     "count": 1,
     "min_y": 0,
     "max_y": 20,
@@ -343,8 +359,35 @@
       -6
     ]
   },
+  "crystaldeposit_magical": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "astralsorcery:blockcustomore",
+        "meta": 0,
+        "weight": 1000
+      },
+      {
+        "block": "rftools:dimensional_shard_ore",
+        "meta": 0,
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 3,
+    "count": 50,
+    "min_y": 0,
+    "max_y": 6,
+    "density": 10,
+    "vertical_size": 2,
+    "horizontal_size": 2,
+    "dimensions": [
+      0,
+      -6
+    ]
+  },
   "redstone_deposit": {
-    "type": "sphere",
+    "type": "cluster",
     "ore": [
       {
         "block": "minecraft:redstone_ore",
@@ -357,12 +400,13 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 10,
+    "count": 2,
     "min_y": 0,
     "max_y": 30,
-    "density": 50,
-    "vertical_size": 4,
-    "horizontal_size": 6,
+    "density": 60,
+    "vertical_size": 6,
+    "horizontal_size": 8,
     "dimensions": [
       0,
       -6
@@ -381,7 +425,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 10,
     "min_y": 0,
     "max_y": 40,
     "density": 50,
@@ -450,7 +494,7 @@
   },
   "sulfur_deposit": {
     "type": "cone",
-    "ore": "baseminerals:sulfer_ore",
+    "ore": "baseminerals:sulfur_ore",
     "stone": "minecraft:stone",
     "rarity": 3,
     "min_y": 30,
@@ -513,24 +557,24 @@
     "ore": [
       {
         "block": "nethermetals:nether_lapis_ore",
-        "weight": 50
+        "weight": 100
       },
       {
         "block": "nethermetals:nether_redstone_ore",
-        "weight": 50
+        "weight": 100
       },
       {
         "block": "thermalfoundation:ore_fluid",
         "meta": 3,
-        "weight": 1
+        "weight": 10
       },
       {
         "block": "nethermetals:nether_diamond_ore",
-        "weight": 5
+        "weight": 50
       },
       {
         "block": "nethermetals:nether_emerald_ore",
-        "weight": 1
+        "weight": 10
       },
       {
         "block": "rftools:dimensional_shard_ore",
@@ -747,7 +791,7 @@
     "type": "cluster",
     "ore": [
       {
-        "block": "basemetals:titanium_ore",
+        "block": "modernmetals:titanium_ore",
         "weight": 15
       },
       {

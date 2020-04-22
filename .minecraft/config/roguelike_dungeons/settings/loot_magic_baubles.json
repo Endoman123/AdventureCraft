@@ -1,0 +1,24 @@
+{
+"name": "loot:default_baubles",
+"loot_rules": [
+    {
+        "level": [0, 1, 2, 3, 4],
+        "quantity": 6,
+        "each": false,
+        "loot": [
+            { "data" : {"name" : "ebwizardry:ring_mind_control"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:ring_earth_biome"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_potential"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_ice_protection"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_banishing"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_arcane_defence"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:ring_mind_control"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:ring_earth_biome"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_potential"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_ice_protection"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_banishing"}, "weight": 2},
+            { "data" : {"name" : "ebwizardry:amulet_arcane_defence"}, "weight": 2}
+        ]
+    }
+]
+}

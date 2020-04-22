@@ -2,9 +2,8 @@
     "name": "loot:sewer",
     "inherit": [
         "loot:default",
-        "loot:food",
-        "loot:mineral",
-        "loot:tool",
+        "loot:default_food",
+        "loot:default_ore",
         "loot:kk_synthesis_stone"
     ]
 }
