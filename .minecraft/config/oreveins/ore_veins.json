@@ -1020,7 +1020,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 10,
+    "rarity": 20,
     "count": 3,
     "min_y": 0,
     "max_y": 64,
@@ -1040,7 +1040,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 30,
+    "rarity": 20,
     "count": 2,
     "min_y": 0,
     "max_y": 60,
@@ -1060,7 +1060,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 8,
     "count": 2,
     "min_y": 0,
     "max_y": 60,
