@@ -45,7 +45,7 @@
             <generateCraters>true</generateCraters>
             <generateStructures>true</generateStructures>
             <generateGeodes>true</generateGeodes>
-            <craterFrequencyMultiplier>0.3</craterFrequencyMultiplier>
+            <craterFrequencyMultiplier>2.0</craterFrequencyMultiplier>
             <oceanBlock>biomesoplenty:hot_spring_water</oceanBlock>
             <planet DIMID="8" name="Lune">
                 <isKnown>false</isKnown>
@@ -55,11 +55,9 @@
                 <orbitalDistance>20</orbitalDistance>
                 <oceanBlock>biomesoplenty:poison</oceanBlock>
                 <biomeIds>
-                        minecraft:jungle
-                        biomesoplenty:rainforest
-                        climaticbiomesjbg:hot_mountain_trees
+                        biomesoplenty:rainforest,
+                        climaticbiomesjbg:hot_mountain_trees,
                         minecraft:mutated_mesa_rock
-                        biomesoplenty:tropical_rainforest
                 </biomeIds>
                 <orbitalPhi>70</orbitalPhi>
                 <rotationalPeriod>300000</rotationalPeriod>
@@ -68,7 +66,7 @@
                 <generateVolcanos>true</generateVolcanos>
                 <generateStructures>true</generateStructures>
                 <generateGeodes>true</generateGeodes>
-                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+                <craterFrequencyMultiplier>0.7</craterFrequencyMultiplier>
             </planet>
         </planet>
         <planet customIcon="gasgiantred" name="Janus">
@@ -135,7 +133,7 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>true</generateGeodes>
             <biomeIds>advancedrocketry:oceanspires</biomeIds>
-            <oceanBlock>fluid:glass</oceanBlock>
+            <oceanBlock>plustic:plustic.molten_alumite</oceanBlock>
         </planet>
         <planet customIcon="iceworld" name="Titan">
             <orbitalDistance>180</orbitalDistance>
