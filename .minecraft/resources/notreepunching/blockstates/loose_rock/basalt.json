@@ -1,0 +1,15 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "notreepunching:loose_rock",
+        "textures": {
+            "all": "chisel:blocks/basalt/raw",
+            "particle": "chisel:blocks/basalt/raw"
+        }
+    },
+    "variants": {
+        "normal": [
+            {}
+        ]
+    }
+}
