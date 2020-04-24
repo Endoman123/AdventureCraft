@@ -54,11 +54,7 @@
                 <gravitationalMultiplier>12</gravitationalMultiplier>
                 <orbitalDistance>20</orbitalDistance>
                 <oceanBlock>biomesoplenty:poison</oceanBlock>
-                <biomeIds>
-                        biomesoplenty:rainforest,
-                        climaticbiomesjbg:hot_mountain_trees,
-                        minecraft:mutated_mesa_rock
-                </biomeIds>
+                <biomeIds>biomesoplenty:rainforest,climaticbiomesjbg:hot_mountain_trees,minecraft:mutated_mesa_rock,advancedrocketry:alien forest</biomeIds>
                 <orbitalPhi>70</orbitalPhi>
                 <rotationalPeriod>300000</rotationalPeriod>
                 <atmosphereDensity>50</atmosphereDensity>
@@ -66,7 +62,7 @@
                 <generateVolcanos>true</generateVolcanos>
                 <generateStructures>true</generateStructures>
                 <generateGeodes>true</generateGeodes>
-                <craterFrequencyMultiplier>0.7</craterFrequencyMultiplier>
+                <craterFrequencyMultiplier>0.4</craterFrequencyMultiplier>
             </planet>
         </planet>
         <planet customIcon="gasgiantred" name="Janus">
@@ -107,7 +103,7 @@
             <hasRings>true</hasRings>
             <fogColor>0.0,0.0,0.0</fogColor>
             <skyColor>0.5,0.0,0.0</skyColor>
-            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <gravitationalMultiplier>109</gravitationalMultiplier>
             <orbitalDistance>30</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>10000</rotationalPeriod>
@@ -138,6 +134,7 @@
         <planet customIcon="iceworld" name="Titan">
             <orbitalDistance>180</orbitalDistance>
             <GasGiant>true</GasGiant>
+            <hasRings>true</hasRings>
             <gas>hydrogen</gas>
             <gas>oxygen</gas>
             <gas>sodium</gas>
@@ -154,6 +151,7 @@
         </planet>
         <planet customIcon="gasgiantred" name="Tzetzes">
             <orbitalDistance>360</orbitalDistance>
+            <hasRings>true</hasRings>
             <GasGiant>true</GasGiant>
             <gas>cleanGold</gas>
             <gas>cleanOsmium</gas>
