@@ -1,0 +1,33 @@
+{
+    "name": "loot:tech_ore",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2, 3, 4],
+            "quantity": 1,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 10000},
+
+                { "data" : {"name" : "enderio:item_alloy_endergy_ingot", "meta" : 5, "min": 1, "max": 3}, "weight": 100},
+                { "data" : {"name" : "thermalfoundation:material", "meta" : 164, "min": 1, "max": 3}, "weight": 100},
+
+                { "data" : {"name" : "enderio:item_alloy_endergy_ingot", "meta" : 1, "min": 1, "max": 3}, "weight": 50},
+                { "data" : {"name" : "enderio:item_alloy_endergy_ingot", "meta" : 4, "min": 1, "max": 3}, "weight": 50},
+                { "data" : {"name" : "thermalfoundation:material", "meta" : 165, "min": 1, "max": 3}, "weight": 50},
+                { "data" : {"name" : "thermalfoundation:material", "meta" : 166, "min": 1, "max": 3}, "weight": 50},
+
+                { "data" : {"name" : "modernmetals:titanium_ingot", "min": 1, "max": 3}, "weight": 25},
+                { "data" : {"name" : "modernmetals:iridium_ingot", "min": 1, "max": 3}, "weight": 25},
+                { "data" : {"name" : "modernmetals:uranium_ingot", "min": 1, "max": 3}, "weight": 25},
+                { "data" : {"name" : "modernmetals:plutonium_ingot", "min": 1, "max": 3}, "weight": 25},
+
+                { "data" : {"name" : "enderio:item_alloy_endergy_ingot", "meta" : 2, "min": 1, "max": 3}, "weight": 10},
+                { "data" : {"name" : "enderio:item_alloy_endergy_ingot", "meta" : 6, "min": 1, "max": 3}, "weight": 10},
+                { "data" : {"name" : "thermalfoundation:material", "meta" : 167, "min": 1, "max": 3}, "weight": 10},
+
+                { "data" : {"name" : "enderio:item_alloy_endergy_ingot", "meta" : 3, "min": 1, "max": 3}, "weight": 1},
+                { "data" : {"name" : "simplyjetpacks:metaitemmods", "meta" : 3, "min": 1, "max": 3}, "weight": 1}
+            ]
+        }
+    ]
+}

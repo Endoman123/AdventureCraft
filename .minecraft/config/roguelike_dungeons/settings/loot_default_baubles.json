@@ -27,6 +27,7 @@
             "quantity": 4,
             "each": false,
             "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 100},
                 { "data" : {"name" : "bountifulbaubles:magicmirror"}, "weight": 10},
                 { "data" : {"name" : "bountifulbaubles:wormholemirror"}, "weight": 1}
             ]
