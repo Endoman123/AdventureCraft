@@ -21,7 +21,9 @@
             "each": false,
             "rules": [
                 { "data": { "name": "minecraft:air" }, "weight": 10 },
-                { "data": { "name": "kk:incompletekibladechain" }, "weight": 1 }
+                { "data": { "name": "kk:incompletekibladechain" }, "weight": 1 },
+                { "data": { "name": "kk:nightmaresendchain" }, "weight": 1 },
+                { "data": { "name": "kk:miragesplitchain" }, "weight": 1 }
             ]
         }
     ]
