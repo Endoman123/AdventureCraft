@@ -6,25 +6,23 @@
             "quantity": 5,
             "each": true,
             "loot": [
-                { "data" : {"name" : "minecraft:air"}, "weight": 4000},
+                { "data" : {"name" : "minecraft:air"}, "weight": 20000},
                 
-                { "data" : {"name" : "minecraft:iron_ingot", "min": 1, "max": 5}, "weight": 2000},
-                { "data" : {"name" : "basemetals:brass_ingot", "min": 1, "max": 5}, "weight": 2000},
-                { "data" : {"name" : "basemetals:copper_ingot", "min": 1, "max": 5}, "weight": 2000},
-                { "data" : {"name" : "basemetals:tin_ingot", "min": 1, "max": 5}, "weight": 2000},
-                { "data" : {"name" : "basemetals:nickel_ingot", "min": 1, "max": 5}, "weight": 2000},
-                { "data" : {"name" : "minecraft:gold_ingot", "min": 1, "max": 5}, "weight": 2000},
-                { "data" : {"name" : "modernmetals:osmium_ingot", "min": 1, "max": 5}, "weight": 2000},
+                { "data" : {"name" : "minecraft:iron_ingot", "min": 1, "max": 5}, "weight": 10},
+                { "data" : {"name" : "basemetals:copper_ingot", "min": 1, "max": 5}, "weight": 10},
+                { "data" : {"name" : "basemetals:tin_ingot", "min": 1, "max": 5}, "weight": 10},
+                { "data" : {"name" : "basemetals:nickel_ingot", "min": 1, "max": 5}, "weight": 10},
+                { "data" : {"name" : "basemetals:lead_ingot", "min": 1, "max": 5}, "weight": 4},
+                { "data" : {"name" : "minecraft:gold_ingot", "min": 1, "max": 5}, "weight": 10},
+                { "data" : {"name" : "modernmetals:osmium_ingot", "min": 1, "max": 5}, "weight": 10},
 
-                { "data" : {"name" : "minecraft:diamond", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "basemetals:steel_ingot", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "basemetals:redstone_ingot", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "basemetals:invar_ingot", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "basemetals:lead_ingot", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "minecraft:emerald_block", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "modernmetals:uranium_ingot", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "tconstruct:materials", "meta": 17, "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "tconstruct:materials", "meta": 16, "min": 1, "max": 5}, "weight": 200},
+                { "data" : {"name" : "minecraft:diamond", "min": 1, "max": 5}, "weight": 4},
+                { "data" : {"name" : "basemetals:steel_ingot", "min": 1, "max": 5}, "weight": 4},
+                { "data" : {"name" : "basemetals:redstone_ingot", "min": 1, "max": 5}, "weight": 4},
+                { "data" : {"name" : "basemetals:invar_ingot", "min": 1, "max": 5}, "weight": 4},
+                
+                { "data" : {"name" : "minecraft:emerald_block", "min": 1, "max": 5}, "weight": 4},
+                { "data" : {"name" : "modernmetals:uranium_ingot", "min": 1, "max": 5}, "weight": 4},
 
                 { "data" : {"name" : "basemetals:electrum_ingot", "min": 1, "max": 5}, "weight": 20},
                 { "data" : {"name" : "basemetals:platinum_ingot", "min": 1, "max": 5}, "weight": 20},
@@ -35,7 +33,6 @@
                 { "data" : {"name" : "tconstruct:ingots", "meta": 1, "min": 1, "max": 5}, "weight": 20},
                 { "data" : {"name" : "plustic:mirioningot", "min": 1, "max": 5}, "weight": 20},
                 { "data" : {"name" : "simplyjetpacks:metaitemmods", "meta" : 3, "min": 1, "max": 5}, "weight": 10},
-                { "data" : {"name" : "extrautils2:ingredients", "meta" : 17, "min": 1, "max": 5}, "weight": 20},
                 { "data" : {"name" : "enderio:item_material", "meta" : 72, "min": 1, "max": 5}, "weight": 20},
                 { "data" : {"name" : "enderio:item_alloy_ingot", "meta" : 5, "min": 1, "max": 5}, "weight": 20}
             ]
@@ -46,10 +43,11 @@
             "each": true,
             "loot": [
                 { "data" : {"name" : "minecraft:air"}, "weight": 400},
+
+                { "data" : {"name" : "minecraft:gold_ingot", "min": 1, "max": 5}, "weight": 10},
+                { "data" : {"name" : "basemetals:brass_ingot", "min": 1, "max": 5}, "weight": 10},
                 { "data" : {"name" : "basemetals:steel_ingot", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "basemetals:redstone_ingot", "min": 1, "max": 5}, "weight": 200},
                 { "data" : {"name" : "basemetals:invar_ingot", "min": 1, "max": 5}, "weight": 200},
-                { "data" : {"name" : "minecraft:gold_ingot", "min": 1, "max": 5}, "weight": 2000},
                 { "data" : {"name" : "modernmetals:osmium_ingot", "min": 1, "max": 5}, "weight": 2000},
                 { "data" : {"name" : "minecraft:diamond", "min": 1, "max": 5}, "weight": 2000},
                 { "data" : {"name" : "modernmetals:uranium_ingot", "min": 1, "max": 5}, "weight": 2000},

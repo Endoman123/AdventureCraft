@@ -2,7 +2,9 @@
     "name": "loot:cave",
     "inherit": [
         "loot:default_supplies",
+        "loot:default_food",
         "loot:default_ore",
+        "loot:default_weapons",
         "loot:kk_synthesis_stone"
     ]
 }

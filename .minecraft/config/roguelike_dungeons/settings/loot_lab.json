@@ -2,7 +2,9 @@
     "name": "loot:lab",
     "inherit": [
         "loot:default_supplies",
+        "loot:default_food",
         "loot:default_ore",
+        "loot:default_weapons",
         "loot:tech",
         "loot:kk_synthesis_ocean",
         "loot:weapons_lab"
