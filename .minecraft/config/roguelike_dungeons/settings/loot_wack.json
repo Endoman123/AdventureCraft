@@ -2,9 +2,9 @@
     "name": "loot:wack",
     "inherit": [
         "loot:default_supplies",
-        "loot:default_ore",
-        "loot:magic",
-        "loot:tech",
+        "loot:wack_ore",
+        "loot:magic_supplies",
+        "loot:tech_supplies",
         "loot:default_food",
         "loot:default_baubles",
         "loot:kk_synthesis_fire",
@@ -12,5 +12,17 @@
         "loot:kk_synthesis_magic",
         "loot:kk_synthesis_ocean",
         "loot:kk_synthesis_stone"
+    ],
+    "loot_rules": [
+        {
+            "level": 4,
+            "type": "REWARD",
+            "quantity": 1,
+            "each": false,
+            "rules": [
+                { "data": { "name": "minecraft:air" }, "weight": 10 },
+                { "data": { "name": "kk:incompletekibladechain" }, "weight": 1 }
+            ]
+        }
     ]
 }
