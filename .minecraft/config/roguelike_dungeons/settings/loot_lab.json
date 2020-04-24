@@ -1,7 +1,7 @@
 {
     "name": "loot:lab",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:default_ore",
         "loot:tech",
         "loot:kk_synthesis_ocean",

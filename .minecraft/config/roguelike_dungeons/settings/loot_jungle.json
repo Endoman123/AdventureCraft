@@ -1,7 +1,7 @@
 {
     "name": "loot:jungle",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:default_ore",
         "loot:default_food",
         "loot:default_baubles",

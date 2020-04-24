@@ -1,7 +1,7 @@
 {
     "name": "loot:cave",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:default_ore",
         "loot:kk_synthesis_stone"
     ]

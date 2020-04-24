@@ -1,7 +1,7 @@
 {
     "name": "loot:fire",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:default_ore",
         "loot:default_baubles",
         "loot:default_food",

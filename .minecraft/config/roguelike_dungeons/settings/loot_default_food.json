@@ -1,25 +1,32 @@
 {
-"name": "loot:default_food",
-"loot_rules": [
-    {
-        "level": [0, 1, 2],
-        "quantity": 20,
-        "each": false,
-        "loot": [
-            { "data" : {"name" : "harvestcraft:creamcookieitem"}, "weight": 600},
-            { "data" : {"name" : "harvestcraft:bananaitem"}, "weight": 600},
+    "name": "loot:default_food",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2],
+            "quantity": 3,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 50},
 
-            { "data" : {"name" : "minecraft:apple"}, "weight": 200},
-            { "data" : {"name" : "minecraft:bread"}, "weight": 200},
-            { "data" : {"name" : "harvestcraft:toastedwesternitem"}, "weight": 200},
-            { "data" : {"name" : "harvestcraft:plumjellysandwichitem"}, "weight": 200},
-            { "data" : {"name" : "harvestcraft:orangejellysandwichitem"}, "weight": 200},
-            { "data" : {"name" : "harvestcraft:cranberryjellysandwichitem"}, "weight": 200},
+                { "data" : {"name" : "minecraft:apple", "min": 1, "max": 3}, "weight": 20},
+                { "data" : {"name" : "minecraft:bread", "min": 1, "max": 3}, "weight": 20},
+                { "data" : {"name" : "harvestcraft:bananaitem", "min": 1, "max": 3}, "weight": 20},
 
-            { "data" : {"name" : "harvestcraft:pumpkincheesecakeitem"}, "weight": 200},
-            { "data" : {"name" : "minecraft:cooked_chicken"}, "weight": 200},
-            { "data" : {"name" : "harvestcraft:gummybearsitem"}, "weight": 200}
-        ]
-    }
-]
+                { "data" : {"name" : "harvestcraft:gummybearsitem", "min": 1, "max": 3}, "weight": 15},
+                { "data" : {"name" : "minecraft:cooked_chicken", "min": 1, "max": 3}, "weight": 15},
+                { "data" : {"name" : "harvestcraft:creamcookieitem", "min": 1, "max": 3}, "weight": 15},
+                
+                { "data" : {"name" : "harvestcraft:plumjellysandwichitem", "min": 1, "max": 3}, "weight": 10},
+                { "data" : {"name" : "harvestcraft:orangejellysandwichitem", "min": 1, "max": 3}, "weight": 10},
+                { "data" : {"name" : "harvestcraft:cranberryjellysandwichitem", "min": 1, "max": 3}, "weight": 10},
+                
+                { "data" : {"name" : "harvestcraft:toastedwesternitem", "min": 1, "max": 3}, "weight": 5},
+                { "data" : {"name" : "harvestcraft:pumpkincheesecakeitem"}, "weight": 5},
+
+                { "data" : {"name" : "minecraft:golden_carrot", "min": 1, "max": 3}, "weight": 1},
+                { "data" : {"name" : "minecraft:golden_apple", "meta": 1}, "weight": 1},
+                { "data" : {"name" : "extrautils2:magicapple"}, "weight": 1}
+            ]
+        }
+    ]
 }

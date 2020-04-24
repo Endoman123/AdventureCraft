@@ -1,0 +1,21 @@
+{
+    "name": "loot:default_weapons",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2, 3, 4],
+            "quantity": 1,
+            "each": true,
+            "loot": [
+                { "data" : { "name" : "minecraft:air" }, "weight": 10},
+
+                { "data" : {"name" : "extrautils2:boomerang"}, "weight": 5},
+
+                { "data" : {"name" : "ebwizardry:spark_bomb"}, "weight": 1},
+                { "data" : {"name" : "ebwizardry:smoke_bomb"}, "weight" : 1},
+                { "data" : {"name" : "ebwizardry:poison_bomb"}, "weight" : 1},
+                { "data" : {"name" : "ebwizardry:firebomb"}, "weight" : 1}
+            ]
+        }
+    ]
+}
+    

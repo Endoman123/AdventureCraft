@@ -1,7 +1,7 @@
 {
     "name": "loot:wack",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:default_ore",
         "loot:magic",
         "loot:tech",

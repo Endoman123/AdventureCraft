@@ -1,5 +1,5 @@
 {
-    "name": "loot:default",
+    "name": "loot:default_supplies",
     "loot_rules": [
         {
             "level": [0, 1],
@@ -8,28 +8,17 @@
             "loot": [
                 { "data" : {"name" : "harvestcraft:spinachseeditem"}, "weight": 400},
 
-                { "data" : {"name" : "minecraft:gold_ingot"}, "weight": 200},
-                { "data" : {"name" : "minecraft:feather"}, "weight": 200},
-                { "data" : {"name" : "minecraft:gunpowder"}, "weight": 200},
+                { "data" : {"name" : "minecraft:feather", "min": 1, "max": 3}, "weight": 200},
+                { "data" : {"name" : "minecraft:gunpowder", "min": 1, "max": 3}, "weight": 200},
                 { "data" : {"name" : "minecraft:firework_charge"}, "weight": 200},
-                { "data" : {"name" : "ebwizardry:spark_bomb"}, "weight": 200},
-                { "data" : {"name" : "ebwizardry:smoke_bomb"}, "weight" : 200},
-                { "data" : {"name" : "ebwizardry:poison_bomb"}, "weight" : 200},
-                { "data" : {"name" : "ebwizardry:firebomb"}, "weight" : 200},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 0}, "weight": 200},
 
-                { "data" : {"name" : "minecraft:golden_carrot"}, "weight": 50},
                 { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 12}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 11}, "weight": 50},
                 { "data" : {"name" : "extrautils2:suncrystal"}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 50},
-                { "data" : {"name" : "minecraft:golden_apple", "meta": 1}, "weight": 50},
                 { "data" : {"name" : "minecraft:compass"}, "weight": 50},
                 { "data" : {"name" : "minecraft:clock"}, "weight": 50},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 1}, "weight": 50},
-				{"data" : {"type" : "potion", "name" : "healing"}, "weight" : 50},
+				{ "data" : {"type" : "potion", "name" : "healing"}, "weight" : 50},
 
                 { "data" : {"name" : "minecraft:saddle"}, "weight": 5},
                 { "data" : {"name" : "chococraft:chocobo_saddle"}, "weight": 5},
@@ -40,8 +29,6 @@
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 3}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 2}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 1}, "weight": 5},
-                { "data" : {"name" : "extrautils2:magicapple"}, "weight": 5},
-                { "data" : {"name" : "extrautils2:boomerang"}, "weight": 5},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 2}, "weight": 5}
             ]
         },
@@ -50,30 +37,17 @@
             "quantity": 5,
             "each": true,
             "loot": [
-                { "data" : {"name" : "minecraft:gold_ingot"}, "weight": 200},
                 { "data" : {"name" : "minecraft:firework_charge"}, "weight": 200},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 0}, "weight": 200},
                 { "data" : {"name" : "minecraft:gunpowder"}, "weight": 200},
                 { "data" : {"name" : "minecraft:feather"}, "weight": 200},
-				{"data" : {"type" : "potion", "name" : "healing"}, "weight" : 200},
+				{ "data" : {"type" : "potion", "name" : "healing"}, "weight" : 200},
 
-                { "data" : {"name" : "ebwizardry:firebomb"}, "weight" : 50},
-                { "data" : {"name" : "ebwizardry:spark_bomb"}, "weight": 50},
-                { "data" : {"name" : "ebwizardry:smoke_bomb"}, "weight" : 50},
-                { "data" : {"name" : "ebwizardry:poison_bomb"}, "weight" : 50},
-                { "data" : {"name" : "minecraft:golden_carrot"}, "weight": 50},
                 { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 12}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 11}, "weight": 50},
                 { "data" : {"name" : "extrautils2:suncrystal"}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 50},
-                { "data" : {"name" : "minecraft:golden_apple", "meta": 1}, "weight": 50},
                 { "data" : {"name" : "minecraft:compass"}, "weight": 50},
                 { "data" : {"name" : "minecraft:clock"}, "weight": 50},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 1}, "weight": 50},
-                { "data" : {"name" : "extrautils2:magicapple"}, "weight": 50},
-                { "data" : {"name" : "minecraft:diamond"}, "weight": 50},
 
                 { "data" : {"name" : "minecraft:saddle"}, "weight": 5},
                 { "data" : {"name" : "tconstruct:slimesling", "meta": 4}, "weight": 5},
@@ -82,7 +56,6 @@
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 3}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 2}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 1}, "weight": 5},
-                { "data" : {"name" : "extrautils2:boomerang"}, "weight": 5},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 2}, "weight": 5}
             ]
         },
@@ -91,25 +64,15 @@
             "quantity": 60,
             "each": false,
             "loot": [
-                { "data" : {"name" : "minecraft:gold_ingot"}, "weight": 200},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 0}, "weight": 200},
-				{"data" : {"type" : "potion", "name" : "healing"}, "weight" : 200},
-
-                { "data" : {"name" : "minecraft:golden_carrot"}, "weight": 50},
+                { "data" : {"type" : "potion", "name" : "healing"}, "weight" : 200},
+                
                 { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 12}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 11}, "weight": 50},
                 { "data" : {"name" : "extrautils2:suncrystal"}, "weight": 50},
-                { "data" : {"name" : "extrautils2:ingredients", "meta": 5}, "weight": 50},
-                { "data" : {"name" : "minecraft:golden_apple", "meta": 1}, "weight": 50},
                 { "data" : {"name" : "minecraft:compass"}, "weight": 50},
                 { "data" : {"name" : "minecraft:clock"}, "weight": 50},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 1}, "weight": 50},
-                { "data" : {"name" : "extrautils2:magicapple"}, "weight": 50},
-                { "data" : {"name" : "minecraft:diamond"}, "weight": 50},
 
-                { "data" : {"name" : "extrautils2:boomerang"}, "weight": 5},
                 { "data" : {"name" : "openblocks:hang_glider"}, "weight": 5},
                 { "data" : {"name" : "openblocks:technicolor_glasses"}, "weight": 5},
                 { "data" : {"name" : "openblocks:serious_glasses"}, "weight": 5},

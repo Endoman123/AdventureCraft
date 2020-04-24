@@ -3,7 +3,7 @@
     "loot_rules": [
         {
             "level": [0, 1, 2, 3, 4],
-            "quantity": 6,
+            "quantity": 20,
             "each": false,
             "loot": [
                 { "data" : {"name" : "bountifulbaubles:trinketshulkerheart"}, "weight": 2},
@@ -20,6 +20,15 @@
                 { "data" : {"name" : "bountifulbaubles:ringflywheeladvanced"}, "weight": 8},
                 { "data" : {"name" : "bountifulbaubles:shieldobsidian"}, "weight": 8},
                 { "data" : {"name" : "bountifulbaubles:trinketankhcharm"}, "weight": 8}
+            ]
+        },
+        {
+            "level": 4,
+            "quantity": 4,
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "bountifulbaubles:magicmirror"}, "weight": 10},
+                { "data" : {"name" : "bountifulbaubles:wormholemirror"}, "weight": 1}
             ]
         }
     ]

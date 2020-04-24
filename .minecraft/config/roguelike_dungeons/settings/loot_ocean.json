@@ -1,7 +1,7 @@
 {
     "name": "loot:ocean",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:default_food",
         "loot:magic",
         "loot:default_ore",

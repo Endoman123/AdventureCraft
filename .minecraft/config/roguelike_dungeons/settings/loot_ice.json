@@ -1,7 +1,7 @@
 {
     "name": "loot:ice",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:default_food",
         "loot:default_baubles",
         "loot:default_ore",

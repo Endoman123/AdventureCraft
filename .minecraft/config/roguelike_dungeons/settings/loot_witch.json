@@ -1,7 +1,7 @@
 {
     "name": "loot:witch",
     "inherit": [
-        "loot:default",
+        "loot:default_supplies",
         "loot:magic",
         "loot:default_food",
         "loot:default_baubles"
