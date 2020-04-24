@@ -44,7 +44,7 @@
             <atmosphereDensity>76</atmosphereDensity>
             <generateCraters>true</generateCraters>
             <generateStructures>true</generateStructures>
-            <generateGeodes>true</generateGeodes>
+            <generateGeodes>false</generateGeodes>
             <craterFrequencyMultiplier>2.0</craterFrequencyMultiplier>
             <oceanBlock>biomesoplenty:hot_spring_water</oceanBlock>
             <planet DIMID="8" name="Lune">
@@ -61,7 +61,7 @@
                 <generateCraters>true</generateCraters>
                 <generateVolcanos>true</generateVolcanos>
                 <generateStructures>true</generateStructures>
-                <generateGeodes>true</generateGeodes>
+                <generateGeodes>false</generateGeodes>
                 <craterFrequencyMultiplier>0.4</craterFrequencyMultiplier>
             </planet>
         </planet>
