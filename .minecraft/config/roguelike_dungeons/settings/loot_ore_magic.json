@@ -1,5 +1,5 @@
 {
-    "name": "loot:magic_ore",
+    "name": "loot:ore_magic",
     "loot_rules": [
         {
             "level": [0, 1, 2, 3, 4],

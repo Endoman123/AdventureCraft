@@ -15,7 +15,7 @@
 		"layout:default",
 		"rooms:mystery",
 		"segments:danger",
-		"loot:jungle",
+		"loot:group_jungle",
 		"spawners:jungle"
 	]
 }

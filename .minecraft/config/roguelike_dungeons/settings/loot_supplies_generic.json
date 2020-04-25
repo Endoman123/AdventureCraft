@@ -1,5 +1,5 @@
 {
-    "name": "loot:default_supplies",
+    "name": "loot:supplies_generic",
     "loot_rules": [
         {
             "level": [0, 1],
@@ -18,12 +18,8 @@
                 { "data" : {"name" : "minecraft:compass"}, "weight": 50},
                 { "data" : {"name" : "minecraft:clock"}, "weight": 50},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 1}, "weight": 50},
-				{ "data" : {"type" : "potion", "name" : "healing"}, "weight" : 50},
 
-                { "data" : {"name" : "minecraft:saddle"}, "weight": 5},
-                { "data" : {"name" : "chococraft:chocobo_saddle"}, "weight": 5},
-                { "data" : {"name" : "tconstruct:slimesling", "meta": 4}, "weight": 5},
-                { "data" : {"name" : "minecraft:diamond"}, "weight": 5},
+
                 { "data" : {"name" : "chococraft:chocobo_spawn_egg"}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit"}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 3}, "weight": 5},
@@ -41,7 +37,6 @@
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 0}, "weight": 200},
                 { "data" : {"name" : "minecraft:gunpowder"}, "weight": 200},
                 { "data" : {"name" : "minecraft:feather"}, "weight": 200},
-				{ "data" : {"type" : "potion", "name" : "healing"}, "weight" : 200},
 
                 { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
                 { "data" : {"name" : "extrautils2:suncrystal"}, "weight": 50},
@@ -49,8 +44,6 @@
                 { "data" : {"name" : "minecraft:clock"}, "weight": 50},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 1}, "weight": 50},
 
-                { "data" : {"name" : "minecraft:saddle"}, "weight": 5},
-                { "data" : {"name" : "tconstruct:slimesling", "meta": 4}, "weight": 5},
                 { "data" : {"name" : "chococraft:chocobo_spawn_egg"}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit"}, "weight": 5},
                 { "data" : {"name" : "chococraft:ability_fruit", "meta": 3}, "weight": 5},
@@ -61,11 +54,10 @@
         },
         {
             "level": 4,
-            "quantity": 60,
-            "each": false,
+            "quantity": 5,
+            "each": true,
             "loot": [
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 0}, "weight": 200},
-                { "data" : {"type" : "potion", "name" : "healing"}, "weight" : 200},
                 
                 { "data" : {"name" : "ebwizardry:identification_scroll"}, "weight" : 50},
                 { "data" : {"name" : "extrautils2:suncrystal"}, "weight": 50},
@@ -73,53 +65,9 @@
                 { "data" : {"name" : "minecraft:clock"}, "weight": 50},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 1}, "weight": 50},
 
-                { "data" : {"name" : "openblocks:hang_glider"}, "weight": 5},
                 { "data" : {"name" : "openblocks:technicolor_glasses"}, "weight": 5},
                 { "data" : {"name" : "openblocks:serious_glasses"}, "weight": 5},
                 { "data" : {"name" : "grimoireofgaia:misc_experience", "meta" : 2}, "weight": 5}
-            ]
-        },
-        {
-            "level": 0,
-            "quantity": 3,
-            "each": false,
-            "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidshard\", rank: \"sm.rank.c\"}"}, "weight" : 1 }
-            ]
-        },
-        {
-            "level": 1,
-            "quantity": 3,
-            "each": false,
-            "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidstone\", rank: \"sm.rank.b\"}"}, "weight" : 1 }
-            ]
-        },
-        {
-            "level": 2,
-            "quantity": 3,
-            "each": false,
-            "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidgem\", rank: \"sm.rank.a\"}"}, "weight" : 1 }
-            ]
-        },
-        {
-            "level": 3,
-            "quantity": 3,
-            "each": false,
-            "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "min": 1, "max": 5, "nbt": "{material: \"sm.lucidcrystal\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
-            ]
-        },
-        {
-            "type": "REWARD",
-            "level": [0, 1, 2, 3],
-            "quantity": 4,
-            "each": false,
-            "loot": [
-                { "data" : {"name" : "minecraft:air"}, "weight" : 20 },
-                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 20 },
-                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 1 }
             ]
         },
         {
@@ -135,26 +83,16 @@
                 { "data" : {"name" : "jsonlootbags:gacha_ss"}, "weight" : 2 },
                 { "data" : {"name" : "jsonlootbags:gacha_sss"}, "weight" : 1 }
             ]
-        },
+        }, 
         {
             "type": "REWARD",
-            "level": 4,
-            "quantity": 1,
+            "level": [0, 1, 2, 3],
+            "quantity": 4,
             "each": false,
             "loot": [
-                { "data" : {"name" : "kk:recipe"}, "weight" : 1 }
-            ]
-        },
-        {
-            "type": "REWARD",
-            "level": 4,
-            "quantity": 1,
-            "each": false,
-            "loot": [
-                { "data" : {"name" : "kk:synthesismaterial", "nbt": "{material: \"sm.manifestillusion\", rank: \"sm.rank.a\"}"}, "weight" : 2 },
-                { "data" : {"name" : "kk:synthesismaterial", "nbt": "{material: \"sm.orichalcum\", rank: \"sm.rank.a\"}"}, "weight" : 2 },
-                { "data" : {"name" : "kk:synthesismaterial", "nbt": "{material: \"sm.lostillusion\", rank: \"sm.rank.s\"}"}, "weight" : 1 },
-                { "data" : {"name" : "kk:synthesismaterial", "nbt": "{material: \"sm.orichalcum+\", rank: \"sm.rank.s\"}"}, "weight" : 1 }
+                { "data" : {"name" : "minecraft:air"}, "weight" : 100 },
+                { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 100 },
+                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 1 }
             ]
         }
     ]

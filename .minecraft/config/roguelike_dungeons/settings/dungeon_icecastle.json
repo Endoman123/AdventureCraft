@@ -14,7 +14,7 @@
 		"layout:default",
 		"rooms:default",
 		"segments:default",
-		"loot:ice",
+		"loot:group_ice",
 		"spawners:ice"
 	]
 }

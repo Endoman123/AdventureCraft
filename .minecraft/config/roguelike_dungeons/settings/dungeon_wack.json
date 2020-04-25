@@ -18,7 +18,7 @@
 		"layout:maze",
 		"rooms:default",
 		"segments:default",
-		"loot:wack",
+		"loot:group_wack",
 		"spawners:wack"
 	]
 }

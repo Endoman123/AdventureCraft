@@ -1,5 +1,5 @@
 {
-    "name": "loot:default_ore",
+    "name": "loot:ore_generic",
     "loot_rules": [
         {
             "level": [0, 1, 2],

@@ -1,5 +1,5 @@
 {
-    "name": "loot:default_food",
+    "name": "loot:food_generic",
     "loot_rules": [
         {
             "level": [0, 1, 2],

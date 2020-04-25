@@ -4,7 +4,7 @@
         {"level": [0, 1, 2, 3, 4], "type" : "CHEST", "weight" : 1},
         {"level": [0, 1, 2, 3], "type" : "SHELF", "weight" : 3},
         {"level": [0, 1, 2, 3], "type" : "INSET", "weight" : 3},
-        {"level": [1, 2, 3, 4], "type" : "SPAWNER", "weight" : 2},
+        {"level": [1, 2, 3, 4], "type" : "SPAWNER", "weight" : 100},
 
         {"level": 0, "type" : "DOOR", "weight" : 10},
         {"level": 0, "type" : "WHEAT", "weight" : 2},

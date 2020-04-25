@@ -1,0 +1,27 @@
+{
+    "name": "loot:potions_generic",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2, 3, 4],
+            "quantity": 3,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight" : 100},
+
+				{ "data" : {"type" : "potion", "name" : "healing"}, "weight" : 50}
+            ]
+        },
+        {
+            "level": 4,
+            "type": "REWARD",
+            "quantity": 1,
+            "each": false,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight" : 100},
+
+                { "data" : {"name" : "bountifulbaubles:potionrecall" }, "weight" : 10},
+                { "data" : {"name" : "bountifulbaubles:potionwormhole" }, "weight" : 1}
+            ]
+        }
+    ]
+}

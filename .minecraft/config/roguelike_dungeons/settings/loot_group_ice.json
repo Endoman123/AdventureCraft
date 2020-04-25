@@ -1,0 +1,10 @@
+{
+    "name": "loot:group_ice",
+    "inherit": [
+        "loot:supplies_generic",
+        "loot:food_generic",
+        "loot:baubles_generic",
+        "loot:ore_generic",
+        "loot:kk_synthesis_ice"
+    ]
+}

@@ -17,9 +17,9 @@
 		"layout:default",
 		"rooms:default",
 		"segments:tech",
-		"loot:default_supplies",
+		"loot:supplies_generic",
 		"loot:tech",
-		"loot:default_food",
+		"loot:food_generic",
 		"loot:weapons_bunker",
 		"spawners:ice"
 	]

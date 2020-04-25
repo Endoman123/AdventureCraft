@@ -22,7 +22,7 @@
 		"layout:default",
 		"rooms:building",
 		"segments:nofire",
-		"loot:witch",
+		"loot:group_witch",
 		"spawners:magic"
 	]
 }

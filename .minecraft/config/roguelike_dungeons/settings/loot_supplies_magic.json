@@ -1,5 +1,5 @@
 {
-	"name": "loot:magic_supplies",
+	"name": "loot:supplies_magic",
 	"loot_rules": [
 		{
 			"level": [0, 1, 2],

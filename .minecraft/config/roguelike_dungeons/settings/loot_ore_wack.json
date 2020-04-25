@@ -1,5 +1,5 @@
 {
-    "name": "loot:wack_ore",
+    "name": "loot:ore_wack",
     "loot_rules": [
         {
             "level": 4,
