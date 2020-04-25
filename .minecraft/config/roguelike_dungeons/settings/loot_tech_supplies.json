@@ -1,11 +1,13 @@
 {
-    "name": "loot:tech",
+    "name": "loot:tech_supplies",
     "loot_rules": [
         {
             "level": [0, 1, 2],
-            "quantity": 50,
-            "each": false,
+            "quantity": 2,
+            "each": true,
             "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 1000},
+                
                 { "data" : {"name" : "fluxnetworks:flux"}, "weight": 800},
                 { "data" : {"name" : "basemetals:brass_gear"}, "weight": 800},
                 { "data" : {"name" : "thermalfoundation:material", "meta" : 320}, "weight": 800},

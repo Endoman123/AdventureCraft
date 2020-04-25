@@ -1,18 +1,14 @@
 {
-	"name": "loot:magic",
-	"inherit": [
-		"loot:kk_synthesis_magic"
-	],
+	"name": "loot:magic_supplies",
 	"loot_rules": [
 		{
 			"level": [0, 1, 2],
-			"quantity": 20,
-			"each": false,
+			"quantity": 2,
+			"each": true,
 			"loot": [
+				{ "data" : {"name" : "minecraft:air"}, "weight": 1000},
+
 				{ "data" : {"name" : "minecraft:book", "min": 1, "max": 3}, "weight": 200},
-				{ "data" : {"name" : "botania:manaresource"}, "weight": 200},
-				{ "data" : {"name" : "minecraft:prismarine_shard"}, "weight": 200},
-				{ "data" : {"name" : "ebwizardry:magic_crystal"}, "weight": 200},
 				{ "data" : {"name" : "ebwizardry:scroll", "meta": 74}, "weight": 200},
 				{ "data" : {"name" : "astralsorcery:itemcraftingcomponent"}, "weight": 200},
 				{ "data" : {"name" : "ebwizardry:identification_scroll"}, "weight": 200},

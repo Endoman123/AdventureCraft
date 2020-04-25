@@ -1,19 +1,14 @@
 {
     "name": "loot:wack_ore",
-    "inherit": [
-        "loot:default_ore",
-        "loot:tech_ore",
-        "loot:magic_ore"
-    ],
     "loot_rules": [
         {
-            "level": [0, 1, 2, 3, 4],
+            "level": 4,
             "quantity": 1,
             "each": false,
             "loot": [
-                { "data" : {"name" : "minecraft:air"}, "weight": 10000},
+                { "data" : {"name" : "minecraft:air"}, "weight": 1000},
                 
-                { "data" : {"name" : "avaritia:resource", "meta" : 1, "min": 1, "max": 2}, "weight": 50},
+                { "data" : {"name" : "avaritia:resource", "meta" : 1, "min": 1, "max": 2}, "weight": 100},
 
                 { "data" : {"name" : "avaritia:resource", "meta" : 2, "min": 1, "max": 2}, "weight": 10},
                 { "data" : {"name" : "avaritia:resource", "meta" : 3, "min": 1, "max": 2}, "weight": 10},

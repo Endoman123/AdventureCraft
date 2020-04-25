@@ -2,9 +2,10 @@
     "name": "loot:magicsewer",
     "inherit": [
         "loot:default_supplies",
-        "loot:magic",
         "loot:default_ore",
         "loot:default_baubles",
+        "loot:magic_supplies",
+        "loot:magic_ore",
         "loot:magic_baubles"
     ]
 }

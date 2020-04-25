@@ -2,6 +2,9 @@
     "name": "loot:wack",
     "inherit": [
         "loot:default_supplies",
+        "loot:default_ore",
+        "loot:tech_ore",
+        "loot:magic_ore",
         "loot:wack_ore",
         "loot:magic_supplies",
         "loot:tech_supplies",
