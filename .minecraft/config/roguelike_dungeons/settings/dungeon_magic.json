@@ -1,5 +1,5 @@
 {
-	"name": "dungeon:magic",
+	"name": "dungeon:witch",
 	"criteria": {
 		"biomeTypes":[
 			"dead",
@@ -22,7 +22,7 @@
 		"layout:default",
 		"rooms:building",
 		"segments:nofire",
-		"loot:group_witch",
+		"loot:group_magic",
 		"spawners:magic"
 	]
 }

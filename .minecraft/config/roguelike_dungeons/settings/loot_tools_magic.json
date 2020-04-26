@@ -1,5 +1,5 @@
 {
-	"name": "loot:supplies_magic",
+	"name": "loot:tools_magic",
 	"loot_rules": [
 		{
 			"level": [0, 1, 2],
@@ -17,14 +17,12 @@
 
 				{ "data" : {"name" : "minecraft:ender_pearl"}, "weight": 20},
 				{ "data" : {"name" : "minecraft:ender_eye"}, "weight": 20},
-				{ "data" : {"name" : "psi:material", "meta" : 1}, "weight": 20},
+				
 				{ "data" : {"name" : "extrautils2:decorativesolidwood", "meta" : 1}, "weight": 20},
 				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 3}, "weight": 20},
 				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 2}, "weight": 20},
 
 				{ "data" : {"name" : "ebwizardry:magic_wand"}, "weight": 2},
-				{ "data" : {"name" : "ebwizardry:arcane_tome", "meta": 3}, "weight": 2},
-				{ "data" : {"name" : "astralsorcery:blockworldilluminator"}, "weight": 2},
 				{ "data" : {"name" : "astralsorcery:itemgrapplewand"}, "weight": 2}
 			]
 		},

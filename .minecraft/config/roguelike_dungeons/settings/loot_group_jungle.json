@@ -1,10 +1,7 @@
 {
     "name": "loot:group_jungle",
     "inherit": [
-        "loot:supplies_generic",
-        "loot:ore_generic",
-        "loot:food_generic",
-        "loot:baubles_generic",
+        "loot:group_generic",
         "loot:kk_synthesis_magic"
     ]
 }

@@ -8,9 +8,9 @@
             "loot": [
                 { "data" : {"name" : "minecraft:air"}, "weight": 1000},
                 
-                { "data" : {"name" : "fluxnetworks:flux"}, "weight": 800},
-                { "data" : {"name" : "basemetals:brass_gear"}, "weight": 800},
-                { "data" : {"name" : "thermalfoundation:material", "meta" : 320}, "weight": 800},
+                { "data" : {"name" : "fluxnetworks:flux", "min": 1, "max": 5}, "weight": 800},
+                { "data" : {"name" : "basemetals:brass_gear", "min": 1, "max": 2}, "weight": 800},
+                { "data" : {"name" : "thermalfoundation:material", "meta": 320, "min": 1, "max": 5}, "weight": 800},
 
                 { "data" : {"name" : "thermalfoundation:security"}, "weight": 200},
                 { "data" : {"name" : "thermalfoundation:material", "meta" : 512}, "weight": 200},
@@ -29,6 +29,7 @@
                 { "data" : {"name" : "thermalfoundation:diagram_redprint"}, "weight": 200},
                 { "data" : {"name" : "simplyjetpacks:metaitemmods", "meta" : 4}, "weight": 200},
                 { "data" : {"name" : "simplyjetpacks:metaitemmods", "meta" : 7}, "weight": 200},
+                { "data" : {"name" : "extrautils2:suncrystal"}, "weight": 50},
 
                 { "data" : {"name" : "conarm:invisible_ink"}, "weight": 20},
                 { "data" : {"name" : "appliedenergistics2:certus_quartz_wrench"}, "weight": 20},

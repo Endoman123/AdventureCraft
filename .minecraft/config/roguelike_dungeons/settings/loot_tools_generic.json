@@ -8,10 +8,11 @@
             "loot": [
                 { "data" : { "name" : "minecraft:air" }, "weight": 100},
 
-                { "data" : {"name" : "minecraft:saddle"}, "weight": 3},
-                { "data" : {"name" : "chococraft:chocobo_saddle"}, "weight": 3},
-                { "data" : {"name" : "tconstruct:slimesling", "meta": 4}, "weight": 5},
-                { "data" : {"name" : "openblocks:hang_glider"}, "weight": 5}
+                { "data" : {"name" : "tconstruct:slimesling", "meta": 4}, "weight": 10},
+                
+                { "data" : {"name" : "minecraft:saddle"}, "weight": 1},
+                { "data" : {"name" : "chococraft:chocobo_saddle"}, "weight": 1},
+                { "data" : {"name" : "openblocks:hang_glider"}, "weight": 1}
             ]
         },
         {

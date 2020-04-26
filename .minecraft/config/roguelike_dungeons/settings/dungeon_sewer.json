@@ -27,7 +27,6 @@
 		"rooms:sewer",
 		"segments:sewer",
 		"loot:group_sewer",
-		"loot:weapons_sewer",
 		"spawners:default"
 	]
 }

@@ -1,12 +1,10 @@
 {
     "name": "loot:group_lab",
     "inherit": [
-        "loot:supplies_generic",
-        "loot:food_generic",
-        "loot:ore_generic",
-        "loot:weapons_generic",
-        "loot:tech",
-        "loot:kk_synthesis_ocean",
+        "loot:group_generic",
+        "loot:kk_synthesis_stone",
+        "loot:ore_tech",
+        "loot:supplies_tech",
         "loot:weapons_lab"
     ]
 }

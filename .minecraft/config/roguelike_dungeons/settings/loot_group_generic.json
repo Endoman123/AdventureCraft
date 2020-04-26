@@ -1,0 +1,13 @@
+{
+    "name": "loot:group_generic",
+    "inherit": [
+        "loot:baubles_generic",
+        "loot:food_generic",
+        "loot:kk_synthesis_generic",
+        "loot:ore_generic",
+        "loot:smith_generic",
+        "loot:supplies_generic",
+        "loot:tools_generic",
+        "loot:weapons_generic"
+    ]
+}

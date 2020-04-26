@@ -1,20 +1,13 @@
 {
     "name": "loot:group_wack",
     "inherit": [
-        "loot:supplies_generic",
-        "loot:supplies_magic",
-        "loot:supplies_tech",
-        "loot:ore_generic",
-        "loot:ore_tech",
-        "loot:ore_magic",
-        "loot:ore_wack",
-        "loot:food_generic",
-        "loot:baubles_generic",
+        "loot:group_generic",
         "loot:kk_synthesis_fire",
         "loot:kk_synthesis_ice",
         "loot:kk_synthesis_magic",
         "loot:kk_synthesis_ocean",
         "loot:kk_synthesis_stone",
-        "loot:kk_synthesis_wack"
+        "loot:kk_synthesis_wack",
+        "loot:ore_wack"
     ]
 }

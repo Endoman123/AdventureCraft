@@ -1,0 +1,10 @@
+{
+    "name": "loot:group_magic",
+    "inherit": [
+        "loot:group_generic",
+        "loot:baubles_magic",
+        "loot:kk_synthesis_magic",
+        "loot:ore_magic",
+        "loot:supplies_magic"
+    ]
+}
