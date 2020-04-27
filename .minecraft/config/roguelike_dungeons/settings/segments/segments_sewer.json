@@ -1,8 +1,9 @@
 {
     "name": "segments:sewer",
+    "inherit": [
+        "segments:default"
+    ],
     "segments": [
-        {"level": [0, 1, 2, 3, 4], "type" : "CHEST", "weight" : 5},
-        {"level": [1, 2, 3, 4], "type" : "SPAWNER", "weight" : 200},
         {"level": [0, 1, 2, 3, 4], "type" : "SEWER", "weight" : 1},
         {"level": [0, 1, 2, 3], "type" : "SEWERARCH", "weight" : 2},
         {"level": [0, 1, 2, 3], "type" : "SEWERDOOR", "weight" : 3},

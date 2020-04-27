@@ -1,8 +1,9 @@
 {
     "name": "segments:tech",
+    "inherit": [
+        "segments:default"
+    ],
     "segments": [
-        {"level": [0, 1, 2, 3, 4], "type" : "CHEST", "weight" : 10},
-        {"level": [1, 2, 3, 4], "type" : "SPAWNER", "weight" : 10},
         {"level": [0, 1, 2, 3, 4], "type" : "LAMP", "weight" : 10},
         {"level": [0, 1, 2, 3, 4], "type" : "ARCH", "weight" : 10},
         {"level": [0, 1, 2, 3, 4], "type" : "DOOR", "weight" : 8},
