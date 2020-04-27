@@ -6,9 +6,16 @@
             "quantity": 3,
             "each": true,
             "loot": [
-                { "data" : {"name" : "minecraft:air"}, "weight" : 100},
+                { "data" : {"name" : "minecraft:air"}, "weight" : 50},
 
-				{ "data" : {"type" : "potion", "name" : "healing"}, "weight" : 50}
+                {"data" : {"type" : "potion", "name" : "healing"}, "weight" : 1},
+                {"data" : {"type" : "potion", "name" : "strength"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "regeneration"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "leaping"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "night_vision"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "fire_resistance"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "swiftness"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "healing"}, "weight" : 1}
             ]
         },
         {
