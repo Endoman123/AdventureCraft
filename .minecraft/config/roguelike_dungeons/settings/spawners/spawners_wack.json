@@ -5,7 +5,6 @@
 	],
 	"spawners" : [
 		{
-			"type": "SKELETON",
 			"level" : [0, 1],
 			"weight": 100,
 			"potentials": [
@@ -16,7 +15,6 @@
 			]
 		},
     	{
-			"type": "SKELETON",
 			"level" : [2, 3],
 			"weight": 100,
 			"potentials": [
@@ -28,7 +26,6 @@
 			]
 		},
         {
-			"type": "SKELETON",
 			"level" : [4],
 			"weight": 100,
 			"potentials": [
@@ -39,7 +36,6 @@
 			]
 		},
     	{
-			"type": "BLAZE",
 			"level" : [0, 1, 2, 3, 4],
 			"weight": 100,
 			"potentials": [
