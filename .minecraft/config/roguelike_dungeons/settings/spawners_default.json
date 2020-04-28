@@ -2,7 +2,6 @@
 	"name" : "spawners:default",
 	"spawners" : [
 		{
-			"type": "ZOMBIE",
 			"level" : [0, 1, 2, 3, 4],
 			"weight": 50,
 			"potentials": [
@@ -10,7 +9,6 @@
 			]
 		},
 		{
-			"type": "SKELETON",
 			"level" : [0, 1, 2, 3, 4],
 			"weight": 50,
 			"potentials": [
@@ -18,7 +16,6 @@
 			]
 		},
 		{
-			"type": "CREEPER",
 			"level" : [0, 1, 2, 3, 4],
 			"weight": 50,
 			"potentials": [
