@@ -1,0 +1,14 @@
+{
+    "name": "segments:default",
+    "segments": [
+        {"level": [0, 1, 2, 3, 4], "type" : "CHEST", "weight" : 10},
+        {"level": [0, 1, 2, 3, 4], "type" : "LAMP", "weight" : 10},
+        {"level": 0, "type" : "DOOR", "weight" : 10},
+        {"level": [1, 2, 3], "type" : "WALL", "weight": 10},
+
+        {"level": 1, "type" : "SPAWNER", "weight" : 10},
+        {"level": 2, "type" : "SPAWNER", "weight" : 20},
+        {"level": 3, "type" : "SPAWNER", "weight" : 30},
+        {"level": 4, "type" : "SPAWNER", "weight" : 40}
+    ]
+}

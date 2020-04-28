@@ -3,7 +3,7 @@
     "loot_rules": [
         {
             "level": [0, 1, 2, 3, 4],
-            "quantity": 3,
+            "quantity": 1,
             "each": true,
             "loot": [
                 { "data" : {"name" : "minecraft:air"}, "weight": 100},
@@ -11,7 +11,7 @@
                 { "data" : {"name" : "bountifulbaubles:ringoverclocking"}, "weight": 1},
                 { "data" : {"name" : "bountifulbaubles:trinketapple"}, "weight": 1},
                 { "data" : {"name" : "bountifulbaubles:trinketbrokenheart"}, "weight": 1},
-                { "data" : {"name" : "bountifulbaubles:trinketvitamins"}, "weight": 1},
+                { "data" : {"name" : "bountifulbaubles:trinketvitamins"}, "weight": 1}
             ]
         },
         {
