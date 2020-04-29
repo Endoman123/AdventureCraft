@@ -4,20 +4,20 @@
         "rooms:default"
     ],
     "rooms": [
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CAKE", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CORNER", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CREEPER", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CRYPT", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "DARKHALL", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "ENCHANT", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "ENDER", "weight": 1},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "LAB", "weight": 1},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "LIBRARY", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "MUSIC", "weight": 2},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "OBSIDIAN", "weight": 1},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "PIT", "weight": 5},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "PRISON", "weight": 6},
-        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "SLIME", "weight": 4},
-        {"level" : 4, "frequency" : "random", "type" : "BLAZE", "weight" : 4}
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CAKE", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CORNER", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CREEPER", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "CRYPT", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "DARKHALL", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "ENCHANT", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "ENDER", "weight": 1, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "LAB", "weight": 1, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "LIBRARY", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "MUSIC", "weight": 2, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "OBSIDIAN", "weight": 1, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "PIT", "weight": 5, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "PRISON", "weight": 6, "spawnerId": "spawners:wack"},
+        {"level": [0, 1, 2, 3, 4], "frequency": "random", "type" : "SLIME", "weight": 4, "spawnerId": "spawners:wack"},
+        {"level" : 4, "frequency" : "random", "type" : "BLAZE", "weight" : 4, "spawnerId": "spawners:wack"}
     ]
 }
