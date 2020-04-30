@@ -3,6 +3,7 @@
     "segments": [
         {"level": [0, 1, 2, 3, 4], "type" : "CHEST", "weight" : 10},
         {"level": [0, 1, 2, 3, 4], "type" : "LAMP", "weight" : 10},
+        
         {"level": 0, "type" : "DOOR", "weight" : 10},
         {"level": [1, 2, 3], "type" : "WALL", "weight": 10},
 
