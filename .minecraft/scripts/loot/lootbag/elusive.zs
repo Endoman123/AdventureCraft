@@ -85,8 +85,6 @@ val list = [
     <enderio:item_capacitor_totemic>,
     // Scaling Health
     <scalinghealth:heartcontainer>,
-    <scalinghealth:difficultychanger>,
-    <scalinghealth:difficultychanger:1>,
     // Flux Networks
     <fluxnetworks:herculeanfluxstorage>,
     // Avaritia
