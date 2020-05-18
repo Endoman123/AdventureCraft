@@ -270,6 +270,11 @@
     "inverted": false,
     "ore": [
       {
+        "block": "iceandfire:sapphire_ore",
+        "weight": 7
+
+      },
+      {
         "block": "minecraft:lapis_ore",
         "weight": 50
       },
@@ -348,6 +353,10 @@
       },
       {
         "block": "ebwizardry:crystal_ore",
+        "weight": 5
+      },
+      {
+        "block": "iceandfire:sapphire_ore",
         "weight": 5
       }
     ],
@@ -956,6 +965,10 @@
       },
       {
         "block": "basemetals:platinum_ore",
+        "weight": 15
+      },
+      {
+        "block": "iceandfire:sapphire_ore",
         "weight": 15
       }
     ],
