@@ -2,6 +2,13 @@
 
 # Ignore debug tools
 .minecraft/mods/Caliper*.jar
+.minecraft/mods/TickCentral-2.6.jar
+.minecraft/mods/LagGoggles-1.12.2-5.8-132.jar
+.minecraft/mods/LoadingProfiler-MC1.12-1.3.jar
+
+.minecraft/config/LagGoggles-client.cfg
+.minecraft/config/LagGoggles-server.cfg
+.minecraft/config/TickCentral/
 
 # Ignore all log files
 *.log
