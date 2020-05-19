@@ -15,7 +15,17 @@
     "result": "allow"
   },
   {
+    "mob": "kk:orgmoogle",
+    "incity": true,
+    "result": "allow"
+  },
+  {
     "mob": "kk:moogle",
+    "mincount": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "kk:orgmoogle",
     "mincount": 1,
     "result": "deny"
   },
