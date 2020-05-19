@@ -1,0 +1,43 @@
+{
+    "name": "theme:sterile",
+    "themes": [
+        {
+            "base": "RAINBOW",
+            "level": [0, 1, 2, 3, 4],
+            "primary" : {
+                "door" : {"name": "basemetals:diamond_door"},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:laboratory", "meta": 2}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarblestairs"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:laboratory", "meta": 2}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:laboratory", "meta": 2}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "glowstone", "meta" : 12}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {
+                    "type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarblestairs"}
+                },
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:laboratory", "meta": 2}}
+					]
+				}
+            }
+        }
+    ]
+}

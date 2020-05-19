@@ -1,0 +1,21 @@
+{
+	"name": "dungeon:darkness",
+	"criteria": {
+		"biomeTypes":[
+			"magic",
+			"cold",
+			"wasteland"
+		],
+		"weight": 6
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:darkness",
+		"theme:darkness",
+		"layout:default",
+		"rooms:mystery",
+		"segments:danger",
+		"loot:group_magic",
+		"spawners:wither"
+	]
+}

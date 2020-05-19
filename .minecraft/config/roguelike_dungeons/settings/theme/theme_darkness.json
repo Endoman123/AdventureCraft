@@ -1,0 +1,41 @@
+{
+    "name": "theme:darkness",
+    "themes": [
+        {
+            "base": "RAINBOW",
+            "level": [0, 1, 2, 3, 4],
+            "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "minecraft:concrete", "meta": 15}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "appliedenergistics2:sky_stone_stairs"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "minecraft:concrete", "meta": 15}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "minecraft:concrete", "meta": 15}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "glowstone", "meta" : 12}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "appliedenergistics2:sky_stone_stairs"}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "minecraft:concrete", "meta": 15}}
+					]
+				}
+            }
+        }
+    ]
+}

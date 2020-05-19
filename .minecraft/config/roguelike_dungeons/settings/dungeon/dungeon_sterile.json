@@ -1,0 +1,25 @@
+
+{
+	"name": "dungeon:sterile",
+	"criteria": {
+		"biomeTypes":[
+			"mushroom",
+			"magic",
+			"plains",
+			"cold",
+			"wasteland",
+			"mountain"
+		],
+		"weight": 8
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:sterile",
+		"theme:sterile",
+		"layout:default",
+		"rooms:default",
+		"segments:default",
+		"loot:group_ice",
+		"spawners:ice"
+	]
+}

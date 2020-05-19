@@ -1,0 +1,26 @@
+
+
+{
+	"name": "dungeon:sterile2",
+	"criteria": {
+		"biomeTypes":[
+			"mushroom",
+			"magic",
+			"plains",
+			"cold",
+			"wasteland",
+			"mountain"
+		],
+		"weight": 4
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:sterile",
+		"theme:basic",
+		"layout:maze",
+		"rooms:default",
+		"segments:default",
+		"loot:group_lab",
+		"spawners:wizard"
+	]
+}

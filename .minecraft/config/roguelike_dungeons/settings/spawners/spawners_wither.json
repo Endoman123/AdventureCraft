@@ -1,0 +1,16 @@
+
+{
+	"name" : "spawners:wither",
+	"inherits": [
+		"spawners:default"
+	],
+	"spawners" : [
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 300,
+			"potentials": [
+				{ "name": "minecraft:wither_skeleton", "weight": 200 }
+			]
+		}
+    ]
+}

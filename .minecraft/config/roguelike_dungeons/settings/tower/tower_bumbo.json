@@ -1,0 +1,9 @@
+{
+    "name": "tower:bumbo",
+    "tower": {
+        "type": "BUMBO",
+        "theme": {
+            "base": "JUNGLE"
+        }
+    }
+}

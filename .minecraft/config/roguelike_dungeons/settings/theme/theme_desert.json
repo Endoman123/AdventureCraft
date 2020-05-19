@@ -1,0 +1,52 @@
+
+{
+    "name": "theme:desert",
+    "themes": [
+        {
+            "base": "SANDSTONE",
+            "level": [0, 1, 2, 3]
+        },
+        {
+            "base": "CRYPT",
+            "level": 4,
+            "primary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:basalt"}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "minecraft:red_sandstone_stairs"}},
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt"}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:sandstonered-scribbles", "meta": 4}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:sandstonered-scribbles", "meta": 5}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt"}},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:basalt"}}
+					]
+				},
+                "floor" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "minecraft:red_sandstone"}}
+					]
+				},
+                "lightblock" : {
+                    "type" : "WEIGHTED",
+                    "data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:glowstone1", "meta" : 14}, "weight" : 1}
+                    ]
+                }
+			},
+            "secondary" : {
+                "door" : {"name": "basemetals:obsidian_door"},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "minecraft:red_sandstone_stairs"}},
+                "pillar" : {"type" : "METABLOCK", "data" : {"name" : "chisel:basalt"}},
+                "walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:sandstonered-scribbles", "meta": 4}}
+					]
+				}
+            }
+        }
+    ]
+}

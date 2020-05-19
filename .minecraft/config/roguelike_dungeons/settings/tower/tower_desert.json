@@ -1,0 +1,10 @@
+
+{
+    "name": "tower:desert",
+    "tower": {
+        "type": "PYRAMID",
+        "theme": {
+            "base": "SANDSTONE"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+
+{
+	"name": "dungeon:desert",
+	"criteria": {
+		"biomeTypes":[
+			"sandy"
+		],
+		"weight": 8
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:desert",
+		"theme:desert",
+		"layout:maze",
+		"rooms:default",
+		"segments:danger",
+		"loot:group_magic",
+		"spawners:magic"
+	]
+}

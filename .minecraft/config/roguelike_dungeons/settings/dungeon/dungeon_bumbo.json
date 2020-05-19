@@ -1,0 +1,24 @@
+{
+	"name": "dungeon:bumbo",
+	"criteria": {
+		"biomeTypes":[
+			"mushroom",
+			"magic",
+			"plains",
+			"cold",
+			"wasteland",
+			"mountain"
+		],
+		"weight": 1
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:bumbo",
+		"theme:wack",
+		"layout:default",
+		"rooms:default",
+		"segments:default",
+		"loot:group_wack",
+		"spawners:wack"
+	]
+}
