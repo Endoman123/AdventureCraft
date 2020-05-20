@@ -10,7 +10,7 @@
 			"wasteland",
 			"mountain"
 		],
-		"weight": 8
+		"weight": 2
 	},
 	"exclusive": true,
 	"inherit": [

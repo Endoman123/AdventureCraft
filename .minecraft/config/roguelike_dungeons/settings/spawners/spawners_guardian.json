@@ -1,0 +1,17 @@
+
+
+{
+	"name" : "spawners:guardian",
+	"inherits": [
+		"spawners:default"
+	],
+	"spawners" : [
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"weight": 300,
+			"potentials": [
+				{ "name": "minecraft:guardian", "weight": 200 }
+			]
+		}
+    ]
+}

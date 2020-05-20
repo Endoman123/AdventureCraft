@@ -6,7 +6,7 @@
 			"cold",
 			"wasteland"
 		],
-		"weight": 6
+		"weight": 1
 	},
 	"exclusive": true,
 	"inherit": [

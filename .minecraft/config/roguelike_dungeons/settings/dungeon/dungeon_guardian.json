@@ -1,0 +1,34 @@
+
+{
+	"name": "dungeon:guardian",
+	"criteria": {
+		"biomeTypes":[
+			"dead",
+			"beach",
+			"forest",
+			"hills",
+			"jungle",
+			"lush",
+			"magical",
+			"mesa",
+			"mountain",
+			"plains",
+			"savanna",
+			"sparse",
+			"spooky",
+			"swamp",
+			"wasteland"
+		],
+		"weight": 1
+	},
+	"exclusive": true,
+	"inherit": [
+		"tower:default",
+		"theme:default",
+		"layout:default",
+		"rooms:default",
+		"segments:default",
+		"loot:group_jungle",
+		"spawners:guardian"
+	]
+}

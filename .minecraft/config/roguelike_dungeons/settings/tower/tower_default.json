@@ -1,0 +1,9 @@
+{
+    "name": "tower:default",
+    "tower": {
+        "type": "ROGUE",
+        "theme": {
+            "base": "DARKHALL"
+        }
+    }
+}
