@@ -70,11 +70,7 @@
             <GasGiant>true</GasGiant>
             <gas>hydrogen</gas>
             <gas>oxygen</gas>
-            <gas>sulfurdioxide</gas>
-            <gas>sulfurdioxide</gas>
             <gas>sulfuricacid</gas>
-            <gas>hydrogenchloride</gas>
-            <gas>ethene</gas>
 
         </planet>
         <planet customIcon="gasgiantred" name="Hera">
@@ -91,8 +87,6 @@
             <GasGiant>true</GasGiant>
             <gas>iridium</gas>
             <gas>plutonium</gas>
-            <gas>fusionfuel</gas>
-            <gas>tritium</gas>
         </planet>
     </star>
 
@@ -137,28 +131,16 @@
             <hasRings>true</hasRings>
             <gas>hydrogen</gas>
             <gas>oxygen</gas>
-            <gas>sodium</gas>
-            <gas>deuterium</gas>
         </planet>
         <planet customIcon="moon" name="Oedipus">
             <orbitalDistance>290</orbitalDistance>
             <GasGiant>true</GasGiant>
-            <gas>cleanTin</gas>
-            <gas>cleanCopper</gas>
-            <gas>cleanOsmium</gas>
-            <gas>cleanGold</gas>
             <gas>brine</gas>
         </planet>
         <planet customIcon="gasgiantred" name="Tzetzes">
             <orbitalDistance>360</orbitalDistance>
             <hasRings>true</hasRings>
             <GasGiant>true</GasGiant>
-            <gas>cleanGold</gas>
-            <gas>cleanOsmium</gas>
-            <gas>cleanPlatinum</gas>
-            <gas>cleannickel</gas>
-            <gas>cleanuranium</gas>
-            <gas>sulfurdioxide</gas>
         </planet>
     </star>
 </galaxy>
