@@ -6,16 +6,115 @@
 
 <chapter id="ch1">
   <section>
-    <p color="#00ffff" align="center" scale="2">Welcome to AdventureCraft.</p>
+    <title>Welcome to AdventureCraft</title>
     <stack item="bountifulbaubles:trinketbezoar" meta="0" count="1" />
-    This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying.
+Welcome to Adventure Craft, a kitchen sink adventure pack. This book includes some information to get you started.
   </section>
+
+
+
   <section>
-  <p color="#ff00ff" align="center" italics="true" >Goodbye to AdventureCraft.</p>
-    This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying.
-    <p> This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. </p>
-    <p> This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. This is a test of what it is going to look like. The purpose of this text is just to look realistic. Do not mind what is is actually saying. </p>
+    <title>Your First Tree</title>
+Since *No Tree Punching* is installed, getting your first piece wood and making your first tools is less straightforward. The steps can be summarized:
+<p color="#0088ff" >1. Get flint</p>
+
+   You can get flint from gravel, either by breaking or crafting
+
+<p color="#0088ff" >2. First flint shards</p>
+   Taking your piece of *flint* right click on a stone block to knap it into *flint shards*
+
+<p color="#0088ff" >3. Get a stick</p>
+   To acquire sticks without tools, break *tree leaves* to get some *sticks*
+
+<p color="#0088ff" >4. Make a knife</p>
+   Assemble your stick and flint shard to craft a *flint knife*
+
+<p color="#0088ff" >5. Get plant fiber</p>
+   Break grass using the knife to acquire plant fiber
+
+<p color="#0088ff" >6. Flint Shards Again</p>
+   Using the plant fiber, flint shards, and stick, craft a primitive hatchet
+
+<p color="#0088ff" >7. Primitive Hatchet</p>
+   Chop down your first tree!
+
+<p color="#0088ff" >8. Actual Tools</p>
+
+   Now with your newly acquired wood, start to make real tools by using *Tinker's Construct* (Or make other primitive tools using similar methods).
+   You want to craft a *Tool Station*, *Patterns*, and a *Stencil Table* to make more tools
+   To make armor you'll need to craft a *Armor Station* and *Armor Forge*
+
+<p color="#0088ff" >9. Better Tools</p>
+   You'll eventually want to upgrade to metallic tools, which will need a smeltery. Alternatively, you could use some modded tools, or loot a dungeon for something.
+
   </section>
+
+
+
+
+  <section>
+    <title>You Changing Body and You</title>
+Most of what you do is the same, but you have some additional quality of life improvements.
+
+Press "R" to open a *radial menu* where you can setup key shortcuts.
+
+You can pick up chests, furnaces, machines, etc. with your bare hands using [TODO fill this in]
+
+Head to *Options* and *Controls* to set up keybinds for useful shortcuts
+
+  </section>
+
+
+
+
+  <section>
+    <title>The World and You</title>
+
+There are many mods included in the pack ranging from tech to magic to nothing in particular. Here is but a few of your options:
+
+<link href=" https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry">Advanced Rocketry          </link>: Build a rocket and go to the moon (and beyond)
+<link href=" https://ae-mod.info">Applied Energistics                                                   </link>: Storage and auto crafting
+<link href=" https://www.curseforge.com/minecraft/mc-mods/arcane-archives">Arcane Archives              </link>: Advanced Storage Solutions using rock vibes
+<link href=" https://www.curseforge.com/minecraft/mc-mods/astral-sorcery">Astral Sorcery                </link>: Magic of the night skies
+<link href=" https://www.curseforge.com/minecraft/mc-mods/bewitchment">Bewitchment                      </link>: Salem witch trials in Minecraft
+<link href=" https://www.curseforge.com/minecraft/mc-mods/blood-magic">Blood Magic                      </link>: Sacrifice your blood for otherworldly powers
+<link href=" https://www.curseforge.com/minecraft/mc-mods/botania">Botania                              </link>: Herbal Remedies and magic solutions
+<link href=" https://www.curseforge.com/minecraft/mc-mods/chococraft">Chococraft                        </link>: Chocobos in minecraft
+<link href=" https://www.curseforge.com/minecraft/mc-mods/compact-machines">Compact Machines            </link>: Building and boxing in multiple dimensions
+<link href=" https://github.com/Electroblob77/Wizardry/wiki">Electroblob's Wizardry                     </link>: Magic wands and magic scrolls
+<link href=" https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft">Harvestcraft               </link>: Breakfast, Dinner, Lunch options
+<link href=" http://ice-and-fire-mod.wikia.com/wiki/Ice_and_Fire_Mod_Wiki">Ice and Fire                 </link>: Tame and ride dragons
+<link href=" https://www.curseforge.com/minecraft/mc-mods/kingdom-keys-re-coded">Kingdom Keys          </link>: A mod with elements from a certain Square Enix titl
+<link href=" http://wiki.aidancbrady.com/wiki/Mekanism">Mekanism                                        </link>: Tech Mod
+<link href=" https://ftb.gamepedia.com/NuclearCraft">NuclearCraft                                       </link>: Nuclear reactors in minecraft
+<link href=" https://psi.vazkii.net">PSI                                                                </link>: Modern, Mathematical, Programmable Magic
+<link href=" https://projectredwiki.com/wiki/Main_Page">Project Red                                     </link>: Redstone for Electrical Engineers
+<link href=" https://github.com/McJtyMods/RFTools/wiki">RFTools                                         </link>: Tech mod featuring many flexible tools
+<link href=" https://github.com/srwaggon/minecraft-roguelike/wiki">Roguelike Dungeons                   </link>: Rogue like Dungeons
+<link href=" https://www.curseforge.com/minecraft/mc-mods/simply-jetpacks-2">Simply Jetpacks            </link>: JETPACK
+<link href=" https://teamcofh.com/docs/1.12/thermal-foundation/">Thermal Foundation                     </link>: Tech Mod that does a bit of everything
+<link href=" https://www.curseforge.com/minecraft/mc-mods/constructs-armory">Tinker's Armory            </link>: Make your own armor
+<link href=" https://www.curseforge.com/minecraft/mc-mods/tinkers-construct">Tinker's Construct         </link>: Make your own tool
+<link href=" https://www.curseforge.com/minecraft/mc-mods/travellers-backpack">Traveler's Backpack      </link>: All in one backpack
+<link href=" https://github.com/Ipsis/Woot/wiki">Woot                                                   </link>: The penultimate mob farm
+
+  </section>
+
+
+  <section>
+<title>Asking For Help</title>
+
+If you need help for any feature or mod check, JEI or the mod's associated wiki page (if it has one).
+
+(Google is your best friend!)
+
+</section>
+
+<section>
+  <title>Index</title>
+hhh    h    h  h h h h  h
+</section>
+
 </chapter>
 
 </book>
