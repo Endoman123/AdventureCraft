@@ -1,0 +1,82 @@
+#+TITLE: Starting Book Outline
+
+* Welcome To Adventure Craft
+
+Welcome to Adventure Craft, a kitchen sink adventure pack. This book includes some information to get you started.
+
+* Your First Tree
+
+Since *No Tree Punching* is installed, getting your first piece wood and making your first tools is less straightforward. The steps can be summarized:
+1. Get flint
+   You can get flint from gravel, either by breaking or crafting
+2. First flint shards
+   Taking your piece of *flint* right click on a stone block to knap it into *flint shards*
+3. Get a stick
+   To acquire sticks without tools, break *tree leaves* to get some *sticks*
+4. Make a knife
+   Assemble your stick and flint shard to craft a *flint knife*
+5. Get plant fiber
+   Break grass using the knife to acquire plant fiber
+6. Flint Shards Again
+   Using the plant fiber, flint shards, and stick, craft a primitive hatchet
+7. Primitive Hatchet
+   Chop down your first tree!
+8. Actual Tools
+   Now with your newly acquired wood, start to make real tools by using *Tinker's Construct* (Or make other primitive tools using similar methods).
+   You want to craft a *Tool Station*, *Patterns*, and a *Stencil Table* to make more tools
+   To make armor you'll need to craft a *Armor Station* and *Armor Forge*
+9. Better Tools
+   You'll eventually want to upgrade to metallic tools, which will need a smeltery. Alternatively, you could use some modded tools, or loot a dungeon for something.
+
+* Your Changing Body and You
+
+Most of what you do is the same, but you have some additional quality of life improvements.
+
+Press "R" to open a *radial menu* where you can setup key shortcuts.
+
+You can pick up chests, furnaces, machines, etc. with your bare hands using [TODO fill this in]
+
+Head to *Options* and *Controls* to set up keybinds for useful shortcuts
+
+* The World and You
+
+There are many mods included in the pack ranging from tech to magic to nothing in particular. Here is but a few of your options:
+
+| Name                   | URL                                                                | Description                                          |
+|------------------------+--------------------------------------------------------------------+------------------------------------------------------|
+| Advanced Rocketry      | https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry     | Build a rocket and go to the moon (and beyond)       |
+| Applied Energistics    | https://ae-mod.info                                                | Storage and auto crafting                            |
+| Arcane Archives        | https://www.curseforge.com/minecraft/mc-mods/arcane-archives       | Advanced Storage Solutions using rock vibes          |
+| Astral Sorcery         | https://www.curseforge.com/minecraft/mc-mods/astral-sorcery        | Magic of the night skies                             |
+| Bewitchment            | https://www.curseforge.com/minecraft/mc-mods/bewitchment           | Salem witch trials in Minecraft                      |
+| Blood Magic            | https://www.curseforge.com/minecraft/mc-mods/blood-magic           | Sacrifice your blood for otherworldly powers         |
+| Botania                | https://www.curseforge.com/minecraft/mc-mods/botania               | Herbal Remedies and magic solutions                  |
+| Chococraft             | https://www.curseforge.com/minecraft/mc-mods/chococraft            | Chocobos in minecraft                                |
+| Compact Machines       | https://www.curseforge.com/minecraft/mc-mods/compact-machines      | Building and boxing in multiple dimensions           |
+| Electroblob's Wizardry | https://github.com/Electroblob77/Wizardry/wiki                     | Magic wands and magic scrolls                        |
+| Harvestcraft           | https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft     | Breakfast, Dinner, Lunch options                     |
+| Ice and Fire           | http://ice-and-fire-mod.wikia.com/wiki/Ice_and_Fire_Mod_Wiki       | Tame and ride dragons                                |
+| Kingdom Keys           | https://www.curseforge.com/minecraft/mc-mods/kingdom-keys-re-coded | A mod with elements from a certain Square Enix title |
+| Mekanism               | http://wiki.aidancbrady.com/wiki/Mekanism                          | Tech Mod                                             |
+| NuclearCraft           | https://ftb.gamepedia.com/NuclearCraft                             | Nuclear reactors in minecraft                        |
+| PSI                    | https://psi.vazkii.net                                             | Modern, Mathematical, Programmable Magic             |
+| Project Red            | https://projectredwiki.com/wiki/Main_Page                          | Redstone for Electrical Engineers                    |
+| RFTools                | https://github.com/McJtyMods/RFTools/wiki                          | Tech mod featuring many flexible tools               |
+| Roguelike Dungeons     | https://github.com/srwaggon/minecraft-roguelike/wiki               | Rogue like Dungeons                                  |
+| Simply Jetpacks        | https://www.curseforge.com/minecraft/mc-mods/simply-jetpacks-2     | JETPACK                                              |
+| Thermal Foundation     | https://teamcofh.com/docs/1.12/thermal-foundation/                 | Tech Mod that does a bit of everything               |
+| Tinker's Armory        | https://www.curseforge.com/minecraft/mc-mods/constructs-armory     | Make your own armor                                  |
+| Tinker's Construct     | https://www.curseforge.com/minecraft/mc-mods/tinkers-construct     | Make your own tool                                   |
+| Traveler's Backpack    | https://www.curseforge.com/minecraft/mc-mods/travellers-backpack   | All in one backpack                                  |
+| Woot                   | https://github.com/Ipsis/Woot/wiki                                 | The penultimate mob farm                             |
+
+* Asking For Help
+
+If you need help for any feature or mod check, JEI or the mod's associated wiki page (if it has one).
+
+(Google is your best friend!)
+
+* Index
+
+hhh    h    h  h h h h  h
+<image of gog doll >
