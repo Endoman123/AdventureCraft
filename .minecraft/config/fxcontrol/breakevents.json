@@ -1,0 +1,26 @@
+[
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "minecraft:tallgrass",
+        "random": 0.4,
+        "drop": "notreepunching:grass_fiber",
+        "result": "allow"
+    },
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "ore:treeLeaves",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "ore:treeLeaves",
+        "random": 0.4,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    }
+]
