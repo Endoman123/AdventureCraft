@@ -1,4 +1,8 @@
-<book title="AdventureCraft README" >
+<book title="AdventureCraft README" cover="gbook:demo" fontSize="0.6" home="0:0"
+      xmlns="http://localhost/gbook/base"
+      xmlns:minecraft="http://localhost/gbook/minecraft-addons">
+
+    <include ref="gbook:xml/standard.xml"/>
 
 <chapter id="ch1">
   <section>
