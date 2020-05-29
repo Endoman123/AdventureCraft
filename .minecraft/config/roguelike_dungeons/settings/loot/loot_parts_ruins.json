@@ -1,0 +1,50 @@
+{
+    "name": "loot:parts_ruins",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2],
+            "quantity": 1,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 100},
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"elementium\"}"}, "weight": 10},
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"lumium_plustic\"}"}, "weight": 5},
+
+
+                { "data" : {"name" : "tconstruct:shard", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:bow_limb", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:knife_blade", "nbt": "{Material: \"dragonsteel_fire\"}"}, "weight": 1}
+            ]
+        }
+    ]
+}

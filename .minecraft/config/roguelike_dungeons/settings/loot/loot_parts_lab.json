@@ -1,0 +1,59 @@
+{
+    "name": "loot:parts_lab",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2],
+            "quantity": 1,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 100},
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"uranium\"}"}, "weight": 10},
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"psimetal\"}"}, "weight": 5},
+
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:fletching", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:pan_head", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:shard", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:sign_head", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"vibrant_alloy\"}"}, "weight": 2},
+
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:sharpening_kit", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"boron_nitride\"}"}, "weight": 1}
+            ]
+        }
+    ]
+}

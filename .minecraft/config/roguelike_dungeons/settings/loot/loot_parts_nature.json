@@ -1,0 +1,50 @@
+{
+    "name": "loot:parts_nature",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2],
+            "quantity": 1,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 100},
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"jungle_myrmex\"}"}, "weight": 10},
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"dragonbone\"}"}, "weight": 5},
+
+
+                { "data" : {"name" : "tconstruct:shard", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:bow_limb", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:knife_blade", "nbt": "{Material: \"terrasteel\"}"}, "weight": 1}
+            ]
+        }
+    ]
+}

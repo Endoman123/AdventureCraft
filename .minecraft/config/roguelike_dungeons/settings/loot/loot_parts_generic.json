@@ -8,51 +8,51 @@
             "loot": [
                 { "data" : {"name" : "minecraft:air"}, "weight": 100},
 
-                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"iron\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"iron\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"iron\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"iron\"}"}, "weight": 10},
 
-                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"osmium\"}"}, "weight": 1},
-
-
-                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:fletching", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:pan_head", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:shard", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:sign_head", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"invar\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"invar\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"osmium\"}"}, "weight": 8},
 
 
-                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:sharpening_kit", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
-                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"alumite\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:fletching", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:pan_head", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:shard", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:sign_head", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"invar\"}"}, "weight": 4},
+
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:sharpening_kit", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"alumite\"}"}, "weight": 2},
 
 
                 { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"cobalt\"}"}, "weight": 1},
@@ -88,30 +88,6 @@
                 { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"manyullyn\"}"}, "weight": 1},
                 { "data" : {"name" : "tconstruct:bow_limb", "nbt": "{Material: \"manyullyn\"}"}, "weight": 1},
                 { "data" : {"name" : "tconstruct:knife_blade", "nbt": "{Material: \"manyullyn\"}"}, "weight": 1}
-            ]
-        },
-        {
-            "level": [3, 4],
-            "quantity": 1,
-            "each": true,
-            "loot": [
-                { "data" : {"name" : "minecraft:air"}, "weight": 100},
-
-                { "data" : {"name" : "tconstruct:materials", "meta": 12, "min": 1, "max": 2}, "weight": 50},
-                { "data" : {"name" : "tconstruct:materials", "meta": 13, "min": 1, "max": 2}, "weight": 50},
-
-                { "data" : {"name" : "tconstruct:materials", "meta": 9, "min": 1, "max": 2}, "weight": 20},
-                { "data" : {"name" : "tconstruct:materials", "meta": 10, "min": 1, "max": 2}, "weight": 20},
-                { "data" : {"name" : "tconstruct:materials", "meta": 11, "min": 1, "max": 2}, "weight": 20},
-                { "data" : {"name" : "tconstruct:materials", "meta": 14, "min": 1, "max": 2}, "weight": 20},
-                { "data" : {"name" : "tconstruct:materials", "meta": 15, "min": 1, "max": 2}, "weight": 20},
-                { "data" : {"name" : "tconstruct:materials", "meta": 18, "min": 1, "max": 2}, "weight": 20},
-
-                { "data" : {"name" : "tconstruct:materials", "meta": 16, "min": 1, "max": 2}, "weight": 10},
-                { "data" : {"name" : "tconstruct:materials", "meta": 17, "min": 1, "max": 2}, "weight": 10},
-                { "data" : {"name" : "tconstruct:materials", "meta": 19, "min": 1, "max": 2}, "weight": 10},
-
-                { "data" : {"name" : "tconstruct:materials", "meta": 20, "min": 1, "max": 2}, "weight": 1}
             ]
         }
     ]

@@ -1,0 +1,70 @@
+{
+    "name": "loot:parts_magic",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2],
+            "quantity": 1,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 100},
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"xu_magical_wood\"}"}, "weight": 10},
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"xu_enchanted_metal\"}"}, "weight": 8},
+
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:fletching", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:pan_head", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:shard", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:sign_head", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"starmetal\"}"}, "weight": 4},
+
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:sharpening_kit", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"psigem\"}"}, "weight": 2},
+
+
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:broad_axe_head", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tool_rod", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"xu_evil_metal\"}"}, "weight": 1}
+            ]
+        }
+    ]
+}

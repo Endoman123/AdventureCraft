@@ -1,0 +1,91 @@
+{
+    "name": "loot:parts_wack",
+    "loot_rules": [
+        {
+            "level": [0, 1, 2],
+            "quantity": 1,
+            "each": true,
+            "loot": [
+                { "data" : {"name" : "minecraft:air"}, "weight": 100},
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"construction_alloy\"}"}, "weight": 10},
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:excavator_head", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:large_sword_blade", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:scythe_head", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"osgloglas\"}"}, "weight": 8},
+
+
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:fletching", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:pan_head", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:shard", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:sign_head", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"chocolate\"}"}, "weight": 4},
+
+
+                { "data" : {"name" : "tconstruct:axe_head", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:kama_head", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:sharpening_kit", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:shovel_head", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"extrabotany:ingotshadowium\"}"}, "weight": 2},
+
+
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:hammer_head", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:broad_axe_head", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tool_rod", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_tool_rod", "nbt": "{Material: \"extrabotany:ingotorichalcos\"}"}, "weight": 1},
+
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:wide_guard", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:hand_guard", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"weezer\"}"}, "weight": 1},
+
+
+                { "data" : {"name" : "tconstruct:pick_head", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:tough_binding", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:binding", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:large_plate", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:wide_guard", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:hand_guard", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:cross_guard", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:arrow_head", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1},
+                { "data" : {"name" : "tconstruct:sword_blade", "nbt": "{Material: \"infinity_avaritia_plustic\"}"}, "weight": 1}
+            ]
+        }
+    ]
+}
