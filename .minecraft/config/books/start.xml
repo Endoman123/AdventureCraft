@@ -13,20 +13,20 @@ Welcome to Adventure Craft, a kitchen sink adventure pack. This book includes so
   <section>
     <title>Your First Tree</title>
 
-Since <b>No Tree Punching</b> is installed, getting your first piece wood and making your first tools is less straightforward. The steps can be summarized:
+Since <span bold="true">No Tree Punching</span> is installed, getting your first piece wood and making your first tools is less straightforward. The steps can be summarized:
 
 <p color="#0088ff" >1. Get flint</p>
 
    <p space="10">You can get flint from gravel, either by breaking or crafting</p>
 
 <p color="#0088ff"  >2. First flint shards</p>
-<p space="10">   Taking your piece of <b>flint</b> right click on a stone block to knap it into <b>flint shards</b></p>
+<p space="10">   Taking your piece of <span bold="true">flint</span> right click on a stone block to knap it into <span bold="true">flint shards</span></p>
 
 <p color="#0088ff"  >3. Get a stick</p>
-<p space="10">   To acquire sticks without tools, break <b>tree leaves</b> to get some <b>sticks</b></p>
+<p space="10">   To acquire sticks without tools, break <span bold="true">tree leaves</span> to get some <span bold="true">sticks</span></p>
 
 <p color="#0088ff"  >4. Make a knife</p>
-<p space="10">   Assemble your stick and flint shard to craft a <b>flint knife</b></p>
+<p space="10">   Assemble your stick and flint shard to craft a <span bold="true">flint knife</span></p>
 
 <p color="#0088ff"  >5. Get plant fiber</p>
 <p space="10">   Break grass using the knife to acquire plant fiber</p>
@@ -39,9 +39,9 @@ Since <b>No Tree Punching</b> is installed, getting your first piece wood and ma
 
 <p color="#0088ff"  >8. Actual Tools</p>
 
-<p space="10">   Now with your newly acquired wood, start to make real tools by using <b>Tinker's Construct</b> (Or make other primitive tools using similar methods).
-   You want to craft a <b>Tool Station</b> <b>Patterns</b> and a <b>Stencil Table</b> to make more tools
-   To make armor you'll need to craft a <b>Armor Station</b> and <b>Armor Forge</b></p>
+<p space="10">   Now with your newly acquired wood, start to make real tools by using <span bold="true">Tinker's Construct</span> (Or make other primitive tools using similar methods).
+   You want to craft a <span bold="true">Tool Station</span> <span bold="true">Patterns</span> and a <span bold="true">Stencil Table</span> to make more tools
+   To make armor you'll need to craft a <span bold="true">Armor Station</span> and <span bold="true">Armor Forge</span></p>
 
 <p color="#0088ff"  >9. Better Tools</p>
 <p space="10">   You'll eventually want to upgrade to metallic tools, which will need a smeltery. Alternatively, you could use some modded tools, or loot a dungeon for something.</p>
@@ -55,11 +55,11 @@ Since <b>No Tree Punching</b> is installed, getting your first piece wood and ma
     <title>You Changing Body and You</title>
 <p space="10">Most of the base mechanics are the same, but you have some additional quality of life improvements.</p>
 
-<p space="10">Press "R" to open a <b>radial menu</b> where you can setup key shortcuts.</p>
+<p space="10">Press "R" to open a <span bold="true">radial menu</span> where you can setup key shortcuts.</p>
 
 <p space="10">You can pick up chests, furnaces, machines, etc. with your bare hands using [TODO fill this in]</p>
 
-<p space="10">Head to <b>Options</b> and <b>Controls</b> to set up keybinds for useful shortcuts</p>
+<p space="10">Head to <span bold="true">Options</span> and <span bold="true">Controls</span> to set up keybinds for useful shortcuts</p>
 
   </section>
 
