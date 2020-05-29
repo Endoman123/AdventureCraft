@@ -120,6 +120,9 @@ val list = [
     <ebwizardry:scroll:38>,
     <ebwizardry:scroll:154>,
     <ebwizardry:scroll:91>,
+    // ICBM
+    <icbmclassic:tracker>,
+    <icbmclassic:explosives:5>,
     // Psi
     <psi:material:1>,
     // Iron Chest

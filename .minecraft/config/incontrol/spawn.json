@@ -3,7 +3,7 @@
     "hostile": true,
     "spawner": false,
     "mincount": {
-      "amount": 250,
+      "amount": 250000,
       "perchunk": true,
       "hostile": true
     },

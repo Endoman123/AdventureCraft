@@ -131,6 +131,10 @@ val list = [
     <ebwizardry:scroll:91>,
     // Iron Chest
     <ironchest:iron_shulker_box_black:5>,
+    // ICBM
+    <icbmclassic:explosives:5>,
+    // NucleurCraft
+    <nuclearcraft:radaway>,
     // Grimiore of Gaia
     <grimoireofgaia:misc_experience:2>,
     <grimoireofgaia:misc_book>,
