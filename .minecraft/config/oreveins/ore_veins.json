@@ -56,6 +56,10 @@
         "weight": 10
       },
       {
+        "block": "modernmetals:magnesium_ore",
+        "weight": 5
+      },
+      {
         "block": "minecraft:gold_ore",
         "weight": 5
       }
@@ -156,6 +160,10 @@
       {
         "block": "basemetals:zinc_ore",
         "weight": 10
+      },
+      {
+        "block": "modernmetals:magnesium_ore",
+        "weight": 5
       },
       {
         "block": "minecraft:gold_ore",
@@ -430,12 +438,20 @@
     "type": "cone",
     "ore": [
       {
-        "block": "modernmetals:uranium_ore",
+        "block": "modernmetals:boron_ore",
         "weight": 3
+      },
+      {
+        "block": "modernmetals:uranium_ore",
+        "weight": 2
       },
       {
         "block": "modernmetals:plutonium_ore",
         "weight": 2
+      },
+      {
+        "block": "modernmetals:thorium_ore",
+        "weight": 1
       }
     ],
     "stone": "minecraft:stone",
@@ -662,6 +678,10 @@
         "weight": 10
       },
       {
+        "block": "nethermetals:nether_magnesium_ore",
+        "weight": 5
+      },
+      {
         "block": "nethermetals:nether_gold_ore",
         "weight": 5
       }
@@ -784,6 +804,10 @@
       {
         "block": "basemetals:zinc_ore",
         "weight": 10
+      },
+      {
+        "block": "modernmetals:magnesium_ore",
+        "weight": 5
       },
       {
         "block": "minecraft:gold_ore",
