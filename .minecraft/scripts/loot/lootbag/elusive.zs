@@ -25,7 +25,13 @@ val list = [
     <minecraft:nether_star>,
     <minecraft:emerald_block>,
     <minecraft:diamond_block>,
+    // Enchanted
+    <botania:manasteelsword>.withTag({ench: [{lvl: 10, id: 18}]}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 34}]}),
+    <redstonearsenal:tool.bow_flux>.withTag({ench: [{lvl: 10, id: 58}], Mode: 0}),
+    <minecraft:golden_sword>.withTag({ench: [{lvl: 200 as short, id:16}],RepairCost: 30, display: {Name: "One Hit Wonder"}}),
+    <minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 100 as short, id:34}],RepairCost: 30, display: {Name: "Unbreaking Breaker"}}),
+    <kk:dreamsword>.withTag({ench: [{lvl: 10 as short, id: 17}], RepairCost: 1,display: {Name: "Heroic Sword"}}),
     // RFTools
     <rftools:dimensional_shard>,
     // Redstone FLux
