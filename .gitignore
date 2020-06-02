@@ -45,7 +45,3 @@ natives
 .minecraft/tv-cache
 .minecraft/woot
 
-# Personal Settings
-instance.cfg
-*/instance.cfg
-
