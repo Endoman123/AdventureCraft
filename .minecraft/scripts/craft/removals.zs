@@ -3,7 +3,7 @@ import mods.jei.JEI;
 // 16 Stick to Log
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
-recipes.removeShaped(<minecraft:stick>, [[<minecraftfuture:bamboo>], [<minecraftfuture:bamboo>]]);
+recipes.removeShaped(<minecraft:stick>, [[<futuremc:bamboo>], [<futuremc:bamboo>]]);
 
 // Remove vanilla ender chest
 recipes.remove(<minecraft:ender_chest>);

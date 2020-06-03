@@ -160,10 +160,10 @@ additional.addItemEntryHelper(<minecraft:enchanted_book>, 90, 1, [Functions.ench
     "minecraft:thorns",                         //  - Thorns I
     "minecraft:unbreaking",                     //  - Unbreaking I
     "minecraft:vanishing_curse",                //  - Curse of Vanishing
-    "minecraftfuture:channeling",               //  - Channeling
-    "minecraftfuture:impaling",                 //  - Impaling I
-    "minecraftfuture:loyalty",                  //  - Loyalty I
-    "minecraftfuture:riptide",                  //  - Riptide I
+    "futuremc:channeling",               //  - Channeling
+    "futuremc:impaling",                 //  - Impaling I
+    "futuremc:loyalty",                  //  - Loyalty I
+    "futuremc:riptide",                  //  - Riptide I
     "openblocks:explosive",                     //  - Unstable I
     "openblocks:flim_flam",                     //  - Flim Flam I
     "openblocks:last_stand",                    //  - Last Stand I

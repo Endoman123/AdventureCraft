@@ -20163,55 +20163,55 @@ easypickings:climbing_rock, Climbing Rock
 easypickings:shovey_block_push_only, Shovey Block
 easypickings:shovey_block_normal, Sticky Shovey Block
 easypickings:egg_bomb, Egg Bomb
-minecraftfuture:lantern, Lantern
-minecraftfuture:stonecutter, Stonecutter
-minecraftfuture:barrel, Barrel
-minecraftfuture:blast_furnace, Blast Furnace
-minecraftfuture:smoker, Smoker
-minecraftfuture:loom, Loom
-minecraftfuture:fletchingtable, Fletching Table
-minecraftfuture:smithingtable, Smithing Table
-minecraftfuture:grindstone, Grindstone
-minecraftfuture:composter, Composter
-minecraftfuture:blue_ice, Blue Ice
-minecraftfuture:bee_nest, Bee Nest
-minecraftfuture:bee_hive, Bee Hive
-minecraftfuture:honey_block, Honey Block
-minecraftfuture:honeycomb_block, Honeycomb Block
-minecraftfuture:honey_bottle, Honey Bottle
-minecraftfuture:honeycomb, Honeycomb
-minecraftfuture:trident, Trident
-minecraftfuture:flowerwhite, Lily of the Valley
-minecraftfuture:flowerblue, Cornflower
-minecraftfuture:flowerblack, Wither Rose
-minecraftfuture:suspiciousstew, Suspicious Stew
-minecraftfuture:dye:0, White Dye
-minecraftfuture:dye:1, Blue Dye
-minecraftfuture:dye:2, Brown Dye
-minecraftfuture:dye:3, Black Dye
-minecraftfuture:bamboo, Bamboo
-minecraftfuture:sweetberry, Sweet Berries
-minecraftfuture:campfire, Campfire
-minecraftfuture:stripped_oak_log, Stripped Oak Log
-minecraftfuture:stripped_spruce_log, Stripped Spruce Log
-minecraftfuture:stripped_birch_log, Stripped Birch Log
-minecraftfuture:stripped_jungle_log, Stripped Jungle Log
-minecraftfuture:stripped_acacia_log, Stripped Acacia Log
-minecraftfuture:stripped_dark_oak_log, Stripped Dark Oak Log
-minecraftfuture:smoothstone, Smooth Stone
-minecraftfuture:smoothquartz, Smooth Quartz
-minecraftfuture:brick_wall, Brick Wall
-minecraftfuture:granite_wall, Granite Wall
-minecraftfuture:andesite_wall, Andesite Wall
-minecraftfuture:diorite_wall, Diorite Wall
-minecraftfuture:sandstone_wall, Sandstone Wall
-minecraftfuture:red_sandstone_wall, Red Sandstone Wall
-minecraftfuture:stone_brick_wall, Stone Brick Wall
-minecraftfuture:mossy_stone_wall, Mossy Stone Brick Wall
-minecraftfuture:nether_brick_wall, Nether Brick Wall
-minecraftfuture:nether_brick_red_wall, Red Nether Brick Wall
-minecraftfuture:end_stone_wall, End Stone Brick Wall
-minecraftfuture:prismarine_wall, Prismarine Wall
+futuremc:lantern, Lantern
+futuremc:stonecutter, Stonecutter
+futuremc:barrel, Barrel
+futuremc:blast_furnace, Blast Furnace
+futuremc:smoker, Smoker
+futuremc:loom, Loom
+futuremc:fletchingtable, Fletching Table
+futuremc:smithingtable, Smithing Table
+futuremc:grindstone, Grindstone
+futuremc:composter, Composter
+futuremc:blue_ice, Blue Ice
+futuremc:bee_nest, Bee Nest
+futuremc:bee_hive, Bee Hive
+futuremc:honey_block, Honey Block
+futuremc:honeycomb_block, Honeycomb Block
+futuremc:honey_bottle, Honey Bottle
+futuremc:honeycomb, Honeycomb
+futuremc:trident, Trident
+futuremc:flowerwhite, Lily of the Valley
+futuremc:flowerblue, Cornflower
+futuremc:flowerblack, Wither Rose
+futuremc:suspiciousstew, Suspicious Stew
+futuremc:dye:0, White Dye
+futuremc:dye:1, Blue Dye
+futuremc:dye:2, Brown Dye
+futuremc:dye:3, Black Dye
+futuremc:bamboo, Bamboo
+futuremc:sweetberry, Sweet Berries
+futuremc:campfire, Campfire
+futuremc:stripped_oak_log, Stripped Oak Log
+futuremc:stripped_spruce_log, Stripped Spruce Log
+futuremc:stripped_birch_log, Stripped Birch Log
+futuremc:stripped_jungle_log, Stripped Jungle Log
+futuremc:stripped_acacia_log, Stripped Acacia Log
+futuremc:stripped_dark_oak_log, Stripped Dark Oak Log
+futuremc:smoothstone, Smooth Stone
+futuremc:smoothquartz, Smooth Quartz
+futuremc:brick_wall, Brick Wall
+futuremc:granite_wall, Granite Wall
+futuremc:andesite_wall, Andesite Wall
+futuremc:diorite_wall, Diorite Wall
+futuremc:sandstone_wall, Sandstone Wall
+futuremc:red_sandstone_wall, Red Sandstone Wall
+futuremc:stone_brick_wall, Stone Brick Wall
+futuremc:mossy_stone_wall, Mossy Stone Brick Wall
+futuremc:nether_brick_wall, Nether Brick Wall
+futuremc:nether_brick_red_wall, Red Nether Brick Wall
+futuremc:end_stone_wall, End Stone Brick Wall
+futuremc:prismarine_wall, Prismarine Wall
 ichunutil:compact_porkchop, Compact Raw Porkchop
 incorporeal:ticket_conjurer, Ticket Conjurer
 incorporeal:corporea_ticket, Corporea Ticket (blank)
