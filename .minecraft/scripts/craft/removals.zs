@@ -8,6 +8,11 @@ recipes.removeShaped(<minecraft:stick>, [[<futuremc:bamboo>], [<futuremc:bamboo>
 // Remove vanilla ender chest
 recipes.remove(<minecraft:ender_chest>);
 
+// Remove gear recipes
+recipes.removeByRegex("enderio:gear_stone.*");
+recipes.remove(<thermalfoundation:material:26>);
+recipes.remove(<thermalfoundation:material:27>);
+
 // Remove notreepunching tools (other than flint tools)
 recipes.remove(<notreepunching:mattock/iron>);
 recipes.remove(<notreepunching:mattock/gold>);
