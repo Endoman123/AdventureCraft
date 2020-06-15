@@ -34,7 +34,7 @@
             "loot": [
                 { "data" : {"name" : "minecraft:air"}, "weight" : 100 },
                 { "data" : {"name" : "scalinghealth:crystalshard"}, "weight" : 100 },
-                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 1 }
+                { "data" : {"name" : "scalinghealth:heartcontainer"}, "weight" : 30 }
             ]
         }
     ]
