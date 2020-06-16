@@ -2,7 +2,6 @@ import mods.tconstruct.Alloy;
 import mods.tconstruct.Casting;
 
 // Harder alloy recipe for Aluminum Brass
-Alloy.removeRecipe(<liquid:aluminumbrass>);
 Alloy.removeRecipe(<liquid:alubrass>);
 
 Alloy.addRecipe(<liquid:alubrass> * 9, [<liquid:aluminum>, <liquid:copper> * 6, <liquid:zinc> * 2]);
@@ -24,3 +23,7 @@ Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
 
 // Remove xu2 redstone gear recipe
 Casting.removeTableRecipe(<extrautils2:ingredients:1>);
+
+// Replace clear glass recipe w/ regular glass
+Casting.removeBasinRecipe(<tconstruct:clear_glass>);
+Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 1000);
