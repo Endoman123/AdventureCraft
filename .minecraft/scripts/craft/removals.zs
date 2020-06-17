@@ -5,11 +5,16 @@ recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]])
 recipes.removeShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
 recipes.removeShaped(<minecraft:stick>, [[<futuremc:bamboo>], [<futuremc:bamboo>]]);
 
+// Remove basemetals quartz smelting
+furnace.remove(<minecraft:quartz>, <basemetals:quartz_powder>);
+
 // Remove vanilla ender chest
 recipes.remove(<minecraft:ender_chest>);
 
 // Remove gear recipes
-recipes.removeByRegex("enderio:gear_stone.*");
+recipes.removeByRegex(".+metals:gear_*");
+recipes.removeByRegex("enderio:gear_*");
+recipes.removeByRecipeName("redstonearsenal:material_4");
 recipes.remove(<thermalfoundation:material:26>);
 recipes.remove(<thermalfoundation:material:27>);
 
