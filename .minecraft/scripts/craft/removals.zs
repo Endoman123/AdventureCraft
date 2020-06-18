@@ -27,4 +27,4 @@ recipes.remove(<notreepunching:knife/gold>);
 recipes.remove(<notreepunching:knife/diamond>);
 
 // JEI removal
-mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
+JEI.removeAndHide(<minecraft:ender_chest>);
