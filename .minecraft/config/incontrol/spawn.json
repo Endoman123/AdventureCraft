@@ -10,23 +10,13 @@
     "result": "deny"
   },
   {
-    "mob": "kk:moogle",
-    "incity": true,
-    "result": "allow"
-  },
-  {
-    "mob": "kk:orgmoogle",
-    "incity": true,
-    "result": "allow"
-  },
-  {
-    "mob": "kk:moogle",
-    "mincount": 1,
+    "mob": ["kk:moogle", "kk:orgmoogle"],
+    "incity": false,
     "result": "deny"
   },
   {
-    "mob": "kk:orgmoogle",
-    "mincount": 1,
+    "mob": ["kk:moogle", "kk:orgmoogle"],
+    "mincount": 10,
     "result": "deny"
   },
   {

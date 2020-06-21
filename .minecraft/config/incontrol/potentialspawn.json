@@ -1,1 +1,53 @@
-[]
+[
+    {
+        "dimension": 0,
+        "mobs": [
+            {
+                "mob": "kk:moogle",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "kk:orgmoogle",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "mobs": [
+            {
+                "mob": "kk:moogle",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "kk:orgmoogle",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "tempcategory": "cold",
+        "mobs": [
+            {
+                "mob": "kk:moogle",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "kk:orgmoogle",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    }
+]
