@@ -25,6 +25,21 @@
             "extra": {
                 "connect_inside": true
             }
+        },
+        "1": {
+            "extra": {
+                "connect_inside": true
+            }
+        },
+        "2": {
+            "extra": {
+                "connect_inside": true
+            }
+        },
+        "3": {
+            "extra": {
+                "connect_inside": true
+            }
         }
     }
 }

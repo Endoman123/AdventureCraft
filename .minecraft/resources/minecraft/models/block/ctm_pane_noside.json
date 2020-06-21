@@ -13,5 +13,28 @@
                 "north": { "uv": [ 7, 0, 9, 16 ], "texture": "#side" }
             }
         }
-    ]
+    ],
+    "ctm_version": 1,
+    "ctm_overrides": {
+        "0": {
+            "extra": {
+                "connect_inside": true
+            }
+        },
+        "1": {
+            "extra": {
+                "connect_inside": true
+            }
+        },
+        "2": {
+            "extra": {
+                "connect_inside": true
+            }
+        },
+        "3": {
+            "extra": {
+                "connect_inside": true
+            }
+        }
+    }
 }
