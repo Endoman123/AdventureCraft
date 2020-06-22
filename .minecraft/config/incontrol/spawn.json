@@ -10,26 +10,41 @@
     "result": "deny"
   },
   {
-    "mob": ["kk:moogle", "kk:orgmoogle"],
-    "incity": false,
+    "__comment": "Deny all kk spawns. This is done using a mob array because kk doesn't listen to the mod condition",
+    "mob": ["kk:moogle", "kk:orgmoogle", "kk:shadow", "kk:megashadow", "kk:gigashadow"],
     "result": "deny"
   },
   {
+    "__comment": "Spawn moogle rule. Only spawn moogles in cities, and only 10 at most on the server at any given time, no scaling",
+    "dimension": 0,
     "mob": ["kk:moogle", "kk:orgmoogle"],
-    "mincount": 10,
-    "result": "deny"
+    "incity": true,
+    "maxcount": 10,
+    "result": "allow"
   },
   {
-    "maxlight": 7,
+    "__comment": "Overworld heartless/nobody spawn rule. Only spawn them during the night. Limit to 10, scale per chunk",
+    "dimension": 0,
+    "mob": ["kk:shadow", "kk:megashadow", "kk:gigashadow"],
+    "mintime": 13000,
+    "maxtime": 23000,
+    "maxcount": {
+      "amount": 10,
+      "perchunk": true
+    },
+    "result": "allow"
+  },
+  {
     "mod": "grimoireofgaia",
     "spawner": true,
-    "result": "allow",
+    "maxlight": 7,
     "healthmultiply": 0.6,
-    "angry": true
+    "angry": true,
+    "result": "allow"
   },
   {
     "mob": "grimoireofgaia:deathword",
-    "maxcount": {
+    "mincount": {
       "amount": 10,
       "perplayer": true
     },

@@ -1,6 +1,7 @@
 [
     {
         "dimension": 0,
+        "incity": true,
         "mobs": [
             {
                 "mob": "kk:moogle",
@@ -17,36 +18,34 @@
         ]
     },
     {
-        "dimension": 0,
         "mobs": [
             {
-                "mob": "kk:moogle",
-                "weight": 10,
+                "mob": "kk:shadow",
+                "weight": 100,
+                "groupcountmin": 3,
+                "groupcountmax": 5
+            },
+            {
+                "mob": "kk:megashadow",
+                "weight": 1,
                 "groupcountmin": 1,
                 "groupcountmax": 2
             },
             {
-                "mob": "kk:orgmoogle",
-                "weight": 1,
+                "mob": "kk:gigashadow",
+                "weight": 0.001,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             }
         ]
     },
     {
-        "tempcategory": "cold",
         "mobs": [
             {
-                "mob": "kk:moogle",
-                "weight": 10,
-                "groupcountmin": 1,
-                "groupcountmax": 2
-            },
-            {
-                "mob": "kk:orgmoogle",
+                "mob": "kk:rednocturne",
                 "weight": 1,
                 "groupcountmin": 1,
-                "groupcountmax": 1
+                "groupcountmax": 3
             }
         ]
     }
