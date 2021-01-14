@@ -54,6 +54,69 @@
         "result": "allow"
     },
     {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "dynamictreesbop:leaves0",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "dynamictreesbop:leaves1",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "dynamictreesbop:leaves2",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "dynamictreesbop:leaves3",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "dynamictreesbop:leaves4",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "dynamictreesbop:leaves5",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "playerhelditem": {
+            "item": "notreepunching:knife/flint"
+        },
+        "block": "dynamictreesbop:leaves6",
+        "random": 0.7,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
         "block": "ore:treeLeaves",
         "random": 0.4,
         "drop": "minecraft:stick",
@@ -78,7 +141,37 @@
         "result": "allow"
     },
     {
-        "block": "climaticbiomesdt:leaves0",
+        "block": "dynamictreesbop:leaves1",
+        "random": 0.4,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "dynamictreesbop:leaves2",
+        "random": 0.4,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "dynamictreesbop:leaves3",
+        "random": 0.4,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "dynamictreesbop:leaves4",
+        "random": 0.4,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "dynamictreesbop:leaves5",
+        "random": 0.4,
+        "drop": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "dynamictreesbop:leaves6",
         "random": 0.4,
         "drop": "minecraft:stick",
         "result": "allow"
