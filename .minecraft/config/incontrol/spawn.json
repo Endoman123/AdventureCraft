@@ -11,7 +11,27 @@
   },
   {
     "__comment": "Deny all kk spawns. This is done using a mob array because kk doesn't listen to the mod condition",
-    "mob": ["kk:moogle", "kk:orgmoogle", "kk:shadow", "kk:megashadow", "kk:gigashadow"],
+    "mob": [
+      "kk:moogle", 
+      "kk:orgmoogle", 
+      "kk:shadow", 
+      "kk:megashadow", 
+      "kk:gigashadow",
+      "kk:darkball",
+      "kk:rednocturne",
+      "kk:bluerhapsody",
+      "kk:yellowopera",
+      "kk:greenrequiem",
+      "kk:silverrock",
+      "kk:crimsonjazz",
+      "kk:emeraldblues",
+      "kk:minutebomb",
+      "kk:skaterbomb",
+      "kk:stormbomb",
+      "kk:detonator",
+      "kk:largebody",
+      "kk:whitemushroom"
+    ],
     "result": "deny"
   },
   {
