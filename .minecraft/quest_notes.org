@@ -1,0 +1,39 @@
+#+TITLE: Quest Notes
+
+* Intro: How to Play
+:HowToPlay:
+- *basic controls*
+- mods that affect you
+  + wheel
+  + morph shit
+  + hat nonsense
+  + carry on
+
+* Early Game Section
+:Early:
+- tools (how to cut tree)
+- get flint
+- Knapp flint
+- get a stick
+- make a knife
+- get plant fiber
+- make plant string
+- make axe
+
+- how to get planks
+- tinker smeltry (all tinkers lmao 🙃)
+  + amour
+  + weapon
+
+* To the Nether
+:EarlyMidGame:
+- dungeons intro
+
+* Midgame?
+:Midgame:
+- notable stuff in dungeons
+
+* Reach Challenges
+:LateGame:
+Stuff to do that is not trivial to do
+- incentives with something i dunno smh
