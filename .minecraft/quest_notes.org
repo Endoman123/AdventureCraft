@@ -25,15 +25,12 @@
   + amour
   + weapon
 
-* To the Nether
-:EarlyMidGame:
-- dungeons intro
+* Mod Questlines
+Mainly for the purpose of _getting started_ in a mod, and guiding you through the parts of a mod
 
-* Midgame?
-:Midgame:
-- notable stuff in dungeons
+Rewards should err on the side of less, as basic progressions shouldn't warrant much
 
-* Reach Challenges
-:LateGame:
-Stuff to do that is not trivial to do
-- incentives with something i dunno smh
+* Misc Challenges
+Any sort of wierd stuff, mostly for goal setting
+
+Rewards should be either wierd or kinda useful in a "nice to have fashion"

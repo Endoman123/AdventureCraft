@@ -1628,6 +1628,740 @@
         }
       },
       "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "ingotIron"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "metal man 1",
+          "desc:8": "Collect ingots"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "ingotIron"
+            },
+            "1:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "ingotGold"
+            },
+            "2:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 128,
+              "OreDict:8": "ingotCopper"
+            },
+            "3:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 129,
+              "OreDict:8": "ingotTin"
+            },
+            "4:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 130,
+              "OreDict:8": "ingotSilver"
+            },
+            "5:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 130,
+              "OreDict:8": "ingotSilver"
+            },
+            "6:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 131,
+              "OreDict:8": "ingotLead"
+            },
+            "7:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 132,
+              "OreDict:8": "ingotAluminum"
+            },
+            "8:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 133,
+              "OreDict:8": "ingotNickel"
+            },
+            "9:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 134,
+              "OreDict:8": "ingotPlatinum"
+            },
+            "10:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 160,
+              "OreDict:8": "ingotSteel"
+            },
+            "11:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 161,
+              "OreDict:8": "ingotElectrum"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "extrautils2:unstableingots",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "ingotUnstable"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "metal man 2",
+          "desc:8": "§k§4§4Something of a ignot expert if you may"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {},
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        14
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "avaritia:resource",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": "ingotInfinity"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "metal man 3",
+          "desc:8": "§T§4The final metal man challenge"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        15,
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "enderio:item_dark_steel_upgrade",
+            "Count:3": 1,
+            "tag:10": {
+              "enderio:dsu:8": "enderio:inv1",
+              "enderio:enabled:1": 1
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "OH GOD OH HOLY SHIT OH",
+          "desc:8": "§kOH GOD OH GOD OHG GOD OSIGAOIEOIJAOEIJGOIJEOJG\nsafoifnoianfwinfoenifnoenafeoa\nifjoafiejfoiajeofjaifojaofiaof\nfeopajfioejfioajiofjoiajoifjoa\nospajojpj20-0-0-303-0-\nakcienonionownionioninvoenineonneono\n39032930239209023920390292020220jskans\naoaaaoaoaaoaaa\n!jkndsjkfndjknskndjskfnskdfnks\n§l!!!!!§l§k!!!§kssss???????????????2jo3jio\n920930920930293029209023§r§l!!!!!!!!!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "amount:3": 99,
+          "isLevels:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:xp"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "end_steel",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "radaway_slow",
+                "Amount:3": 1000
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "openblocks:trophy",
+            "Count:3": 1,
+            "tag:10": {
+              "entity_id:8": "minecraft:cow"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "methane reducer",
+          "desc:8": "§4you saved minecraft (: congratulations"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.20000000298023224,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "nuclearcraft:capability_entity_rads:10": {
+                "consumed:1": 0,
+                "radawayBuffer:6": 0.0,
+                "shouldWarn:1": 0,
+                "radXUsed:1": 0,
+                "poisonBuffer:6": 0.0,
+                "radXCooldown:6": 0.0,
+                "radXWoreOff:1": 0,
+                "radawayCooldown:6": 0.0,
+                "recentRadawayAddition:6": 0.0,
+                "maxRads:6": 500.0,
+                "radawayBufferSlow:6": 0.0,
+                "externalRadiationResistance:6": 0.0,
+                "totalRads:6": 0.0,
+                "setFromMaxHealth:1": 1,
+                "radiationLevel:6": 0.0,
+                "recentPoisonAddition:6": 0.0,
+                "recentRadXAddition:6": 0.0,
+                "radiationImmunityStage:1": 0,
+                "internalRadiationResistance:6": 0.0,
+                "radiationImmunityTime:6": 0.0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice and Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0,
+                  "DreadPortalZ:3": 0,
+                  "DreadPortalY:3": 0,
+                  "DreadPortalX:3": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:cow",
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7927187532325231299,
+            "Health:5": 10.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 2.4048572,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 7979496909383223360,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "SurgeAABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.5999999642372131,
+              "4:6": 1.399999976158142,
+              "5:6": 0.5999999642372131
+            }
+          },
+          "damageType:8": "",
+          "required:3": 100,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:cow",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "openblocks:trophy",
+              "Count:3": 1,
+              "tag:10": {
+                "entity_id:8": "minecraft:cow"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:garlicsteakitem",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "harvestcraft:salisburysteakitem",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "grimoireofgaia:misc_experience",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Apprentice",
+          "desc:8": "§4u cant enchant tinkers tools lmao"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "amount:3": 30,
+          "isLevels:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:xp"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "grimoireofgaia:misc_experience",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "grimoireofgaia:misc_experience",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Expert",
+          "desc:8": "better than an apprentice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "amount:3": 60,
+          "isLevels:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:xp"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "grimoireofgaia:misc_experience",
+              "Count:3": 3,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "grimoireofgaia:misc_experience",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Master",
+          "desc:8": "too many levels"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "amount:3": 100,
+          "isLevels:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:xp"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "grimoireofgaia:misc_experience",
+              "Count:3": 12,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "21:10": {
+      "questID:3": 21,
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:knowledge_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Master of Masters",
+          "desc:8": "§4be a shame if you died"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "amount:3": 160,
+          "isLevels:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:xp"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bountifulbaubles:crowngold",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "grimoireofgaia:misc_experience",
+              "Count:3": 30,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -1835,6 +2569,90 @@
         }
       },
       "order:3": 2
+    },
+    "3:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": -24,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": -60,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -60,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -24,
+          "id:3": 16,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 12,
+          "id:3": 17,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -24,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -60,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -96,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -132,
+          "id:3": 21,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "Bucket List",
+          "icon:10": {
+            "id:8": "futuremc:tropical_fish_bucket",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Bucket List Bucket List B"
+        }
+      },
+      "order:3": 3
     }
   },
   "questSettings:10": {
