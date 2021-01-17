@@ -26,12 +26,12 @@ oNetherQuartz.add(<minecraft:quartz>);
 
 // Replace recipe for annihlation and formation cores
 recipes.removeByRegex("appliedenergistics2\\:materials\/.*core");
-recipes.addShaped("custom:annihlation_core", aCore, [
+recipes.addShaped("advc_annihlation_core", aCore, [
     [null, null, null],
     [oNetherQuartz | pNether, fDust, lProc],
     [null, null, null]    
 ]);
-recipes.addShaped("custom:formation_core", fCore, [
+recipes.addShaped("advc_formation_core", fCore, [
     [null, null, null],
     [oCertus | pCertus, fDust, lProc],
     [null, null, null]    

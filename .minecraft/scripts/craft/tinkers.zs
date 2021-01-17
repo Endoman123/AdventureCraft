@@ -1,6 +1,23 @@
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Casting;
 
+// Harder recipe for Crafting Workstation
+val lw = <ore:logWood>;
+val pw = <ore:plankWood>;
+val ct = <minecraft:crafting_table>;
+
+
+
+recipes.remove(<tconstruct:tooltables:0>);
+recipes.removeShaped(<tconstruct:tooltables:0>);
+
+recipes.addShaped("advc_crafting_station", <tconstruct:tooltables:0> * 1,
+[
+    [pw, pw, pw],
+    [lw, ct, lw],
+    [lw, null, lw]
+]);
+
 // Harder alloy recipe for Aluminum Brass
 Alloy.removeRecipe(<liquid:alubrass>);
 
