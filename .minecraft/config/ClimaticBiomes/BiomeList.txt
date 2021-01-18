@@ -163,7 +163,10 @@ climaticbiomesjbg:marsh
 climaticbiomesjbg:temperate_river
 climaticbiomesjbg:subtropical_river
 climaticbiomesjbg:tropical_river
+climaticbiomesjbg:coastal_waters
+climaticbiomesjbg:frozen_coastal_waters
 iceandfire:glacier
+nuclearcraft:nuclear_wasteland
 advancedrocketry:moon
 advancedrocketry:alien forest
 advancedrocketry:hotdryrock
