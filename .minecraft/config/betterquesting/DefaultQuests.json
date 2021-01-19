@@ -1459,7 +1459,7 @@
           "tasklogic:8": "AND",
           "repeattime:3": -1,
           "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
+          "simultaneous:1": 1,
           "icon:10": {
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
