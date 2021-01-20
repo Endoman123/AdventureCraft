@@ -26,5 +26,15 @@ recipes.remove(<notreepunching:knife/iron>);
 recipes.remove(<notreepunching:knife/gold>);
 recipes.remove(<notreepunching:knife/diamond>);
 
+// Remove vanilla redstone gates
+recipes.remove(<minecraft:repeater>);
+recipes.remove(<minecraft:comparator>);
+
+// Remove vanilla daylight detector
+recipes.remove(<minecraft:daylight_detector>);
+
 // JEI removal
+JEI.removeAndHide(<minecraft:repeater>);
+JEI.removeAndHide(<minecraft:comparator>); 
+JEI.removeAndHide(<minecraft:daylight_detector>);
 JEI.removeAndHide(<minecraft:ender_chest>);
