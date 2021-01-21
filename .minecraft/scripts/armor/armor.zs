@@ -9,7 +9,10 @@ import modtweaker.tconstruct.ITICMaterial;
 
 // Script that gives minecraft mobs some drip
 
-// Procedurally generates all combinations of parts to assign to mobs.
+// Procedurally generates combinations of parts to assign to mobs.
+
+// TODO Factory functions for equipement is pretty copy-pastey but I don't want to use any more zenscript then I have to
+// TODO equipment appears to not spawn with traits (bug???)
 
 // ===== Config ====================================================================================================
 val armor_chance as double = 1.0;
@@ -19,131 +22,317 @@ val armor_chance as double = 1.0;
 // --- Weapon materials
 // Key is the material, Value is the weight
 val headMap = {
-     <ticmat:alumite>                        : 1
+     <ticmat:alumite>                        : 1,
+     <ticmat:amethyst>                       : 1,
+     <ticmat:ardite>                         : 1,
+     <ticmat:blood_infused_iron>             : 1,
+     <ticmat:blood_infused_wood>             : 1,
+     <ticmat:blueslime>                      : 1,
+     <ticmat:bone>                           : 1,
+     <ticmat:boron>                          : 1,
+     <ticmat:boron_nitride>                  : 1,
+     <ticmat:bronze>                         : 1,
+     <ticmat:cactus>                         : 1,
+     <ticmat:certusquartz_plustic>           : 1,
+     <ticmat:chocolate>                      : 1,
+     <ticmat:cobalt>                         : 1,
+     <ticmat:conductive_iron>                : 1,
+     <ticmat:construction_alloy>             : 1,
+     <ticmat:copper>                         : 1,
+     <ticmat:crude_steel>                    : 1,
+     <ticmat:crystalline_pink_slime>         : 1,
+     <ticmat:dark_steel>                     : 1,
+     <ticmat:desert_myrmex>                  : 1,
+     <ticmat:dragonbone>                     : 1,
+     <ticmat:dragonsteel_fire>               : 1,
+     <ticmat:dragonsteel_ice>                : 1,
+     <ticmat:electrical_steel>               : 1,
+     <ticmat:electrum>                       : 1,
+     <ticmat:elementium>                     : 1,
+     <ticmat:emerald_plustic>                : 1,
+     <ticmat:end_steel>                      : 1,
+   <ticmat:enderium_plustic>               : 1,
+     <ticmat:endstone>                       : 1,
+     <ticmat:energetic_alloy>                : 1,
+     <ticmat:extrabotany:ingotorichalcos>    : 1,
+     <ticmat:extrabotany:ingotshadowium>     : 1,
+     <ticmat:firewood>                       : 1,
+     <ticmat:flint>                          : 1,
+     <ticmat:fluixcrystal_plustic>           : 1,
+     <ticmat:hard_carbon>                    : 1,
+     <ticmat:infinity_avaritia_plustic>      : 1,
+     <ticmat:invar>                          : 1,
+     <ticmat:iridium>                        : 1,
+     <ticmat:iron>                           : 1,
+     <ticmat:jungle_myrmex>                  : 1,
+     <ticmat:knightslime>                    : 1,
+     <ticmat:lead>                           : 1,
+     <ticmat:livingwood_plustic>             : 1,
+     <ticmat:lumium_plustic>                 : 1,
+     <ticmat:magmaslime>                     : 1,
+     <ticmat:magnesium>                      : 1,
+     <ticmat:manasteel>                      : 1,
+     <ticmat:manyullyn>                      : 1,
+     <ticmat:melodic_alloy>                  : 1,
+     <ticmat:netherrack>                     : 1,
+     <ticmat:nickel>                         : 1,
+     <ticmat:obsidian>                       : 1,
+     <ticmat:osgloglas>                      : 1,
+     <ticmat:osmiridium>                     : 1,
+     <ticmat:osmium>                         : 1,
+     <ticmat:paper>                          : 1,
+     <ticmat:pigiron>                        : 1,
+     <ticmat:platinum_plustic>               : 1,
+     <ticmat:prismarine>                     : 1,
+     <ticmat:psigem>                         : 1,
+     <ticmat:psimetal>                       : 1,
+     <ticmat:pulsating_iron>                 : 1,
+     <ticmat:redstone_alloy>                 : 1,
+     <ticmat:refinedglowstone>               : 1,
+     <ticmat:refinedobsidian>                : 1,
+     <ticmat:signalum_plustic>               : 1,
+     <ticmat:silver>                         : 1,
+     <ticmat:slime>                          : 1,
+     <ticmat:soularium>                      : 1,
+     <ticmat:sponge>                         : 1,
+     <ticmat:starmetal>                      : 1,
+     <ticmat:steel>                          : 1,
+     <ticmat:stone>                          : 1,
+     <ticmat:terrasteel>                     : 1,
+     <ticmat:thorium>                        : 1,
+     <ticmat:titanium>                       : 1,
+     <ticmat:tough>                          : 1,
+     <ticmat:uranium>                        : 1,
+     <ticmat:vibrant_alloy>                  : 1,
+     <ticmat:vivid_alloy>                    : 1,
+     <ticmat:weezer>                         : 1,
+     <ticmat:wood>                           : 1,
+     <ticmat:xu_demonic_metal>               : 1,
+     <ticmat:xu_enchanted_metal>             : 1,
+     <ticmat:xu_evil_metal>                  : 1,
+     <ticmat:xu_magical_wood>                : 1
 } as int[ITICMaterial];
 
 val handleMap = {
-     <ticmat:alumite>                        : 1
+     <ticmat:alumite>                        : 1,
+     <ticmat:amethyst>                       : 1,
+     <ticmat:ardite>                         : 1,
+     <ticmat:blood_infused_iron>             : 1,
+     <ticmat:blood_infused_wood>             : 1,
+     <ticmat:blueslime>                      : 1,
+     <ticmat:bone>                           : 1,
+     <ticmat:boron>                          : 1,
+     <ticmat:boron_nitride>                  : 1,
+     <ticmat:bronze>                         : 1,
+     <ticmat:cactus>                         : 1,
+     <ticmat:certusquartz_plustic>           : 1,
+     <ticmat:chocolate>                      : 1,
+     <ticmat:cobalt>                         : 1,
+     <ticmat:conductive_iron>                : 1,
+     <ticmat:construction_alloy>             : 1,
+     <ticmat:copper>                         : 1,
+     <ticmat:crude_steel>                    : 1,
+     <ticmat:crystalline_pink_slime>         : 1,
+     <ticmat:dark_steel>                     : 1,
+     <ticmat:desert_myrmex>                  : 1,
+     <ticmat:dragonbone>                     : 1,
+     <ticmat:dragonsteel_fire>               : 1,
+     <ticmat:dragonsteel_ice>                : 1,
+     <ticmat:electrical_steel>               : 1,
+     <ticmat:electrum>                       : 1,
+     <ticmat:elementium>                     : 1,
+     <ticmat:emerald_plustic>                : 1,
+     <ticmat:end_steel>                      : 1,
+   <ticmat:enderium_plustic>               : 1,
+     <ticmat:endstone>                       : 1,
+     <ticmat:energetic_alloy>                : 1,
+     <ticmat:extrabotany:ingotorichalcos>    : 1,
+     <ticmat:extrabotany:ingotshadowium>     : 1,
+     <ticmat:firewood>                       : 1,
+     <ticmat:flint>                          : 1,
+     <ticmat:fluixcrystal_plustic>           : 1,
+     <ticmat:hard_carbon>                    : 1,
+     <ticmat:infinity_avaritia_plustic>      : 1,
+     <ticmat:invar>                          : 1,
+     <ticmat:iridium>                        : 1,
+     <ticmat:iron>                           : 1,
+     <ticmat:jungle_myrmex>                  : 1,
+     <ticmat:knightslime>                    : 1,
+     <ticmat:lead>                           : 1,
+     <ticmat:livingwood_plustic>             : 1,
+     <ticmat:lumium_plustic>                 : 1,
+     <ticmat:magmaslime>                     : 1,
+     <ticmat:magnesium>                      : 1,
+     <ticmat:manasteel>                      : 1,
+     <ticmat:manyullyn>                      : 1,
+     <ticmat:melodic_alloy>                  : 1,
+     <ticmat:netherrack>                     : 1,
+     <ticmat:nickel>                         : 1,
+     <ticmat:obsidian>                       : 1,
+     <ticmat:osgloglas>                      : 1,
+     <ticmat:osmiridium>                     : 1,
+     <ticmat:osmium>                         : 1,
+     <ticmat:paper>                          : 1,
+     <ticmat:pigiron>                        : 1,
+     <ticmat:platinum_plustic>               : 1,
+     <ticmat:prismarine>                     : 1,
+     <ticmat:psigem>                         : 1,
+     <ticmat:psimetal>                       : 1,
+     <ticmat:pulsating_iron>                 : 1,
+     <ticmat:redstone_alloy>                 : 1,
+     <ticmat:refinedglowstone>               : 1,
+     <ticmat:refinedobsidian>                : 1,
+     <ticmat:signalum_plustic>               : 1,
+     <ticmat:silver>                         : 1,
+     <ticmat:slime>                          : 1,
+     <ticmat:soularium>                      : 1,
+     <ticmat:sponge>                         : 1,
+     <ticmat:starmetal>                      : 1,
+     <ticmat:steel>                          : 1,
+     <ticmat:stone>                          : 1,
+     <ticmat:terrasteel>                     : 1,
+     <ticmat:thorium>                        : 1,
+     <ticmat:titanium>                       : 1,
+     <ticmat:tough>                          : 1,
+     <ticmat:uranium>                        : 1,
+     <ticmat:vibrant_alloy>                  : 1,
+     <ticmat:vivid_alloy>                    : 1,
+     <ticmat:weezer>                         : 1,
+     <ticmat:wood>                           : 1,
+     <ticmat:xu_demonic_metal>               : 1,
+     <ticmat:xu_enchanted_metal>             : 1,
+     <ticmat:xu_evil_metal>                  : 1,
+     <ticmat:xu_magical_wood>                : 1
 } as int[ITICMaterial];
 
 val extraMap = {
-     <ticmat:alumite>                        : 1
+     <ticmat:alumite>                        : 1,
+     <ticmat:amethyst>                       : 1,
+     <ticmat:ardite>                         : 1,
+     <ticmat:blood_infused_iron>             : 1,
+     <ticmat:blood_infused_wood>             : 1,
+     <ticmat:blueslime>                      : 1,
+     <ticmat:bone>                           : 1,
+     <ticmat:boron>                          : 1,
+     <ticmat:boron_nitride>                  : 1,
+     <ticmat:bronze>                         : 1,
+     <ticmat:cactus>                         : 1,
+     <ticmat:certusquartz_plustic>           : 1,
+     <ticmat:chocolate>                      : 1,
+     <ticmat:cobalt>                         : 1,
+     <ticmat:conductive_iron>                : 1,
+     <ticmat:construction_alloy>             : 1,
+     <ticmat:copper>                         : 1,
+     <ticmat:crude_steel>                    : 1,
+     <ticmat:crystalline_pink_slime>         : 1,
+     <ticmat:dark_steel>                     : 1,
+     <ticmat:desert_myrmex>                  : 1,
+     <ticmat:dragonbone>                     : 1,
+     <ticmat:dragonsteel_fire>               : 1,
+     <ticmat:dragonsteel_ice>                : 1,
+     <ticmat:electrical_steel>               : 1,
+     <ticmat:electrum>                       : 1,
+     <ticmat:elementium>                     : 1,
+     <ticmat:emerald_plustic>                : 1,
+     <ticmat:end_steel>                      : 1,
+   <ticmat:enderium_plustic>               : 1,
+     <ticmat:endstone>                       : 1,
+     <ticmat:energetic_alloy>                : 1,
+     <ticmat:extrabotany:ingotorichalcos>    : 1,
+     <ticmat:extrabotany:ingotshadowium>     : 1,
+     <ticmat:firewood>                       : 1,
+     <ticmat:flint>                          : 1,
+     <ticmat:fluixcrystal_plustic>           : 1,
+     <ticmat:hard_carbon>                    : 1,
+     <ticmat:infinity_avaritia_plustic>      : 1,
+     <ticmat:invar>                          : 1,
+     <ticmat:iridium>                        : 1,
+     <ticmat:iron>                           : 1,
+     <ticmat:jungle_myrmex>                  : 1,
+     <ticmat:knightslime>                    : 1,
+     <ticmat:lead>                           : 1,
+     <ticmat:livingwood_plustic>             : 1,
+     <ticmat:lumium_plustic>                 : 1,
+     <ticmat:magmaslime>                     : 1,
+     <ticmat:magnesium>                      : 1,
+     <ticmat:manasteel>                      : 1,
+     <ticmat:manyullyn>                      : 1,
+     <ticmat:melodic_alloy>                  : 1,
+     <ticmat:netherrack>                     : 1,
+     <ticmat:nickel>                         : 1,
+     <ticmat:obsidian>                       : 1,
+     <ticmat:osgloglas>                      : 1,
+     <ticmat:osmiridium>                     : 1,
+     <ticmat:osmium>                         : 1,
+     <ticmat:paper>                          : 1,
+     <ticmat:pigiron>                        : 1,
+     <ticmat:platinum_plustic>               : 1,
+     <ticmat:prismarine>                     : 1,
+     <ticmat:psigem>                         : 1,
+     <ticmat:psimetal>                       : 1,
+     <ticmat:pulsating_iron>                 : 1,
+     <ticmat:redstone_alloy>                 : 1,
+     <ticmat:refinedglowstone>               : 1,
+     <ticmat:refinedobsidian>                : 1,
+     <ticmat:signalum_plustic>               : 1,
+     <ticmat:silver>                         : 1,
+     <ticmat:slime>                          : 1,
+     <ticmat:soularium>                      : 1,
+     <ticmat:sponge>                         : 1,
+     <ticmat:starmetal>                      : 1,
+     <ticmat:steel>                          : 1,
+     <ticmat:stone>                          : 1,
+     <ticmat:terrasteel>                     : 1,
+     <ticmat:thorium>                        : 1,
+     <ticmat:titanium>                       : 1,
+     <ticmat:tough>                          : 1,
+     <ticmat:uranium>                        : 1,
+     <ticmat:vibrant_alloy>                  : 1,
+     <ticmat:vivid_alloy>                    : 1,
+     <ticmat:weezer>                         : 1,
+     <ticmat:wood>                           : 1,
+     <ticmat:xu_demonic_metal>               : 1,
+     <ticmat:xu_enchanted_metal>             : 1,
+     <ticmat:xu_evil_metal>                  : 1,
+     <ticmat:xu_magical_wood>                : 1
 } as int[ITICMaterial];
 
 // --- Armor materials
 val armorCoreMap = {
+     <ticmat:stone>                          : 1,
+     <ticmat:paper>                          : 1,
+     <ticmat:knightslime>                    : 1,
+     <ticmat:sponge>                          : 1,
+     <ticmat:electrum>                      : 1,
      <ticmat:iron>                           : 1
 } as int[ITICMaterial];
 
 val armorTrimMap = {
+     <ticmat:stone>                          : 1,
+     <ticmat:paper>                          : 1,
+     <ticmat:sponge>                          : 1,
+     <ticmat:electrum>                      : 1,
+     <ticmat:knightslime>                    : 1,
      <ticmat:iron>                           : 1
 } as int[ITICMaterial];
 
 val armorPlateMap = {
+     <ticmat:stone>                          : 1,
+     <ticmat:sponge>                          : 1,
+     <ticmat:paper>                          : 1,
+     <ticmat:knightslime>                    : 1,
+     <ticmat:electrum>                      : 1,
      <ticmat:iron>                           : 1
 } as int[ITICMaterial];
 
-// static materialMap = {
-//     <ticmat:alumite>                        : 0,
-//     <ticmat:amethyst>                       : 0,
-//     <ticmat:ardite>                         : 0,
-//     <ticmat:blood_infused_iron>             : 0,
-//     <ticmat:blood_infused_wood>             : 0,
-//     <ticmat:blueslime>                      : 0,
-//     <ticmat:bone>                           : 0,
-//     <ticmat:boron>                          : 0,
-//     <ticmat:boron_nitride>                  : 0,
-//     <ticmat:bronze>                         : 0,
-//     <ticmat:cactus>                         : 0,
-//     <ticmat:certusquartz_plustic>           : 0,
-//     <ticmat:chocolate>                      : 0,
-//     <ticmat:cobalt>                         : 0,
-//     <ticmat:conductive_iron>                : 0,
-//     <ticmat:construction_alloy>             : 0,
-//     <ticmat:copper>                         : 0,
-//     <ticmat:crude_steel>                    : 0,
-//     <ticmat:crystalline_pink_slime>         : 0,
-//     <ticmat:dark_steel>                     : 0,
-//     <ticmat:desert_myrmex>                  : 0,
-//     <ticmat:dragonbone>                     : 0,
-//     <ticmat:dragonsteel_fire>               : 0,
-//     <ticmat:dragonsteel_ice>                : 0,
-//     <ticmat:electrical_steel>               : 0,
-//     <ticmat:electrum>                       : 0,
-//     <ticmat:elementium>                     : 0,
-//     <ticmat:emerald_plustic>                : 0,
-//     <ticmat:end_steel>                      : 0,
-//     <ticmat:enderium_plustic>               : 0,
-//     <ticmat:endstone>                       : 0,
-//     <ticmat:energetic_alloy>                : 0,
-//     <ticmat:extrabotany:ingotorichalcos>    : 0,
-//     <ticmat:extrabotany:ingotshadowium>     : 0,
-//     <ticmat:firewood>                       : 0,
-//     <ticmat:flint>                          : 0,
-//     <ticmat:fluixcrystal_plustic>           : 0,
-//     <ticmat:hard_carbon>                    : 0,
-//     <ticmat:infinity_avaritia_plustic>      : 0,
-//     <ticmat:invar>                          : 0,
-//     <ticmat:iridium>                        : 0,
-//     <ticmat:iron>                           : 0,
-//     <ticmat:jungle_myrmex>                  : 0,
-//     <ticmat:knightslime>                    : 0,
-//     <ticmat:lead>                           : 0,
-//     <ticmat:livingwood_plustic>             : 0,
-//     <ticmat:lumium_plustic>                 : 0,
-//     <ticmat:magmaslime>                     : 0,
-//     <ticmat:magnesium>                      : 0,
-//     <ticmat:manasteel>                      : 0,
-//     <ticmat:manyullyn>                      : 0,
-//     <ticmat:melodic_alloy>                  : 0,
-//     <ticmat:netherrack>                     : 0,
-//     <ticmat:nickel>                         : 0,
-//     <ticmat:obsidian>                       : 0,
-//     <ticmat:osgloglas>                      : 0,
-//     <ticmat:osmiridium>                     : 0,
-//     <ticmat:osmium>                         : 0,
-//     <ticmat:paper>                          : 0,
-//     <ticmat:pigiron>                        : 0,
-//     <ticmat:platinum_plustic>               : 0,
-//     <ticmat:prismarine>                     : 0,
-//     <ticmat:psigem>                         : 0,
-//     <ticmat:psimetal>                       : 0,
-//     <ticmat:pulsating_iron>                 : 0,
-//     <ticmat:redstone_alloy>                 : 0,
-//     <ticmat:refinedglowstone>               : 0,
-//     <ticmat:refinedobsidian>                : 0,
-//     <ticmat:signalum_plustic>               : 0,
-//     <ticmat:silver>                         : 0,
-//     <ticmat:slime>                          : 0,
-//     <ticmat:soularium>                      : 0,
-//     <ticmat:sponge>                         : 0,
-//     <ticmat:starmetal>                      : 0,
-//     <ticmat:steel>                          : 0,
-//     <ticmat:stone>                          : 0,
-//     <ticmat:terrasteel>                     : 0,
-//     <ticmat:thorium>                        : 0,
-//     <ticmat:titanium>                       : 0,
-//     <ticmat:tough>                          : 0,
-//     <ticmat:uranium>                        : 0,
-//     <ticmat:vibrant_alloy>                  : 0,
-//     <ticmat:vivid_alloy>                    : 0,
-//     <ticmat:weezer>                         : 0,
-//     <ticmat:wood>                           : 0,
-//     <ticmat:xu_demonic_metal>               : 0,
-//     <ticmat:xu_enchanted_metal>             : 0,
-//     <ticmat:xu_evil_metal>                  : 0,
-//     <ticmat:xu_magical_wood>                : 0
-// } as int[IItemStack];
-
 // Entities allowed
-// Key is entity string, Value is game stage allowed
+// TODO use Value for game stages
 val entities = {
     "minecraft:zombie"  : "standard"
 } as string[string];
 
 // ===== Functions ==================================================================================================
 
-// Adds all entities in `entities` to the ArmorGroup
 function addEntitiesToArmorGroup(group as ArmorGroup, entities as string[string]) {
     for entity in entities {
         var armorEntity = ArmorHandler.createArmorEntity(entity);
@@ -151,18 +340,31 @@ function addEntitiesToArmorGroup(group as ArmorGroup, entities as string[string]
     }
 }
 
-// Adds combinations of weapons created from `headMap`, `handleMap`, and
-// `extraMap` to the ArmorGroup
-function addWeaponArmorSlots(
+function addWeaponSlots(
     group as ArmorGroup,
     headMap as int[ITICMaterial],
     handleMap as int[ITICMaterial],
     extraMap as int[ITICMaterial]
 ) {
     addBroadswordArmorSlots(group, headMap, handleMap, extraMap);
+    addCleaverArmorSlots(group, headMap, handleMap, extraMap);
+    addLumberaxeArmorSlots(group, headMap, handleMap, extraMap);
+}
+
+function addArmorSlots(
+    group as ArmorGroup,
+    headMap as int[ITICMaterial],
+    handleMap as int[ITICMaterial],
+    extraMap as int[ITICMaterial]
+) {
+    addHelmetArmorSlots(group, headMap, handleMap, extraMap);
+    addChestplateArmorSlots(group, headMap, handleMap, extraMap);
+    addLeggingsArmorSlots(group, headMap, handleMap, extraMap);
+    addBootsArmorSlots(group, headMap, handleMap, extraMap);
 }
 
 // ===== Weapon Constructors ========================================================================================
+// TODO it'd be nice to combine these, but some of the weapon types take > 3 materials to build them...
 
 function addBroadswordArmorSlots(
     group as ArmorGroup,
@@ -183,38 +385,183 @@ function addBroadswordArmorSlots(
                 group.addArmor(ArmorHandler.createArmorSlot(
                     "mainhand",
                     weapon,
-                    100, // TODO replace
-                    1.0 // TODO replace
+                    100, // TODO replace with weighted sum of material weights
+                    1.0 // TODO drop chance should NOT be 100 %
                 ));
             }
         }
     }
 }
 
+function addCleaverArmorSlots(
+    group as ArmorGroup,
+    headMap as int[ITICMaterial],
+    handleMap as int[ITICMaterial],
+    extraMap as int[ITICMaterial]
+) {
+    val definition = <tconstruct:cleaver>.definition;
+
+    for head, headWeight in headMap {
+        for handle, handleWeight in handleMap {
+            for extra, extraWeight in extraMap {
+                val weapon = Toolforge.buildTool(definition, [
+                    head as ITICMaterial,
+                    handle as ITICMaterial,
+                    extra as ITICMaterial,
+                    extra as ITICMaterial
+                ]);
+                group.addArmor(ArmorHandler.createArmorSlot(
+                    "mainhand",
+                    weapon,
+                    100, // TODO replace with weighted sum of material weights
+                    1.0 // TODO drop chance should NOT be 100 %
+                ));
+            }
+        }
+    }
+}
+
+function addLumberaxeArmorSlots(
+    group as ArmorGroup,
+    headMap as int[ITICMaterial],
+    handleMap as int[ITICMaterial],
+    extraMap as int[ITICMaterial]
+) {
+    val definition = <tconstruct:lumberaxe>.definition;
+
+    for head, headWeight in headMap {
+        for handle, handleWeight in handleMap {
+            for extra, extraWeight in extraMap {
+                val weapon = Toolforge.buildTool(definition, [
+                    head as ITICMaterial,
+                    handle as ITICMaterial,
+                    extra as ITICMaterial,
+                    extra as ITICMaterial
+                ]);
+                group.addArmor(ArmorHandler.createArmorSlot(
+                    "mainhand",
+                    weapon,
+                    100, // TODO replace with weighted sum of material weights
+                    1.0 // TODO drop chance should NOT be 100 %
+                ));
+            }
+        }
+    }
+}
+// ===== Armor Constructors =========================================================================================
+
 // Gets all combinations of helmet armor slots to be added to a group
-function helmetArmorSlots() as ArmorSlot [] {
-    return [] as ArmorSlot[];
+function addHelmetArmorSlots(
+    group as ArmorGroup,
+    armorCoreMap as int[ITICMaterial],
+    armorPlateMap as int[ITICMaterial],
+    armorTrimMap as int[ITICMaterial]
+) as ArmorSlot [] {
+    val definition = <conarm:helmet>.definition;
 
+    for core, coreWeight in armorCoreMap {
+        for plate, plateWeight in armorPlateMap {
+            for trim, trimWeight in armorTrimMap {
+                val armor = Toolforge.buildTool(definition, [
+                    core as ITICMaterial,
+                    plate as ITICMaterial,
+                    trim as ITICMaterial
+                ]);
+                group.addArmor(ArmorHandler.createArmorSlot(
+                    "head",
+                    armor,
+                    100, // TODO replace with weighted sum of material weights
+                    1.0 // TODO drop chance should NOT be 100 %
+                ));
+            }
+        }
+    }
 }
 
-// Gets all combinations of chestplate armor slots to be added to a group
-function chestplateArmorSlots() as ArmorSlot [] {
-    return [] as ArmorSlot[];
+function addChestplateArmorSlots(
+    group as ArmorGroup,
+    armorCoreMap as int[ITICMaterial],
+    armorPlateMap as int[ITICMaterial],
+    armorTrimMap as int[ITICMaterial]
+) as ArmorSlot [] {
+    val definition = <conarm:chestplate>.definition;
 
+    for core, coreWeight in armorCoreMap {
+        for plate, plateWeight in armorPlateMap {
+            for trim, trimWeight in armorTrimMap {
+                val armor = Toolforge.buildTool(definition, [
+                    core as ITICMaterial,
+                    plate as ITICMaterial,
+                    trim as ITICMaterial
+                ]);
+                group.addArmor(ArmorHandler.createArmorSlot(
+                    "chest",
+                    armor,
+                    100, // TODO replace with weighted sum of material weights
+                    1.0 // TODO drop chance should NOT be 100 %
+                ));
+            }
+        }
+    }
 }
 
-// Gets all combinations of leggings armor slots to be added to a group
-function leggingsArmorSlots() as ArmorSlot [] {
-    return [] as ArmorSlot[];
+function addLeggingsArmorSlots(
+    group as ArmorGroup,
+    armorCoreMap as int[ITICMaterial],
+    armorPlateMap as int[ITICMaterial],
+    armorTrimMap as int[ITICMaterial]
+) as ArmorSlot [] {
+    val definition = <conarm:leggings>.definition;
 
+    for core, coreWeight in armorCoreMap {
+        for plate, plateWeight in armorPlateMap {
+            for trim, trimWeight in armorTrimMap {
+                val armor = Toolforge.buildTool(definition, [
+                    core as ITICMaterial,
+                    plate as ITICMaterial,
+                    trim as ITICMaterial
+                ]);
+                group.addArmor(ArmorHandler.createArmorSlot(
+                    "legs",
+                    armor,
+                    100, // TODO replace with weighted sum of material weights
+                    1.0 // TODO drop chance should NOT be 100 %
+                ));
+            }
+        }
+    }
 }
 
-// Gets all combinations of boots armor slots to be added to a group
-function bootsArmorSlots() as ArmorSlot [] {
-    return [] as ArmorSlot[];
+function addBootsArmorSlots(
+    group as ArmorGroup,
+    armorCoreMap as int[ITICMaterial],
+    armorPlateMap as int[ITICMaterial],
+    armorTrimMap as int[ITICMaterial]
+) as ArmorSlot [] {
+    val definition = <conarm:boots>.definition;
+
+    for core, coreWeight in armorCoreMap {
+        for plate, plateWeight in armorPlateMap {
+            for trim, trimWeight in armorTrimMap {
+                val armor = Toolforge.buildTool(definition, [
+                    core as ITICMaterial,
+                    plate as ITICMaterial,
+                    trim as ITICMaterial
+                ]);
+                group.addArmor(ArmorHandler.createArmorSlot(
+                    "feet",
+                    armor,
+                    100, // TODO replace with weighted sum of material weights
+                    1.0 // TODO drop chance should NOT be 100 %
+                ));
+            }
+        }
+    }
 }
+
 
 // ===== Main ======================================================================================================
 var group = ArmorHandler.createArmorGroup("drip", 1.0);
 addEntitiesToArmorGroup(group, entities);
-addWeaponArmorSlots(group, headMap, handleMap, extraMap);
+addWeaponSlots(group, headMap, handleMap, extraMap);
+addArmorSlots(group, armorCoreMap, armorPlateMap, armorTrimMap);
