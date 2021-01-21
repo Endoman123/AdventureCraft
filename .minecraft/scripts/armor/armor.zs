@@ -12,36 +12,36 @@ import modtweaker.tconstruct.ITICMaterial;
 // Procedurally generates all combinations of parts to assign to mobs.
 
 // ===== Config ====================================================================================================
-static armor_chance as double = 1.0;
+val armor_chance as double = 1.0;
 
 // ===== Maps ======================================================================================================
 
 // --- Weapon materials
 // Key is the material, Value is the weight
-static headMap as int[ITICMaterial] = {
+val headMap = {
      <ticmat:alumite>                        : 1
-};
+} as int[ITICMaterial];
 
-static handleMap as int[ITICMaterial] = {
+val handleMap = {
      <ticmat:alumite>                        : 1
-};
+} as int[ITICMaterial];
 
-static extraMap as int[ITICMaterial] = {
+val extraMap = {
      <ticmat:alumite>                        : 1
-};
+} as int[ITICMaterial];
 
 // --- Armor materials
-static armorCoreMap as int[ITICMaterial] = {
+val armorCoreMap = {
      <ticmat:iron>                           : 1
-};
+} as int[ITICMaterial];
 
-static armorTrimMap as int[ITICMaterial] = {
+val armorTrimMap = {
      <ticmat:iron>                           : 1
-};
+} as int[ITICMaterial];
 
-static armorPlateMap as int[ITICMaterial] = {
+val armorPlateMap = {
      <ticmat:iron>                           : 1
-};
+} as int[ITICMaterial];
 
 // static materialMap = {
 //     <ticmat:alumite>                        : 0,
@@ -135,32 +135,16 @@ static armorPlateMap as int[ITICMaterial] = {
 //     <ticmat:xu_magical_wood>                : 0
 // } as int[IItemStack];
 
-// Weapons mobs generate with
-static weaponsDefinitions as int[IItemDefinition] = {
-    <tconstruct:broadsword>.definition      : 0
-};
-
-// Tool part strings
-static partMap as string[int] = {
-    "handle"    : 0,
-    "head"      : 0,
-    "extra"     : 0,
-    "core"      : 0,
-    "plates"    : 0,
-    "trim"      : 0
-};
-
 // Entities allowed
 // Key is entity string, Value is game stage allowed
-static entities as string[string] = {
+val entities = {
     "minecraft:zombie"  : "standard"
-};
+} as string[string];
 
 // ===== Functions ==================================================================================================
 
 // Adds all entities in `entities` to the ArmorGroup
-function addEntitiesToArmorGroup(group as ArmorGroup) {
-    print("in addEntitiesToArmorGroup");
+function addEntitiesToArmorGroup(group as ArmorGroup, entities as string[string]) {
     for entity in entities {
         var armorEntity = ArmorHandler.createArmorEntity(entity);
         group.addEntity(armorEntity);
@@ -169,25 +153,32 @@ function addEntitiesToArmorGroup(group as ArmorGroup) {
 
 // Adds combinations of weapons created from `headMap`, `handleMap`, and
 // `extraMap` to the ArmorGroup
-function addWeaponArmorSlots(group as ArmorGroup) {
-    print("in addWeaponArmorSlots");
-    addBroadswordArmorSlots(group);
+function addWeaponArmorSlots(
+    group as ArmorGroup,
+    headMap as int[ITICMaterial],
+    handleMap as int[ITICMaterial],
+    extraMap as int[ITICMaterial]
+) {
+    addBroadswordArmorSlots(group, headMap, handleMap, extraMap);
 }
 
 // ===== Weapon Constructors ========================================================================================
 
-function addBroadswordArmorSlots(group as ArmorGroup) {
+function addBroadswordArmorSlots(
+    group as ArmorGroup,
+    headMap as int[ITICMaterial],
+    handleMap as int[ITICMaterial],
+    extraMap as int[ITICMaterial]
+) {
     val definition = <tconstruct:broadsword>.definition;
-    print("in addBroadswordArmorSlots");
 
     for head, headWeight in headMap {
         for handle, handleWeight in handleMap {
             for extra, extraWeight in extraMap {
-                print("making broadsword");
                 val weapon = Toolforge.buildTool(definition, [
-                    head,
-                    handle,
-                    extra
+                    head as ITICMaterial,
+                    handle as ITICMaterial,
+                    extra as ITICMaterial
                 ]);
                 group.addArmor(ArmorHandler.createArmorSlot(
                     "mainhand",
@@ -202,28 +193,28 @@ function addBroadswordArmorSlots(group as ArmorGroup) {
 
 // Gets all combinations of helmet armor slots to be added to a group
 function helmetArmorSlots() as ArmorSlot [] {
+    return [] as ArmorSlot[];
 
 }
 
 // Gets all combinations of chestplate armor slots to be added to a group
 function chestplateArmorSlots() as ArmorSlot [] {
+    return [] as ArmorSlot[];
 
 }
 
 // Gets all combinations of leggings armor slots to be added to a group
 function leggingsArmorSlots() as ArmorSlot [] {
+    return [] as ArmorSlot[];
 
 }
 
 // Gets all combinations of boots armor slots to be added to a group
 function bootsArmorSlots() as ArmorSlot [] {
-
+    return [] as ArmorSlot[];
 }
 
 // ===== Main ======================================================================================================
-// var group = ArmorHandler.createArmorGroup("drip", 1.0);
-// print("made the group");
-// addEntitiesToArmorGroup(group);
-// print("added entities");
-// addWeaponArmorSlots(group);
-// print("done");
+var group = ArmorHandler.createArmorGroup("drip", 1.0);
+addEntitiesToArmorGroup(group, entities);
+addWeaponArmorSlots(group, headMap, handleMap, extraMap);
