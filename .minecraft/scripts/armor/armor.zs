@@ -130,6 +130,13 @@ function addEntitiesToArmorGroup(group as ArmorGroup, entities as string[string]
 }
 
 function addWeaponSlots(group as ArmorGroup, matMap as int[ITICMaterial]) {
+
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "mainhand",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
     addBroadswordArmorSlots(group, matMap);
     addCleaverArmorSlots(group, matMap);
     addLumberaxeArmorSlots(group, matMap);
@@ -139,6 +146,31 @@ function addArmorSlots(
     group as ArmorGroup,
     matMap as int[ITICMaterial]
 ) {
+    
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "head",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "chest",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "legs",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "feet",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
     addHelmetArmorSlots(group, matMap);
     addChestplateArmorSlots(group, matMap);
     addLeggingsArmorSlots(group, matMap);
@@ -300,7 +332,7 @@ function addBootsArmorSlots(
 }
 
 // ===== Main ======================================================================================================
-var group = ArmorHandler.createArmorGroup("drip", 1.0);
+var group = ArmorHandler.createArmorGroup("drip", armor_chance);
 addEntitiesToArmorGroup(group, entities);
 addWeaponSlots(group, matMap);
 addArmorSlots(group, matMap);
