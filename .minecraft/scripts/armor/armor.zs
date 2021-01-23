@@ -22,59 +22,59 @@ val armor_chance as double = 1.0;
 // --- Weapon materials
 // Key is the material, Value is the weight
 val weaponMaterialMap = {
-     <ticmat:alumite>                        : 1,
-     <ticmat:amethyst>                       : 1,
-     <ticmat:ardite>                         : 1,
-     <ticmat:blood_infused_iron>             : 1,
-     <ticmat:blueslime>                      : 1,
-     <ticmat:bone>                           : 1,
-     <ticmat:boron>                          : 1,
-     <ticmat:bronze>                         : 1,
-     <ticmat:cactus>                         : 1,
-     <ticmat:certusquartz_plustic>           : 1,
-     <ticmat:chocolate>                      : 1,
-     <ticmat:cobalt>                         : 1,
-     <ticmat:construction_alloy>             : 1,
-     <ticmat:copper>                         : 1,
-     <ticmat:crude_steel>                    : 1,
-     <ticmat:crystalline_pink_slime>         : 1,
-     <ticmat:desert_myrmex>                  : 1,
-     <ticmat:dragonbone>                     : 1,
-     <ticmat:dragonsteel_fire>               : 1,
-     <ticmat:dragonsteel_ice>                : 1,
-     <ticmat:electrum>                       : 1,
-     <ticmat:emerald_plustic>                : 1,
+     <ticmat:alumite>                        : 2,
+     <ticmat:amethyst>                       : 5,
+     <ticmat:ardite>                         : 3,
+     <ticmat:blood_infused_iron>             : 10,
+     <ticmat:blueslime>                      : 20,
+     <ticmat:bone>                           : 25,
+     <ticmat:boron>                          : 10,
+     <ticmat:bronze>                         : 30,
+     <ticmat:cactus>                         : 28,
+     <ticmat:certusquartz_plustic>           : 17,
+     <ticmat:chocolate>                      : 3,
+     <ticmat:cobalt>                         : 5,
+     <ticmat:construction_alloy>             : 10,
+     <ticmat:copper>                         : 28,
+     <ticmat:crude_steel>                    : 20,
+     <ticmat:crystalline_pink_slime>         : 15,
+     <ticmat:desert_myrmex>                  : 3,
+     <ticmat:dragonbone>                     : 3,
+     <ticmat:dragonsteel_fire>               : 2,
+     <ticmat:dragonsteel_ice>                : 2,
+     <ticmat:electrum>                       : 10,
+     <ticmat:emerald_plustic>                : 8,
      <ticmat:extrabotany:ingotorichalcos>    : 1,
-     <ticmat:firewood>                       : 1,
-     <ticmat:flint>                          : 1,
-     <ticmat:fluixcrystal_plustic>           : 1,
-     <ticmat:invar>                          : 1,
-     <ticmat:iron>                           : 1,
-     <ticmat:jungle_myrmex>                  : 1,
-     <ticmat:knightslime>                    : 1,
-     <ticmat:magmaslime>                     : 1,
-     <ticmat:manyullyn>                      : 1,
-     <ticmat:obsidian>                       : 1,
-     <ticmat:osgloglas>                      : 1,
-     <ticmat:osmiridium>                     : 1,
-     <ticmat:osmium>                         : 1,
-     <ticmat:paper>                          : 1,
-     <ticmat:pigiron>                        : 1,
-     <ticmat:platinum_plustic>               : 1,
-     <ticmat:prismarine>                     : 1,
-     <ticmat:silver>                         : 1,
-     <ticmat:slime>                          : 1,
-     <ticmat:sponge>                         : 1,
-     <ticmat:steel>                          : 1,
-     <ticmat:stone>                          : 1,
-     <ticmat:titanium>                       : 1,
-     <ticmat:uranium>                        : 1,
+     <ticmat:firewood>                       : 20,
+     <ticmat:flint>                          : 27,
+     <ticmat:fluixcrystal_plustic>           : 20,
+     <ticmat:invar>                          : 22,
+     <ticmat:iron>                           : 30,
+     <ticmat:jungle_myrmex>                  : 2,
+     <ticmat:knightslime>                    : 10,
+     <ticmat:magmaslime>                     : 10,
+     <ticmat:manyullyn>                      : 3,
+     <ticmat:obsidian>                       : 12,
+     <ticmat:osgloglas>                      : 6,
+     <ticmat:osmiridium>                     : 6,
+     <ticmat:osmium>                         : 22,
+     <ticmat:paper>                          : 25,
+     <ticmat:pigiron>                        : 15,
+     <ticmat:platinum_plustic>               : 15,
+     <ticmat:prismarine>                     : 15,
+     <ticmat:silver>                         : 18,
+     <ticmat:slime>                          : 26,
+     <ticmat:sponge>                         : 22,
+     <ticmat:steel>                          : 20,
+     <ticmat:stone>                          : 30,
+     <ticmat:titanium>                       : 9,
+     <ticmat:uranium>                        : 2,
      <ticmat:weezer>                         : 1,
-     <ticmat:wood>                           : 1,
-     <ticmat:xu_demonic_metal>               : 1,
-     <ticmat:xu_enchanted_metal>             : 1,
-     <ticmat:xu_evil_metal>                  : 1,
-     <ticmat:xu_magical_wood>                : 1
+     <ticmat:wood>                           : 30,
+     <ticmat:xu_demonic_metal>               : 10,
+     <ticmat:xu_enchanted_metal>             : 10,
+     <ticmat:xu_evil_metal>                  : 5,
+     <ticmat:xu_magical_wood>                : 20
 } as int[ITICMaterial];
 
 // Key is material, Value is the weight
@@ -91,50 +91,6 @@ val armorMaterialMap = {
     <ticmat:stone>                          : 10,
     <ticmat:wood>                           : 10,
 } as int[ITICMaterial];
-
-// Entities allowed
-// TODO use Value for game stages
-val entities = {
-    "minecraft:zombie"          : "standard",
-    "ebwizardry:evil_wizard"          : "standard",
-    "minecraft:enderman"   : "standard"
-} as string[string];
-
-// ===== Functions ==================================================================================================
-
-function addEntitiesToArmorGroup(group as ArmorGroup, entities as string[string]) {
-    for entity in entities {
-        var armorEntity = ArmorHandler.createArmorEntity(entity);
-        group.addEntity(armorEntity);
-    }
-}
-
-function addWeaponSlots(group as ArmorGroup, weaponMaterialMap as int[ITICMaterial]) {
-    addEmptySlots(7, group, weaponMaterialMap);
-
-    // common
-    addWeaponArmorSlot(<tconstruct:broadsword>, 6, 0.01, group, weaponMaterialMap);
-    addWeaponArmorSlot(<tconstruct:shovel>, 4, 0.01, group, weaponMaterialMap);
-
-    // medium
-    addWeaponArmorSlot(<tconstruct: lumberaxe>, 2, 0.01, group, weaponMaterialMap);
-    addWeaponArmorSlot(<tconstruct: frypan>, 1, 0.01, group, weaponMaterialMap);
-
-    // rare
-    addWeaponArmorSlot(<tconstruct: cleaver>, 0.25, 0.03, group, weaponMaterialMap);
-    addWeaponArmorSlot(<tconstruct: scythe>, 0.4, 0.02, group, weaponMaterialMap);
-    addWeaponArmorSlot(<tconstruct: hammer>, 0.5, 0.02, group, weaponMaterialMap);
-}
-
-function addArmorSlots(
-    group as ArmorGroup,
-    armorMaterialMap as int[ITICMaterial]
-) {
-    addProtectiveArmorSlots(<conarm:helmet>,        0.02, 1, group, armorMaterialMap);
-    addProtectiveArmorSlots(<conarm:chestplate>,    0.02, 1, group, armorMaterialMap);
-    addProtectiveArmorSlots(<conarm:leggings>,      0.02, 1, group, armorMaterialMap);
-    addProtectiveArmorSlots(<conarm:boots>,         0.02, 1, group, armorMaterialMap);
-}
 
 // ===== Weapon Constructors ========================================================================================
 
@@ -219,6 +175,7 @@ function addProtectiveArmorSlots(
             mat as ITICMaterial,
             mat as ITICMaterial
         ]);
+        armor.withLore(["§5Strange, no modifiers...§r"]);
 
         group.addArmor(ArmorHandler.createArmorSlot(
             bodypartEquipped,
@@ -255,8 +212,98 @@ function bodypartForArmor(armorType as IItemStack) as string {
     return "???";
 }
 
+// ===== Setting up groups ==========================================================================================
+
+function addWeaponSlots(stage as string, group as ArmorGroup, weaponMaterialMap as int[ITICMaterial]) {
+    if (stage == "start") {
+        addEmptySlots(50, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:broadsword>,     2, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:shovel>,         2, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:hammer>,         1, 0.04, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:pickaxe>,        1, 0.04, group, weaponMaterialMap);
+    } else if (stage == "middle") {
+        addEmptySlots(15, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:broadsword>,     5, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:shovel>,         4, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:pickaxe>,        4, 0.04, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:cleaver>,        4, 0.05, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:lumberaxe>,      3, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:frypan>,         2, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:scythe>,         2, 0.03, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:hammer>,         1, 0.04, group, weaponMaterialMap);
+    } else if (stage == "end") {
+        addEmptySlots(5, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:broadsword>,     3, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:cleaver>,        3, 0.05, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:hammer>,         3, 0.04, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:frypan>,         2, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:lumberaxe>,      2, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:pickaxe>,        2, 0.04, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:scythe>,         2, 0.03, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:shovel>,         2, 0.01, group, weaponMaterialMap);
+    }
+}
+
+function addArmorSlots(stage as string, group as ArmorGroup, armorMaterialMap as int[ITICMaterial]) {
+    if (stage == "start") {
+        addProtectiveArmorSlots(<conarm:helmet>,        0.01, 10, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:chestplate>,    0.01, 10, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:leggings>,      0.01, 10, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:boots>,         0.01, 10, group, armorMaterialMap);
+    } else if (stage == "middle") {
+        addProtectiveArmorSlots(<conarm:helmet>,        0.01, 3, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:chestplate>,    0.01, 3, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:leggings>,      0.01, 3, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:boots>,         0.01, 3, group, armorMaterialMap);
+    } else if (stage == "end") {
+        addProtectiveArmorSlots(<conarm:helmet>,        0.01, 1, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:chestplate>,    0.01, 1, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:leggings>,      0.01, 1, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:boots>,         0.01, 1, group, armorMaterialMap);
+    }
+}
 // ===== Main ======================================================================================================
-var group = ArmorHandler.createArmorGroup("drip", 1.0);
-addEntitiesToArmorGroup(group, entities);
-addWeaponSlots(group, weaponMaterialMap);
-addArmorSlots(group, armorMaterialMap);
+// ----- start
+var startGroup = ArmorHandler.createArmorGroup("start", 1.0);
+startGroup.addGameStage("start");
+
+val startEntities = [
+    "minecraft:zombie"
+] as string[];
+for e in startEntities {
+    ArmorHandler.createArmorEntity(e as string);
+}
+
+addWeaponSlots("start", startGroup, weaponMaterialMap);
+addArmorSlots("start", startGroup, armorMaterialMap);
+
+// ----- middle
+var middleGroup = ArmorHandler.createArmorGroup("middle", 1.0);
+middleGroup.addGameStage("middle");
+
+val middleEntities = [
+    "minecraft:zombie",
+    "minecraft:skeleton"
+] as string[];
+for e in middleEntities {
+    ArmorHandler.createArmorEntity(e as string);
+}
+
+addWeaponSlots("middle", middleGroup, weaponMaterialMap);
+addArmorSlots("middle", middleGroup, armorMaterialMap);
+
+// ----- end
+var endGroup = ArmorHandler.createArmorGroup("end", 1.0);
+endGroup.addGameStage("end");
+
+val endEntities = [
+    "minecraft:zombie",
+    "minecraft:skeleton",
+    "ebwizardry:evil_wizard"
+] as string[];
+for e in endEntities {
+    ArmorHandler.createArmorEntity(e as string);
+}
+
+addWeaponSlots("end", endGroup, weaponMaterialMap);
+addArmorSlots("end", endGroup, armorMaterialMap);
