@@ -11,12 +11,6 @@ import modtweaker.tconstruct.ITICMaterial;
 
 // Procedurally generates combinations of parts to assign to mobs.
 
-// TODO Factory functions for equipement is pretty copy-pastey but I don't want to use any more zenscript then I have to
-// TODO equipment appears to not spawn with traits (bug???)
-
-// ===== Config ====================================================================================================
-val armor_chance as double = 1.0;
-
 // ===== Maps ======================================================================================================
 
 // --- Weapon materials
@@ -114,7 +108,40 @@ function addWeaponArmorSlot(
     group as ArmorGroup,
     weaponMaterialMap as int[ITICMaterial]
 ) {
+<<<<<<< HEAD
     val definition = weaponType.definition;
+=======
+
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "head",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "chest",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "legs",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "feet",
+        null,
+        1,
+        0 // TODO drop chance should NOT be 100 %
+    ));
+    addHelmetArmorSlots(group, matMap);
+    addChestplateArmorSlots(group, matMap);
+    addLeggingsArmorSlots(group, matMap);
+    addBootsArmorSlots(group, matMap);
+}
+>>>>>>> 6c4d8849270b95e7e01dc8dbb2caff95dcf8b4d6
 
     for mat, matWeight in weaponMaterialMap {
         val modifiedMatWeight = (matWeight * multiplier) as int;
