@@ -111,7 +111,7 @@ val matMap = {
      <ticmat:xu_enchanted_metal>             : 1,
      <ticmat:xu_evil_metal>                  : 1,
      <ticmat:xu_magical_wood>                : 1,
-     null                                    : 1
+     <ticmat:xu_magical_wood>                : 1
 } as int[ITICMaterial];
 
 // Entities allowed
