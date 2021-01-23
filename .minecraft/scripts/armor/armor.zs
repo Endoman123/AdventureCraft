@@ -21,7 +21,7 @@ val armor_chance as double = 1.0;
 
 // --- Weapon materials
 // Key is the material, Value is the weight
-val matMap = {
+val weaponMaterialMap = {
      <ticmat:alumite>                        : 1,
      <ticmat:amethyst>                       : 1,
      <ticmat:ardite>                         : 1,
@@ -114,10 +114,26 @@ val matMap = {
      <ticmat:xu_magical_wood>                : 1
 } as int[ITICMaterial];
 
+// Key is material, Value is the weight
+// List is small as without armor traits the different is only in stats
+val armorMaterialMap = {
+    <ticmat:alumite>                        : 1,
+    <ticmat:ardite>                         : 1,
+    <ticmat:bone>                           : 1,
+    <ticmat:iron>                           : 1,
+    <ticmat:knightslime>                    : 1,
+    <ticmat:manyullyn>                      : 1,
+    <ticmat:obsidian>                       : 1,
+    <ticmat:slime>                          : 1,
+    <ticmat:stone>                          : 1,
+    <ticmat:wood>                           : 1,
+} as int[ITICMaterial];
+
 // Entities allowed
 // TODO use Value for game stages
 val entities = {
-    "minecraft:zombie"  : "standard"
+    "minecraft:zombie"          : "standard",
+    "minecraft:zombie_pigman"   : "standard"
 } as string[string];
 
 // ===== Functions ==================================================================================================
@@ -129,32 +145,45 @@ function addEntitiesToArmorGroup(group as ArmorGroup, entities as string[string]
     }
 }
 
-function addWeaponSlots(group as ArmorGroup, matMap as int[ITICMaterial]) {
-    addBroadswordArmorSlots(group, matMap);
-    addCleaverArmorSlots(group, matMap);
-    addLumberaxeArmorSlots(group, matMap);
+function addWeaponSlots(group as ArmorGroup, weaponMaterialMap as int[ITICMaterial]) {
+    addEmptySlots(group, weaponMaterialMap);
+    addBroadswordArmorSlots(group, weaponMaterialMap);
+    addCleaverArmorSlots(group, weaponMaterialMap);
+    addLumberaxeArmorSlots(group, weaponMaterialMap);
+    addScytheArmorSlots(group, weaponMaterialMap);
+    addFrypanArmorSlots(group, weaponMaterialMap);
+    addHammerArmorSlots(group, weaponMaterialMap);
+    addShovelArmorSlots(group, weaponMaterialMap);
 }
 
 function addArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    armorMaterialMap as int[ITICMaterial]
 ) {
-    addHelmetArmorSlots(group, matMap);
-    addChestplateArmorSlots(group, matMap);
-    addLeggingsArmorSlots(group, matMap);
-    addBootsArmorSlots(group, matMap);
+    addHelmetArmorSlots(group, armorMaterialMap);
+    addChestplateArmorSlots(group, armorMaterialMap);
+    addLeggingsArmorSlots(group, armorMaterialMap);
+    addBootsArmorSlots(group, armorMaterialMap);
 }
 
 // ===== Weapon Constructors ========================================================================================
 // TODO it'd be nice to combine these, but some of the weapon types take > 3 materials to build them...
 
+// Adds a chance for a mob to spawn with no weapon
+function addEmptySlots(group as ArmorGroup, weaponMaterialMap as int[ITICMaterial]) {
+    var weaponMatSize = weaponMaterialMap.entrySet.length;
+    weaponMatSize *= 5;
+
+    group.addArmor(ArmorHandler.createArmorSlot("mainhand", null, weaponMatSize, 0.0));
+}
+
 function addBroadswordArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    weaponMaterialMap as int[ITICMaterial]
 ) {
     val definition = <tconstruct:broadsword>.definition;
 
-    for mat, matWeight in matMap {
+    for mat, matWeight in weaponMaterialMap {
         val weapon = Toolforge.buildTool(definition, [
             mat as ITICMaterial,
             mat as ITICMaterial,
@@ -163,7 +192,7 @@ function addBroadswordArmorSlots(
         group.addArmor(ArmorHandler.createArmorSlot(
             "mainhand",
             weapon,
-            100, // TODO replace with weighted sum of material weights
+            matWeight,
             1.0 // TODO drop chance should NOT be 100 %
         ));
     }
@@ -171,11 +200,11 @@ function addBroadswordArmorSlots(
 
 function addCleaverArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    weaponMaterialMap as int[ITICMaterial]
 ) {
     val definition = <tconstruct:cleaver>.definition;
 
-    for mat, matWeight in matMap {
+    for mat, matWeight in weaponMaterialMap {
         val weapon = Toolforge.buildTool(definition, [
             mat as ITICMaterial,
             mat as ITICMaterial,
@@ -185,7 +214,7 @@ function addCleaverArmorSlots(
         group.addArmor(ArmorHandler.createArmorSlot(
             "mainhand",
             weapon,
-            100, // TODO replace with weighted sum of material weights
+            matWeight,
             1.0 // TODO drop chance should NOT be 100 %
         ));
     }
@@ -193,11 +222,11 @@ function addCleaverArmorSlots(
 
 function addLumberaxeArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    weaponMaterialMap as int[ITICMaterial]
 ) {
     val definition = <tconstruct:lumberaxe>.definition;
 
-    for mat, matWeight in matMap {
+    for mat, matWeight in weaponMaterialMap {
         val weapon = Toolforge.buildTool(definition, [
             mat as ITICMaterial,
             mat as ITICMaterial,
@@ -207,21 +236,107 @@ function addLumberaxeArmorSlots(
         group.addArmor(ArmorHandler.createArmorSlot(
             "mainhand",
             weapon,
-            100, // TODO replace with weighted sum of material weights
+            matWeight,
             1.0 // TODO drop chance should NOT be 100 %
         ));
     }
 }
+
+function addScytheArmorSlots(
+    group as ArmorGroup,
+    weaponMaterialMap as int[ITICMaterial]
+) {
+    val definition = <tconstruct:scythe>.definition;
+
+    for mat, matWeight in weaponMaterialMap {
+        val weapon = Toolforge.buildTool(definition, [
+            mat as ITICMaterial,
+            mat as ITICMaterial,
+            mat as ITICMaterial,
+            mat as ITICMaterial
+        ]);
+        group.addArmor(ArmorHandler.createArmorSlot(
+            "mainhand",
+            weapon,
+            matWeight,
+            1.0 // TODO drop chance should NOT be 100 %
+        ));
+    }
+}
+
+function addFrypanArmorSlots(
+    group as ArmorGroup,
+    weaponMaterialMap as int[ITICMaterial]
+) {
+    val definition = <tconstruct:frypan>.definition;
+
+    for mat, matWeight in weaponMaterialMap {
+        val weapon = Toolforge.buildTool(definition, [
+            mat as ITICMaterial,
+            mat as ITICMaterial
+        ]);
+        group.addArmor(ArmorHandler.createArmorSlot(
+            "mainhand",
+            weapon,
+            matWeight,
+            1.0 // TODO drop chance should NOT be 100 %
+        ));
+    }
+}
+
+function addHammerArmorSlots(
+    group as ArmorGroup,
+    weaponMaterialMap as int[ITICMaterial]
+) {
+    val definition = <tconstruct:hammer>.definition;
+
+    for mat, matWeight in weaponMaterialMap {
+        val weapon = Toolforge.buildTool(definition, [
+            mat as ITICMaterial,
+            mat as ITICMaterial,
+            mat as ITICMaterial,
+            mat as ITICMaterial
+        ]);
+        group.addArmor(ArmorHandler.createArmorSlot(
+            "mainhand",
+            weapon,
+            matWeight,
+            1.0 // TODO drop chance should NOT be 100 %
+        ));
+    }
+}
+
+function addShovelArmorSlots(
+    group as ArmorGroup,
+    weaponMaterialMap as int[ITICMaterial]
+) {
+    val definition = <tconstruct:shovel>.definition;
+
+    for mat, matWeight in weaponMaterialMap {
+        val weapon = Toolforge.buildTool(definition, [
+            mat as ITICMaterial,
+            mat as ITICMaterial,
+            mat as ITICMaterial
+        ]);
+        group.addArmor(ArmorHandler.createArmorSlot(
+            "mainhand",
+            weapon,
+            matWeight,
+            1.0 // TODO drop chance should NOT be 100 %
+        ));
+    }
+}
+
 // ===== Armor Constructors =========================================================================================
 
 // Gets all combinations of helmet armor slots to be added to a group
 function addHelmetArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    armorMaterialMap as int[ITICMaterial]
 ) as ArmorSlot [] {
     val definition = <conarm:helmet>.definition;
 
-    for mat, matWeight in matMap {
+    for mat, matWeight in armorMaterialMap {
         val armor = Toolforge.buildTool(definition, [
             mat as ITICMaterial,
             mat as ITICMaterial,
@@ -230,19 +345,30 @@ function addHelmetArmorSlots(
         group.addArmor(ArmorHandler.createArmorSlot(
             "head",
             armor,
-            100, // TODO replace with weighted sum of material weights
+            matWeight,
             1.0 // TODO drop chance should NOT be 100 %
         ));
     }
+
+    // add chance to not spawn armor piece
+    var armorMatSize = armorMaterialMap.entrySet.length;
+    armorMatSize *= 5;
+
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "head",
+        null,
+        armorMatSize,
+        0.0 // TODO drop chance should NOT be 100 %
+    ));
 }
 
 function addChestplateArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    armorMaterialMap as int[ITICMaterial]
 ) as ArmorSlot [] {
     val definition = <conarm:chestplate>.definition;
 
-    for mat, matWeight in matMap {
+    for mat, matWeight in armorMaterialMap {
         val armor = Toolforge.buildTool(definition, [
             mat as ITICMaterial,
             mat as ITICMaterial,
@@ -251,19 +377,30 @@ function addChestplateArmorSlots(
         group.addArmor(ArmorHandler.createArmorSlot(
             "chest",
             armor,
-            100, // TODO replace with weighted sum of material weights
+            matWeight,
             1.0 // TODO drop chance should NOT be 100 %
         ));
     }
+
+    // add chance to not spawn armor piece
+    var armorMatSize = armorMaterialMap.entrySet.length;
+    armorMatSize *= 4;
+
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "chest",
+        null,
+        armorMatSize,
+        0.0 // TODO drop chance should NOT be 100 %
+    ));
 }
 
 function addLeggingsArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    armorMaterialMap as int[ITICMaterial]
 ) as ArmorSlot [] {
     val definition = <conarm:leggings>.definition;
 
-    for mat, matWeight in matMap {
+    for mat, matWeight in armorMaterialMap {
         val armor = Toolforge.buildTool(definition, [
             mat as ITICMaterial,
             mat as ITICMaterial,
@@ -272,19 +409,30 @@ function addLeggingsArmorSlots(
         group.addArmor(ArmorHandler.createArmorSlot(
             "legs",
             armor,
-            100, // TODO replace with weighted sum of material weights
+            matWeight,
             1.0 // TODO drop chance should NOT be 100 %
         ));
     }
+
+    // add chance to not spawn armor piece
+    var armorMatSize = armorMaterialMap.entrySet.length;
+    armorMatSize *= 4;
+
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "legs",
+        null,
+        armorMatSize,
+        0.0 // TODO drop chance should NOT be 100 %
+    ));
 }
 
 function addBootsArmorSlots(
     group as ArmorGroup,
-    matMap as int[ITICMaterial]
+    armorMaterialMap as int[ITICMaterial]
 ) as ArmorSlot [] {
     val definition = <conarm:boots>.definition;
 
-    for mat, matWeight in matMap {
+    for mat, matWeight in armorMaterialMap {
         val armor = Toolforge.buildTool(definition, [
             mat as ITICMaterial,
             mat as ITICMaterial,
@@ -293,14 +441,25 @@ function addBootsArmorSlots(
         group.addArmor(ArmorHandler.createArmorSlot(
             "feet",
             armor,
-            100, // TODO replace with weighted sum of material weights
+            matWeight,
             1.0 // TODO drop chance should NOT be 100 %
         ));
     }
+
+    // add chance to not spawn armor piece
+    var armorMatSize = armorMaterialMap.entrySet.length;
+    armorMatSize *= 5;
+
+    group.addArmor(ArmorHandler.createArmorSlot(
+        "feet",
+        null,
+        armorMatSize,
+        0.0 // TODO drop chance should NOT be 100 %
+    ));
 }
 
 // ===== Main ======================================================================================================
 var group = ArmorHandler.createArmorGroup("drip", 1.0);
 addEntitiesToArmorGroup(group, entities);
-addWeaponSlots(group, matMap);
-addArmorSlots(group, matMap);
+addWeaponSlots(group, weaponMaterialMap);
+addArmorSlots(group, armorMaterialMap);
