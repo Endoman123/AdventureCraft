@@ -7,9 +7,7 @@ import mods.armoreablemobs.ArmorGroup;
 import mods.zentoolforge.Toolforge;
 import modtweaker.tconstruct.ITICMaterial;
 
-// Script that gives minecraft mobs some drip
-
-// Procedurally generates combinations of parts to assign to mobs.
+// Script that gives minecraft mobs tinkers armor
 
 // ===== Maps ======================================================================================================
 
@@ -108,40 +106,7 @@ function addWeaponArmorSlot(
     group as ArmorGroup,
     weaponMaterialMap as int[ITICMaterial]
 ) {
-<<<<<<< HEAD
     val definition = weaponType.definition;
-=======
-
-    group.addArmor(ArmorHandler.createArmorSlot(
-        "head",
-        null,
-        1,
-        0 // TODO drop chance should NOT be 100 %
-    ));
-    group.addArmor(ArmorHandler.createArmorSlot(
-        "chest",
-        null,
-        1,
-        0 // TODO drop chance should NOT be 100 %
-    ));
-    group.addArmor(ArmorHandler.createArmorSlot(
-        "legs",
-        null,
-        1,
-        0 // TODO drop chance should NOT be 100 %
-    ));
-    group.addArmor(ArmorHandler.createArmorSlot(
-        "feet",
-        null,
-        1,
-        0 // TODO drop chance should NOT be 100 %
-    ));
-    addHelmetArmorSlots(group, matMap);
-    addChestplateArmorSlots(group, matMap);
-    addLeggingsArmorSlots(group, matMap);
-    addBootsArmorSlots(group, matMap);
-}
->>>>>>> 6c4d8849270b95e7e01dc8dbb2caff95dcf8b4d6
 
     for mat, matWeight in weaponMaterialMap {
         val modifiedMatWeight = (matWeight * multiplier) as int;
@@ -243,13 +208,13 @@ function bodypartForArmor(armorType as IItemStack) as string {
 
 function addWeaponSlots(stage as string, group as ArmorGroup, weaponMaterialMap as int[ITICMaterial]) {
     if (stage == "start") {
-        addEmptySlots(50, group, weaponMaterialMap);
-        addWeaponArmorSlot(<tconstruct:broadsword>,     2, 0.01, group, weaponMaterialMap);
-        addWeaponArmorSlot(<tconstruct:shovel>,         2, 0.01, group, weaponMaterialMap);
+        addEmptySlots(100, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:broadsword>,     7, 0.01, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:shovel>,         5, 0.01, group, weaponMaterialMap);
         addWeaponArmorSlot(<tconstruct:hammer>,         1, 0.04, group, weaponMaterialMap);
-        addWeaponArmorSlot(<tconstruct:pickaxe>,        1, 0.04, group, weaponMaterialMap);
+        addWeaponArmorSlot(<tconstruct:pickaxe>,        4, 0.04, group, weaponMaterialMap);
     } else if (stage == "middle") {
-        addEmptySlots(15, group, weaponMaterialMap);
+        addEmptySlots(40, group, weaponMaterialMap);
         addWeaponArmorSlot(<tconstruct:broadsword>,     5, 0.01, group, weaponMaterialMap);
         addWeaponArmorSlot(<tconstruct:shovel>,         4, 0.01, group, weaponMaterialMap);
         addWeaponArmorSlot(<tconstruct:pickaxe>,        4, 0.04, group, weaponMaterialMap);
@@ -273,14 +238,14 @@ function addWeaponSlots(stage as string, group as ArmorGroup, weaponMaterialMap 
 
 function addArmorSlots(stage as string, group as ArmorGroup, armorMaterialMap as int[ITICMaterial]) {
     if (stage == "start") {
-        addProtectiveArmorSlots(<conarm:helmet>,        0.01, 10, group, armorMaterialMap);
-        addProtectiveArmorSlots(<conarm:chestplate>,    0.01, 10, group, armorMaterialMap);
-        addProtectiveArmorSlots(<conarm:leggings>,      0.01, 10, group, armorMaterialMap);
-        addProtectiveArmorSlots(<conarm:boots>,         0.01, 10, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:helmet>,        0.01, 25, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:chestplate>,    0.01, 25, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:leggings>,      0.01, 25, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:boots>,         0.01, 25, group, armorMaterialMap);
     } else if (stage == "middle") {
-        addProtectiveArmorSlots(<conarm:helmet>,        0.01, 3, group, armorMaterialMap);
-        addProtectiveArmorSlots(<conarm:chestplate>,    0.01, 3, group, armorMaterialMap);
-        addProtectiveArmorSlots(<conarm:leggings>,      0.01, 3, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:helmet>,        0.01, 5, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:chestplate>,    0.01, 6, group, armorMaterialMap);
+        addProtectiveArmorSlots(<conarm:leggings>,      0.01, 5, group, armorMaterialMap);
         addProtectiveArmorSlots(<conarm:boots>,         0.01, 3, group, armorMaterialMap);
     } else if (stage == "end") {
         addProtectiveArmorSlots(<conarm:helmet>,        0.01, 1, group, armorMaterialMap);
@@ -289,48 +254,59 @@ function addArmorSlots(stage as string, group as ArmorGroup, armorMaterialMap as
         addProtectiveArmorSlots(<conarm:boots>,         0.01, 1, group, armorMaterialMap);
     }
 }
+
+// ===== Making Groups ==============================================================================================
+
+function makeStartArmorGroup(weaponMaterialMap as int[ITICMaterial], armorMaterialMap as int[ITICMaterial]) {
+    var group = ArmorHandler.createArmorGroup("start", 1.0);
+    group.addGameStage("start");
+
+    val entities = [
+        "minecraft:zombie"
+    ] as string[];
+    for e in entities {
+        group.addEntity(ArmorHandler.createArmorEntity(e as string));
+    }
+
+    addWeaponSlots("start", group, weaponMaterialMap);
+    addArmorSlots("start", group, armorMaterialMap);
+}
+
+function makeMiddleArmorGroup(weaponMaterialMap as int[ITICMaterial], armorMaterialMap as int[ITICMaterial]) {
+    var group = ArmorHandler.createArmorGroup("middle", 1.0);
+    group.addGameStage("middle");
+
+    val entities = [
+        "minecraft:zombie",
+        "minecraft:skeleton"
+    ] as string[];
+    for e in entities {
+        group.addEntity(ArmorHandler.createArmorEntity(e as string));
+    }
+
+    addWeaponSlots("middle", group, weaponMaterialMap);
+    addArmorSlots("middle", group, armorMaterialMap);
+}
+
+function makeEndArmorGroup(weaponMaterialMap as int[ITICMaterial], armorMaterialMap as int[ITICMaterial]) {
+    var group = ArmorHandler.createArmorGroup("end", 1.0);
+    group.addGameStage("end");
+
+    val entities = [
+        "minecraft:zombie",
+        "minecraft:skeleton"
+    ] as string[];
+    for e in entities {
+        group.addEntity(ArmorHandler.createArmorEntity(e as string));
+    }
+
+    addWeaponSlots("end", group, weaponMaterialMap);
+    addArmorSlots("end", group, armorMaterialMap);
+}
+
+
 // ===== Main ======================================================================================================
-// ----- start
-var startGroup = ArmorHandler.createArmorGroup("start", 1.0);
-startGroup.addGameStage("start");
 
-val startEntities = [
-    "minecraft:zombie"
-] as string[];
-for e in startEntities {
-    ArmorHandler.createArmorEntity(e as string);
-}
-
-addWeaponSlots("start", startGroup, weaponMaterialMap);
-addArmorSlots("start", startGroup, armorMaterialMap);
-
-// ----- middle
-var middleGroup = ArmorHandler.createArmorGroup("middle", 1.0);
-middleGroup.addGameStage("middle");
-
-val middleEntities = [
-    "minecraft:zombie",
-    "minecraft:skeleton"
-] as string[];
-for e in middleEntities {
-    ArmorHandler.createArmorEntity(e as string);
-}
-
-addWeaponSlots("middle", middleGroup, weaponMaterialMap);
-addArmorSlots("middle", middleGroup, armorMaterialMap);
-
-// ----- end
-var endGroup = ArmorHandler.createArmorGroup("end", 1.0);
-endGroup.addGameStage("end");
-
-val endEntities = [
-    "minecraft:zombie",
-    "minecraft:skeleton",
-    "ebwizardry:evil_wizard"
-] as string[];
-for e in endEntities {
-    ArmorHandler.createArmorEntity(e as string);
-}
-
-addWeaponSlots("end", endGroup, weaponMaterialMap);
-addArmorSlots("end", endGroup, armorMaterialMap);
+makeStartArmorGroup(weaponMaterialMap, armorMaterialMap);
+makeMiddleArmorGroup(weaponMaterialMap, armorMaterialMap);
+makeEndArmorGroup(weaponMaterialMap, armorMaterialMap);
